@@ -1,0 +1,23 @@
+{
+  "title": "보험 영업 모닝브리프",
+  "subtitle": "현장을 여는 다섯 가지 소식",
+  "edition_label": "생명보험 · GA",
+  "timezone": "Asia/Seoul",
+  "daily_count": 5,
+  "max_age_hours": 120,
+  "max_per_source": 4,
+  "max_per_category": 2,
+  "keywords": {
+    "GA": 9, "법인보험대리점": 9, "생명보험": 7, "생보": 7,
+    "수수료": 7, "분급": 8, "제판분리": 7, "설계사": 6,
+    "종신": 6, "연금": 5, "유지율": 5, "리쿠르팅": 5,
+    "신상품": 4, "판매채널": 6, "보험판매전문회사": 7,
+    "푸본현대생명": 9, "인카금융서비스": 8
+  },
+  "exclude_keywords": ["부고", "인사발령", "결혼", "포토뉴스", "캠페인 동참", "사회공헌"],
+  "feeds": [
+    {"name": "보험저널", "url": "https://www.insjournal.co.kr/rss/allArticle.xml"},
+    {"name": "보험신보", "url": "https://www.insnews.co.kr/rss/allArticle.xml"}
+  ],
+  "ai": {"enabled": false, "model": "gpt-4.1-mini"}
+}
