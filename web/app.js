@@ -1,7 +1,7 @@
 'use strict';
 (() => {
   const $ = id => document.getElementById(id);
-  const state = { latest:null, edition:null, archive:[], view:'card', page:0, archiveLimit:8, config:{}, status:{} };
+  const state = { latest:null, edition:null, archive:[], view:'card', archiveLimit:8, config:{}, status:{} };
   const esc = s => String(s ?? '').replace(/[&<>"']/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
   const allowedURL = url => { try { const u = new URL(url); return ['https:','http:'].includes(u.protocol) && !u.username && !u.password ? u.href : '#'; } catch { return '#'; } };
   const format = (date, options) => new Intl.DateTimeFormat('ko-KR', {timeZone:'Asia/Seoul',...options}).format(new Date(date));
@@ -13,28 +13,24 @@
   function currentArticles() { return state.edition.articles; }
   function card(article,index) {
     const d=format(article.published_at,{month:'2-digit',day:'2-digit'}).replace(/\.$/,'');
-    return `<article class="news-card"><div class="rank">${pad(index+1)}</div><div><div class="card-meta"><span class="tag">${esc(article.category)}</span><span class="source">${esc(article.source)}</span><time datetime="${esc(article.published_at)}">${esc(d)}</time></div><h4><a href="${esc(allowedURL(article.url))}" target="_blank" rel="noopener noreferrer">${esc(article.title)}</a></h4><div class="summary-row"><span class="label">${article.summary_kind==='ai'?'핵심':'발췌'}</span><p>${esc(article.summary)}</p></div>${article.implication?`<div class="summary-row insight"><span class="label">체크</span><p>${esc(article.implication)}</p></div>`:''}<a class="source-link" href="${esc(allowedURL(article.url))}" target="_blank" rel="noopener noreferrer">기사 원문 읽기 <span aria-hidden="true">↗</span></a></div></article>`;
+    const parts=article.summary_parts||{intro:article.title,body:article.summary,conclusion:article.implication||'발행 당시 상세 내용과 후속 전망은 원문에서 확인하세요.'};
+    const rows=[['서론',parts.intro],['본론',parts.body],['결론',parts.conclusion]].map(([label,text])=>`<div class="summary-row"><span class="label">${label}</span><p>${esc(text)}</p></div>`).join('');
+    return `<article class="news-card"><div class="rank">${pad(index+1)}</div><div><div class="card-meta"><span class="tag">${esc(article.category)}</span><span class="source">${esc(article.source)}</span><time datetime="${esc(article.published_at)}">${esc(d)}</time><a class="source-link" href="${esc(allowedURL(article.url))}" target="_blank" rel="noopener noreferrer">원문 보기</a></div><h4><a href="${esc(allowedURL(article.url))}" target="_blank" rel="noopener noreferrer">${esc(article.title)}</a></h4><div class="summary-parts">${rows}</div></div></article>`;
   }
   function render() {
-    const edition=state.edition, items=currentArticles(), pages=Math.ceil(items.length/3)||1;
-    state.page=Math.max(0,Math.min(state.page,pages-1));
-    const visible=state.view==='paper'?items:items.slice(state.page*3,state.page*3+3);
+    const edition=state.edition, items=currentArticles();
     document.body.classList.toggle('newspaper',state.view==='paper');
     $('view-card').setAttribute('aria-pressed',String(state.view==='card'));
     $('view-paper').setAttribute('aria-pressed',String(state.view==='paper'));
-    $('articles').innerHTML=visible.map((a,i)=>card(a,state.view==='paper'?i:state.page*3+i)).join('')||'<p class="empty">아직 선정된 뉴스가 없습니다.</p>';
+    $('articles').innerHTML=items.map(card).join('')||'<p class="empty">아직 선정된 뉴스가 없습니다.</p>';
     $('article-count').textContent=items.length+'건';
     $('paper-date').textContent=edition.date.replaceAll('-','.');
     $('paper-date').dateTime=edition.date;
     $('date-long').textContent=format(dateOnly(edition.date),{year:'numeric',month:'long',day:'numeric',weekday:'short'});
-    $('updated-at').textContent=format(edition.updated_at,{month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',hour12:false})+' KST · '+(edition.mode==='ai'?'RSS 기반 AI 요약':'RSS 발췌');
-    $('mode-label').textContent=edition.mode==='ai'?'RSS 기반 AI 요약 · 체크 질문':'RSS 발췌 · 원문 확인';
+    $('updated-at').textContent=format(edition.updated_at,{month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',hour12:false})+' KST · '+(edition.mode==='ai'?'RSS 기반 AI 요약':'RSS 핵심 문장');
+    $('mode-label').textContent='서론 · 본론 · 결론';
     $('edition-status').textContent=edition===state.latest?'LATEST SELECTION':'FROM THE ARCHIVE';
-    $('page-label').textContent=state.view==='paper'?pad(items.length)+' ARTICLES':pad(state.page+1)+' / '+pad(pages);
-    $('pager').hidden=state.view==='paper'||pages<2;
-    $('prev').disabled=state.page===0;
-    $('next').disabled=state.page===pages-1;
-    $('dots').innerHTML=Array.from({length:pages},(_,i)=>`<button type="button" aria-label="${i+1}번째 장" aria-current="${i===state.page}" data-page="${i}"></button>`).join('');
+    $('page-label').textContent=items.length+'건 · 한 장에 모두 보기';
     const notices=[];
     if(edition.demo) notices.push('화면 미리보기용 예시입니다. 실제 뉴스 업데이트는 아직 시작되지 않았습니다.');
     const age=(Date.now()-new Date(edition.updated_at).getTime())/3600000;
@@ -66,32 +62,23 @@
       try { state.edition=await getJSON('data/editions/'+date+'.json'); }
       catch { toast('브리프를 불러오지 못했습니다. 잠시 후 다시 시도해주세요.'); return; }
     }
-    state.page=0;render();
+    render();
     const url=new URL(location.href);url.searchParams.set('date',date);url.hash='briefing';
     history.replaceState(null,'',url);
     $('briefing').scrollIntoView({behavior:'smooth'});
   }
-  function view(mode) { state.view=mode;state.page=0;try{localStorage.setItem('brief-view',mode);}catch{}render(); }
+  function view(mode) { state.view=mode;try{localStorage.setItem('brief-view',mode);}catch{}render(); }
   $('view-card').addEventListener('click',()=>view('card'));
   $('view-paper').addEventListener('click',()=>view('paper'));
-  $('prev').addEventListener('click',()=>{state.page--;render();});
-  $('next').addEventListener('click',()=>{state.page++;render();});
-  $('dots').addEventListener('click',e=>{const button=e.target.closest('[data-page]');if(button){state.page=Number(button.dataset.page);render();}});
   $('archive-search').addEventListener('input',()=>{state.archiveLimit=8;renderArchive();});
   $('more-archive').addEventListener('click',()=>{state.archiveLimit+=8;renderArchive();});
   $('archive-list').addEventListener('click',e=>{const row=e.target.closest('[data-date]');if(row)openDate(row.dataset.date);});
-  let touchStart;
-  $('paper').addEventListener('touchstart',e=>{const t=e.changedTouches[0];touchStart={x:t.clientX,y:t.clientY};},{passive:true});
-  $('paper').addEventListener('touchend',e=>{if(!touchStart||state.view!=='card')return;const t=e.changedTouches[0],dx=t.clientX-touchStart.x,dy=t.clientY-touchStart.y;touchStart=null;if(Math.abs(dx)>65&&Math.abs(dx)>Math.abs(dy)*1.5){state.page+=dx<0?1:-1;render();}},{passive:true});
   $('share').addEventListener('click',async()=>{
     if(!state.edition)return;
     const url=new URL(location.href);url.searchParams.set('date',state.edition.date);url.hash='';
     try { if(navigator.share) await navigator.share({title:document.title,url:url.href});else {await navigator.clipboard.writeText(url.href);toast('브리프 링크를 복사했습니다. 카카오톡 등에 붙여넣어 공유하세요.');} }
     catch(error){if(error.name!=='AbortError')toast('주소창의 링크를 복사해 공유해주세요.');}
   });
-  let printView;
-  window.addEventListener('beforeprint',()=>{if(state.edition){printView=state.view;state.view='paper';render();}});
-  window.addEventListener('afterprint',()=>{if(printView){state.view=printView;printView=null;render();}});
   $('print').addEventListener('click',()=>window.print());
   async function init() {
     try {

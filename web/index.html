@@ -8,6 +8,7 @@
   <title>보험 영업 모닝브리프</title>
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="onepage.css">
   <script>/*__BOOTSTRAP__*/</script>
   <script defer src="app.js"></script>
 </head>
@@ -27,7 +28,6 @@
     <div class="toolbar"><div><span class="section-index">01</span><h2 id="briefing-heading">오늘의 주요 뉴스</h2><span class="article-count" id="article-count">—</span></div><div class="view-switch" role="group" aria-label="보기 방식"><button id="view-card" type="button" aria-pressed="true"><span aria-hidden="true">▤</span> 한 장 요약</button><button id="view-paper" type="button" aria-pressed="false"><span aria-hidden="true">▥</span> 신문형</button></div></div>
     <div id="notice" class="notice" role="status" hidden></div>
     <div class="paper" id="paper"><div class="paper-masthead"><span><strong>MORNING</strong> / <span id="paper-label">INSURANCE BRIEF</span></span><time id="paper-date"></time></div><div class="paper-title"><p id="edition-status">TODAY’S SELECTION</p><h3>오늘, 알아둘 이야기.</h3><span id="mode-label">RSS 발췌 · 원문 확인</span></div><div id="articles" class="articles" aria-live="polite"><p class="empty">뉴스를 불러오고 있습니다.</p></div><div class="paper-footer"><span id="updated-at"></span><span id="page-label">01 / 02</span></div></div>
-    <div class="pager" id="pager"><button id="prev" type="button" aria-label="이전 장">←</button><div class="dots" id="dots"></div><button id="next" type="button" aria-label="다음 장">→</button><span>옆으로 넘겨 더 읽기</span></div>
     <div class="reading-note"><span aria-hidden="true">↗</span><p>짧게 읽고, 원문으로 깊게.<span>기사별 발행일과 출처를 함께 확인하세요.</span></p><button id="print" type="button">인쇄 / PDF 저장</button></div>
   </section>
   <section id="archive" class="archive" aria-labelledby="archive-heading"><div class="archive-heading"><div><p class="eyebrow">THE ARCHIVE</p><h2 id="archive-heading">쌓이는 뉴스, 넓어지는 시야.</h2></div><label class="search"><span aria-hidden="true">⌕</span><input id="archive-search" type="search" placeholder="날짜 또는 기사 검색" aria-label="지난 브리프 검색"></label></div><div id="archive-list" class="archive-list"><p class="empty">지난 브리프를 불러오고 있습니다.</p></div><button id="more-archive" class="more" type="button" hidden>지난 브리프 더 보기 ↓</button></section>

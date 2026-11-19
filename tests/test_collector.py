@@ -34,5 +34,17 @@ class CollectorTests(unittest.TestCase):
         self.assertEqual(c.clean('<script>bad</script><b>hello</b>'),'hello')
     def test_reject_dtd(self):
         with self.assertRaises(ValueError):c.parse_feed(b'<!DOCTYPE rss><rss/>','Test')
+    def test_structured_summary_removes_promotion_and_preserves_facts(self):
+        text="※유튜브 채널을 구독해주세요.(https://youtube.com/test) 보험시장의 판매 구성이 변화하고 있다. 분석한 GA는 73곳이며 생보는 1.7건, 손보는 2.7건으로 나타났다. 수익구조의 차이가 앞으로 더 커질 가능성이 있다."
+        parts=c.structured_summary('보험시장 변화',text)
+        self.assertEqual(set(parts),{'intro','body','conclusion'})
+        self.assertNotIn('유튜브',' '.join(parts.values()))
+        self.assertIn('73곳',parts['body'])
+        self.assertIn('2.7건',parts['body'])
+        self.assertIn('가능성',parts['conclusion'])
+    def test_short_feed_does_not_invent_conclusion(self):
+        parts=c.structured_summary('GA 뉴스','업계 동향에 관한 새로운 소식이 전해졌다.')
+        self.assertIn('원문',parts['conclusion'])
+        self.assertNotIn('전망이다',parts['conclusion'])
 
 if __name__=='__main__':unittest.main()
