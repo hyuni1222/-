@@ -1,7 +1,7 @@
 'use strict';
 (() => {
   const $ = id => document.getElementById(id);
-  const state = { latest:null, edition:null, archive:[], view:'card', archiveLimit:12, config:{}, status:{} };
+  const state = { latest:null, edition:null, archive:[], view:'card', archiveLimit:12, config:{}, status:{}, analysisCache:{}, allAnalysis:null, editionRequest:0 };
   const esc = s => String(s ?? '').replace(/[&<>"']/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
   const allowedURL = url => { try { const u = new URL(url); return ['https:','http:'].includes(u.protocol) && !u.username && !u.password ? u.href : '#'; } catch { return '#'; } };
   const format = (date, options) => new Intl.DateTimeFormat('ko-KR', {timeZone:'Asia/Seoul',...options}).format(new Date(date));
@@ -14,7 +14,10 @@
   function card(article,index) {
     const d=format(article.published_at,{month:'2-digit',day:'2-digit'}).replace(/\.$/,'');
     const parts=article.summary_parts||{intro:article.title,body:article.summary,conclusion:article.implication||'발행 당시 상세 내용과 후속 전망은 원문에서 확인하세요.'};
-    const rows=[['서론',parts.intro],['본론',parts.body],['결론',parts.conclusion]].map(([label,text])=>`<div class="summary-row"><span class="label">${label}</span><p>${esc(text)}</p></div>`).join('');
+    const analysis=state.analysisCache[state.edition.date]?.[article.id];
+    const summary=analysis?.summary||[parts.intro,parts.body].filter(Boolean).join(' ');
+    const insight=analysis?.insight;
+    const rows=`<div class="daily-summary"><span class="daily-label">기사 요약</span><p>${esc(summary)}</p></div>${insight?`<aside class="daily-insight" aria-label="보험영업 시사점"><span class="daily-label">시사점</span><div><p>${esc(insight.meaning)}</p><p class="daily-action"><strong>현장 적용</strong> ${esc(insight.action)}</p><small>보험영업 관점의 해석</small></div></aside>`:''}`;
     return `<article class="news-card"><div class="rank">${pad(index+1)}</div><div><div class="card-meta"><span class="tag">${esc(article.category)}</span><span class="source">${esc(article.source)}</span><time datetime="${esc(article.published_at)}">${esc(d)}</time><a class="source-link" href="${esc(allowedURL(article.url))}" target="_blank" rel="noopener noreferrer">원문 보기</a></div><h4><a href="${esc(allowedURL(article.url))}" target="_blank" rel="noopener noreferrer">${esc(article.title)}</a></h4><div class="summary-parts">${rows}</div></div></article>`;
   }
   function render() {
@@ -27,8 +30,8 @@
     $('paper-date').textContent=edition.date.replaceAll('-','.');
     $('paper-date').dateTime=edition.date;
     $('date-long').textContent=format(dateOnly(edition.date),{year:'numeric',month:'long',day:'numeric',weekday:'short'});
-    $('updated-at').textContent=format(edition.updated_at,{month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',hour12:false})+' KST · '+(edition.mode==='ai'?'기사 발췌 기반 AI 요약':'기사 핵심 문장');
-    $('mode-label').textContent='서론 · 본론 · 결론';
+    $('updated-at').textContent=format(edition.updated_at,{month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',hour12:false})+' KST · 기사 요약 · 영업 해석';
+    $('mode-label').textContent='기사 요약 · 영업 시사점';
     $('edition-status').textContent=edition===state.latest?'LATEST SELECTION':'FROM THE ARCHIVE';
     $('briefing-heading').textContent=edition===state.latest?'오늘의 주요 뉴스':edition.date.replaceAll('-','.')+' 브리프';
     $('paper').querySelector('h3').textContent=edition===state.latest?'오늘, 알아둘 이야기':'지난 날, 알아둘 이야기';
@@ -66,14 +69,21 @@
   }
   async function openDate(date) {
     if(!/^\d{4}-\d{2}-\d{2}$/.test(date)) return;
-    if(date===state.latest.date) state.edition=state.latest;
+    const request=++state.editionRequest;
+    let edition;
+    if(date===state.latest.date) edition=state.latest;
     else {
       const record=state.archive.find(row=>row.date===date);
       if(!record) { toast('해당 날짜의 브리프가 없습니다.'); return; }
       // File path is derived from a validated date, not untrusted JSON.
-      try { state.edition=await getJSON('data/editions/'+date+'.json'); }
+      try { edition=await getJSON('data/editions/'+date+'.json'); }
       catch { toast('브리프를 불러오지 못했습니다. 잠시 후 다시 시도해주세요.'); return; }
     }
+    if(!state.analysisCache[date]){
+      try{state.allAnalysis=state.allAnalysis||await getJSON('data/daily-analysis.json');state.analysisCache[date]=state.allAnalysis.editions?.[date]||{};}catch{state.analysisCache[date]={};}
+    }
+    if(request!==state.editionRequest)return;
+    state.edition=edition;
     render();
     const url=new URL(location.href);url.searchParams.set('date',date);url.hash='briefing';
     history.replaceState(null,'',url);
@@ -97,6 +107,7 @@
       const bootstrap=window.BRIEFING_BOOTSTRAP;
       const values=bootstrap||{config:await getJSON('config.json'),latest:await getJSON('data/latest.json'),archive:await getJSON('data/archive.json'),status:await getJSON('data/status.json').catch(()=>({}))};
       state.config=values.config;state.latest=values.latest;state.edition=state.latest;state.archive=values.archive;state.status=values.status||{};
+      state.analysisCache[state.latest.date]=values.daily_analysis||(await getJSON('data/daily-analysis.json').catch(()=>({}))).editions?.[state.latest.date]||{};
       try{state.view=localStorage.getItem('brief-view')==='paper'?'paper':'card';}catch{}
       $('site-title').textContent=state.config.title;
       // Preserve a deliberate two-line masthead without injecting configuration as HTML.

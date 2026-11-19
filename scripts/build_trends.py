@@ -10,6 +10,7 @@ from zoneinfo import ZoneInfo
 
 from update_news import ROOT, atomic_json, canonical_url, has_keyword, normalized_title, structured_summary
 from corpus import START
+from editorial import build_report
 
 SEOUL = ZoneInfo("Asia/Seoul")
 THEMES = [
@@ -61,7 +62,7 @@ def representatives(items, limit=3):
     return sorted(chosen,key=lambda r:r["published_at"])
 
 
-def build_period(kind, start, end, articles, today, coverage):
+def build_period(kind, start, end, articles, today, coverage, previous_articles=()):
     first = max(start,date.fromisoformat(START))
     last = min(end,today)
     counts = Counter(theme_for(row["title"])["id"] for row in articles if theme_for(row["title"]))
@@ -95,18 +96,23 @@ def build_period(kind, start, end, articles, today, coverage):
     overview = {"intro":f"{label}에는 "+" · ".join(t['title'] for t in focus)+f" 관련 보도를 중심으로 흐름을 정리했습니다. 분석 대상은 {len(sources)}개 매체의 {len(articles)}건입니다." if themes else f"{label}에 선정 기준에 맞는 기사를 확인하지 못했습니다.",
                 "body":" ".join(t['evidence'][-1]['fact'] for t in focus) if themes else "날짜별 수집 결과와 공개된 기사 목록을 확인하세요.",
                 "conclusion":focus[0]['summary_parts']['conclusion'] if focus else "공개된 원문을 확인하세요."}
-    return {"id":start.isoformat() if kind=="weekly" else start.strftime("%Y-%m"),"kind":kind,"label":label,
+    period = {"id":start.isoformat() if kind=="weekly" else start.strftime("%Y-%m"),"kind":kind,"label":label,
             "period_start":start.isoformat(),"period_end":end.isoformat(),"start":first.isoformat(),"end":last.isoformat(),
             "in_progress":end>=today,"partial":partial,"article_count":len(articles),"source_count":len(sources),
             "sources":dict(sources.most_common()),"coverage_days":checked,"expected_days":expected,"warning_days":issues,
             "summary_parts":overview,"themes":themes,
             "articles":[source_ref(r) for r in sorted(articles,key=lambda r:r["published_at"],reverse=True)]}
+    period['report']=build_report(kind,first.isoformat(),last.isoformat(),articles,THEMES,theme_for,previous_articles)
+    return period
 
 
 def build(root=ROOT, now=None):
     now = now or datetime.now(SEOUL)
     today = now.astimezone(SEOUL).date()
     config = json.loads((root/"config.json").read_text())
+    if (root/'data/latest.json').exists():
+        from build_daily_analysis import build as build_daily
+        build_daily(root)
     corpus = {}
     for path in sorted((root/"data/articles").glob("????-??-??.json")):
         for row in json.loads(path.read_text()):
@@ -134,7 +140,7 @@ def build(root=ROOT, now=None):
     result = {"updated_at":now.isoformat(timespec="seconds"),"collection_start":START,"collection_end":today.isoformat(),
               "stored_articles":stored_count,
               "article_count":len(corpus),"coverage_days":len(coverage),"sources":dict(Counter(r["source"] for r in corpus.values())),
-              "method":"수집된 기사에서 주제를 분류하고 공개 발췌·제목의 핵심을 묶었습니다. 결론은 보험영업 관점의 해석입니다. 보도 건수는 수집 범위 내 집계이며 시장 점유율이나 업계 전체 기사 수를 뜻하지 않습니다.",
+              "method":"원문 근거를 쟁점별로 묶어 주요 변화·영업적 의미·대응 과제를 작성했습니다. 해석과 대응은 보험영업 관점의 판단이며, 기사에서 확인된 사실과 구분해 읽을 수 있습니다. 보도 건수는 수집 범위의 집계입니다.",
               "weekly":[],"monthly":[]}
     for kind in ("weekly","monthly"):
         groups = {}
@@ -147,7 +153,9 @@ def build(root=ROOT, now=None):
             start,_=period_bounds(date.fromisoformat(row["published_at"][:10]),kind)
             groups[start]["articles"].append(row)
         for start,group in sorted(groups.items(),reverse=True):
-            period = build_period(kind,start,group["end"],group["articles"],today,coverage)
+            previous_start,_=period_bounds(start-timedelta(days=1),kind)
+            previous_articles=groups.get(previous_start,{}).get('articles',[])
+            period = build_period(kind,start,group["end"],group["articles"],today,coverage,previous_articles)
             filename = f"data/trends/{kind}/{period['id']}.json"
             atomic_json(root/filename,period)
             result[kind].append({k:period[k] for k in ("id","label","start","end","in_progress","partial","article_count","source_count")}|{"file":filename})

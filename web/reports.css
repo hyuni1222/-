@@ -1,0 +1,62 @@
+.daily-summary,.daily-insight{display:grid;grid-template-columns:60px minmax(0,1fr);gap:12px;font-size:16px;line-height:1.65;color:#425247}
+.daily-label{font-size:14px;font-weight:700;color:var(--teal);white-space:nowrap;padding-top:2px}
+.daily-summary p,.daily-insight p{margin:0;overflow-wrap:anywhere}
+.daily-insight{border-top:1px dashed #cbd5c3;margin-top:12px;padding-top:12px}
+.daily-insight .daily-label{color:#a84b2b}
+.daily-insight .daily-action{margin-top:7px}.daily-action strong{font-size:14px;color:var(--ink)}
+.daily-insight small{display:block;font-size:12px;color:#7c7665;margin-top:5px}
+.report-body{font-size:16px;line-height:1.9;color:#354b3e}
+.report-body p{margin:12px 0;overflow-wrap:anywhere}
+.report-body h4{font-size:23px;line-height:1.5;letter-spacing:-.6px;color:var(--ink);margin:0 0 16px;font-weight:700}
+.report-body h5{font-size:16px;font-weight:700;color:var(--ink);margin:20px 0 8px}
+.report-kicker{font-size:12px;letter-spacing:1.6px;color:#a84b2b;font-weight:700;margin:0 0 8px!important}
+.report-executive{padding:0 0 28px;border-bottom:2px solid #9aaf9b}
+.report-executive>p:not(.report-kicker):first-of-type{font-weight:600}
+.report-citation{font-size:12px;color:#347569;text-decoration:underline;text-underline-offset:3px;white-space:nowrap;margin-left:3px}
+.report-continuity{background:#eaf0e5;padding:12px 15px;font-size:14px;line-height:1.8}
+.report-continuity strong{display:block;color:var(--ink);font-size:14px;margin-bottom:3px}
+.report-category,.report-management,.report-agenda,.report-timeline-section{padding:28px 0;border-bottom:1px solid #cbd6c4}
+.report-category>header{display:flex;justify-content:space-between;gap:18px;align-items:baseline}
+.report-category>header h4{margin-bottom:5px}.report-category>header>span{font-size:12px;color:#6c7f6c;white-space:nowrap}
+.report-angle{font-size:14px;color:#6b775e;margin:0 0 20px!important}
+.report-interpretation{padding:1px 18px 6px;border-left:3px solid #94b097;margin-top:19px;background:#edf1e7}
+.report-interpretation h5{margin-top:10px}.report-interpretation p{margin-top:7px}
+.report-metrics{font-size:14px;color:#667660}.report-metrics strong{margin-right:8px;color:#49644b}
+.report-management{border-bottom:2px solid #9aaf9b}
+.report-table-wrap{overflow-x:auto}
+.report-agenda table{width:100%;border-collapse:collapse;text-align:left;line-height:1.75;font-size:14px}
+.report-agenda th,.report-agenda td{vertical-align:top;padding:13px 12px;border-bottom:1px solid #ced8c8;min-width:130px}
+.report-agenda thead th{background:#e6edde;color:var(--ink);font-weight:700;font-size:14px}
+.report-agenda tbody th{font-weight:600;width:24%;color:var(--ink)}.report-agenda td:nth-child(2){width:52%}
+.report-agenda td p{margin:0;font-size:15px}.report-agenda small{display:block;font-size:12px;color:#6f7d6b;font-weight:400;margin-top:7px;line-height:1.7}
+.report-timeline{list-style:none;padding:0;margin:0}
+.report-timeline li{display:grid;grid-template-columns:95px minmax(0,1fr);gap:18px;padding:15px 0;border-bottom:1px solid #e0e5d9}
+.report-timeline time{font-size:12px;color:#6d7f6d;white-space:nowrap;padding-top:2px}
+.report-timeline li strong{font-size:16px;color:var(--ink)}.report-timeline li p{margin:6px 0 0;font-size:15px}
+.report-references{margin:24px 0 3px;font-size:14px;color:#4c6c55}
+.report-references summary{cursor:pointer;font-weight:600;font-size:16px}
+.report-references ol{padding-left:25px}.report-references li{padding:9px 0 9px 5px;line-height:1.7}
+.report-references li span{display:block;color:#728270;font-size:12px;margin-bottom:2px}
+@media(max-width:760px){
+ .daily-summary,.daily-insight{grid-template-columns:1fr;gap:5px}.daily-label{font-size:14px}
+ .daily-insight{margin-top:13px;padding-top:12px}.daily-summary p,.daily-insight p{font-size:16px}
+ .report-body h4{font-size:21px}.report-category>header{align-items:flex-start}.report-category>header>span{padding-top:5px}
+ .report-interpretation{padding-left:13px;padding-right:12px}.report-timeline li{grid-template-columns:1fr;gap:5px}
+ .report-timeline li p{font-size:16px}.report-agenda th,.report-agenda td{padding:11px 9px;min-width:120px}
+ .report-agenda td:nth-child(2){min-width:240px}
+}
+@media print{
+ .daily-summary,.daily-insight{grid-template-columns:40px minmax(0,1fr);gap:6px;font-size:8.5pt;line-height:1.45}
+ .daily-label{font-size:8pt;padding:0}.daily-insight{margin-top:5px;padding-top:5px}.daily-insight .daily-action{margin-top:3px}
+ .daily-action strong{font-size:8pt}.daily-insight small{display:none}
+ .report-body{font-size:10pt;line-height:1.65}.report-body p{margin:7px 0}
+ .report-body h4{font-size:14pt;margin-bottom:9px}.report-body h5{font-size:10pt;margin:10px 0 4px}
+ .report-category,.report-management,.report-agenda,.report-timeline-section{padding:15px 0;break-inside:auto}
+ .report-body h4,.report-body h5{break-after:avoid}.report-body p{orphans:3;widows:3}
+ .report-interpretation{padding:3px 10px;break-inside:avoid}.report-executive{padding-bottom:15px}
+ .report-kicker,.report-angle,.report-metrics,.report-continuity{font-size:8pt}
+ .report-citation{font-size:7pt}.report-timeline li{break-inside:avoid}.report-timeline li p{font-size:9pt}
+ .report-agenda table,.report-agenda thead th,.report-agenda td p{font-size:8pt}.report-agenda small{font-size:7pt}
+ .report-agenda th,.report-agenda td{min-width:0;padding:7px}.report-agenda tr{break-inside:avoid}
+ .report-references{font-size:8pt}.report-references summary{font-size:9pt}
+}

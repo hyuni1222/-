@@ -19,6 +19,8 @@ def main():
                  "archive": json.loads((ROOT / "data/archive.json").read_text())}
     status = ROOT / "data/status.json"
     bootstrap["status"] = json.loads(status.read_text()) if status.exists() else {}
+    daily = ROOT / 'data/daily-analysis.json'
+    bootstrap['daily_analysis'] = json.loads(daily.read_text()).get('editions',{}).get(bootstrap['latest']['date'],{}) if daily.exists() else {}
     for key, filename in (("weather", "weather.json"), ("trends", "trends.json")):
         path = ROOT / "data" / filename
         bootstrap[key] = json.loads(path.read_text()) if path.exists() else {}
