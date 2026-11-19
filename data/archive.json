@@ -5,7 +5,7 @@
     "count": 5,
     "file": "data/editions/2026-11-19.json",
     "backfilled": false,
-    "collected_at": "2026-11-19T09:21:22+09:00"
+    "collected_at": "2026-11-19T16:23:31+09:00"
   },
   {
     "date": "2026-11-18",
@@ -13,7 +13,7 @@
     "count": 5,
     "file": "data/editions/2026-11-18.json",
     "backfilled": true,
-    "collected_at": "2026-11-19T11:50:11+09:00"
+    "collected_at": "2026-11-19T16:23:24+09:00"
   },
   {
     "date": "2026-11-17",

@@ -1,7 +1,7 @@
 {
   "date": "2026-11-19",
   "summary_version": 2,
-  "updated_at": "2026-11-19T09:21:22+09:00",
+  "updated_at": "2026-11-19T16:23:31+09:00",
   "title": "손보 '신계약' 1.6배 많은데 '수수료'는 생보가 앞섰다…GA 73곳, 엇갈린 판매 지형",
   "demo": false,
   "mode": "rss",
@@ -36,24 +36,6 @@
       "implication": ""
     },
     {
-      "title": "‘덩치’와 생산성은 달랐다…초대형 GA 설계사 규모 톱5, ‘인당 수수료’ 순위는 딴판 (영상+)",
-      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33933",
-      "source": "보험저널",
-      "published_at": "2026-11-18T06:00:00+00:00",
-      "source_group": "specialist",
-      "id": "d5dcbe304bca",
-      "category": "제도·정책",
-      "summary_parts": {
-        "intro": "초대형 GA의 설계사 규모 순위와 1인당 수수료 생산성 순위가 엇갈렸습니다.",
-        "body": "규모 상위 5개사는 인당 수수료 1천만원 미만인 반면, 3천~6천명 규모 GA 3곳은 이를 넘었습니다.",
-        "conclusion": "조직의 외형이 크다고 생산성도 높아지는 것은 아니라는 분석입니다."
-      },
-      "summary": "초대형 GA의 설계사 규모 순위와 1인당 수수료 생산성 순위가 엇갈렸습니다.",
-      "source_digest": "82f7877dcb306bab",
-      "summary_kind": "rss",
-      "implication": ""
-    },
-    {
       "title": "한국보험금융 등록취소 사전통지 후폭풍… 6000명 영업조직 촉각",
       "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93924",
       "source": "한국보험신문",
@@ -68,6 +50,24 @@
       },
       "summary": "대형 법인보험대리점(GA) 한국보험금융이 보험대리점 등록취소 사전통지를 받으면서 후폭풍이 확산되고 있다.",
       "source_digest": "b02748badb9a6783",
+      "summary_kind": "rss",
+      "implication": ""
+    },
+    {
+      "title": "보험판매전문회사 법제화 논의 국회로…20일, 소비자보호 강화 '입법토론회'",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33959",
+      "source": "보험저널",
+      "published_at": "2026-11-18T10:14:36+00:00",
+      "source_group": "specialist",
+      "id": "3365082327e4",
+      "category": "영업전략",
+      "summary_parts": {
+        "intro": "보험판매전문회사 제도 도입을 위한 보험업법 개정안이 여야에서 각각 발의된 가운데, 판매권한 확대에 따른 법적 책임과 소비자보호 체계를 논의하는 입법토론회가 국회에서 열린다.",
+        "body": "'금융소비자 보호 강화를 위한 보험판매전문회사 제도 도입 입법토론회'가 오는 20일 오전 10시부터 정오까지 국회의원회관 제3세미나실에서 열린다.",
+        "conclusion": "이번 토론회에서는 두 가지 주제발표가 진행된다."
+      },
+      "summary": "보험판매전문회사 제도 도입을 위한 보험업법 개정안이 여야에서 각각 발의된 가운데, 판매권한 확대에 따른 법적 책임과 소비자보호 체계를 논의하는 입법토론회가 국회에서 열린다.",
+      "source_digest": "2e722436d3996424",
       "summary_kind": "rss",
       "implication": ""
     },
@@ -90,23 +90,22 @@
       "implication": ""
     },
     {
-      "title": "킥보드 고의사고에 대리운전 허위입원까지…車보험사기 주의보",
-      "url": "https://www.mk.co.kr/news/economy/12212328",
-      "source": "매일경제",
-      "published_at": "2026-11-18T13:43:04+00:00",
+      "title": "금감원 \"퇴직연금 단기실적 경쟁안돼…변칙 고금리 등 엄정대응\"",
+      "url": "https://www.yna.co.kr/view/AKR20261119114700002",
+      "source": "연합뉴스",
+      "published_at": "2026-11-19T15:00:01+09:00",
       "source_group": "general",
-      "id": "d25fee797fd5",
-      "category": "영업전략",
+      "id": "00c9aa85ec61",
+      "category": "제도·정책",
       "summary_parts": {
-        "intro": "금감원, 車보험사기 기획조사 골목길 고의 충돌·보험금 편취 징역 출소 후 재범 사례도 적발 당국, 모니터링·신고센터 운영 자차로 출퇴근을 하는 김 모씨(34)는 최근 황당한 일을 겪었다.",
-        "body": "18일 금감원 보험사기대응단은 최근 실시한 자동차보험 사기 기획조사 결과를 토대로 보험사기 사례와 대응요령을 안내했다.",
-        "conclusion": "금감원은 “급한 끼어들기, 이유 없는 급정거 등 고의 사고가 의심되면, 경찰·보험사에 알리기 전 상대방과 합의하지 말아야 한다”며 “블랙박스 영상과 현장 사진, 목격자 진술을 확보할 필요가 있다”고 밝혔다."
+        "intro": "(서울=연합뉴스) 강수련 기자 = 금융감독원은 퇴직연금 사업자의 연말 변칙적 고금리나 이벤트성 특별이익 제공 등 불건전 영업행위에 엄정 대응하겠...",
+        "body": "RSS에서 확인할 수 있는 추가 근거가 부족합니다.",
+        "conclusion": "세부 내용과 후속 전망은 기사 원문에서 확인하세요."
       },
-      "summary": "금감원, 車보험사기 기획조사 골목길 고의 충돌·보험금 편취 징역 출소 후 재범 사례도 적발 당국, 모니터링·신고센터 운영 자차로 출퇴근을 하는 김 모씨(34)는 최근 황당한 일을 겪었다.",
-      "source_digest": "8a87c26f8ba17184",
+      "summary": "(서울=연합뉴스) 강수련 기자 = 금융감독원은 퇴직연금 사업자의 연말 변칙적 고금리나 이벤트성 특별이익 제공 등 불건전 영업행위에 엄정 대응하겠...",
+      "source_digest": "06135fe538e0ce80",
       "summary_kind": "rss",
-      "implication": "",
-      "summary_basis": "public_article_excerpt"
+      "implication": ""
     }
   ]
 }
