@@ -1,7 +1,7 @@
 'use strict';
 (() => {
   const $ = id => document.getElementById(id);
-  const state = { latest:null, edition:null, archive:[], view:'card', archiveLimit:12, config:{}, status:{}, backfill:{} };
+  const state = { latest:null, edition:null, archive:[], view:'card', archiveLimit:12, config:{}, status:{} };
   const esc = s => String(s ?? '').replace(/[&<>"']/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
   const allowedURL = url => { try { const u = new URL(url); return ['https:','http:'].includes(u.protocol) && !u.username && !u.password ? u.href : '#'; } catch { return '#'; } };
   const format = (date, options) => new Intl.DateTimeFormat('ko-KR', {timeZone:'Asia/Seoul',...options}).format(new Date(date));
@@ -29,16 +29,13 @@
     $('date-long').textContent=format(dateOnly(edition.date),{year:'numeric',month:'long',day:'numeric',weekday:'short'});
     $('updated-at').textContent=format(edition.updated_at,{month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',hour12:false})+' KST · '+(edition.mode==='ai'?'기사 발췌 기반 AI 요약':'기사 핵심 문장');
     $('mode-label').textContent='서론 · 본론 · 결론';
-    $('edition-status').textContent=edition.backfilled?'BACKFILLED EDITION':edition===state.latest?'LATEST SELECTION':'FROM THE ARCHIVE';
+    $('edition-status').textContent=edition===state.latest?'LATEST SELECTION':'FROM THE ARCHIVE';
     $('briefing-heading').textContent=edition===state.latest?'오늘의 주요 뉴스':edition.date.replaceAll('-','.')+' 브리프';
-    $('paper').querySelector('h3').textContent=edition===state.latest?'오늘, 알아둘 이야기.':'그날, 알아둘 이야기.';
+    $('paper').querySelector('h3').textContent=edition===state.latest?'오늘, 알아둘 이야기':'지난 날, 알아둘 이야기';
     $('page-label').textContent=items.length+'건 · 한 장에 모두 보기';
     const notices=[];
     if(edition.demo) notices.push('화면 미리보기용 예시입니다. 실제 뉴스 업데이트는 아직 시작되지 않았습니다.');
-    if(edition.backfilled) {
-      notices.push('소급 수집본 · '+edition.date+' 당일 발행 기사를 공개 목록에서 다시 수집했습니다. 과거 오전 8시 자동 실행 기록은 아닙니다.');
-      if((edition.warnings||[]).length)notices.push(edition.warnings.join(' · '));
-    }
+    if(edition.backfilled && (edition.warnings||[]).length)notices.push(edition.warnings.join(' · '));
     const age=(Date.now()-new Date(edition.updated_at).getTime())/3600000;
     if(edition===state.latest && !edition.demo && age>30) notices.push('현재 '+edition.date+' 최신 발행본을 보고 있습니다. 새 발행본이 등록되면 이 화면에 표시됩니다.');
     const checked=state.status.checked_at;
@@ -57,16 +54,15 @@
     $('source-succeeded').textContent=(coverage?.succeeded||[]).join(' · ')||'수집 성공 기록이 없습니다.';
     $('source-selected').textContent=selected.join(' · ');
     $('source-selected').textContent=selected.join(' · ')||'선정 기사 없음';
-    document.querySelector('.source-policy').textContent=(edition.backfilled?'해당 날짜의 공개 기사 목록에서 발행일을 확인해 소급 수집했습니다.':'매체별 RSS 제공 범위에서 수집합니다.')+' 관련성·발행 시각·중복 여부를 비교하며 같은 매체는 최대 2건까지 선정합니다.';
+    document.querySelector('.source-policy').textContent=(edition.backfilled?'해당 날짜의 공개 기사 목록에서 발행일을 확인해 수집했습니다.':'매체별 RSS 제공 범위에서 수집합니다.')+' 관련성·발행 시각·중복 여부를 비교하며 같은 매체는 최대 2건까지 선정합니다.';
     document.title=(state.config.title||'보험 영업 모닝브리프')+' · '+edition.date;
   }
   function renderArchive() {
     const query=$('archive-search').value.trim().toLowerCase();
     const rows=state.archive.filter(row=>(row.date+' '+row.title).toLowerCase().includes(query));
     const shown=rows.slice(0,state.archiveLimit);
-    $('archive-list').innerHTML=shown.map(row=>`<button type="button" class="archive-row" data-date="${esc(row.date)}"><time datetime="${esc(row.date)}">${esc(row.date.replaceAll('-','.'))}</time><span class="archive-title">${esc(row.title)}</span><span class="archive-badge">${row.backfilled?'소급 수집':'발행본'} · ${Number(row.count)||0}건</span></button>`).join('')||`<p class="empty">${query?'검색 결과가 없습니다. 다른 날짜나 기사 제목으로 검색해보세요.':'첫 브리프부터 차곡차곡.<br>자동 발행된 뉴스가 날짜별로 이곳에 모입니다.'}</p>`;
+    $('archive-list').innerHTML=shown.map(row=>`<button type="button" class="archive-row" data-date="${esc(row.date)}"><time datetime="${esc(row.date)}">${esc(row.date.replaceAll('-','.'))}</time><span class="archive-title">${esc(row.title)}</span><span class="archive-badge">${Number(row.count)||0}건</span></button>`).join('')||`<p class="empty">${query?'검색 결과가 없습니다. 다른 날짜나 기사 제목으로 검색해보세요.':'첫 브리프부터 차곡차곡.<br>자동 발행된 뉴스가 날짜별로 이곳에 모입니다.'}</p>`;
     $('more-archive').hidden=shown.length>=rows.length;
-    if(state.backfill.days?.length){$('backfill-note').hidden=false;$('backfill-note').textContent=state.backfill.start.replaceAll('-','.')+' ~ '+state.backfill.end.replaceAll('-','.')+' · '+state.backfill.days.length+'일 수집 확인. 소급 수집본은 당일 발행 기사로 재구성했으며, 과거 예약 실행 성공을 의미하지 않습니다.';}
   }
   async function openDate(date) {
     if(!/^\d{4}-\d{2}-\d{2}$/.test(date)) return;
@@ -99,8 +95,8 @@
   async function init() {
     try {
       const bootstrap=window.BRIEFING_BOOTSTRAP;
-      const values=bootstrap||{config:await getJSON('config.json'),latest:await getJSON('data/latest.json'),archive:await getJSON('data/archive.json'),status:await getJSON('data/status.json').catch(()=>({})),backfill:await getJSON('data/backfill-report.json').catch(()=>({}))};
-      state.config=values.config;state.latest=values.latest;state.edition=state.latest;state.archive=values.archive;state.status=values.status||{};state.backfill=values.backfill||{};
+      const values=bootstrap||{config:await getJSON('config.json'),latest:await getJSON('data/latest.json'),archive:await getJSON('data/archive.json'),status:await getJSON('data/status.json').catch(()=>({}))};
+      state.config=values.config;state.latest=values.latest;state.edition=state.latest;state.archive=values.archive;state.status=values.status||{};
       try{state.view=localStorage.getItem('brief-view')==='paper'?'paper':'card';}catch{}
       $('site-title').textContent=state.config.title;
       // Preserve a deliberate two-line masthead without injecting configuration as HTML.
