@@ -1,0 +1,135 @@
+{
+  "date": "2026-10-02",
+  "updated_at": "2026-11-19T10:57:31+09:00",
+  "collected_at": "2026-11-19T10:57:31+09:00",
+  "summary_version": 2,
+  "title": "[26년 9월 생보 GA채널] 700종신 판매중단 ‘막판 쏠림’ 동양생명 가장 컸다… 상위권 희비 엇갈려",
+  "demo": false,
+  "mode": "rss",
+  "backfilled": true,
+  "collection_method": "publisher_archive_calendar_day",
+  "article_window": {
+    "start": "2026-10-02T00:00:00+09:00",
+    "end": "2026-10-03T00:00:00+09:00"
+  },
+  "sources": [
+    "보험신보",
+    "보험저널",
+    "서울파이낸스",
+    "한국보험신문"
+  ],
+  "warnings": [],
+  "articles": [
+    {
+      "title": "[26년 9월 생보 GA채널] 700종신 판매중단 ‘막판 쏠림’ 동양생명 가장 컸다… 상위권 희비 엇갈려",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33307",
+      "source": "보험저널",
+      "source_group": "specialist",
+      "published_at": "2026-10-02T06:09:00+09:00",
+      "id": "7fa55973570a",
+      "category": "상품",
+      "summary_parts": {
+        "intro": "9월 생명보험사 GA채널 실적이 의외로 전월 대비 반등했다.",
+        "body": "지난 21일 700종신보험 판매중지 조치가 내려지고 추석 연휴 영향으로 전월보다 영업일수가 3일 줄었음에도 전체 실적은 7.8% 증가했다.",
+        "conclusion": "다만 모든 보험사가 반등한 것은 아니다."
+      },
+      "summary": "9월 생명보험사 GA채널 실적이 의외로 전월 대비 반등했다.",
+      "source_digest": "ef5d78474aa49207",
+      "summary_kind": "rss",
+      "implication": ""
+    },
+    {
+      "title": "생보사 유동성 관리축 달라졌다… 과거 ‘저축성 만기’, 요즘 ‘원금도달 종신 해지’",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33314",
+      "source": "보험저널",
+      "source_group": "specialist",
+      "published_at": "2026-10-02T09:58:00+09:00",
+      "id": "d4e078905e6e",
+      "category": "상품",
+      "summary_parts": {
+        "intro": "생명보험사의 자산부채관리(ALM)에서 계약자 해지행동과 유동성 관리의 중요성이 커지고 있다.",
+        "body": "ALM은 보험사의 미래 보험금·해약환급금 지급 시점에 맞춰 현금성자산과 채권 등 운용자산의 만기와 현금흐름을 관리하는 체계다.",
+        "conclusion": "과거에는 방카슈랑스를 통해 대량 판매된 저축성보험의 만기 도래가 주요 유동성 관리 대상이었다면, 최근에는 단기납종신보험(5년·7년납)과 700종신보험 등 ‘원금도달 종신보험’의 해지 시점이 새로운 관리 변수로 떠오르고 있다."
+      },
+      "summary": "생명보험사의 자산부채관리(ALM)에서 계약자 해지행동과 유동성 관리의 중요성이 커지고 있다.",
+      "source_digest": "51a97eed339e849d",
+      "summary_kind": "rss",
+      "implication": ""
+    },
+    {
+      "title": "고흥군, 재생에너지 10GW 시대 연다···'군민 에너지연금' 추진",
+      "url": "https://www.seoulfn.com/news/articleView.html?idxno=639256",
+      "source": "서울파이낸스",
+      "source_group": "general",
+      "published_at": "2026-10-02T15:58:00+09:00",
+      "id": "b0981a770e14",
+      "category": "상품",
+      "summary_parts": {
+        "intro": "전남광주통합특별시 고흥군이 태양광과 해상풍력을 중심으로 지역 내 실현 가능한 재생에너지 개발 규모를 10GW까지 확대하고, 주민 이익공유를 기반으로 한 '군민 에너지연금' 추진에 나선다.",
+        "body": "고흥군은 고흥의 태양광·해상풍력과 여수 해상풍력 사업의 송전선로가 고흥지역을 관통하는 여건을 활용해 재생에너지 개발의 실질적인 주도권을 확보하고, 주민 참여형 에너지 전환 모델 구축에 나선다.",
+        "conclusion": "RSS에서 확인되는 내용은 위와 같으며, 추가 영향은 원문 확인이 필요합니다."
+      },
+      "summary": "전남광주통합특별시 고흥군이 태양광과 해상풍력을 중심으로 지역 내 실현 가능한 재생에너지 개발 규모를 10GW까지 확대하고, 주민 이익공유를 기반으로 한 '군민 에너지연금' 추진에 나선다.",
+      "source_digest": "4dadca05e9236e0f",
+      "summary_kind": "rss",
+      "implication": ""
+    },
+    {
+      "title": "[인사] 예금보험공사",
+      "url": "https://www.seoulfn.com/news/articleView.html?idxno=639304",
+      "source": "서울파이낸스",
+      "source_group": "general",
+      "published_at": "2026-10-02T17:17:00+09:00",
+      "id": "d405d353be13",
+      "category": "영업전략",
+      "summary_parts": {
+        "intro": "[인사] 예금보험공사",
+        "body": "RSS에 상세 사실·수치가 제공되지 않았습니다.",
+        "conclusion": "추가 내용과 영향은 기사 원문에서 확인하세요."
+      },
+      "summary": "[인사] 예금보험공사",
+      "source_digest": "86c441ab00751a01",
+      "summary_kind": "rss",
+      "implication": ""
+    },
+    {
+      "title": "교보생명, 보험업무 넘어 결제·정산까지… 디지털자산 활용 확대",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93136",
+      "source": "한국보험신문",
+      "source_group": "specialist",
+      "published_at": "2026-10-02T14:29:00+09:00",
+      "id": "a56be39cbcaf",
+      "category": "영업전략",
+      "summary_parts": {
+        "intro": "교보생명이 일본 SBI홀딩스, 서클(Circle), 비댁스(BDACS)와 스테이블코인·실물연계자산(RWA) 등 디지털자산의 금융서비스 적용 가능성을 점검하고 협력 방안을 논의했다.",
+        "body": "교보생명은 지난 1일 서울 포시즌스호텔에서 일본 SBI홀딩스, 서클, 비댁스와 함께 ‘브리징 파이낸스 온체인(Bridging Finance Onchain)’을 열고 각 사의 디지털 금융 사업 방향을 공유하고 향후 협력…",
+        "conclusion": "6월에는 블록체인 인프라 전문기업 ‘EQBR’과 원화 스테이블코인을 활용한 보험료 수납·보험금 지급 가능성을 확인했으며, 4월에는 글로벌 블록체인 인프라 기업 ‘리플(Ripple)’과 블록체인 기반 ‘토큰화 국채’ 거래…"
+      },
+      "summary": "교보생명이 일본 SBI홀딩스, 서클(Circle), 비댁스(BDACS)와 스테이블코인·실물연계자산(RWA) 등 디지털자산의 금융서비스 적용 가능성을 점검하고 협력 방안을 논의했다.",
+      "source_digest": "3f1706bd73cdc01f",
+      "summary_kind": "rss",
+      "implication": "",
+      "summary_basis": "public_article_excerpt"
+    }
+  ],
+  "collection": {
+    "configured": [
+      "보험신보",
+      "보험저널",
+      "서울파이낸스",
+      "한국보험신문"
+    ],
+    "succeeded": [
+      "보험신보",
+      "보험저널",
+      "서울파이낸스",
+      "한국보험신문"
+    ],
+    "selected": [
+      "보험저널",
+      "서울파이낸스",
+      "한국보험신문"
+    ],
+    "items_received": 97
+  }
+}

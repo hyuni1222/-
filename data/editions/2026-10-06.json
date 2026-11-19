@@ -1,0 +1,135 @@
+{
+  "date": "2026-10-06",
+  "updated_at": "2026-11-19T10:57:31+09:00",
+  "collected_at": "2026-11-19T10:57:31+09:00",
+  "summary_version": 2,
+  "title": "한화생명금융서비스, 생명보험 25회차 유지율 3.03%p 상승...대형 GA 평균보다는 7.94%p 낮아",
+  "demo": false,
+  "mode": "rss",
+  "backfilled": true,
+  "collection_method": "publisher_archive_calendar_day",
+  "article_window": {
+    "start": "2026-10-06T00:00:00+09:00",
+    "end": "2026-10-07T00:00:00+09:00"
+  },
+  "sources": [
+    "보험신보",
+    "보험저널",
+    "서울파이낸스",
+    "한국보험신문"
+  ],
+  "warnings": [],
+  "articles": [
+    {
+      "title": "한화생명금융서비스, 생명보험 25회차 유지율 3.03%p 상승...대형 GA 평균보다는 7.94%p 낮아",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33334",
+      "source": "보험저널",
+      "source_group": "specialist",
+      "published_at": "2026-10-06T16:53:00+09:00",
+      "id": "79eeb6a34329",
+      "category": "채널",
+      "summary_parts": {
+        "intro": "한화생명금융서비스의 생명보험 25회차 유지율이 올해 상반기 전년 동기보다 3%p 이상 상승했다.",
+        "body": "3000명 이상 GA 28개사 가운데 순위는 26위로 여전히 하위권에 머물렀다.",
+        "conclusion": "다만 설계사 3000명 이상 대형 GA 평균 수치와 비교하면 여전히 큰 격차를 보이며 하회하고 있다."
+      },
+      "summary": "한화생명금융서비스의 생명보험 25회차 유지율이 올해 상반기 전년 동기보다 3%p 이상 상승했다.",
+      "source_digest": "2485750e48246080",
+      "summary_kind": "rss",
+      "implication": ""
+    },
+    {
+      "title": "[단독] “왜 16곳만 골랐나”… 금감원, 3000명 이상 초대형 GA에 ‘상시 검사급’ 자료 요구",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33335",
+      "source": "보험저널",
+      "source_group": "specialist",
+      "published_at": "2026-10-06T14:16:00+09:00",
+      "id": "731099081744",
+      "category": "제도·정책",
+      "summary_parts": {
+        "intro": "지난 2일 금융감독원이 초대형 GA 16개사를 대상으로 사실상 현장검사에 버금가는 수준의 대규모 상시감시자료를 요구한 것으로 알려졌다.",
+        "body": "한 대형 GA 관계자는 “일반적인 상시감시 수준을 넘어 유지율과 FP 관련 자료는 물론 퇴사자 자료까지 제출하도록 요구받았다”고 말했다.",
+        "conclusion": "업계에서는 이번 자료 요구가 단순한 정기 자료수집 차원을 넘어 초대형 GA의 영업행태와 내부통제를 세밀하게 들여다보기 위한 사전 점검 성격인지 주목하고 있다."
+      },
+      "summary": "지난 2일 금융감독원이 초대형 GA 16개사를 대상으로 사실상 현장검사에 버금가는 수준의 대규모 상시감시자료를 요구한 것으로 알려졌다.",
+      "source_digest": "72bff5164201fed2",
+      "summary_kind": "rss",
+      "implication": ""
+    },
+    {
+      "title": "한투證, 연금 MTS 개편···PB·IB 결합해 '종합 연금 플랫폼' 확장",
+      "url": "https://www.seoulfn.com/news/articleView.html?idxno=639410",
+      "source": "서울파이낸스",
+      "source_group": "general",
+      "published_at": "2026-10-06T14:31:00+09:00",
+      "id": "56e213b8061e",
+      "category": "상품",
+      "summary_parts": {
+        "intro": "한국투자증권이 연금 모바일트레이딩시스템(MTS)을 새롭게 단장하고 연금사업 경쟁력 강화에 나선다.",
+        "body": "여러 계좌에 흩어진 연금자산을 한눈에 보여주고 필요한 관리 방법까지 안내하는 한편, 프라이빗뱅커(PB)와 법인·IB 네트워크, 리서치·상품 역량을 연결해 적립부터 운용·수령까지 아우르는 '종합 연금 플랫폼'으로 확장할…",
+        "conclusion": "RSS에서 확인되는 내용은 위와 같으며, 추가 영향은 원문 확인이 필요합니다."
+      },
+      "summary": "한국투자증권이 연금 모바일트레이딩시스템(MTS)을 새롭게 단장하고 연금사업 경쟁력 강화에 나선다.",
+      "source_digest": "b99eea666e5c5256",
+      "summary_kind": "rss",
+      "implication": ""
+    },
+    {
+      "title": "[증권브리핑] 신한투자증권, 연금고객관리팀 신설로 연금서비스 강화 외",
+      "url": "https://www.seoulfn.com/news/articleView.html?idxno=639376",
+      "source": "서울파이낸스",
+      "source_group": "general",
+      "published_at": "2026-10-06T09:44:00+09:00",
+      "id": "1c2e727a2b78",
+      "category": "상품",
+      "summary_parts": {
+        "intro": "신한투자증권은 올해 연금고객관리팀을 신설하고 고객 생애주기별 연금관리 서비스를 강화했다고 6일 밝혔다.",
+        "body": "신규 DC·IRP 고객에게 계좌 개설 후 3일 이내 제도와 계좌 활용법 등을 안내하는 '웰컴콜'을 제공하고, 우수 연금PB인 '연금스타'와 고객을 1대1로 매칭해 맞춤형 투자 정보를 제공한다.",
+        "conclusion": "또 '신한 Premier 연금컨설팅'을 통해 퇴직소득세 절세 전략과 연금 수령 계획 등도 지원한다."
+      },
+      "summary": "신한투자증권은 올해 연금고객관리팀을 신설하고 고객 생애주기별 연금관리 서비스를 강화했다고 6일 밝혔다.",
+      "source_digest": "66d54ec56d3f8378",
+      "summary_kind": "rss",
+      "implication": ""
+    },
+    {
+      "title": "AI 사고 피해, 개발사 CEO의 배상 책임은… 보험업계 검토 착수",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93176",
+      "source": "한국보험신문",
+      "source_group": "specialist",
+      "published_at": "2026-10-06T15:54:00+09:00",
+      "id": "3fd641627b70",
+      "category": "영업전략",
+      "summary_parts": {
+        "intro": "인공지능(AI)이 기업의 통제를 벗어나 사고를 일으킬 경우 샘 올트먼 오픈AI 최고경영자(CEO)나 다리오 아모데이 앤트로픽 CEO 등 경영진에게까지 법적 책임을 물을 수 있다는 주장이 제기됐다.",
+        "body": "실제로 앤트로픽은 지난 7월 AI 모델 훈련 과정에서 저작물을 무단 사용했다는 작가들의 집단소송과 관련해 15억 달러(약 2조원)를 지급하기로 합의했다.",
+        "conclusion": "르마커는 향후 AI 기업을 상대로 한 손해배상 소송이 과거 환경오염 소송이나 담배회사, 제약회사 상대 소송과 비슷한 형태로 발전할 가능성이 있다고 전망했다."
+      },
+      "summary": "인공지능(AI)이 기업의 통제를 벗어나 사고를 일으킬 경우 샘 올트먼 오픈AI 최고경영자(CEO)나 다리오 아모데이 앤트로픽 CEO 등 경영진에게까지 법적 책임을 물을 수 있다는 주장이 제기됐다.",
+      "source_digest": "63a9ddc5a01abf89",
+      "summary_kind": "rss",
+      "implication": "",
+      "summary_basis": "public_article_excerpt"
+    }
+  ],
+  "collection": {
+    "configured": [
+      "보험신보",
+      "보험저널",
+      "서울파이낸스",
+      "한국보험신문"
+    ],
+    "succeeded": [
+      "보험신보",
+      "보험저널",
+      "서울파이낸스",
+      "한국보험신문"
+    ],
+    "selected": [
+      "보험저널",
+      "서울파이낸스",
+      "한국보험신문"
+    ],
+    "items_received": 130
+  }
+}

@@ -87,7 +87,7 @@
   $('archive-list').addEventListener('click',e=>{const row=e.target.closest('[data-date]');if(row)openDate(row.dataset.date);});
   $('share').addEventListener('click',async()=>{
     if(!state.edition)return;
-    const url=new URL(location.href);url.searchParams.set('date',state.edition.date);url.hash='';
+    const url=new URL(location.href);if(!['weekly','monthly'].includes(url.searchParams.get('view')))url.searchParams.set('date',state.edition.date);url.hash='';
     try { if(navigator.share) await navigator.share({title:document.title,url:url.href});else {await navigator.clipboard.writeText(url.href);toast('브리프 링크를 복사했습니다. 카카오톡 등에 붙여넣어 공유하세요.');} }
     catch(error){if(error.name!=='AbortError')toast('주소창의 링크를 복사해 공유해주세요.');}
   });

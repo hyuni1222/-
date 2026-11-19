@@ -1,0 +1,78 @@
+{
+  "date": "2026-10-17",
+  "updated_at": "2026-11-19T10:57:31+09:00",
+  "collected_at": "2026-11-19T10:57:31+09:00",
+  "summary_version": 2,
+  "title": "[9월 생보사 GA M/S] IBK연금보험, 에이플러스에셋 21.9% '1위'…2위 이하 모두 '한 자릿수' 점유율",
+  "demo": false,
+  "mode": "rss",
+  "backfilled": true,
+  "collection_method": "publisher_archive_calendar_day",
+  "article_window": {
+    "start": "2026-10-17T00:00:00+09:00",
+    "end": "2026-10-18T00:00:00+09:00"
+  },
+  "sources": [
+    "보험신보",
+    "보험저널",
+    "서울파이낸스",
+    "한국보험신문"
+  ],
+  "warnings": [],
+  "articles": [
+    {
+      "title": "[9월 생보사 GA M/S] IBK연금보험, 에이플러스에셋 21.9% '1위'…2위 이하 모두 '한 자릿수' 점유율",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33473",
+      "source": "보험저널",
+      "source_group": "specialist",
+      "published_at": "2026-10-17T06:00:00+09:00",
+      "id": "b12f8305c7df",
+      "category": "상품",
+      "summary_parts": {
+        "intro": "9월 IBK연금보험의 GA 채널 신계약 실적은 당월 총합 약 6억 9,949만원을 기록하며 전월(약 7억 2,833만원) 대비 소폭 감소했다.",
+        "body": "에이플러스에셋어드바이저는 점유율 21.9%, 약 1억 5,291만원의 실적을 올리며 1위를 굳건히 유지했다.",
+        "conclusion": "최근 3개월간 18%대에서 21%대까지 점유율 비중을 꾸준히 키워왔으며, 2위권과 무려 14%포인트 이상의 큰 격차를 벌리며 확고한 독주 체제를 이어가고 있다."
+      },
+      "summary": "9월 IBK연금보험의 GA 채널 신계약 실적은 당월 총합 약 6억 9,949만원을 기록하며 전월(약 7억 2,833만원) 대비 소폭 감소했다.",
+      "source_digest": "308f9ab5d7bfb2ec",
+      "summary_kind": "rss",
+      "implication": ""
+    },
+    {
+      "title": "[9월 GA 생보사 실적 M/S] 글로벌금융판매… 동양생명 20.6% '깜짝 1위', 삼성·푸본 9%대 '동반 상승'",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33478",
+      "source": "보험저널",
+      "source_group": "specialist",
+      "published_at": "2026-10-17T06:00:00+09:00",
+      "id": "eabc8b218768",
+      "category": "채널",
+      "summary_parts": {
+        "intro": "9월 글로벌금융판매의 생명보험 GA 채널 신계약 실적은 약 28억 5,014만원을 기록하며 전월(약 24억 9,477만원) 대비 뚜렷한 증가세를 보였다.",
+        "body": "동양생명은 점유율 20.6%, 약 5억 8,680만원의 실적을 올리며 전월 대비 4계단 상승한 선두를 차지했다.",
+        "conclusion": "최근 3개월간 점유율 비중을 5%대에서 20%대까지 대폭 키우며 2위권과 압도적인 격차를 벌리고 시장 지배력을 한층 강화했다."
+      },
+      "summary": "9월 글로벌금융판매의 생명보험 GA 채널 신계약 실적은 약 28억 5,014만원을 기록하며 전월(약 24억 9,477만원) 대비 뚜렷한 증가세를 보였다.",
+      "source_digest": "8c779123c6843e0d",
+      "summary_kind": "rss",
+      "implication": ""
+    }
+  ],
+  "collection": {
+    "configured": [
+      "보험신보",
+      "보험저널",
+      "서울파이낸스",
+      "한국보험신문"
+    ],
+    "succeeded": [
+      "보험신보",
+      "보험저널",
+      "서울파이낸스",
+      "한국보험신문"
+    ],
+    "selected": [
+      "보험저널"
+    ],
+    "items_received": 26
+  }
+}

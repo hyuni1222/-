@@ -1,0 +1,131 @@
+{
+  "updated_at": "2026-11-19T10:59:34+09:00",
+  "collection_start": "2026-10-01",
+  "collection_end": "2026-11-19",
+  "stored_articles": 1151,
+  "article_count": 1065,
+  "coverage_days": 50,
+  "sources": {
+    "보험신보": 240,
+    "한국보험신문": 287,
+    "보험저널": 420,
+    "서울파이낸스": 112,
+    "매일경제": 4,
+    "연합뉴스": 2
+  },
+  "method": "수집된 기사에서 주제를 분류하고 공개 발췌·제목의 핵심을 묶었습니다. 결론은 보험영업 관점의 해석입니다. 보도 건수는 수집 범위 내 집계이며 시장 점유율이나 업계 전체 기사 수를 뜻하지 않습니다.",
+  "weekly": [
+    {
+      "id": "2026-11-16",
+      "label": "11월 16일 ~ 11월 19일",
+      "start": "2026-11-16",
+      "end": "2026-11-19",
+      "in_progress": true,
+      "partial": true,
+      "article_count": 123,
+      "source_count": 6,
+      "file": "data/trends/weekly/2026-11-16.json"
+    },
+    {
+      "id": "2026-11-09",
+      "label": "11월 9일 ~ 11월 15일",
+      "start": "2026-11-09",
+      "end": "2026-11-15",
+      "in_progress": false,
+      "partial": false,
+      "article_count": 132,
+      "source_count": 4,
+      "file": "data/trends/weekly/2026-11-09.json"
+    },
+    {
+      "id": "2026-11-02",
+      "label": "11월 2일 ~ 11월 8일",
+      "start": "2026-11-02",
+      "end": "2026-11-08",
+      "in_progress": false,
+      "partial": false,
+      "article_count": 127,
+      "source_count": 4,
+      "file": "data/trends/weekly/2026-11-02.json"
+    },
+    {
+      "id": "2026-10-26",
+      "label": "10월 26일 ~ 11월 1일",
+      "start": "2026-10-26",
+      "end": "2026-11-01",
+      "in_progress": false,
+      "partial": false,
+      "article_count": 156,
+      "source_count": 4,
+      "file": "data/trends/weekly/2026-10-26.json"
+    },
+    {
+      "id": "2026-10-19",
+      "label": "10월 19일 ~ 10월 25일",
+      "start": "2026-10-19",
+      "end": "2026-10-25",
+      "in_progress": false,
+      "partial": false,
+      "article_count": 187,
+      "source_count": 4,
+      "file": "data/trends/weekly/2026-10-19.json"
+    },
+    {
+      "id": "2026-10-12",
+      "label": "10월 12일 ~ 10월 18일",
+      "start": "2026-10-12",
+      "end": "2026-10-18",
+      "in_progress": false,
+      "partial": false,
+      "article_count": 179,
+      "source_count": 4,
+      "file": "data/trends/weekly/2026-10-12.json"
+    },
+    {
+      "id": "2026-10-05",
+      "label": "10월 5일 ~ 10월 11일",
+      "start": "2026-10-05",
+      "end": "2026-10-11",
+      "in_progress": false,
+      "partial": false,
+      "article_count": 113,
+      "source_count": 4,
+      "file": "data/trends/weekly/2026-10-05.json"
+    },
+    {
+      "id": "2026-09-28",
+      "label": "10월 1일 ~ 10월 4일",
+      "start": "2026-10-01",
+      "end": "2026-10-04",
+      "in_progress": false,
+      "partial": true,
+      "article_count": 48,
+      "source_count": 4,
+      "file": "data/trends/weekly/2026-09-28.json"
+    }
+  ],
+  "monthly": [
+    {
+      "id": "2026-11",
+      "label": "2026년 11월",
+      "start": "2026-11-01",
+      "end": "2026-11-19",
+      "in_progress": true,
+      "partial": true,
+      "article_count": 385,
+      "source_count": 6,
+      "file": "data/trends/monthly/2026-11.json"
+    },
+    {
+      "id": "2026-10",
+      "label": "2026년 10월",
+      "start": "2026-10-01",
+      "end": "2026-10-31",
+      "in_progress": false,
+      "partial": false,
+      "article_count": 680,
+      "source_count": 4,
+      "file": "data/trends/monthly/2026-10.json"
+    }
+  ]
+}

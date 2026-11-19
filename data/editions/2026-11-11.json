@@ -1,7 +1,7 @@
 {
   "date": "2026-11-11",
-  "updated_at": "2026-11-19T09:47:12+09:00",
-  "collected_at": "2026-11-19T09:47:12+09:00",
+  "updated_at": "2026-11-19T10:57:31+09:00",
+  "collected_at": "2026-11-19T10:57:31+09:00",
   "summary_version": 2,
   "title": "“낸 보험료 다 꺼내 쓰고, 치매 땐 연금 증액”… 생보사 11월 신상품 ‘봇물’ (영상+)",
   "demo": false,
@@ -76,6 +76,24 @@
       "summary_basis": "public_article_excerpt"
     },
     {
+      "title": "금감원, 증권사 주식정보 서비스 '숨은 수수료' 개선···자동 유료전환 금지",
+      "url": "https://www.seoulfn.com/news/articleView.html?idxno=642392",
+      "source": "서울파이낸스",
+      "source_group": "general",
+      "published_at": "2026-11-11T06:00:00+09:00",
+      "id": "e1b9d4635227",
+      "category": "제도·정책",
+      "summary_parts": {
+        "intro": "금융감독원이 증권사의 주식정보 제공서비스 이용료 안내를 강화하고, 무료체험 종료 후 고객 동의 없이 유료서비스로 자동 전환하는 방식을 금지하기로 했다.",
+        "body": "11일 금융감독원은 금융투자협회 및 증권업계와 협의를 거쳐 이 같은 내용의 '주식정보 제공서비스 운영 관행 개선방안'을 마련했다고 밝혔다.",
+        "conclusion": "주식정보 제공서비스는 증권사가 종목 추천이나 수급 분석 등 투자 관련 정보를 고객에게 유료로 제공하는 서비스다."
+      },
+      "summary": "금융감독원이 증권사의 주식정보 제공서비스 이용료 안내를 강화하고, 무료체험 종료 후 고객 동의 없이 유료서비스로 자동 전환하는 방식을 금지하기로 했다.",
+      "source_digest": "903112ec3c6359da",
+      "summary_kind": "rss",
+      "implication": ""
+    },
+    {
       "title": "KB손해보험, 피프티피프티와 함께한 신규 웹예능 ‘Z-톡스’ 공개",
       "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93791",
       "source": "한국보험신문",
@@ -90,25 +108,6 @@
       },
       "summary": "KB손해보험은 걸그룹 ‘피프티피프티(FIFTY FIFTY)’의 멤버 키나와 아테나가 다양한 웰니스 트렌드를 체험하는 신규 웹예능 ‘Z-톡스’를 공식 유튜브 채널을 통해 공개했다고 11일 밝혔다.",
       "source_digest": "7e157b65411c3ecf",
-      "summary_kind": "rss",
-      "implication": "",
-      "summary_basis": "public_article_excerpt"
-    },
-    {
-      "title": "KB손해보험, 2030세대 타깃 웹예능 ‘Z-톡스’ 공개",
-      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72953",
-      "source": "보험신보",
-      "source_group": "specialist",
-      "published_at": "2026-11-11T16:37:00+09:00",
-      "id": "970ab0bc77fc",
-      "category": "영업전략",
-      "summary_parts": {
-        "intro": "KB손해보험은 걸그룹 피프티피프티의 멤버 키나와 아테나가 다양한 웰니스 트렌드를 직접 체험하는 웹예능 ‘Z-톡스’를 유튜브 채널을 통해 공개했다고 11일 밝혔다.",
-        "body": "Z-톡스는 건강과 웰니스에 대한 관심이 높은 2030세대를 대상으로 최신 웰니스 트렌드를 소개하는 웹예능이다.",
-        "conclusion": "KB손보는 앞으로 다도, 핀란드식 사우나, 한방 뜸, 찜질 등 최근 주목받는 웰니스 프로그램을 Z-톡스를 통해 차례로 소개할 예정이다."
-      },
-      "summary": "KB손해보험은 걸그룹 피프티피프티의 멤버 키나와 아테나가 다양한 웰니스 트렌드를 직접 체험하는 웹예능 ‘Z-톡스’를 유튜브 채널을 통해 공개했다고 11일 밝혔다.",
-      "source_digest": "cbd769fbf0bc1cf6",
       "summary_kind": "rss",
       "implication": "",
       "summary_basis": "public_article_excerpt"
@@ -128,10 +127,10 @@
       "한국보험신문"
     ],
     "selected": [
-      "보험신보",
       "보험저널",
+      "서울파이낸스",
       "한국보험신문"
     ],
-    "items_received": 64
+    "items_received": 143
   }
 }

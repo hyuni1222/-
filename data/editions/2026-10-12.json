@@ -1,0 +1,136 @@
+{
+  "date": "2026-10-12",
+  "updated_at": "2026-11-19T10:57:31+09:00",
+  "collected_at": "2026-11-19T10:57:31+09:00",
+  "summary_version": 2,
+  "title": "보험사, 2027년 영업목표 줄이는 5가지 이유… GA채널 생보 최대 40%·손보 10% 축소 전망",
+  "demo": false,
+  "mode": "rss",
+  "backfilled": true,
+  "collection_method": "publisher_archive_calendar_day",
+  "article_window": {
+    "start": "2026-10-12T00:00:00+09:00",
+    "end": "2026-10-13T00:00:00+09:00"
+  },
+  "sources": [
+    "보험신보",
+    "보험저널",
+    "서울파이낸스",
+    "한국보험신문"
+  ],
+  "warnings": [],
+  "articles": [
+    {
+      "title": "보험사, 2027년 영업목표 줄이는 5가지 이유… GA채널 생보 최대 40%·손보 10% 축소 전망",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33389",
+      "source": "보험저널",
+      "source_group": "specialist",
+      "published_at": "2026-10-12T09:25:00+09:00",
+      "id": "b69b8d0a8b2a",
+      "category": "채널",
+      "summary_parts": {
+        "intro": "2027년 보험사들의 법인보험대리점(GA)채널 신계약 판매목표가 올해보다 보수적으로 설정될 가능성이 커지고 있다.",
+        "body": "업계에서는 내년 손해보험사 GA채널 신계약 월초보험료가 올해보다 5~10%, 생명보험사는 30~40% 감소할 것으로 예상하고 있다.",
+        "conclusion": "다만 이는 보험사들의 확정된 사업계획이 아닌 업계 전망이다."
+      },
+      "summary": "2027년 보험사들의 법인보험대리점(GA)채널 신계약 판매목표가 올해보다 보수적으로 설정될 가능성이 커지고 있다.",
+      "source_digest": "e556dc54e75422f0",
+      "summary_kind": "rss",
+      "implication": ""
+    },
+    {
+      "title": "700종신 퇴장에 연금보험 부상… 생명보험사, ‘노후소득’ 경쟁",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93175",
+      "source": "한국보험신문",
+      "source_group": "specialist",
+      "published_at": "2026-10-12T00:00:00+09:00",
+      "id": "76206acfa43e",
+      "category": "상품",
+      "summary_parts": {
+        "intro": "이른바 ‘700종신보험’으로 불리던 단기간 원금도달형 종신보험의 판매가 중단되면서 생명보험업계의 상품 경쟁 무게중심이 연금보험으로 이동하고 있다.",
+        "body": "금융당국이 단기간 내 납입보험료 수준의 해약환급금에 도달하는 종신보험의 해지율과 수익성 등을 문제 삼으면서 높은 환급률을 앞세워 경쟁하던 생보사들이 새로운 시장으로 눈을 돌리는 모습이다.",
+        "conclusion": "업계에서는 이번 변화가 일부 종신보험의 판매 중단에 그치지 않을 것으로 보고 있다."
+      },
+      "summary": "이른바 ‘700종신보험’으로 불리던 단기간 원금도달형 종신보험의 판매가 중단되면서 생명보험업계의 상품 경쟁 무게중심이 연금보험으로 이동하고 있다.",
+      "source_digest": "6e69b6e415e89eff",
+      "summary_kind": "rss",
+      "implication": ""
+    },
+    {
+      "title": "▨보험GA 준법·내부통제 체크리스트 북▨-금융소비자의 권리행사에 대한 대응",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72655",
+      "source": "보험신보",
+      "source_group": "specialist",
+      "published_at": "2026-10-12T00:00:00+09:00",
+      "id": "e3b257069112",
+      "category": "채널",
+      "summary_parts": {
+        "intro": "◆금융소비자의 자료열람 요구에 관한 기준 및 절차 =금융소비자는 분쟁조정 또는 소송의 수행 등 권리구제를 위한 목적으로 보험대리점이 기록 및 유지·관리하는 다음 자료의 열람(사본의 제공 또는 청취를 포함)을 요구할 수 있다.",
+        "body": "-금융상품등에 관한 광고 자료 -금융소비자의 자료 열람 연기·제한 및 거절 -청약의 철회 -위법계약의 해지 -내부통제기준의 제정 및 운영 등에 관한 자료 -업무 위탁에 관한 자료 ◆일반금융소비자의 계약청약 철회에 관한…",
+        "conclusion": "◆계약 체결 후 금융소비자 보호를 위한 필요 사항 점검 및 제도 개선 =금융소비자보호 담당부서는 금융상품과 관련한 민원·분쟁이 빈발하는 경우 주요 원인을 파악하고 제도개선 사항을 도출해 관련 부서장에 제도개선 조치를…"
+      },
+      "summary": "◆금융소비자의 자료열람 요구에 관한 기준 및 절차 =금융소비자는 분쟁조정 또는 소송의 수행 등 권리구제를 위한 목적으로 보험대리점이 기록 및 유지·관리하는 다음 자료의 열람(사본의 제공 또는 청취를 포함)을 요구할 수 있다.",
+      "source_digest": "16c8190e3856191d",
+      "summary_kind": "rss",
+      "implication": "",
+      "summary_basis": "public_article_excerpt"
+    },
+    {
+      "title": "인도 보험소비자 70% “설계사 수수료 상한 찬성”",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93185",
+      "source": "한국보험신문",
+      "source_group": "specialist",
+      "published_at": "2026-10-12T00:00:00+09:00",
+      "id": "a8813cc02986",
+      "category": "제도·정책",
+      "summary_parts": {
+        "intro": "지난 5일 인도 소비자 조사기관 로컬서클스(LocalCircles)는 인도 보험소비자 10명 중 7명이 보험설계사와 판매채널에 지급되는 수수료에 상한을 두는 방안에 찬성하는 것한다고 전했다.",
+        "body": "이번 조사는 인도 322개 지역 보험소비자를 대상으로 진행됐으며 9만4000건 이상의 응답이 접수됐다.",
+        "conclusion": "조사 결과 응답자의 약 70%는 인도 보험감독개발청(IRDAI)이 추진하고 있는 보험 판매수수료 상한제에 찬성했다."
+      },
+      "summary": "지난 5일 인도 소비자 조사기관 로컬서클스(LocalCircles)는 인도 보험소비자 10명 중 7명이 보험설계사와 판매채널에 지급되는 수수료에 상한을 두는 방안에 찬성하는 것한다고 전했다.",
+      "source_digest": "ccda4ead53da9cc2",
+      "summary_kind": "rss",
+      "implication": ""
+    },
+    {
+      "title": "생보업계, 완전판매 소비자보호 교육강화",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72650",
+      "source": "보험신보",
+      "source_group": "specialist",
+      "published_at": "2026-10-12T00:00:00+09:00",
+      "id": "4ef485cda13d",
+      "category": "영업전략",
+      "summary_parts": {
+        "intro": "생명보험사들이 제휴GA 보험설계사를 대상으로 완전판매를 위한 소비자보호 준수사항 안내하며 정도영업을 당부하고 있다.",
+        "body": "금융감독당국이 최근 또다시 행정조치를 통해 일부 보장성보험에 대해 저축성보험으로 오인하도록 하는 등의 불완전판매와 함께 출혈경쟁이 지속되고 있다는 지적을 했기 때문이다.",
+        "conclusion": "특히, 안내자료에 높은 수익률이 강조되는 등 저축성보험으로 오인할 수 있는 표현이 포함돼 있는지 확인해줄 것을 강조하고 있다."
+      },
+      "summary": "생명보험사들이 제휴GA 보험설계사를 대상으로 완전판매를 위한 소비자보호 준수사항 안내하며 정도영업을 당부하고 있다.",
+      "source_digest": "ce3f4a108fe9809b",
+      "summary_kind": "rss",
+      "implication": "",
+      "summary_basis": "public_article_excerpt"
+    }
+  ],
+  "collection": {
+    "configured": [
+      "보험신보",
+      "보험저널",
+      "서울파이낸스",
+      "한국보험신문"
+    ],
+    "succeeded": [
+      "보험신보",
+      "보험저널",
+      "서울파이낸스",
+      "한국보험신문"
+    ],
+    "selected": [
+      "보험신보",
+      "보험저널",
+      "한국보험신문"
+    ],
+    "items_received": 199
+  }
+}

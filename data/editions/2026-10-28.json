@@ -1,0 +1,137 @@
+{
+  "date": "2026-10-28",
+  "updated_at": "2026-11-19T10:57:31+09:00",
+  "collected_at": "2026-11-19T10:57:31+09:00",
+  "summary_version": 2,
+  "title": "모집질서 확립과 함께 ‘설계사 권익 보호’...국감 이후 'GA 감독' 주요 쟁점 부상",
+  "demo": false,
+  "mode": "rss",
+  "backfilled": true,
+  "collection_method": "publisher_archive_calendar_day",
+  "article_window": {
+    "start": "2026-10-28T00:00:00+09:00",
+    "end": "2026-10-29T00:00:00+09:00"
+  },
+  "sources": [
+    "보험신보",
+    "보험저널",
+    "서울파이낸스",
+    "한국보험신문"
+  ],
+  "warnings": [],
+  "articles": [
+    {
+      "title": "모집질서 확립과 함께 ‘설계사 권익 보호’...국감 이후 'GA 감독' 주요 쟁점 부상",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33686",
+      "source": "보험저널",
+      "source_group": "specialist",
+      "published_at": "2026-10-28T14:42:00+09:00",
+      "id": "34ac6c81a746",
+      "category": "제도·정책",
+      "summary_parts": {
+        "intro": "올해 정무위원회 국정감사를 계기로 법인보험대리점(GA) 본사와 소속 설계사 간의 불공정 위촉 계약과 권익 침해 문제가 보험업계의 주요 화두로 떠오르고 있다.",
+        "body": "하지만 이번 국회 국정감사를 계기로 본사의 우월적 지위 남용에 따른 모집종사자 권익 침해 문제 역시 기존의 모집질서 확립과 더불어 금융당국의 핵심 감독 방향 중 하나로 새롭게 자리 잡아가고 있다.",
+        "conclusion": "그동안 금융당국의 GA 감독 방향은 불완전판매 예방을 위한 모집질서 확립과 내부통제 강화, 계약 유지율 등 효율 관리에 집중되어 왔다."
+      },
+      "summary": "올해 정무위원회 국정감사를 계기로 법인보험대리점(GA) 본사와 소속 설계사 간의 불공정 위촉 계약과 권익 침해 문제가 보험업계의 주요 화두로 떠오르고 있다.",
+      "source_digest": "a763299292af26d5",
+      "summary_kind": "rss",
+      "implication": ""
+    },
+    {
+      "title": "“700종신 판매중지 이후 종신보험 새판 짜기”… 단기납·건강·인출종신 3파전, GA반응은?",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33678",
+      "source": "보험저널",
+      "source_group": "specialist",
+      "published_at": "2026-10-28T08:27:00+09:00",
+      "id": "aab6904cf956",
+      "category": "상품",
+      "summary_parts": {
+        "intro": "지난달 21일 700종신보험의 신규 판매가 중단되면서 생명보험사들의 종신보험 판매 경쟁구도가 달라지고 있다.",
+        "body": "700종신이 빠진 자리를 놓고 단기납 종신보험, 건강종신보험, 생애자금 100% 인출형 종신보험이 후속상품 경쟁에 나서는 양상이다.",
+        "conclusion": "GA(법인보험대리점)업계에서는 연말까지 단기납 종신보험에 판매가 집중될 것으로 예상하고 있다."
+      },
+      "summary": "지난달 21일 700종신보험의 신규 판매가 중단되면서 생명보험사들의 종신보험 판매 경쟁구도가 달라지고 있다.",
+      "source_digest": "cb3e8775eec165cc",
+      "summary_kind": "rss",
+      "implication": ""
+    },
+    {
+      "title": "청년 첫 연금보험료 지원 사전신청 1만 명 돌파",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93558",
+      "source": "한국보험신문",
+      "source_group": "specialist",
+      "published_at": "2026-10-28T18:03:00+09:00",
+      "id": "8f626d68735a",
+      "category": "상품",
+      "summary_parts": {
+        "intro": "국민연금공단은 내년 1월 시행하는 ‘청년 생애 첫 연금보험료 지원’ 제도의 사전신청자가 접수 시작 27일 만에 1만 명을 돌파했다고 28일 밝혔다.",
+        "body": "2027년 1월 1일부터 시행하며, 18세 청년에게 기준소득월액 하한액에 해당하는 연금보험료 1개월분인 4만1000원을 국가가 전액 지원한다.",
+        "conclusion": "국민연금공단은 온라인 홍보와 전국 단위 현장 홍보를 병행해 지역·계층 간 정보 격차를 줄일 계획이다."
+      },
+      "summary": "국민연금공단은 내년 1월 시행하는 ‘청년 생애 첫 연금보험료 지원’ 제도의 사전신청자가 접수 시작 27일 만에 1만 명을 돌파했다고 28일 밝혔다.",
+      "source_digest": "fd97d8d6b98fdf44",
+      "summary_kind": "rss",
+      "implication": "",
+      "summary_basis": "public_article_excerpt"
+    },
+    {
+      "title": "이찬진 금감원장, 은행지주 이사회에 IT 보안·내부통제 강화 주문",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93541",
+      "source": "한국보험신문",
+      "source_group": "specialist",
+      "published_at": "2026-10-28T10:08:00+09:00",
+      "id": "6ddb200f0352",
+      "category": "제도·정책",
+      "summary_parts": {
+        "intro": "이찬진 금융감독원장이 은행지주 이사회에 정보기술(IT) 보안 강화와 지배구조 개선, 사회적 책임 이행, 내부통제 및 리스크 관리 강화를 주문했다.",
+        "body": "금감원 자료에 따르면 국내은행 해외점포 금융사고는 2024년 7건에서 지난해 12건으로 늘었으며, 피해액은 각각 1억5000만원과 1249억원을 기록했다.",
+        "conclusion": "이 원장은 “대내외 여건 변화에 따라 예상치 못한 위기가 언제든 현실화될 수 있으며, 이사회의 책임 있는 판단과 대응에 따라 위기의 파급효과와 회복 속도가 달라질 수 있다”고 말했다."
+      },
+      "summary": "이찬진 금융감독원장이 은행지주 이사회에 정보기술(IT) 보안 강화와 지배구조 개선, 사회적 책임 이행, 내부통제 및 리스크 관리 강화를 주문했다.",
+      "source_digest": "f2c69c93f4abc8d6",
+      "summary_kind": "rss",
+      "implication": "",
+      "summary_basis": "public_article_excerpt"
+    },
+    {
+      "title": "교보라이프플래닛생명, ‘미니보험 패스트트랙’ 시스템 오픈",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72847",
+      "source": "보험신보",
+      "source_group": "specialist",
+      "published_at": "2026-10-28T10:00:00+09:00",
+      "id": "96c3cce4ab8f",
+      "category": "영업전략",
+      "summary_parts": {
+        "intro": "교보라이프플래닛생명은 필요한 질병 보장을 쉽고 빠르게 가입할 수 있는 ‘미니보험 패스트트랙(FAST TRACK)’시스템을 오픈했다고 29일 밝혔다.",
+        "body": "회사 모바일 앱을 통해 365일 언제 어디서나 3분내로 미니보험 상품에 가입할 수 있도록 했다.",
+        "conclusion": "김영석 교보라이프플래닛생명 대표는 “디지털 보험의 혜택을 누릴 수 있도록 디지털 기술력과 노하우를 이번 미니보험 패스트트랙에 집약했다”며 “고객이 부담없이 꼭 필요한 보장을 누릴 수 있도록 고객 중심의 디지털 보험 경험…"
+      },
+      "summary": "교보라이프플래닛생명은 필요한 질병 보장을 쉽고 빠르게 가입할 수 있는 ‘미니보험 패스트트랙(FAST TRACK)’시스템을 오픈했다고 29일 밝혔다.",
+      "source_digest": "d2864be79858736a",
+      "summary_kind": "rss",
+      "implication": "",
+      "summary_basis": "public_article_excerpt"
+    }
+  ],
+  "collection": {
+    "configured": [
+      "보험신보",
+      "보험저널",
+      "서울파이낸스",
+      "한국보험신문"
+    ],
+    "succeeded": [
+      "보험신보",
+      "보험저널",
+      "서울파이낸스",
+      "한국보험신문"
+    ],
+    "selected": [
+      "보험신보",
+      "보험저널",
+      "한국보험신문"
+    ],
+    "items_received": 131
+  }
+}

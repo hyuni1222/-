@@ -18,7 +18,7 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
     permissions:
       contents: write
     steps:
@@ -30,11 +30,15 @@ jobs:
         run: python -m unittest discover -s tests -v
       - name: Update Seoul weather forecast
         run: python scripts/update_weather.py
+      - name: Refresh complete recent article archive
+        run: python scripts/backfill_news.py --recent-days 2 --skip-enrichment
       - name: Collect and prepare briefing
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OPENAI_MODEL: ${{ vars.OPENAI_MODEL }}
         run: python scripts/update_news.py
+      - name: Summarize weekly and monthly trends
+        run: python scripts/build_trends.py
       - name: Build public site
         run: python scripts/build.py
       - name: Preserve daily editions

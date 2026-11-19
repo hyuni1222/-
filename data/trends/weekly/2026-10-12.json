@@ -1,0 +1,1493 @@
+{
+  "id": "2026-10-12",
+  "kind": "weekly",
+  "label": "10월 12일 ~ 10월 18일",
+  "period_start": "2026-10-12",
+  "period_end": "2026-10-18",
+  "start": "2026-10-12",
+  "end": "2026-10-18",
+  "in_progress": false,
+  "partial": false,
+  "article_count": 179,
+  "source_count": 4,
+  "sources": {
+    "보험저널": 78,
+    "보험신보": 43,
+    "한국보험신문": 42,
+    "서울파이낸스": 16
+  },
+  "coverage_days": 7,
+  "expected_days": 7,
+  "warning_days": [],
+  "summary_parts": {
+    "intro": "10월 12일 ~ 10월 18일에는 GA·설계사·영업조직 · 종신·연금·상품 경쟁 관련 보도를 중심으로 흐름을 정리했습니다. 분석 대상은 4개 매체의 179건입니다.",
+    "body": "9월 메가인포에셋의 생명보험사 전체 실적은 당월 총합 약 5억 1,811만원을 기록하며 전월 약 4억 7,084만원 대비 증가세를 보였다. 우리금융그룹 계열사인 ABL생명은 질병 이력이 있는 고객도 10년 이내 입원, 수술 이력이 없다면 가입이 가능한 '(무)우리WON(3.10.5)간편건강보험(해약환급금 미지급형)'을 출시했다고 16일 밝혔다.",
+    "conclusion": "조직 규모와 인당 생산성, 계약 유지 수준을 함께 확인해 교육·활동관리의 우선순위를 정할 필요가 있습니다."
+  },
+  "themes": [
+    {
+      "id": "strategy",
+      "title": "보험사·시장 동향",
+      "count": 67,
+      "summary_parts": {
+        "intro": "보험사의 경영과 시장 대응 관련 보도가 5일에 걸쳐 67건 수집됐습니다.",
+        "body": "10/12 금융민원이 가장 많이 접수되는 업권은 보험이다. 10/16 삼성화재가 주택 사고로 인한 재산 피해와 임시거주 비용 부담을 줄이기 위해 다이렉트 주택화재보험의 보장을 확대했다.",
+        "conclusion": "보험사의 경영·서비스 변화가 상담과 고객관리 과정에 어떤 영향을 주는지 확인할 필요가 있습니다."
+      },
+      "evidence": [
+        {
+          "id": "81b6ac4d1ff7",
+          "title": "[시론] 알고리즘의 효율, 보험의 신뢰와 포용의 과제",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93158",
+          "source": "한국보험신문",
+          "published_at": "2026-10-12T00:00:00+09:00",
+          "fact": "금융민원이 가장 많이 접수되는 업권은 보험이다."
+        },
+        {
+          "id": "9a065d9a850a",
+          "title": "\"질병보다 무서운 행동문제\"… 펫보험, 단순 '치료비 보상' 넘어 '생애주기 관리자'로 거듭나야",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33391",
+          "source": "보험저널",
+          "published_at": "2026-10-12T09:13:00+09:00",
+          "fact": "반려동물 양육 가구가 크게 늘어났음에도 불구하고 매년 수많은 유기와 높은 안락사 문제가 여전히 해소되지 않고 있다."
+        },
+        {
+          "id": "8d585fe7aa04",
+          "title": "삼성화재 다이렉트, 주택화재보험 ‘신규 담보’ 선보여",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93366",
+          "source": "한국보험신문",
+          "published_at": "2026-10-16T16:28:00+09:00",
+          "fact": "삼성화재가 주택 사고로 인한 재산 피해와 임시거주 비용 부담을 줄이기 위해 다이렉트 주택화재보험의 보장을 확대했다."
+        }
+      ],
+      "sources": [
+        "보험신보",
+        "보험저널",
+        "서울파이낸스",
+        "한국보험신문"
+      ]
+    },
+    {
+      "id": "channel",
+      "title": "GA·설계사·영업조직",
+      "count": 51,
+      "summary_parts": {
+        "intro": "판매채널과 영업조직의 운영 관련 보도가 7일에 걸쳐 51건 수집됐습니다.",
+        "body": "10/12 현재 대한민국 보험업계에 등록된 보험설계사는 71만명을 넘어섰다. 10/18 9월 메가인포에셋의 생명보험사 전체 실적은 당월 총합 약 5억 1,811만원을 기록하며 전월 약 4억 7,084만원 대비 증가세를 보였다.",
+        "conclusion": "조직 규모와 인당 생산성, 계약 유지 수준을 함께 확인해 교육·활동관리의 우선순위를 정할 필요가 있습니다."
+      },
+      "evidence": [
+        {
+          "id": "21bc6d6b3ed3",
+          "title": "[티금융서비스의 머니 프리즘] 규제가 바꾼 보험영업, 71만 설계사에 ‘진짜 실력’을 묻다",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93163",
+          "source": "한국보험신문",
+          "published_at": "2026-10-12T00:00:00+09:00",
+          "fact": "현재 대한민국 보험업계에 등록된 보험설계사는 71만명을 넘어섰다."
+        },
+        {
+          "id": "85f911e41e39",
+          "title": "영업조직 소득공백 해소 저축성보험 시책확대 논란",
+          "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72628",
+          "source": "보험신보",
+          "published_at": "2026-10-12T00:00:00+09:00",
+          "fact": "보험업계가 1200%룰 확대적용, 분급수수료제도 시행 등으로 발생하는 소득 공백을 메우기 위해 움직이고 있는 일부 GA영업조직에 대해 우려의 시선을 비치고 있다."
+        },
+        {
+          "id": "d49751cff585",
+          "title": "[9월 GA 생보사 실적 M/S] 메가인포에셋… 한화생명 64.4% '독주', 푸폰현대 25.6% '2위', 이하 '한 자릿수' 점유율",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33485",
+          "source": "보험저널",
+          "published_at": "2026-10-18T06:00:00+09:00",
+          "fact": "9월 메가인포에셋의 생명보험사 전체 실적은 당월 총합 약 5억 1,811만원을 기록하며 전월 약 4억 7,084만원 대비 증가세를 보였다."
+        }
+      ],
+      "sources": [
+        "보험신보",
+        "보험저널",
+        "한국보험신문"
+      ]
+    },
+    {
+      "id": "product",
+      "title": "종신·연금·상품 경쟁",
+      "count": 30,
+      "summary_parts": {
+        "intro": "상품 구성과 고객 보장 수요 관련 보도가 6일에 걸쳐 30건 수집됐습니다.",
+        "body": "10/12 이른바 ‘700종신보험’으로 불리던 단기간 원금도달형 종신보험의 판매가 중단되면서 생명보험업계의 상품 경쟁 무게중심이 연금보험으로 이동하고 있다. 10/17 우리금융그룹 계열사인 ABL생명은 질병 이력이 있는 고객도 10년 이내 입원, 수술 이력이 없다면 가입이 가능한 '(무)우리WON(3.10.5)간편건강보험(해약환급금 미지급형)'을 출시했다고 16일 밝혔다.",
+        "conclusion": "신상품의 가입 조건·보장 범위·유동성 기능을 비교하고, 고객 상황에 맞는 설명 포인트를 정리할 필요가 있습니다."
+      },
+      "evidence": [
+        {
+          "id": "76206acfa43e",
+          "title": "700종신 퇴장에 연금보험 부상… 생명보험사, ‘노후소득’ 경쟁",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93175",
+          "source": "한국보험신문",
+          "published_at": "2026-10-12T00:00:00+09:00",
+          "fact": "이른바 ‘700종신보험’으로 불리던 단기간 원금도달형 종신보험의 판매가 중단되면서 생명보험업계의 상품 경쟁 무게중심이 연금보험으로 이동하고 있다."
+        },
+        {
+          "id": "94e1e6153e6a",
+          "title": "국민연금 운용사 선정 '1점 가점'에···삼성운용도 전주행",
+          "url": "https://www.seoulfn.com/news/articleView.html?idxno=639854",
+          "source": "서울파이낸스",
+          "published_at": "2026-10-12T16:25:00+09:00",
+          "fact": "삼성자산운용이 전북 전주에 사무소를 열었다."
+        },
+        {
+          "id": "d2d6fad50668",
+          "title": "10년 무사고면 유병자도 OK… ABL생명 '우리WON 3.10.5 간편건강보험' 출시(영상+)",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33513",
+          "source": "보험저널",
+          "published_at": "2026-10-17T08:42:00+09:00",
+          "fact": "우리금융그룹 계열사인 ABL생명은 질병 이력이 있는 고객도 10년 이내 입원, 수술 이력이 없다면 가입이 가능한 '(무)우리WON(3.10.5)간편건강보험(해약환급금 미지급형)'을 출시했다고 16일 밝혔다."
+        }
+      ],
+      "sources": [
+        "보험신보",
+        "보험저널",
+        "서울파이낸스",
+        "한국보험신문"
+      ]
+    },
+    {
+      "id": "control",
+      "title": "소비자보호·내부통제",
+      "count": 21,
+      "summary_parts": {
+        "intro": "판매 과정의 설명 책임과 관리 기준 관련 보도가 4일에 걸쳐 21건 수집됐습니다.",
+        "body": "10/12 ‘GA, 영업지원부터 내부통제까지 AI 활용 넓혀’ 소식이 보도됐습니다. 10/16 농협 보험 계열사의 고령층 보험 판매와 장애인 의무고용 현황이 국정감사 도마에 올랐다.",
+        "conclusion": "모집·광고·계약관리 단계의 준수 항목을 점검하고, 고객 안내와 현장 교육을 함께 보완할 필요가 있습니다."
+      },
+      "evidence": [
+        {
+          "id": "d127c1cdd8db",
+          "title": "GA, 영업지원부터 내부통제까지 AI 활용 넓혀",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93218",
+          "source": "한국보험신문",
+          "published_at": "2026-10-12T00:00:00+09:00",
+          "fact": "‘GA, 영업지원부터 내부통제까지 AI 활용 넓혀’ 소식이 보도됐습니다."
+        },
+        {
+          "id": "e3b257069112",
+          "title": "▨보험GA 준법·내부통제 체크리스트 북▨-금융소비자의 권리행사에 대한 대응",
+          "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72655",
+          "source": "보험신보",
+          "published_at": "2026-10-12T00:00:00+09:00",
+          "fact": "◆금융소비자의 자료열람 요구에 관한 기준 및 절차 =금융소비자는 분쟁조정 또는 소송의 수행 등 권리구제를 위한 목적으로 보험대리점이 기록 및 유지·관리하는 다음 자료의 열람(사본의 제공 또는 청취를 포함)을 요구할 수 있다."
+        },
+        {
+          "id": "d0b4f51c8e37",
+          "title": "[국감] 농협, 보험 고령층 판매·장애인 고용 도마···내부통제 과제",
+          "url": "https://www.seoulfn.com/news/articleView.html?idxno=640312",
+          "source": "서울파이낸스",
+          "published_at": "2026-10-16T17:36:00+09:00",
+          "fact": "농협 보험 계열사의 고령층 보험 판매와 장애인 의무고용 현황이 국정감사 도마에 올랐다."
+        }
+      ],
+      "sources": [
+        "보험신보",
+        "보험저널",
+        "서울파이낸스",
+        "한국보험신문"
+      ]
+    },
+    {
+      "id": "fees",
+      "title": "수수료·제도 변화",
+      "count": 10,
+      "summary_parts": {
+        "intro": "수수료 체계와 판매 제도의 변화 관련 보도가 5일에 걸쳐 10건 수집됐습니다.",
+        "body": "10/12 보험설계사 10명 중 7명 이상이 보험판매전문회사 제도 도입이 필요하다고 인식하는 것으로 나타났다. 10/16 보험사들이 내년 1월 건강보험료 인상을 검토하는 가운데 일부에서는 인상 시점을 올해 11월로 앞당기는 방안도 저울질하고 있는 것으로 알려졌다.",
+        "conclusion": "적용 시점·대상 채널·환수 조건을 나눠 확인하고, 설계사 교육과 보상 안내에 반영할 필요가 있습니다."
+      },
+      "evidence": [
+        {
+          "id": "d0e05144a87a",
+          "title": "설계사 10명 중 7명 “보험판매전문회사 도입 필요”",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93173",
+          "source": "한국보험신문",
+          "published_at": "2026-10-12T00:00:00+09:00",
+          "fact": "보험설계사 10명 중 7명 이상이 보험판매전문회사 제도 도입이 필요하다고 인식하는 것으로 나타났다."
+        },
+        {
+          "id": "16e1f880a8f3",
+          "title": "금감원, 증권사 영업점 계좌 수수료 차등 부과 개선···투자자 선택권 보장",
+          "url": "https://www.seoulfn.com/news/articleView.html?idxno=640061",
+          "source": "서울파이낸스",
+          "published_at": "2026-10-14T15:08:00+09:00",
+          "fact": "증권사 영업점에서 개설한 계좌에 온라인 계좌보다 높은 매매수수료를 부과해 온 관행이 개선된다."
+        },
+        {
+          "id": "5cf65381f5b2",
+          "title": "“늦어도 내년 1월부턴 보장성보험료 오를 듯”… '손해율' 넘어 '수수료 재원 확보'도 변수",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33525",
+          "source": "보험저널",
+          "published_at": "2026-10-16T10:40:00+09:00",
+          "fact": "보험사들이 내년 1월 건강보험료 인상을 검토하는 가운데 일부에서는 인상 시점을 올해 11월로 앞당기는 방안도 저울질하고 있는 것으로 알려졌다."
+        }
+      ],
+      "sources": [
+        "보험신보",
+        "보험저널",
+        "서울파이낸스",
+        "한국보험신문"
+      ]
+    }
+  ],
+  "articles": [
+    {
+      "id": "d49751cff585",
+      "title": "[9월 GA 생보사 실적 M/S] 메가인포에셋… 한화생명 64.4% '독주', 푸폰현대 25.6% '2위', 이하 '한 자릿수' 점유율",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33485",
+      "source": "보험저널",
+      "published_at": "2026-10-18T06:00:00+09:00"
+    },
+    {
+      "id": "f49ab6b51cf3",
+      "title": "[9월 GA 생보사 실적 M/S] 메가…동양생명 23.9% '선두 탈환', 한화 11.6% '2위', 신한·KB 7% '3위'",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33484",
+      "source": "보험저널",
+      "published_at": "2026-10-18T06:00:00+09:00"
+    },
+    {
+      "id": "14a9c222d439",
+      "title": "[9월 GA 생보사 실적 M/S] 리더스에셋…푸본현대 20% '1위 탈환', 상위 '5개사' 68%",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33483",
+      "source": "보험저널",
+      "published_at": "2026-10-18T06:00:00+09:00"
+    },
+    {
+      "id": "e6956e72a0bd",
+      "title": "[9월 GA 생보사 실적 M/S] 더탑아이앤아이…동양생명 50.9%, 메트라이프 13%, KB라이프 8% 순",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33482",
+      "source": "보험저널",
+      "published_at": "2026-10-18T06:00:00+09:00"
+    },
+    {
+      "id": "f46e6ee8da92",
+      "title": "[9월 GA 생보사 실적 M/S] 더베스트…푸본현대 15.6% '선두', 동양생명 15% '급등' 2위",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33481",
+      "source": "보험저널",
+      "published_at": "2026-10-18T06:00:00+09:00"
+    },
+    {
+      "id": "14c3bbf1dd67",
+      "title": "[9월 GA 생보사 실적 M/S] 더금융서비스…신한 14% '1위' 지속, 미래에셋 13%, 메트라이프 11%, 삼성 10% 순",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33480",
+      "source": "보험저널",
+      "published_at": "2026-10-18T06:00:00+09:00"
+    },
+    {
+      "id": "1080704eb72a",
+      "title": "[9월 GA 생보사 실적 M/S] 뉴니케… 메트라이프·DGB 64% '양강 구도' 굳건… 동양생명 6.7%, '7계단' 상승",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33479",
+      "source": "보험저널",
+      "published_at": "2026-10-18T06:00:00+09:00"
+    },
+    {
+      "id": "d2d6fad50668",
+      "title": "10년 무사고면 유병자도 OK… ABL생명 '우리WON 3.10.5 간편건강보험' 출시(영상+)",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33513",
+      "source": "보험저널",
+      "published_at": "2026-10-17T08:42:00+09:00"
+    },
+    {
+      "id": "bb2f7228d41c",
+      "title": "‘700종신’ 빈자리 노린 ‘생애자금 100%’… 출시 첫날 2억원, 대박일까 선방일까? (영상+)",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33510",
+      "source": "보험저널",
+      "published_at": "2026-10-17T08:13:00+09:00"
+    },
+    {
+      "id": "eabc8b218768",
+      "title": "[9월 GA 생보사 실적 M/S] 글로벌금융판매… 동양생명 20.6% '깜짝 1위', 삼성·푸본 9%대 '동반 상승'",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33478",
+      "source": "보험저널",
+      "published_at": "2026-10-17T06:00:00+09:00"
+    },
+    {
+      "id": "24bc6f9f8b71",
+      "title": "[9월 GA 생보사 실적 M/S] 굿리치… 한화생명 18% '1위', DGB생명 8.2% '4계단 껑충'",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33477",
+      "source": "보험저널",
+      "published_at": "2026-10-17T06:00:00+09:00"
+    },
+    {
+      "id": "308a95132069",
+      "title": "[9월 GA 생보사 실적 M/S] 케이지에이에셋… 한화생명 18.7% '선두' 지속, 동양생명 17%, 신한 21%, '상위 3사' 48%",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33476",
+      "source": "보험저널",
+      "published_at": "2026-10-17T06:00:00+09:00"
+    },
+    {
+      "id": "06088320f597",
+      "title": "[9월 GA 생보사 실적 M/S] 디비금융서비스… 신한라이프 30% '1위', 한화생명 18%, 메트라이프 15% 순",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33475",
+      "source": "보험저널",
+      "published_at": "2026-10-17T06:00:00+09:00"
+    },
+    {
+      "id": "4bda6823d8d1",
+      "title": "[9월 생보사 GA M/S] 흥국생명… 에즈금융 10.7% '1위', 인카 7%·지에이코리아 6%·KGA 5.1% '비중 확대'",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33474",
+      "source": "보험저널",
+      "published_at": "2026-10-17T06:00:00+09:00"
+    },
+    {
+      "id": "b12f8305c7df",
+      "title": "[9월 생보사 GA M/S] IBK연금보험, 에이플러스에셋 21.9% '1위'…2위 이하 모두 '한 자릿수' 점유율",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33473",
+      "source": "보험저널",
+      "published_at": "2026-10-17T06:00:00+09:00"
+    },
+    {
+      "id": "4bda44024fa6",
+      "title": "[9월 생보사 GA M/S] BNP파리바, 영진에셋 28% '선두' 유지...인카 19%, 굿리치 14%, '상위 3사' 62%",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33472",
+      "source": "보험저널",
+      "published_at": "2026-10-17T06:00:00+09:00"
+    },
+    {
+      "id": "d0b4f51c8e37",
+      "title": "[국감] 농협, 보험 고령층 판매·장애인 고용 도마···내부통제 과제",
+      "url": "https://www.seoulfn.com/news/articleView.html?idxno=640312",
+      "source": "서울파이낸스",
+      "published_at": "2026-10-16T17:36:00+09:00"
+    },
+    {
+      "id": "8d585fe7aa04",
+      "title": "삼성화재 다이렉트, 주택화재보험 ‘신규 담보’ 선보여",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93366",
+      "source": "한국보험신문",
+      "published_at": "2026-10-16T16:28:00+09:00"
+    },
+    {
+      "id": "7739b1ec5d1e",
+      "title": "삼성화재, 주택화재보험 임시거주비 보장 확대",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72712",
+      "source": "보험신보",
+      "published_at": "2026-10-16T13:27:00+09:00"
+    },
+    {
+      "id": "c353321be6f7",
+      "title": "불나서 집 비울 때 하루 25만 원… 삼성화재 '다이렉트 주택화재보험' 보장 확대",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33536",
+      "source": "보험저널",
+      "published_at": "2026-10-16T12:42:00+09:00"
+    },
+    {
+      "id": "d9cc80c00745",
+      "title": "[단독] “규모로 골랐나, 위험도로 추렸나”… 금감원 GA 상시감시 ‘16곳 아닌 28곳 확대?’",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33534",
+      "source": "보험저널",
+      "published_at": "2026-10-16T11:48:00+09:00"
+    },
+    {
+      "id": "180acd3ac58e",
+      "title": "화재보험협회, 대구 산업단지 화재예방 ‘협력체계’ 구축",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93363",
+      "source": "한국보험신문",
+      "published_at": "2026-10-16T11:43:00+09:00"
+    },
+    {
+      "id": "4a216d5e01a2",
+      "title": "신한라이프, AI 기반 보험설계 시스템 고도화… ‘LICO 2.0’으로 영업 AX 혁신",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93361",
+      "source": "한국보험신문",
+      "published_at": "2026-10-16T11:10:00+09:00"
+    },
+    {
+      "id": "f9197eb1e35d",
+      "title": "신한EZ손해보험 ‘이마트 신한SOL 암보험’… “일상 접점 넓힌다”",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93359",
+      "source": "한국보험신문",
+      "published_at": "2026-10-16T10:45:00+09:00"
+    },
+    {
+      "id": "a3f9265c9530",
+      "title": "교보생명, ‘푸름이 이동환경교실’ 확대… 학교 넘어 지역사회로",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93358",
+      "source": "한국보험신문",
+      "published_at": "2026-10-16T10:43:00+09:00"
+    },
+    {
+      "id": "5cf65381f5b2",
+      "title": "“늦어도 내년 1월부턴 보장성보험료 오를 듯”… '손해율' 넘어 '수수료 재원 확보'도 변수",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33525",
+      "source": "보험저널",
+      "published_at": "2026-10-16T10:40:00+09:00"
+    },
+    {
+      "id": "222f68aa98ee",
+      "title": "교보생명, ‘푸름이 이동환경교실’ 실시",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72711",
+      "source": "보험신보",
+      "published_at": "2026-10-16T10:37:00+09:00"
+    },
+    {
+      "id": "f91e86a8b886",
+      "title": "ABL생명, 유병자 가입 문턱 낮춘 ‘간편건강보험’ 출시",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93357",
+      "source": "한국보험신문",
+      "published_at": "2026-10-16T10:18:00+09:00"
+    },
+    {
+      "id": "36752426d9f7",
+      "title": "대형 GA 외형 성장 속 건전성 개선… 장기 유지율 상승폭 확대",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93356",
+      "source": "한국보험신문",
+      "published_at": "2026-10-16T10:17:00+09:00"
+    },
+    {
+      "id": "d65959679dcc",
+      "title": "보험학회·FP학회, 초고령시대 생애재무설계 해법 논의",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93353",
+      "source": "한국보험신문",
+      "published_at": "2026-10-16T10:15:00+09:00"
+    },
+    {
+      "id": "ba8fedc3998c",
+      "title": "화재보험협회, '대구 산업단지 화재예방 업무협약' 체결",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72709",
+      "source": "보험신보",
+      "published_at": "2026-10-16T10:03:00+09:00"
+    },
+    {
+      "id": "5debe5392a28",
+      "title": "신한EZ손해보험, '이마트 신한SOL 암보험' 출시",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72708",
+      "source": "보험신보",
+      "published_at": "2026-10-16T10:03:00+09:00"
+    },
+    {
+      "id": "2d9a27b0ab43",
+      "title": "[보험브리핑] 신한라이프, AI 보험설계 시스템 고도화 외",
+      "url": "https://www.seoulfn.com/news/articleView.html?idxno=640227",
+      "source": "서울파이낸스",
+      "published_at": "2026-10-16T10:02:00+09:00"
+    },
+    {
+      "id": "6f558536e549",
+      "title": "신한라이프, AI Agent ‘LICO 2.0’으로 영업현장 AX 혁신",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72707",
+      "source": "보험신보",
+      "published_at": "2026-10-16T09:46:00+09:00"
+    },
+    {
+      "id": "4cce7eb1b0a3",
+      "title": "대형 GA, 수입수수료 '10조원' 돌파…설계사 28만명에 '판매품질'도 개선 (영상+)",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33443",
+      "source": "보험저널",
+      "published_at": "2026-10-16T09:46:00+09:00"
+    },
+    {
+      "id": "14faf076d882",
+      "title": "ABL생명, ‘우리WON(3.10.5)간편건강보험’ 출시",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72706",
+      "source": "보험신보",
+      "published_at": "2026-10-16T09:10:00+09:00"
+    },
+    {
+      "id": "d5f115581a9d",
+      "title": "자회사형 GA 유지율, '업계 평균 이상' 7곳…25회차 개선 속 일부는 여전히 ‘평균 아래’ (영상+)",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33442",
+      "source": "보험저널",
+      "published_at": "2026-10-16T09:00:00+09:00"
+    },
+    {
+      "id": "6672b18e1f9a",
+      "title": "AXA손보, 임직원 워킹 챌린지 통해 소아암 어린이 치료비 기부",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33512",
+      "source": "보험저널",
+      "published_at": "2026-10-16T08:37:00+09:00"
+    },
+    {
+      "id": "b79dc4245bd8",
+      "title": "보험업권 가계대출 9월 8000억원 감소…전 금융권 올해 첫 감소 전환",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33511",
+      "source": "보험저널",
+      "published_at": "2026-10-16T08:24:00+09:00"
+    },
+    {
+      "id": "a51717835cbe",
+      "title": "[9월 생보사 GA M/S] ABL생명...에이비에이금융 14% '선두', 굿리치 10.5%, 글로벌금융판매 8.9% 순",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33471",
+      "source": "보험저널",
+      "published_at": "2026-10-16T06:00:00+09:00"
+    },
+    {
+      "id": "b4ae590fdd4c",
+      "title": "[9월 생보사 GA M/S] iM라이프, 뉴니케 20% '독주'...굿리치 17% '2위' 안착, 아이에프에이·에이플러스에셋 12% '상위권'",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33470",
+      "source": "보험저널",
+      "published_at": "2026-10-16T06:00:00+09:00"
+    },
+    {
+      "id": "824f551d51bb",
+      "title": "[9월 생보사 GA M/S] KDB생명, 사랑모아 17.7% 선두...굿리치 10% '3위' 점프·뉴니케 '급등'",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33469",
+      "source": "보험저널",
+      "published_at": "2026-10-16T06:00:00+09:00"
+    },
+    {
+      "id": "d87cff128780",
+      "title": "[9월 생보사 GA M/S] 푸본현대생명, 인카 17% '선두'...삼성금융파트너스 8.8% 급등, '상위 5개사' 53%",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33468",
+      "source": "보험저널",
+      "published_at": "2026-10-16T06:00:00+09:00"
+    },
+    {
+      "id": "bdfb7f144c3d",
+      "title": "[9월 생보사 GA M/S] 하나생명...지에이코리아 17%ㆍ에이플러스에셋 16% '선두권', KGA 6.5% '2단계' ↑",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33467",
+      "source": "보험저널",
+      "published_at": "2026-10-16T06:00:00+09:00"
+    },
+    {
+      "id": "bca58c020fff",
+      "title": "[9월 생보사 GA M/S] 라이나생명, 지에이코리아 11% '1위' 탈환...글로벌금융판매 7.3%, 인카 6.3% 순",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33465",
+      "source": "보험저널",
+      "published_at": "2026-10-16T06:00:00+09:00"
+    },
+    {
+      "id": "87241f4c9cd9",
+      "title": "[9월 생보사 GA M/S] 메트라이프생명… 사랑모아·인카. 나란히 '10.7%' 1위ㆍ어센틱·뉴니케 '7.8%' 2위",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33464",
+      "source": "보험저널",
+      "published_at": "2026-10-16T06:00:00+09:00"
+    },
+    {
+      "id": "14a09929d42a",
+      "title": "대형GA 상반기 수입수수료 10조 돌파···전년 대비 16.4% 증가",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72685",
+      "source": "보험신보",
+      "published_at": "2026-10-15T18:20:00+09:00"
+    },
+    {
+      "id": "bd07cf61dc40",
+      "title": "일본 은행·보험, 해외채권 팔고 일본 국채 사들여",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93349",
+      "source": "한국보험신문",
+      "published_at": "2026-10-15T17:19:00+09:00"
+    },
+    {
+      "id": "5acabe540f31",
+      "title": "사이버보험 성장 걸림돌, 보험료보다 경영진 인식 부족",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93347",
+      "source": "한국보험신문",
+      "published_at": "2026-10-15T17:03:00+09:00"
+    },
+    {
+      "id": "955948c74927",
+      "title": "[이슈+] '금융위 세종행'에 금융권 술렁···금감원·국책은행도 촉각",
+      "url": "https://www.seoulfn.com/news/articleView.html?idxno=640179",
+      "source": "서울파이낸스",
+      "published_at": "2026-10-15T16:11:00+09:00"
+    },
+    {
+      "id": "291abbeb30a3",
+      "title": "“이젠 차도 필요 없다, 버스서 넘어지면 그만”…표적 된 대중교통, 보험범죄 조사 인력은 '전무'",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33505",
+      "source": "보험저널",
+      "published_at": "2026-10-15T15:44:00+09:00"
+    },
+    {
+      "id": "bc5c4b9e1902",
+      "title": "한화손보, 웰니스 페스티벌 ‘웰니스 크루즈 한남’ 개최",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93344",
+      "source": "한국보험신문",
+      "published_at": "2026-10-15T14:36:00+09:00"
+    },
+    {
+      "id": "cdf4d572e5b7",
+      "title": "KB손해보험, 모바일 앱 ‘이용 편의성’ 높인다",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93339",
+      "source": "한국보험신문",
+      "published_at": "2026-10-15T13:47:00+09:00"
+    },
+    {
+      "id": "8280d400ec47",
+      "title": "[9월 생보사 GA M/S] 미래에셋생명…어센틱금융 15% '1위 탈환', 상위 4개사 '40.5%'",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33462",
+      "source": "보험저널",
+      "published_at": "2026-10-15T13:45:00+09:00"
+    },
+    {
+      "id": "c25ad9103967",
+      "title": "[9월 생보사 GA M/S] 동양생명… 지에이코리아 18% '압도적 1위', 아너스금융·지에이스타 '상위권' 진입",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33461",
+      "source": "보험저널",
+      "published_at": "2026-10-15T13:42:00+09:00"
+    },
+    {
+      "id": "8056399c1240",
+      "title": "[9월 생보사 GA M/S] NH농협생명… 아너스금융 17% '절대 강세' 속, 무지개컨설팅 4.6% 비중 확대",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33460",
+      "source": "보험저널",
+      "published_at": "2026-10-15T13:40:00+09:00"
+    },
+    {
+      "id": "5c084c1d09ee",
+      "title": "[9월 생보사 GA M/S] KB라이프, 인카 7.3%로 '1위' 등극…한국보험금융 5.5% 7계단 뛰어 '3위'",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33459",
+      "source": "보험저널",
+      "published_at": "2026-10-15T13:39:00+09:00"
+    },
+    {
+      "id": "caf7ea00a857",
+      "title": "[9월 생보사 GA M/S] 신한라이프… 인카, 13% 압도적 '1위'ㆍ신한금융플러스 5% '2위' 도약",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33458",
+      "source": "보험저널",
+      "published_at": "2026-10-15T13:34:00+09:00"
+    },
+    {
+      "id": "70bc18a197dd",
+      "title": "[9월 생보사 GA M/S] 교보생명, '스타리치' 9.6%로 선두 유지…'스카이블루' 10계단 뛰어 3위",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33456",
+      "source": "보험저널",
+      "published_at": "2026-10-15T13:32:00+09:00"
+    },
+    {
+      "id": "2afb200350e8",
+      "title": "[9월 생보사 GA M/S] 한화생명...피플라이프 10.5%로 1위, '상위 5개사' 점유율 42.1%",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33455",
+      "source": "보험저널",
+      "published_at": "2026-10-15T13:28:00+09:00"
+    },
+    {
+      "id": "cf0d3210ebc6",
+      "title": "흥국생명 ‘플렉스리턴100종신보험’… “노후 생활비에 건강보장까지”",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93338",
+      "source": "한국보험신문",
+      "published_at": "2026-10-15T13:25:00+09:00"
+    },
+    {
+      "id": "694f723aa124",
+      "title": "[9월 생보사 GA M/S] 삼성생명, 지에이코리아 14.2% '1위 수성'…지에이스타 7계단 뛰어 '4위'",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33453",
+      "source": "보험저널",
+      "published_at": "2026-10-15T12:41:00+09:00"
+    },
+    {
+      "id": "acceacb644ba",
+      "title": "[9월 100대 GA 실적] 생보실적 '10억' 넘긴 GA 21곳…지에이코리아 52억원 '선두'",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33451",
+      "source": "보험저널",
+      "published_at": "2026-10-15T12:34:00+09:00"
+    },
+    {
+      "id": "541f87ecd55e",
+      "title": "화재보험협회, “사이버보험 활성화 사고 데이터 수집·공유 필요”",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72681",
+      "source": "보험신보",
+      "published_at": "2026-10-15T10:40:00+09:00"
+    },
+    {
+      "id": "73dfb7ae3d70",
+      "title": "한화생명 GA 4社 4色 유지율… 생보 25회차 한금서·라이프랩 '업계 평균 하회', IFC '조직성장률' 27.4% TOP (영상+)",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33431",
+      "source": "보험저널",
+      "published_at": "2026-10-15T10:00:00+09:00"
+    },
+    {
+      "id": "26517c5990d1",
+      "title": "“1200%룰 빠진 연금보험도 예외 없다”… 금융당국, 차익거래 관리 주문 (영상+)",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33428",
+      "source": "보험저널",
+      "published_at": "2026-10-15T10:00:00+09:00"
+    },
+    {
+      "id": "58b5983fdc23",
+      "title": "[단독] “종수술비·치료비 등 보장한도 줄어드나”… 11월 새 가이드라인에 GA영업 촉각 (영상+)",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33416",
+      "source": "보험저널",
+      "published_at": "2026-10-15T10:00:00+09:00"
+    },
+    {
+      "id": "7094ef919725",
+      "title": "흥국생명, ‘플렉스리턴100종신보험’ 출시",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72687",
+      "source": "보험신보",
+      "published_at": "2026-10-15T09:40:00+09:00"
+    },
+    {
+      "id": "2557ee8f770b",
+      "title": "금융당국, 전금법 사각지대 ‘보험GA’도 보안 강화 추진…전 금융권 보안체계 전면 손질",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33441",
+      "source": "보험저널",
+      "published_at": "2026-10-15T09:07:00+09:00"
+    },
+    {
+      "id": "330f0a5451de",
+      "title": "KB손보, 앱 메인화면 전면 개편…‘초개인화 대시보드’로 계약·청구 한눈에",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33440",
+      "source": "보험저널",
+      "published_at": "2026-10-15T08:56:00+09:00"
+    },
+    {
+      "id": "9cbc6112de35",
+      "title": "한화손보, 웰니스 페스티벌 ‘웰니스 크루즈 한남’ 개최",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33439",
+      "source": "보험저널",
+      "published_at": "2026-10-15T08:55:00+09:00"
+    },
+    {
+      "id": "9f2de43c2963",
+      "title": "[GA 2027년 대비①] GA 경영 ‘3중 압박’… 신계약 감소·수수료 재원 축소·운영비 부담에 이익 급감 우려",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33437",
+      "source": "보험저널",
+      "published_at": "2026-10-15T07:53:00+09:00"
+    },
+    {
+      "id": "518d00b31a44",
+      "title": "“700종신 빠지자 생·손보 점유율 역전”… GA채널 손보, 2년 11개월 만에 추월",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33436",
+      "source": "보험저널",
+      "published_at": "2026-10-15T07:21:00+09:00"
+    },
+    {
+      "id": "e25c2522568e",
+      "title": "화재보험협회, 다문화 학생 ‘안전이음 지원사업’ 참여",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93330",
+      "source": "한국보험신문",
+      "published_at": "2026-10-14T17:57:00+09:00"
+    },
+    {
+      "id": "f65306c154b6",
+      "title": "[톺아보기] 롯데손보 품은 신한···'리딩금융 마지막 퍼즐' vs '승자의 독배'",
+      "url": "https://www.seoulfn.com/news/articleView.html?idxno=640082",
+      "source": "서울파이낸스",
+      "published_at": "2026-10-14T16:35:00+09:00"
+    },
+    {
+      "id": "d51e85715563",
+      "title": "화재보험협회, ‘다문화 학생 안전이음 지원사업’ 참여",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72678",
+      "source": "보험신보",
+      "published_at": "2026-10-14T16:19:00+09:00"
+    },
+    {
+      "id": "f8337e8bb9bd",
+      "title": "판매중지 ‘700종신’ 컨셉 180도 전환… ‘환급률 100%’→‘생애자금 100% 인출’ 통할까",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33433",
+      "source": "보험저널",
+      "published_at": "2026-10-14T15:39:00+09:00"
+    },
+    {
+      "id": "16e1f880a8f3",
+      "title": "금감원, 증권사 영업점 계좌 수수료 차등 부과 개선···투자자 선택권 보장",
+      "url": "https://www.seoulfn.com/news/articleView.html?idxno=640061",
+      "source": "서울파이낸스",
+      "published_at": "2026-10-14T15:08:00+09:00"
+    },
+    {
+      "id": "5b84a923ce19",
+      "title": "한화손해보험, 임신·출산·육아정보 모은 ‘플러스클로버’ 앱 출시",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72676",
+      "source": "보험신보",
+      "published_at": "2026-10-14T14:35:00+09:00"
+    },
+    {
+      "id": "86592f4710ec",
+      "title": "주요 GA 9월 평균 실적, 전월比 5.7%↑…‘700종신’ 막판 판매에 생보 9.4% 증가",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33432",
+      "source": "보험저널",
+      "published_at": "2026-10-14T13:49:00+09:00"
+    },
+    {
+      "id": "9b938ebb0d27",
+      "title": "한화생명, ‘필요할때 쓰는 종신보험’ 선보여",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93309",
+      "source": "한국보험신문",
+      "published_at": "2026-10-14T10:38:00+09:00"
+    },
+    {
+      "id": "26dbb22e0940",
+      "title": "한화생명, ‘한화생명 필요할때 쓰는 종신보험’ 출시",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72680",
+      "source": "보험신보",
+      "published_at": "2026-10-14T10:30:00+09:00"
+    },
+    {
+      "id": "8acc4655974e",
+      "title": "교보생명, 고객 일상 건강까지 살피는 ‘평생든든서비스’ 확대",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93306",
+      "source": "한국보험신문",
+      "published_at": "2026-10-14T10:21:00+09:00"
+    },
+    {
+      "id": "d46c3cca05e5",
+      "title": "[보험브리핑] 한화손보, 여성 전용 '플러스클로버' 앱 출시 외",
+      "url": "https://www.seoulfn.com/news/articleView.html?idxno=640004",
+      "source": "서울파이낸스",
+      "published_at": "2026-10-14T10:08:00+09:00"
+    },
+    {
+      "id": "3678db0d0b98",
+      "title": "교보생명, ‘평생든든서비스’ 건강활동 프로그램 론칭",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72679",
+      "source": "보험신보",
+      "published_at": "2026-10-14T10:00:00+09:00"
+    },
+    {
+      "id": "00989af37e90",
+      "title": "“내 진료기록 분석해 보험 장단점 비교”… ‘챗GPT 헬스’ 등장에 보험 고객 접점 흔들린다",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33430",
+      "source": "보험저널",
+      "published_at": "2026-10-14T09:48:00+09:00"
+    },
+    {
+      "id": "6ddc698232c6",
+      "title": "낸 돈 다 꺼내 써도 사망보장은 끝까지… 한화생명 ‘필요할때 쓰는 종신보험’ 출시",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33429",
+      "source": "보험저널",
+      "published_at": "2026-10-14T09:37:00+09:00"
+    },
+    {
+      "id": "9852c64b6ccf",
+      "title": "한화손보, 임신·출산·육아 정보 담은 ‘플러스클로버’ 앱 출시",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93302",
+      "source": "한국보험신문",
+      "published_at": "2026-10-14T09:31:00+09:00"
+    },
+    {
+      "id": "f9689f585df9",
+      "title": "무보, 지역 수출기업 애로 청취·맞춤형 무역보험 지원",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93301",
+      "source": "한국보험신문",
+      "published_at": "2026-10-14T09:02:00+09:00"
+    },
+    {
+      "id": "c5f61d6f4ea8",
+      "title": "[칼럼] 20·30대, 개인연금부터 서두르지 마라…노후준비보다 먼저 해야 할 것",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33427",
+      "source": "보험저널",
+      "published_at": "2026-10-14T09:02:00+09:00"
+    },
+    {
+      "id": "320e510bbc09",
+      "title": "한화손보, 임신·출산·육아 정보 한데 모은 ‘PLUS CLOVR’ 앱 출시",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33424",
+      "source": "보험저널",
+      "published_at": "2026-10-14T08:36:00+09:00"
+    },
+    {
+      "id": "54e51a6f0e85",
+      "title": "[GA M&A 시장 분석] ②연합형보다 험난한 '지사제 GA' 인수 모델… 극단적 지분 분산의 덫",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33423",
+      "source": "보험저널",
+      "published_at": "2026-10-14T08:32:00+09:00"
+    },
+    {
+      "id": "d9f0a27cc57b",
+      "title": "“2조원대 몸값 기대했던 롯데손보, 결국 6933억원에”… 사모펀드 2000억원대 손실 추정",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33418",
+      "source": "보험저널",
+      "published_at": "2026-10-14T07:49:00+09:00"
+    },
+    {
+      "id": "cb9752fb881a",
+      "title": "[8월 100대 GA 실적] 지에이코리아 46.5억 선두… 스카이블루·글로벌 ‘접전’",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33422",
+      "source": "보험저널",
+      "published_at": "2026-10-14T04:59:00+09:00"
+    },
+    {
+      "id": "5344c2308acb",
+      "title": "화재보험협회, 행안부·농협과 ‘화재안전 강화’ 나선다",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93293",
+      "source": "한국보험신문",
+      "published_at": "2026-10-13T18:42:00+09:00"
+    },
+    {
+      "id": "3d6109e2aacb",
+      "title": "큐핏, 보험상품 경험위험률 산출 핵심 기술 3종 특허 등록",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93285",
+      "source": "한국보험신문",
+      "published_at": "2026-10-13T18:10:00+09:00"
+    },
+    {
+      "id": "50db4943b25e",
+      "title": "화재보험협회, ‘국민 화재안심 프로젝트’ 추진",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72675",
+      "source": "보험신보",
+      "published_at": "2026-10-13T18:00:00+09:00"
+    },
+    {
+      "id": "e09f843de6e7",
+      "title": "금감원, '개인정보 유출' 예가람·웰컴저축은행 현장 점검",
+      "url": "https://www.seoulfn.com/news/articleView.html?idxno=639986",
+      "source": "서울파이낸스",
+      "published_at": "2026-10-13T17:39:00+09:00"
+    },
+    {
+      "id": "cdefe966a65a",
+      "title": "미래에셋생명, ‘은퇴 후 30년’ 연금 지키고 쓰는 법 제시",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93283",
+      "source": "한국보험신문",
+      "published_at": "2026-10-13T17:07:00+09:00"
+    },
+    {
+      "id": "02fc32a07636",
+      "title": "금감원도 서울 떠나나…정부 '지방이전 별도 검토', 4분기 발표 예고",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33421",
+      "source": "보험저널",
+      "published_at": "2026-10-13T16:57:00+09:00"
+    },
+    {
+      "id": "28ad66bc869e",
+      "title": "신한금융, 롯데손보 품는다… 손보사업 재편 본격화",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93276",
+      "source": "한국보험신문",
+      "published_at": "2026-10-13T15:26:00+09:00"
+    },
+    {
+      "id": "3754d49b3bb2",
+      "title": "보험연구원, '생산적 금융 시대, 보험산업의 역할과 과제' 세미나 성료",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72668",
+      "source": "보험신보",
+      "published_at": "2026-10-13T15:00:00+09:00"
+    },
+    {
+      "id": "cbb43cdfb416",
+      "title": "[GA M&A 시장 분석] ①대형 직영 매물 실종… 연합형 GA 인수 모델의 부상과 현실적 난관",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33417",
+      "source": "보험저널",
+      "published_at": "2026-10-13T15:00:00+09:00"
+    },
+    {
+      "id": "7e350a22e17a",
+      "title": "국민연금, AI로 통화정책 분석 8시간서 10분으로···자동화 검증",
+      "url": "https://www.seoulfn.com/news/articleView.html?idxno=639945",
+      "source": "서울파이낸스",
+      "published_at": "2026-10-13T14:57:00+09:00"
+    },
+    {
+      "id": "825b4086e981",
+      "title": "금융위, 내년 하반기 '세종행'···금감원·국책은행 이전 논의로 번지나",
+      "url": "https://www.seoulfn.com/news/articleView.html?idxno=639941",
+      "source": "서울파이낸스",
+      "published_at": "2026-10-13T14:35:00+09:00"
+    },
+    {
+      "id": "292cfa8d2597",
+      "title": "신한금융, 롯데손해보험 6933억원에 인수···신한EZ손보와 통합 추진",
+      "url": "https://www.seoulfn.com/news/articleView.html?idxno=639938",
+      "source": "서울파이낸스",
+      "published_at": "2026-10-13T14:22:00+09:00"
+    },
+    {
+      "id": "a216f28d0399",
+      "title": "신한금융지주, 롯데손해보험 6933억원에 인수",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72674",
+      "source": "보험신보",
+      "published_at": "2026-10-13T13:52:00+09:00"
+    },
+    {
+      "id": "6eb1cdf23bef",
+      "title": "“엑셀 수작업·IT 대기 끝”…알터릭스, 보험사 재무 리더 초청 ‘금감원 보고 AI 자동화’ 세미나",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33413",
+      "source": "보험저널",
+      "published_at": "2026-10-13T13:48:00+09:00"
+    },
+    {
+      "id": "cd4a7f2c0523",
+      "title": "신한금융, 롯데손보 지분 77.04% 6933억원에 인수 계약…신한EZ손보 통합 추진",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33411",
+      "source": "보험저널",
+      "published_at": "2026-10-13T13:37:00+09:00"
+    },
+    {
+      "id": "78cde62825f9",
+      "title": "미래에셋생명, 50세 이상 고객위한 퇴직연금 세미나 개최",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72673",
+      "source": "보험신보",
+      "published_at": "2026-10-13T11:32:00+09:00"
+    },
+    {
+      "id": "4255e9e79f52",
+      "title": "[보험브리핑] 삼성생명, '삼성 골든종신보험' 개정 출시 외",
+      "url": "https://www.seoulfn.com/news/articleView.html?idxno=639911",
+      "source": "서울파이낸스",
+      "published_at": "2026-10-13T10:01:00+09:00"
+    },
+    {
+      "id": "b6bf5d6544a7",
+      "title": "1년 새 설계사 '1000명↑' 늘린 GA 10곳… 인카 6156명 '최다'·ABA 145% '최고'(영상+)",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33382",
+      "source": "보험저널",
+      "published_at": "2026-10-13T09:57:00+09:00"
+    },
+    {
+      "id": "8cf29062a890",
+      "title": "징역형·환수 끝나도…보험사기 적발 땐 ‘유지 중인 보험도 강제 해지’",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33406",
+      "source": "보험저널",
+      "published_at": "2026-10-13T09:49:00+09:00"
+    },
+    {
+      "id": "944792095c6e",
+      "title": "금감원, 내년 새 회계기준 시행… 기업 준비상황 점검 당부",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93270",
+      "source": "한국보험신문",
+      "published_at": "2026-10-13T09:48:00+09:00"
+    },
+    {
+      "id": "d6f01b5e99b8",
+      "title": "“은퇴 후 30년, 돈이 먼저 끝나지 않게”…미래에셋생명, 23일 50세 이상 퇴직연금 세미나",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33408",
+      "source": "보험저널",
+      "published_at": "2026-10-13T09:48:00+09:00"
+    },
+    {
+      "id": "93b5c7db0da2",
+      "title": "[단독] “설계매니저 비용 왜 GA가 내나”… 공통비 0.4% 배분 논란, 3차 FAQ서 가닥",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33407",
+      "source": "보험저널",
+      "published_at": "2026-10-13T09:37:00+09:00"
+    },
+    {
+      "id": "9f1f3440cbfb",
+      "title": "삼성생명, ‘삼성 골든종신보험’ 개정 출시",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93269",
+      "source": "한국보험신문",
+      "published_at": "2026-10-13T09:25:00+09:00"
+    },
+    {
+      "id": "f1fbc0362044",
+      "title": "“수수료 높은 상품 꼼수 추천 막는다”… 日, 보험대리점 ‘비교·추천 규제’ 대폭 강화",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33398",
+      "source": "보험저널",
+      "published_at": "2026-10-13T09:25:00+09:00"
+    },
+    {
+      "id": "552b3300ad10",
+      "title": "“정기검사 맞아?”… 동양생명에 금감원·예보 검사인력 44명 대거 투입",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33403",
+      "source": "보험저널",
+      "published_at": "2026-10-13T09:21:00+09:00"
+    },
+    {
+      "id": "f8b6d16a5e9e",
+      "title": "삼성생명, ‘삼성 골든종신보험’ 개정 출시",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72666",
+      "source": "보험신보",
+      "published_at": "2026-10-13T09:00:00+09:00"
+    },
+    {
+      "id": "f58932d491ae",
+      "title": "[기고] 무·저해지환급형 보험… 선택은 소비자의 몫!",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33396",
+      "source": "보험저널",
+      "published_at": "2026-10-13T08:59:00+09:00"
+    },
+    {
+      "id": "2ba3f63b9390",
+      "title": "기후재해 ‘사후 복구’ 한계…보험연구원 “사전 예방과 지수형 기후보험 도입 시급”",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33402",
+      "source": "보험저널",
+      "published_at": "2026-10-13T08:58:00+09:00"
+    },
+    {
+      "id": "043bb5e8d20d",
+      "title": "삼성생명, ‘골든종신보험’ 개정 출시…인출 시점 2년 단축·암보장형 신설",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33400",
+      "source": "보험저널",
+      "published_at": "2026-10-13T08:54:00+09:00"
+    },
+    {
+      "id": "b3fe9e13a02e",
+      "title": "단기납종신, 내년엔 환급률·수수료 둘 다 못 지킬 듯… 상품조립 딜레마",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33399",
+      "source": "보험저널",
+      "published_at": "2026-10-13T08:22:00+09:00"
+    },
+    {
+      "id": "f93c0ad8fe93",
+      "title": "금감원 \"내년 MPM 공시의무 신설···기업별 재무제표 사전 점검 필요\"",
+      "url": "https://www.seoulfn.com/news/articleView.html?idxno=639868",
+      "source": "서울파이낸스",
+      "published_at": "2026-10-13T06:00:00+09:00"
+    },
+    {
+      "id": "77eb1e281f52",
+      "title": "한국보험신문, 하반기 이용자위원회 개최… 이용자 권익 보호 논의",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93266",
+      "source": "한국보험신문",
+      "published_at": "2026-10-12T21:47:00+09:00"
+    },
+    {
+      "id": "107a390f428e",
+      "title": "국민연금, 건설주 늘리고 금융주는 선별···수익성 전망에 온도차",
+      "url": "https://www.seoulfn.com/news/articleView.html?idxno=639842",
+      "source": "서울파이낸스",
+      "published_at": "2026-10-12T16:48:00+09:00"
+    },
+    {
+      "id": "94e1e6153e6a",
+      "title": "국민연금 운용사 선정 '1점 가점'에···삼성운용도 전주행",
+      "url": "https://www.seoulfn.com/news/articleView.html?idxno=639854",
+      "source": "서울파이낸스",
+      "published_at": "2026-10-12T16:25:00+09:00"
+    },
+    {
+      "id": "74335ade8c9b",
+      "title": "보험연수원 ‘크립토 리터러시’ 1주년… 금융권 교육기관 최다 수강생 배출",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93263",
+      "source": "한국보험신문",
+      "published_at": "2026-10-12T15:14:00+09:00"
+    },
+    {
+      "id": "e59d81e22801",
+      "title": "국감 후폭풍, \"가뜩이나 힘든데 규제 불똥 튈라\"… 초고강도 옥죄기 우려에 한숨 쉬는 GA업계",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33397",
+      "source": "보험저널",
+      "published_at": "2026-10-12T15:13:00+09:00"
+    },
+    {
+      "id": "11f80463347a",
+      "title": "한국보험신문, ‘제10회 대학생 아이디어 공모전’ 예선 마감",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93256",
+      "source": "한국보험신문",
+      "published_at": "2026-10-12T12:57:00+09:00"
+    },
+    {
+      "id": "3acbe2bd620a",
+      "title": "금감원, PEF 운용사 30곳 내부통제 점검···현장검사 병행",
+      "url": "https://www.seoulfn.com/news/articleView.html?idxno=639790",
+      "source": "서울파이낸스",
+      "published_at": "2026-10-12T12:00:00+09:00"
+    },
+    {
+      "id": "a6f90a77410c",
+      "title": "온라인 보험광고 위반 4만7078건… 제재금 부과 기관은 10곳 그쳐",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93258",
+      "source": "한국보험신문",
+      "published_at": "2026-10-12T11:42:00+09:00"
+    },
+    {
+      "id": "d7e014012415",
+      "title": "[국감] 손보 광고심의 위반 4.7만건···제재금 부과 10건 그쳐",
+      "url": "https://www.seoulfn.com/news/articleView.html?idxno=639782",
+      "source": "서울파이낸스",
+      "published_at": "2026-10-12T10:23:00+09:00"
+    },
+    {
+      "id": "63c86cf3eeb2",
+      "title": "보험연수원 ‘크립토 리터러시’ 1년 만에 2,400명 돌파… 내년 ‘보험설계사 전용 과정’ 신설",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33394",
+      "source": "보험저널",
+      "published_at": "2026-10-12T09:32:00+09:00"
+    },
+    {
+      "id": "10f4f096c2bb",
+      "title": "금융지주 보험사, 상반기 순익 늘었지만 자산은 ‘나홀로 역성장’… 비은행 격차 벌어져",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33393",
+      "source": "보험저널",
+      "published_at": "2026-10-12T09:25:00+09:00"
+    },
+    {
+      "id": "b69b8d0a8b2a",
+      "title": "보험사, 2027년 영업목표 줄이는 5가지 이유… GA채널 생보 최대 40%·손보 10% 축소 전망",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33389",
+      "source": "보험저널",
+      "published_at": "2026-10-12T09:25:00+09:00"
+    },
+    {
+      "id": "82dd58fa937d",
+      "title": "보험·은행 5천만원 이하 연체채권 ‘소멸시효 연장 관행’ 사라진다… ‘조건부 대손인정제’ 본격 시행",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33392",
+      "source": "보험저널",
+      "published_at": "2026-10-12T09:20:00+09:00"
+    },
+    {
+      "id": "b56a7510e466",
+      "title": "보험광고 위반 4만7078건…61.4% '미심의', 제재금 부과는 10건",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33390",
+      "source": "보험저널",
+      "published_at": "2026-10-12T09:15:00+09:00"
+    },
+    {
+      "id": "9a065d9a850a",
+      "title": "\"질병보다 무서운 행동문제\"… 펫보험, 단순 '치료비 보상' 넘어 '생애주기 관리자'로 거듭나야",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33391",
+      "source": "보험저널",
+      "published_at": "2026-10-12T09:13:00+09:00"
+    },
+    {
+      "id": "af77b2bb249d",
+      "title": "특집-보험GA협회 선정 '2026 우수인증설계사' 인터뷰 [황진희 한화피플라이프 울산VIP사업단 지점장]",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72660",
+      "source": "보험신보",
+      "published_at": "2026-10-12T00:00:00+09:00"
+    },
+    {
+      "id": "39fd4ac20cfb",
+      "title": "특집-보험GA협회 선정 '2026 우수인증설계사' 인터뷰 [윤훈석 한화피플라이프 대구애플본부 마케팅전무]",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72659",
+      "source": "보험신보",
+      "published_at": "2026-10-12T00:00:00+09:00"
+    },
+    {
+      "id": "e4fef8c5307c",
+      "title": "성공적 영업위한 고객관리시장 확대-달러보험",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72658",
+      "source": "보험신보",
+      "published_at": "2026-10-12T00:00:00+09:00"
+    },
+    {
+      "id": "bf8b757f8a66",
+      "title": "영업 25시-보험금지급심사기준 변경에 즈음하여",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72657",
+      "source": "보험신보",
+      "published_at": "2026-10-12T00:00:00+09:00"
+    },
+    {
+      "id": "e3b257069112",
+      "title": "▨보험GA 준법·내부통제 체크리스트 북▨-금융소비자의 권리행사에 대한 대응",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72655",
+      "source": "보험신보",
+      "published_at": "2026-10-12T00:00:00+09:00"
+    },
+    {
+      "id": "a89b943f69ef",
+      "title": "SNS 보험상담방송 광고심의 규정 공전",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72654",
+      "source": "보험신보",
+      "published_at": "2026-10-12T00:00:00+09:00"
+    },
+    {
+      "id": "78cf6e782d43",
+      "title": "고령고객 보험금 청구 ‘더 편하게’",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72653",
+      "source": "보험신보",
+      "published_at": "2026-10-12T00:00:00+09:00"
+    },
+    {
+      "id": "c47eb450831c",
+      "title": "신한라이프, 불완전판매 제재 강화",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72652",
+      "source": "보험신보",
+      "published_at": "2026-10-12T00:00:00+09:00"
+    },
+    {
+      "id": "4ef485cda13d",
+      "title": "생보업계, 완전판매 소비자보호 교육강화",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72650",
+      "source": "보험신보",
+      "published_at": "2026-10-12T00:00:00+09:00"
+    },
+    {
+      "id": "7634c929c013",
+      "title": "하나손해보험, 담보 가입한도 하향조정",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72648",
+      "source": "보험신보",
+      "published_at": "2026-10-12T00:00:00+09:00"
+    },
+    {
+      "id": "4cca9b193636",
+      "title": "KB손해보험, AI로 고객사업장 진단",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72647",
+      "source": "보험신보",
+      "published_at": "2026-10-12T00:00:00+09:00"
+    },
+    {
+      "id": "a63cdfefa51e",
+      "title": "보험사기는 지속적으로 느는데 부당이익 환수 법적근거 ‘하세월’",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72645",
+      "source": "보험신보",
+      "published_at": "2026-10-12T00:00:00+09:00"
+    },
+    {
+      "id": "e0b3d0179d0d",
+      "title": "생보 ‘영업현장 공백 최소화 전략’ 고심",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72643",
+      "source": "보험신보",
+      "published_at": "2026-10-12T00:00:00+09:00"
+    },
+    {
+      "id": "76738fd2cff5",
+      "title": "주요GA, 설계사 교육 10월에도 풍성",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72642",
+      "source": "보험신보",
+      "published_at": "2026-10-12T00:00:00+09:00"
+    },
+    {
+      "id": "4af0a0c3a79a",
+      "title": "라이트패스 , 미청구 보험금 확인 서비스 제공",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72641",
+      "source": "보험신보",
+      "published_at": "2026-10-12T00:00:00+09:00"
+    },
+    {
+      "id": "66ed23a02863",
+      "title": "쿠콘, 펫보험 데이터 인프라 공급",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72639",
+      "source": "보험신보",
+      "published_at": "2026-10-12T00:00:00+09:00"
+    },
+    {
+      "id": "d80cdc0f8dea",
+      "title": "하나금융파인드, ‘금융보험 아카데미’과정 개설",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72638",
+      "source": "보험신보",
+      "published_at": "2026-10-12T00:00:00+09:00"
+    },
+    {
+      "id": "1e18ef6e4f00",
+      "title": "교보생명. 건강보험 명성 이어가는 ‘교보마이플랜건강보험Ⅱ’",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72637",
+      "source": "보험신보",
+      "published_at": "2026-10-12T00:00:00+09:00"
+    },
+    {
+      "id": "69071058b36e",
+      "title": "GA 영업지원시스템 고도화 분주[3]-토스인슈어런스 디지털 플랫폼 전방위 활용 설계사 지원",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72634",
+      "source": "보험신보",
+      "published_at": "2026-10-12T00:00:00+09:00"
+    },
+    {
+      "id": "47817fc35f65",
+      "title": "보험개발원, ‘AOS2017’ 보고서 출력기능 탑재",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72633",
+      "source": "보험신보",
+      "published_at": "2026-10-12T00:00:00+09:00"
+    },
+    {
+      "id": "e53fa3becfa0",
+      "title": "보험연수원, ‘AI로 영업 홈페이지 만들기’ 교육",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72632",
+      "source": "보험신보",
+      "published_at": "2026-10-12T00:00:00+09:00"
+    },
+    {
+      "id": "93d69d366262",
+      "title": "보험계리사회, 보험관련업무 AI활용 워크숍",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72631",
+      "source": "보험신보",
+      "published_at": "2026-10-12T00:00:00+09:00"
+    },
+    {
+      "id": "bd9265e54f8c",
+      "title": "보험연구원, ‘자연재해 위험관리와 기후보험’세미나",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72630",
+      "source": "보험신보",
+      "published_at": "2026-10-12T00:00:00+09:00"
+    },
+    {
+      "id": "85f911e41e39",
+      "title": "영업조직 소득공백 해소 저축성보험 시책확대 논란",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72628",
+      "source": "보험신보",
+      "published_at": "2026-10-12T00:00:00+09:00"
+    },
+    {
+      "id": "56b88bb2cb7d",
+      "title": "소비자 이해 돕는 새 보험상품설명서 마련",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72627",
+      "source": "보험신보",
+      "published_at": "2026-10-12T00:00:00+09:00"
+    },
+    {
+      "id": "02e0f272b9f7",
+      "title": "보험사, 해외서 수익원 다변화… 현지화부터 금융그룹화까지",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93240",
+      "source": "한국보험신문",
+      "published_at": "2026-10-12T00:00:00+09:00"
+    },
+    {
+      "id": "4c44ed1785de",
+      "title": "[연중기획-새로운 리스크, 새로운 규제 ⑧-1] 물류창고에 쌓이는 위험… 보험·규제 대응은",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93220",
+      "source": "한국보험신문",
+      "published_at": "2026-10-12T00:00:00+09:00"
+    },
+    {
+      "id": "d127c1cdd8db",
+      "title": "GA, 영업지원부터 내부통제까지 AI 활용 넓혀",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93218",
+      "source": "한국보험신문",
+      "published_at": "2026-10-12T00:00:00+09:00"
+    },
+    {
+      "id": "a8813cc02986",
+      "title": "인도 보험소비자 70% “설계사 수수료 상한 찬성”",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93185",
+      "source": "한국보험신문",
+      "published_at": "2026-10-12T00:00:00+09:00"
+    },
+    {
+      "id": "c223e4f6d516",
+      "title": "호주, 내년 보험 감독 우선과제로 ‘중복 규제 완화’ 제시",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93183",
+      "source": "한국보험신문",
+      "published_at": "2026-10-12T00:00:00+09:00"
+    },
+    {
+      "id": "e9faa40b724d",
+      "title": "취리히보험 “의료혁신, 상용화 역량이 성패 가른다”",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93181",
+      "source": "한국보험신문",
+      "published_at": "2026-10-12T00:00:00+09:00"
+    },
+    {
+      "id": "76206acfa43e",
+      "title": "700종신 퇴장에 연금보험 부상… 생명보험사, ‘노후소득’ 경쟁",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93175",
+      "source": "한국보험신문",
+      "published_at": "2026-10-12T00:00:00+09:00"
+    },
+    {
+      "id": "d0e05144a87a",
+      "title": "설계사 10명 중 7명 “보험판매전문회사 도입 필요”",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93173",
+      "source": "한국보험신문",
+      "published_at": "2026-10-12T00:00:00+09:00"
+    },
+    {
+      "id": "822d8a3bdfcd",
+      "title": "일본 화재보험 가입자 절반 이상 ‘대면 계약’… 인터넷도 27% 차지",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93170",
+      "source": "한국보험신문",
+      "published_at": "2026-10-12T00:00:00+09:00"
+    },
+    {
+      "id": "c5ea8c91891b",
+      "title": "일본 금융청, 재보험 캡티브 제도 신설 논의 착수",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93168",
+      "source": "한국보험신문",
+      "published_at": "2026-10-12T00:00:00+09:00"
+    },
+    {
+      "id": "8dba480e0c12",
+      "title": "[비즈 칼럼-RNA Analytics] 보험 디지털 트윈: 필요한 순간, 숫자로 답하는 보험경영",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93165",
+      "source": "한국보험신문",
+      "published_at": "2026-10-12T00:00:00+09:00"
+    },
+    {
+      "id": "21bc6d6b3ed3",
+      "title": "[티금융서비스의 머니 프리즘] 규제가 바꾼 보험영업, 71만 설계사에 ‘진짜 실력’을 묻다",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93163",
+      "source": "한국보험신문",
+      "published_at": "2026-10-12T00:00:00+09:00"
+    },
+    {
+      "id": "0dc1ba59ffb5",
+      "title": "[오동근의 보험맹 탈출하기] 임신·출산 실손보험… ‘280일’ 모르면 보험금 0원",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93161",
+      "source": "한국보험신문",
+      "published_at": "2026-10-12T00:00:00+09:00"
+    },
+    {
+      "id": "81b6ac4d1ff7",
+      "title": "[시론] 알고리즘의 효율, 보험의 신뢰와 포용의 과제",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93158",
+      "source": "한국보험신문",
+      "published_at": "2026-10-12T00:00:00+09:00"
+    }
+  ]
+}

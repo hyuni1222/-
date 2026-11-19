@@ -1,0 +1,136 @@
+{
+  "date": "2026-10-05",
+  "updated_at": "2026-11-19T10:57:31+09:00",
+  "collected_at": "2026-11-19T10:57:31+09:00",
+  "summary_version": 2,
+  "title": "GA업계, 분급수수료 지급기준 정할 시점 고민",
+  "demo": false,
+  "mode": "rss",
+  "backfilled": true,
+  "collection_method": "publisher_archive_calendar_day",
+  "article_window": {
+    "start": "2026-10-05T00:00:00+09:00",
+    "end": "2026-10-06T00:00:00+09:00"
+  },
+  "sources": [
+    "보험신보",
+    "보험저널",
+    "서울파이낸스",
+    "한국보험신문"
+  ],
+  "warnings": [],
+  "articles": [
+    {
+      "title": "GA업계, 분급수수료 지급기준 정할 시점 고민",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72577",
+      "source": "보험신보",
+      "source_group": "specialist",
+      "published_at": "2026-10-05T00:00:00+09:00",
+      "id": "da24f53e6e1b",
+      "category": "제도·정책",
+      "summary_parts": {
+        "intro": "분급수수료 지급기준을 정하는 문제를 두고 GA업계의 고민이 깊어지고 있다.",
+        "body": "최근 유지관리수수료 지급 방식에 대한 세부 가이드라인이 담긴 ‘제3차 수수료 개편 관련 FAQ’가 마련되는 등 이에 맞춰 관련 절차를 확정해야 할 시점이 얼마 남지 않았기 때문이다.",
+        "conclusion": "1200%룰 확대 적용으로 축소된 유동성 확보 차원에서는 본사 몫을 늘려야 하지만 소속 보험설계사의 지급률을 축소하면 다른 GA와의 리크루팅, 영업경쟁에서 밀릴 수 있기 때문이다."
+      },
+      "summary": "분급수수료 지급기준을 정하는 문제를 두고 GA업계의 고민이 깊어지고 있다.",
+      "source_digest": "f0f0a29c35d2a93f",
+      "summary_kind": "rss",
+      "implication": ""
+    },
+    {
+      "title": "GA ‘소비자보호 인증설계사 제도’ 본격운영",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72591",
+      "source": "보험신보",
+      "source_group": "specialist",
+      "published_at": "2026-10-05T00:00:00+09:00",
+      "id": "1e51a3e13c77",
+      "category": "제도·정책",
+      "summary_parts": {
+        "intro": "보험GA협회가 최근 ‘GA특화형 모집조직 자격제도’ 도입 프로젝트의 전초단계로 ‘소비자보호 인증설계사 제도’를 신설했다.",
+        "body": "2단계는 2급을 획득한 뒤 ▲개인·가계 보험의 이해 ▲기업보험의 이해 ▲재무설계의 기초 ▲컨설팅 영업의 이론과 실무 등 5~6개의 심화 시험과목을 통과할 경우 1급 합격증, 최우수 보험플래너 명칭, 인증마크를 부여하는…",
+        "conclusion": "장남훈 보험GA협회 상무는 “소비자보호 인증설계사 제도 도입의 목적은 실력을 갖춘 설계사를 배출하는 것”이라며 “KIIFA도 단계별 시험과목과 난이도, 유형, 제도 운영을 위한 교육체계 개발 등을 들여다보고 있다”고 말했다."
+      },
+      "summary": "보험GA협회가 최근 ‘GA특화형 모집조직 자격제도’ 도입 프로젝트의 전초단계로 ‘소비자보호 인증설계사 제도’를 신설했다.",
+      "source_digest": "15479ee7433151f1",
+      "summary_kind": "rss",
+      "implication": "",
+      "summary_basis": "public_article_excerpt"
+    },
+    {
+      "title": "[기고] 보험설계사 이직 시 설계사·GA가 챙길 법적 쟁점",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93021",
+      "source": "한국보험신문",
+      "source_group": "specialist",
+      "published_at": "2026-10-05T00:00:00+09:00",
+      "id": "a36f45c57376",
+      "category": "채널",
+      "summary_parts": {
+        "intro": "2026년 7월 1일부터 법인보험대리점(GA) 소속 설계사에게도 초년도 모집수수료 지급 한도를 월납보험료의 12배로 제한하는 1200%룰이 확대 적용됐다.",
+        "body": "2027년 1월부터는 판매수수료 분급제도 순차 시행된다.",
+        "conclusion": "선지급 구조가 축소되는 전환기에 조직 단위 이직이 늘면서 SNS를 통해 이직처의 수수료·시책을 수치로 내세우거나 기존 소속사를 비방하는 사례도 눈에 띈다."
+      },
+      "summary": "2026년 7월 1일부터 법인보험대리점(GA) 소속 설계사에게도 초년도 모집수수료 지급 한도를 월납보험료의 12배로 제한하는 1200%룰이 확대 적용됐다.",
+      "source_digest": "b52a18fffa6d880f",
+      "summary_kind": "rss",
+      "implication": ""
+    },
+    {
+      "title": "[26년 상반기 GA 공시분석②] 유지율도 ‘규모의 힘’… 3000명 이상 GA, 생·손보 4개 지표 싹쓸이",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33322",
+      "source": "보험저널",
+      "source_group": "specialist",
+      "published_at": "2026-10-05T07:14:00+09:00",
+      "id": "130da5649350",
+      "category": "채널",
+      "summary_parts": {
+        "intro": "GA업계 계약유지율이 2026년 상반기 단기와 장기 구간에서 엇갈린 흐름을 보였다.",
+        "body": "보험저널이 국내 주요 GA 공시자료를 분석한 결과, 2026년 상반기 73개 GA의 13회차 유지율 단순평균은 생보계약 86.4%, 손보계약 86.3%로 집계됐다.",
+        "conclusion": "25회차 유지율은 생보가 72.5%에서 76.8%로 4.3%포인트, 손보가 69.1%에서 72.3%로 3.2%포인트 상승했다."
+      },
+      "summary": "GA업계 계약유지율이 2026년 상반기 단기와 장기 구간에서 엇갈린 흐름을 보였다.",
+      "source_digest": "7f8b1c1668ffcea6",
+      "summary_kind": "rss",
+      "implication": ""
+    },
+    {
+      "title": "‘700종신’ 판매 중단에 생명보험업계, 상품·영업전략 재편",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93064",
+      "source": "한국보험신문",
+      "source_group": "specialist",
+      "published_at": "2026-10-05T00:00:00+09:00",
+      "id": "44ef26bf839c",
+      "category": "상품",
+      "summary_parts": {
+        "intro": "이른바 ‘700종신보험’으로 불리는 종신보험 상품의 판매가 중단되면서 생명보험업계의 상품 및 판매전략에도 변화가 불가피할 전망이다.",
+        "body": "실제 8월 주요 생보사의 GA채널 신계약 실적 554억원 가운데 700종신 관련 상품이 약 220억원으로 39.7%를 차지했다.",
+        "conclusion": "다만 상품구조 개선 이후 재판매 가능 여부와 구체적인 적용 범위는 향후 금융당국의 추가 지침과 보험사별 상품개편을 통해 확인될 전망이다."
+      },
+      "summary": "이른바 ‘700종신보험’으로 불리는 종신보험 상품의 판매가 중단되면서 생명보험업계의 상품 및 판매전략에도 변화가 불가피할 전망이다.",
+      "source_digest": "5a39f3950395f863",
+      "summary_kind": "rss",
+      "implication": "",
+      "summary_basis": "public_article_excerpt"
+    }
+  ],
+  "collection": {
+    "configured": [
+      "보험신보",
+      "보험저널",
+      "서울파이낸스",
+      "한국보험신문"
+    ],
+    "succeeded": [
+      "보험신보",
+      "보험저널",
+      "서울파이낸스",
+      "한국보험신문"
+    ],
+    "selected": [
+      "보험신보",
+      "보험저널",
+      "한국보험신문"
+    ],
+    "items_received": 88
+  }
+}

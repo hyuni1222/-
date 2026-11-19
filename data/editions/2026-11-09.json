@@ -1,0 +1,136 @@
+{
+  "date": "2026-11-09",
+  "updated_at": "2026-11-19T10:57:31+09:00",
+  "collected_at": "2026-11-19T10:57:31+09:00",
+  "summary_version": 2,
+  "title": "\"영업 동력 약화 우려\"… 4·7년 분급제 도입에 GA 대표, 단순 '수수료 전달자' , 설계사, '월급쟁이' 전락 위기",
+  "demo": false,
+  "mode": "rss",
+  "backfilled": true,
+  "collection_method": "publisher_archive_calendar_day",
+  "article_window": {
+    "start": "2026-11-09T00:00:00+09:00",
+    "end": "2026-11-10T00:00:00+09:00"
+  },
+  "sources": [
+    "보험신보",
+    "보험저널",
+    "서울파이낸스",
+    "한국보험신문"
+  ],
+  "warnings": [],
+  "articles": [
+    {
+      "title": "\"영업 동력 약화 우려\"… 4·7년 분급제 도입에 GA 대표, 단순 '수수료 전달자' , 설계사, '월급쟁이' 전락 위기",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33832",
+      "source": "보험저널",
+      "source_group": "specialist",
+      "published_at": "2026-11-09T15:17:00+09:00",
+      "id": "b3483bfb2c28",
+      "category": "제도·정책",
+      "summary_parts": {
+        "intro": "보험 영업의 핵심인 성과주의 체계가 변화를 맞이하고 있다.",
+        "body": "수수료 및 시책 변화와 함께 '4·7년 분급제'가 거론되면서, 독립보험대리점(GA)과 소속 설계사들의 수익 구조와 영업 환경에도 적지 않은 변화가 예상된다.",
+        "conclusion": "소비자 보호라는 제도 개선의 취지 속에서, 종사자들의 현실적인 적응과 대응 방안이 중요한 과제로 떠오르고 있다."
+      },
+      "summary": "보험 영업의 핵심인 성과주의 체계가 변화를 맞이하고 있다.",
+      "source_digest": "c03ecb56ed6c2141",
+      "summary_kind": "rss",
+      "implication": ""
+    },
+    {
+      "title": "보험 판매 비중 커진 GA, 내부통제·소비자보호 책임 강화",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93693",
+      "source": "한국보험신문",
+      "source_group": "specialist",
+      "published_at": "2026-11-09T00:00:00+09:00",
+      "id": "50a26fbff085",
+      "category": "채널",
+      "summary_parts": {
+        "intro": "대형 법인보험대리점(GA)이 늘고 보험 판매에서 비전속 채널이 차지하는 비중도 커지고 있다.",
+        "body": "생명·손해보험협회 공시를 토대로 집계한 비전속 채널의 계약 건수 비중은 2014년부터 2024년까지 생보가 48.0%에서 66.3%로, 장기손보가 57.6%에서 64.4%로 높아졌다.",
+        "conclusion": "박 팀장은 “보험사와 동일한 수단으로 GA를 감독하고 검사하기에는 어려운 한계들이 있다”며 “사업비에 대한 원칙과 내부통제·소비자보호 체계 장치의 근거를 보험업법에 마련하고, 책임성을 강화할 수 있는 제재 수단도 정비할…"
+      },
+      "summary": "대형 법인보험대리점(GA)이 늘고 보험 판매에서 비전속 채널이 차지하는 비중도 커지고 있다.",
+      "source_digest": "a90d011cd15a0f08",
+      "summary_kind": "rss",
+      "implication": "",
+      "summary_basis": "public_article_excerpt"
+    },
+    {
+      "title": "“생보 70:30, 손보 80:20… 수수료 경쟁력 달라지나”… 연만기·세만기 상품믹스 변수",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33834",
+      "source": "보험저널",
+      "source_group": "specialist",
+      "published_at": "2026-11-09T15:58:00+09:00",
+      "id": "09cdd0dbd7b1",
+      "category": "제도·정책",
+      "summary_parts": {
+        "intro": "내년 1월부터 보험판매수수료가 상품별 계약체결비용 한도 내로 제한되면서 GA(법인보험대리점)이 상품을 판매할 때 따져야 할 요소가 늘어나고 있다.",
+        "body": "통합·간편건강보험은 연만기와 세만기에 따라 계약체결비용의 절대금액과 월초보험료 대비 배수가 달라질 수 있다.",
+        "conclusion": "이에 따라 어떤 상품을 얼마나 판매하느냐에 따라 GA채널의 수수료 경쟁력에도 차이가 발생할 전망이다."
+      },
+      "summary": "내년 1월부터 보험판매수수료가 상품별 계약체결비용 한도 내로 제한되면서 GA(법인보험대리점)이 상품을 판매할 때 따져야 할 요소가 늘어나고 있다.",
+      "source_digest": "7bcb0ef6e875e431",
+      "summary_kind": "rss",
+      "implication": ""
+    },
+    {
+      "title": "GA 관리 책임 강화, 보험판매전문회사 법제화 논의도 탄력",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93649",
+      "source": "한국보험신문",
+      "source_group": "specialist",
+      "published_at": "2026-11-09T00:00:00+09:00",
+      "id": "e55323c5d8ce",
+      "category": "채널",
+      "summary_parts": {
+        "intro": "내년부터 보험사의 법인보험대리점(GA)에 대한 관리 책임이 한층 강화된다.",
+        "body": "우선 2027년 1월 1일부터 보험사 경영실태평가(RASS)에 ‘GA 운영위험 관리의 적정성’ 지표가 신설된다.",
+        "conclusion": "이러한 변화는 GA의 책임을 명확히 하는 동시에 법적 지위와 권한을 정립하기 위한 보험판매전문회사 법제화 논의에도 영향을 미칠 전망이다."
+      },
+      "summary": "내년부터 보험사의 법인보험대리점(GA)에 대한 관리 책임이 한층 강화된다.",
+      "source_digest": "645e52e2427935ba",
+      "summary_kind": "rss",
+      "implication": ""
+    },
+    {
+      "title": "보험연구원, 스위스 생갈렌대와 연구 교류 진행",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72934",
+      "source": "보험신보",
+      "source_group": "specialist",
+      "published_at": "2026-11-09T10:34:00+09:00",
+      "id": "65862786c622",
+      "category": "영업전략",
+      "summary_parts": {
+        "intro": "보험연구원은 지난 7일 스위스 생갈렌대 보험경제연구소의 소장인 마틴 엘링 교수와 연구 교류를 진행했다고 9일 밝혔다.",
+        "body": "1949년 설립된 생갈렌대 보험경제연구소는 유럽을 대표하는 리스크관리 분야 연구·교육기관이다.",
+        "conclusion": "이 연구소의 소장인 마틴 엘링 교수는 보험경영·보험경제학 분야의 석학으로 사이버 리스크의 보험가능성과 보험규제, 마이크로보험, 연금, 헬스케어 등 다양한 분야에서 연구 활동을 이어오고 있다."
+      },
+      "summary": "보험연구원은 지난 7일 스위스 생갈렌대 보험경제연구소의 소장인 마틴 엘링 교수와 연구 교류를 진행했다고 9일 밝혔다.",
+      "source_digest": "61b7809f0f155b31",
+      "summary_kind": "rss",
+      "implication": "",
+      "summary_basis": "public_article_excerpt"
+    }
+  ],
+  "collection": {
+    "configured": [
+      "보험신보",
+      "보험저널",
+      "서울파이낸스",
+      "한국보험신문"
+    ],
+    "succeeded": [
+      "보험신보",
+      "보험저널",
+      "서울파이낸스",
+      "한국보험신문"
+    ],
+    "selected": [
+      "보험신보",
+      "보험저널",
+      "한국보험신문"
+    ],
+    "items_received": 147
+  }
+}

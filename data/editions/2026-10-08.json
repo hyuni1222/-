@@ -1,0 +1,137 @@
+{
+  "date": "2026-10-08",
+  "updated_at": "2026-11-19T10:57:31+09:00",
+  "collected_at": "2026-11-19T10:57:31+09:00",
+  "summary_version": 2,
+  "title": "인카금융서비스 ‘정착지원금·수수료 환수’ 국감 도마… GA 감독 강화 촉구",
+  "demo": false,
+  "mode": "rss",
+  "backfilled": true,
+  "collection_method": "publisher_archive_calendar_day",
+  "article_window": {
+    "start": "2026-10-08T00:00:00+09:00",
+    "end": "2026-10-09T00:00:00+09:00"
+  },
+  "sources": [
+    "보험신보",
+    "보험저널",
+    "서울파이낸스",
+    "한국보험신문"
+  ],
+  "warnings": [],
+  "articles": [
+    {
+      "title": "인카금융서비스 ‘정착지원금·수수료 환수’ 국감 도마… GA 감독 강화 촉구",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93249",
+      "source": "한국보험신문",
+      "source_group": "specialist",
+      "published_at": "2026-10-08T18:07:00+09:00",
+      "id": "92997d17f039",
+      "category": "제도·정책",
+      "summary_parts": {
+        "intro": "초대형 법인보험대리점(GA) 인카금융서비스의 정착지원금과 수수료 환수, 보증보험 운용 구조가 국정감사에서 쟁점으로 제기됐다.",
+        "body": "지급보험금은 2024년 약 318억6000만원, 2025년 약 486억1000만원, 올해 1~8월 약 485억1000만원으로 집계됐다.",
+        "conclusion": "8일 국회 정무위원회의 금융위원회 국정감사에서 김형연 조국혁신당 의원은 정착지원금을 내세워 청년 설계사를 모집한 뒤 지원금과 수수료를 환수하는 과정에서 설계사가 채무를 부담하게 됐다는 언론 보도 사례를 제시했다."
+      },
+      "summary": "초대형 법인보험대리점(GA) 인카금융서비스의 정착지원금과 수수료 환수, 보증보험 운용 구조가 국정감사에서 쟁점으로 제기됐다.",
+      "source_digest": "42d66dca017cceca",
+      "summary_kind": "rss",
+      "implication": "",
+      "summary_basis": "public_article_excerpt"
+    },
+    {
+      "title": "보험GA협회-한국손해사정사회, '소비자보호인증설계사' 제도 본격 시행...제1기 정규교육과정 개강",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33362",
+      "source": "보험저널",
+      "source_group": "specialist",
+      "published_at": "2026-10-08T08:54:00+09:00",
+      "id": "656834eb1678",
+      "category": "제도·정책",
+      "summary_parts": {
+        "intro": "(사)한국보험대리점협회(회장 김용태)는 (사)한국손해사정사회(회장 민병진)와 함께 '소비자보호인증설계사'인증제도를 도입·시행하고, 10월 7일 제1기 정규교육과정을 개강했다고 밝혔다.",
+        "body": "'소비자보호인증설계사'는 소비자보호 역량과 전문성을 갖춘 보험설계사를 교육하고 인증하는 제도다.",
+        "conclusion": "보험계약체결의 완전판매부터 판매 이후의 유지·관리 및 보험금 청구 과정 등 보험계약 전 과정에서 소비자가 겪는 정보 격차와 어려움을 줄이는 데 중점을 두고, 이를 위한 역량 강화를 핵심 교육 요소로 삼고 설계사를 육성하는…"
+      },
+      "summary": "(사)한국보험대리점협회(회장 김용태)는 (사)한국손해사정사회(회장 민병진)와 함께 '소비자보호인증설계사'인증제도를 도입·시행하고, 10월 7일 제1기 정규교육과정을 개강했다고 밝혔다.",
+      "source_digest": "32d8bc4ddbadb602",
+      "summary_kind": "rss",
+      "implication": ""
+    },
+    {
+      "title": "[10월 생보 GA시책] 700종신 빠진 자리 어디로… 통합건강에 ‘명목 2000%대’ 시책 쏠렸다",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33358",
+      "source": "보험저널",
+      "source_group": "specialist",
+      "published_at": "2026-10-08T07:24:00+09:00",
+      "id": "7e2584ad7a19",
+      "category": "상품",
+      "summary_parts": {
+        "intro": "10월 생보사 GA설계사 시책에서는 700종신보험 판매중단 이후 외형 실적보다 수익성을 중시하는 영업기조가 두드러졌다.",
+        "body": "실제로 10월 GA시책을 보면 700종신의 직접적인 대체상품으로 거론됐던 5·7·10년납 단기납종신보험 시책은 전월 대비 소폭 상승하는 데 그쳤고, 건강종신은 오히려 크게 낮아졌다.",
+        "conclusion": "이는 700종신 판매중단 이후 시책의 중심이 단기납종신이나 건강종신보험보다 통합건강보험에 집중되고 있기 때문이다."
+      },
+      "summary": "10월 생보사 GA설계사 시책에서는 700종신보험 판매중단 이후 외형 실적보다 수익성을 중시하는 영업기조가 두드러졌다.",
+      "source_digest": "70c4a0457f314f18",
+      "summary_kind": "rss",
+      "implication": ""
+    },
+    {
+      "title": "보험GA협회-손해사정사회, ‘소비자보호인증설계사’ 공동 인증 실시",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93211",
+      "source": "한국보험신문",
+      "source_group": "specialist",
+      "published_at": "2026-10-08T00:00:00+09:00",
+      "id": "c4f3ee6b26a0",
+      "category": "채널",
+      "summary_parts": {
+        "intro": "보험GA협회가 한국손해사정사회와 손잡고 보험계약 체결부터 보험금 청구지원까지 전 과정에서 소비자보호 역량을 갖춘 보험설계사를 육성·인증하는 ‘소비자보호인증설계사’ 제도를 시행한다.",
+        "body": "보험GA협회(이하 협회)는 지난 7일 서울 종로구 광화문GA인재개발센터에서 ‘소비자보호인증설계사’ 제1기 정규교육과정을 실시했다고 8일 밝혔다.",
+        "conclusion": "‘소비자보호인증설계사’는 보험계약의 완전판매부터 계약 체결 이후 유지·관리, 보험금 청구 과정까지 소비자가 겪을 수 있는 정보 격차와 어려움을 줄일 수 있도록 설계사의 전문성과 소비자보호 역량을 높이는 데 초점을 맞춘…"
+      },
+      "summary": "보험GA협회가 한국손해사정사회와 손잡고 보험계약 체결부터 보험금 청구지원까지 전 과정에서 소비자보호 역량을 갖춘 보험설계사를 육성·인증하는 ‘소비자보호인증설계사’ 제도를 시행한다.",
+      "source_digest": "759d455e43ecd313",
+      "summary_kind": "rss",
+      "implication": "",
+      "summary_basis": "public_article_excerpt"
+    },
+    {
+      "title": "[국감] 대형 GA 첫 국감 증인석···120% 환수·내부통제 도마",
+      "url": "https://www.seoulfn.com/news/articleView.html?idxno=639707",
+      "source": "서울파이낸스",
+      "source_group": "general",
+      "published_at": "2026-10-08T17:25:00+09:00",
+      "id": "727fa3c4f06b",
+      "category": "채널",
+      "summary_parts": {
+        "intro": "대형 법인보험대리점(GA)의 설계사 관리와 수수료 환수 구조, 내부통제 문제가 국정감사에서 도마에 올랐다.",
+        "body": "김 의원은 SGI서울보증의 GA 설계사 보증보험 지급액이 최근 3년간 1290억원에 달하며 건당 평균 지급액도 2024년 543만원에서 2025년 665만원, 올해 8월까지 725만원으로 늘었다고 밝혔다.",
+        "conclusion": "이번 국감에서 제기된 환수 관행과 내부통제 문제가 제도 시행 이후 실제로 개선됐는지가 향후 점검 대상이 될 전망이다."
+      },
+      "summary": "대형 법인보험대리점(GA)의 설계사 관리와 수수료 환수 구조, 내부통제 문제가 국정감사에서 도마에 올랐다.",
+      "source_digest": "0709e54d1964271a",
+      "summary_kind": "rss",
+      "implication": "",
+      "summary_basis": "public_article_excerpt"
+    }
+  ],
+  "collection": {
+    "configured": [
+      "보험신보",
+      "보험저널",
+      "서울파이낸스",
+      "한국보험신문"
+    ],
+    "succeeded": [
+      "보험신보",
+      "보험저널",
+      "서울파이낸스",
+      "한국보험신문"
+    ],
+    "selected": [
+      "보험저널",
+      "서울파이낸스",
+      "한국보험신문"
+    ],
+    "items_received": 120
+  }
+}

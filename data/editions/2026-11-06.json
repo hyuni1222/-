@@ -1,0 +1,118 @@
+{
+  "date": "2026-11-06",
+  "updated_at": "2026-11-19T10:57:31+09:00",
+  "collected_at": "2026-11-19T10:57:31+09:00",
+  "summary_version": 2,
+  "title": "“700종신 빠져도 GA는 연금 아닌 종신 택했다”… 단기납·건강·인출형종신 판매 급증",
+  "demo": false,
+  "mode": "rss",
+  "backfilled": true,
+  "collection_method": "publisher_archive_calendar_day",
+  "article_window": {
+    "start": "2026-11-06T00:00:00+09:00",
+    "end": "2026-11-07T00:00:00+09:00"
+  },
+  "sources": [
+    "보험신보",
+    "보험저널",
+    "서울파이낸스",
+    "한국보험신문"
+  ],
+  "warnings": [],
+  "articles": [
+    {
+      "title": "“700종신 빠져도 GA는 연금 아닌 종신 택했다”… 단기납·건강·인출형종신 판매 급증",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33803",
+      "source": "보험저널",
+      "source_group": "specialist",
+      "published_at": "2026-11-06T08:16:00+09:00",
+      "id": "8a8d1ee90afb",
+      "category": "상품",
+      "summary_parts": {
+        "intro": "700종신보험 판매중단 이후에도 법인보험대리점(GA)채널에서 종신보험 계열 상품의 판매 증가세가 두드러진 것으로 나타났다.",
+        "body": "700종신이 빠진 자리를 단기납종신과 건강종신·인출형종신 등이 포함된 일반종신이 일부 메우면서 생보 GA시장의 상품별 판매구조에도 변화가 나타났다.",
+        "conclusion": "통합건강보험보다 다른 종신보험의 판매 증가폭이 컸다는 점에서 GA채널의 종신보험 선호가 여전히 유지되고 있다는 분석이다."
+      },
+      "summary": "700종신보험 판매중단 이후에도 법인보험대리점(GA)채널에서 종신보험 계열 상품의 판매 증가세가 두드러진 것으로 나타났다.",
+      "source_digest": "386265e437c9891d",
+      "summary_kind": "rss",
+      "implication": ""
+    },
+    {
+      "title": "메타리치, 수수료 경쟁 넘어 ‘GA 2.0’ 전환… 통합 업무시스템 ‘MetaArena’ 구축(영상+)",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33783",
+      "source": "보험저널",
+      "source_group": "specialist",
+      "published_at": "2026-11-06T09:00:00+09:00",
+      "id": "1a424ed44715",
+      "category": "제도·정책",
+      "summary_parts": {
+        "intro": "보험 GA 업계의 경쟁 기준이 변화하고 있다.",
+        "body": "과거 설계사 영입을 위한 수수료와 정착지원금, 조직 규모가 주요 경쟁 요소였다면, 최근에는 업무환경과 조직 운영체계, 정보보호 및 내부통제 수준 등이 새로운 경쟁력으로 부상하고 있다.",
+        "conclusion": "RSS에서 확인되는 내용은 위와 같으며, 추가 영향은 원문 확인이 필요합니다."
+      },
+      "summary": "보험 GA 업계의 경쟁 기준이 변화하고 있다.",
+      "source_digest": "95b8e0d1df4985ca",
+      "summary_kind": "rss",
+      "implication": ""
+    },
+    {
+      "title": "법원, 2천억원대 ‘깡통 보증서’ 발행한 유령 보험사에 해산명령",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93714",
+      "source": "한국보험신문",
+      "source_group": "specialist",
+      "published_at": "2026-11-06T18:45:00+09:00",
+      "id": "5aef888776e8",
+      "category": "영업전략",
+      "summary_parts": {
+        "intro": "무허가 ‘깡통 보증서’를 대량 발급하고 수십억원의 수수료를 챙긴 유령 보증보험사에 대해 법원이 법인 해산을 명령했다.",
+        "body": "K법인은 2019년 2월부터 올해 6월까지 금융위원회 허가 없이 모두 2002억원 규모의 보험증서 87건을 발행한 뒤 수수료로 약 30억원을 챙긴 것으로 조사됐다.",
+        "conclusion": "공소청은 K법인과 전·현직 대표이사 등 임직원 6명을 보험업법 위반과 특정경제범죄가중처벌법상 사기·횡령 혐의로 재판에 넘긴 상태다."
+      },
+      "summary": "무허가 ‘깡통 보증서’를 대량 발급하고 수십억원의 수수료를 챙긴 유령 보증보험사에 대해 법원이 법인 해산을 명령했다.",
+      "source_digest": "95427773c2cfc579",
+      "summary_kind": "rss",
+      "implication": "",
+      "summary_basis": "public_article_excerpt"
+    },
+    {
+      "title": "[보험브리핑] 토스인슈어런스, 대구 오피스 개소 외",
+      "url": "https://www.seoulfn.com/news/articleView.html?idxno=642174",
+      "source": "서울파이낸스",
+      "source_group": "general",
+      "published_at": "2026-11-06T16:28:00+09:00",
+      "id": "c370d844ddcb",
+      "category": "영업전략",
+      "summary_parts": {
+        "intro": "토스인슈어런스 는 대구 오피스를 새로 열었다고 6일 밝혔다.",
+        "body": "교보생명 공익재단인 교보교육재단은 지난달 31일 서울 서초구 대한건축사협회에서 열린 '2026년 제2회 청소년 AI윤리ON캠프'에서 청소년 대상 AI 가치판단 토론 프로그램을 운영했다고 6일 밝혔다.",
+        "conclusion": "토론 결과는 카드뉴스로 제작했다."
+      },
+      "summary": "토스인슈어런스 는 대구 오피스를 새로 열었다고 6일 밝혔다.",
+      "source_digest": "1aa2e5084fd2efe8",
+      "summary_kind": "rss",
+      "implication": "",
+      "summary_basis": "public_article_excerpt"
+    }
+  ],
+  "collection": {
+    "configured": [
+      "보험신보",
+      "보험저널",
+      "서울파이낸스",
+      "한국보험신문"
+    ],
+    "succeeded": [
+      "보험신보",
+      "보험저널",
+      "서울파이낸스",
+      "한국보험신문"
+    ],
+    "selected": [
+      "보험저널",
+      "서울파이낸스",
+      "한국보험신문"
+    ],
+    "items_received": 113
+  }
+}

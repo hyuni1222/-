@@ -1,0 +1,136 @@
+{
+  "date": "2026-11-03",
+  "updated_at": "2026-11-19T10:57:31+09:00",
+  "collected_at": "2026-11-19T10:57:31+09:00",
+  "summary_version": 2,
+  "title": "[26년 10월 생보 GA채널] “700종신 빠지자 실적 희비 교차”… 동양생명 82.8% 급감, 라이나생명 72% 급증",
+  "demo": false,
+  "mode": "rss",
+  "backfilled": true,
+  "collection_method": "publisher_archive_calendar_day",
+  "article_window": {
+    "start": "2026-11-03T00:00:00+09:00",
+    "end": "2026-11-04T00:00:00+09:00"
+  },
+  "sources": [
+    "보험신보",
+    "보험저널",
+    "서울파이낸스",
+    "한국보험신문"
+  ],
+  "warnings": [],
+  "articles": [
+    {
+      "title": "[26년 10월 생보 GA채널] “700종신 빠지자 실적 희비 교차”… 동양생명 82.8% 급감, 라이나생명 72% 급증",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33760",
+      "source": "보험저널",
+      "source_group": "specialist",
+      "published_at": "2026-11-03T09:20:00+09:00",
+      "id": "c8efce9cc7b1",
+      "category": "상품",
+      "summary_parts": {
+        "intro": "10월 생명보험사 GA채널 실적이 전월 대비 26.3% 급감했다.",
+        "body": "10월 생보사 GA채널 전체 판매실적은 439.9억원으로 전월 596.6억원 대비 156.7억원(26.3%) 감소했다.",
+        "conclusion": "지난 9월 700종신보험 판매중단을 앞두고 막판 판매가 집중됐던 것과 달리, 10월에는 해당 상품의 판매가 중단되면서 전체 실적이 크게 감소했다."
+      },
+      "summary": "10월 생명보험사 GA채널 실적이 전월 대비 26.3% 급감했다.",
+      "source_digest": "c8a8b4fcb1e2ed1a",
+      "summary_kind": "rss",
+      "implication": ""
+    },
+    {
+      "title": "“보험사·GA, 계약체결비용 산정기준 공유 어디까지?”… 4년 분급 앞두고 투명성 과제",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33755",
+      "source": "보험저널",
+      "source_group": "specialist",
+      "published_at": "2026-11-03T07:24:00+09:00",
+      "id": "297dd288a6ea",
+      "category": "제도·정책",
+      "summary_parts": {
+        "intro": "2027년 1월 보험 판매수수료 4년 분급제 시행을 앞두고 보험사와 GA(법인보험대리점) 간 상품별 계약체결비용과 수수료 지급기준에 대한 정보 공유가 중요해지고 있다.",
+        "body": "보험사가 산정하는 상품별 계약체결비용과 GA에 실제 지급되는 판매수수료는 서로 다른 개념이다.",
+        "conclusion": "보험사는 상품 원가와 수익성, 규제상 한도 등을 고려해 수수료 지급조건을 결정하고, GA는 이를 토대로 설계사 보상과 조직 운영계획을 수립한다."
+      },
+      "summary": "2027년 1월 보험 판매수수료 4년 분급제 시행을 앞두고 보험사와 GA(법인보험대리점) 간 상품별 계약체결비용과 수수료 지급기준에 대한 정보 공유가 중요해지고 있다.",
+      "source_digest": "00e842d9028f833c",
+      "summary_kind": "rss",
+      "implication": ""
+    },
+    {
+      "title": "동양생명, ‘우리WON하는건강플러스종신보험’ 출시",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93640",
+      "source": "한국보험신문",
+      "source_group": "specialist",
+      "published_at": "2026-11-03T10:23:00+09:00",
+      "id": "ffe2dddbcd48",
+      "category": "상품",
+      "summary_parts": {
+        "intro": "동양생명이 사망보장에 보험료 납입면제와 납입 완료 후 치료 보장을 더한 ‘우리WON하는건강플러스종신보험’을 출시했다고 3일 밝혔다.",
+        "body": "건강플러스 보장 가입금액 1억원 기준, 비급여 표적항암약물허가치료·특정면역항암약물허가치료·항암양성자방사선치료는 각각 연간 1회 1000만원, 암 수술은 1회당 500만원을 지급한다.",
+        "conclusion": "동양생명 관계자는 “이 상품은 사망보장을 기본으로, 납입기간 중에는 질병 진단에 따른 보험료 부담을 덜고 납입 완료 후에는 핵심치료 보장을 받을 수 있도록 설계했다”며 “앞으로도 고객의 생애주기에 맞춰 사망보장과 건강보장을…"
+      },
+      "summary": "동양생명이 사망보장에 보험료 납입면제와 납입 완료 후 치료 보장을 더한 ‘우리WON하는건강플러스종신보험’을 출시했다고 3일 밝혔다.",
+      "source_digest": "c915d4950342c7b2",
+      "summary_kind": "rss",
+      "implication": "",
+      "summary_basis": "public_article_excerpt"
+    },
+    {
+      "title": "[보험브리핑] 한화손보, '안심위치공유서비스' 배타적사용권 3개월 획득 외",
+      "url": "https://www.seoulfn.com/news/articleView.html?idxno=641740",
+      "source": "서울파이낸스",
+      "source_group": "general",
+      "published_at": "2026-11-03T10:29:00+09:00",
+      "id": "8cc8de767957",
+      "category": "영업전략",
+      "summary_parts": {
+        "intro": "[서울파이낸스 송금종 기] 한화손해보험은 '안심위치공유서비스'가 배타적사용권 3개월을 획득했다고 3일 밝혔다.",
+        "body": "동양생명은 '(무)우리WON하는건강플러스종신보험'을 출시했다고 3일 밝혔다.",
+        "conclusion": "보험료 납입기간에 선택한 유형의 질환을 진단받으면 이후 보험료 납입이 면제된다."
+      },
+      "summary": "[서울파이낸스 송금종 기] 한화손해보험은 '안심위치공유서비스'가 배타적사용권 3개월을 획득했다고 3일 밝혔다.",
+      "source_digest": "a5472341150cfdfc",
+      "summary_kind": "rss",
+      "implication": ""
+    },
+    {
+      "title": "보험 모집질서 개선, 판매 권한만큼 ‘책임’도 강화해야",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93652",
+      "source": "한국보험신문",
+      "source_group": "specialist",
+      "published_at": "2026-11-03T18:51:00+09:00",
+      "id": "9d2592d04954",
+      "category": "영업전략",
+      "summary_parts": {
+        "intro": "보험상품을 판매할 때 어떤 상품을 비교하고 왜 추천했는지, 기존 계약을 변경하면 어떤 불이익이 발생하는지 소비자에게 충분히 설명하고 사후에도 이를 확인할 수 있어야 한다는 제언이 나왔다.",
+        "body": "박성훈 국민의힘 의원과 보험연구원은 3일 서울 여의도 국회 의원회관에서 ‘보험 모집질서 건전화와 소비자 보호를 위한 정책토론회’를 공동 개최했다.",
+        "conclusion": "김 연구위원은 제도 개선 과제로 ▲비교·설명 의무 등 새 제도의 현장 안착 ▲공시의 실효성 제고 ▲판매조직의 책임 강화 ▲적합성 심사 내실화 ▲소비자가 스스로 비교·선택할 수 있는 환경 조성을 제시했다."
+      },
+      "summary": "보험상품을 판매할 때 어떤 상품을 비교하고 왜 추천했는지, 기존 계약을 변경하면 어떤 불이익이 발생하는지 소비자에게 충분히 설명하고 사후에도 이를 확인할 수 있어야 한다는 제언이 나왔다.",
+      "source_digest": "2edb12f274767e4a",
+      "summary_kind": "rss",
+      "implication": "",
+      "summary_basis": "public_article_excerpt"
+    }
+  ],
+  "collection": {
+    "configured": [
+      "보험신보",
+      "보험저널",
+      "서울파이낸스",
+      "한국보험신문"
+    ],
+    "succeeded": [
+      "보험신보",
+      "보험저널",
+      "서울파이낸스",
+      "한국보험신문"
+    ],
+    "selected": [
+      "보험저널",
+      "서울파이낸스",
+      "한국보험신문"
+    ],
+    "items_received": 130
+  }
+}

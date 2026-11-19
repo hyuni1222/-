@@ -1,0 +1,571 @@
+{
+  "id": "2026-09-28",
+  "kind": "weekly",
+  "label": "10월 1일 ~ 10월 4일",
+  "period_start": "2026-09-28",
+  "period_end": "2026-10-04",
+  "start": "2026-10-01",
+  "end": "2026-10-04",
+  "in_progress": false,
+  "partial": true,
+  "article_count": 48,
+  "source_count": 4,
+  "sources": {
+    "보험저널": 27,
+    "서울파이낸스": 8,
+    "한국보험신문": 7,
+    "보험신보": 6
+  },
+  "coverage_days": 4,
+  "expected_days": 4,
+  "warning_days": [],
+  "summary_parts": {
+    "intro": "10월 1일 ~ 10월 4일에는 종신·연금·상품 경쟁 · 소비자보호·내부통제 관련 보도를 중심으로 흐름을 정리했습니다. 분석 대상은 4개 매체의 48건입니다.",
+    "body": "전남광주통합특별시 고흥군이 태양광과 해상풍력을 중심으로 지역 내 실현 가능한 재생에너지 개발 규모를 10GW까지 확대하고, 주민 이익공유를 기반으로 한 '군민 에너지연금' 추진에 나선다. 보험상품 판매를 전담하는 '보험판매전문회사'(이하 보험판전사) 제도 도입 논의가 본격화하고 있다.",
+    "conclusion": "신상품의 가입 조건·보장 범위·유동성 기능을 비교하고, 고객 상황에 맞는 설명 포인트를 정리할 필요가 있습니다."
+  },
+  "themes": [
+    {
+      "id": "strategy",
+      "title": "보험사·시장 동향",
+      "count": 17,
+      "summary_parts": {
+        "intro": "보험사의 경영과 시장 대응 관련 보도가 3일에 걸쳐 17건 수집됐습니다.",
+        "body": "10/01 9월 변액보험 시장이 엇갈린 성적표를 받아들었다. 10/03 화재보험협회가 올해 신입·경력직원을 공개 채용한다고 3일 밝혔다.",
+        "conclusion": "보험사의 경영·서비스 변화가 상담과 고객관리 과정에 어떤 영향을 주는지 확인할 필요가 있습니다."
+      },
+      "evidence": [
+        {
+          "id": "0b6c9533516f",
+          "title": "‘엇갈린 성적표’... 9월 변액보험, 수익률 올랐는데 순자산은 왜 빠졌나",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33283",
+          "source": "보험저널",
+          "published_at": "2026-10-01T07:21:00+09:00",
+          "fact": "9월 변액보험 시장이 엇갈린 성적표를 받아들었다."
+        },
+        {
+          "id": "a56be39cbcaf",
+          "title": "교보생명, 보험업무 넘어 결제·정산까지… 디지털자산 활용 확대",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93136",
+          "source": "한국보험신문",
+          "published_at": "2026-10-02T14:29:00+09:00",
+          "fact": "교보생명이 일본 SBI홀딩스, 서클(Circle), 비댁스(BDACS)와 스테이블코인·실물연계자산(RWA) 등 디지털자산의 금융서비스 적용 가능성을 점검하고 협력 방안을 논의했다."
+        },
+        {
+          "id": "0126f7445382",
+          "title": "화재보험협회, 신입·경력 공채실시···AI 인재 확보",
+          "url": "https://www.seoulfn.com/news/articleView.html?idxno=639169",
+          "source": "서울파이낸스",
+          "published_at": "2026-10-03T10:00:00+09:00",
+          "fact": "화재보험협회가 올해 신입·경력직원을 공개 채용한다고 3일 밝혔다."
+        }
+      ],
+      "sources": [
+        "보험신보",
+        "보험저널",
+        "서울파이낸스",
+        "한국보험신문"
+      ]
+    },
+    {
+      "id": "product",
+      "title": "종신·연금·상품 경쟁",
+      "count": 13,
+      "summary_parts": {
+        "intro": "상품 구성과 고객 보장 수요 관련 보도가 2일에 걸쳐 13건 수집됐습니다.",
+        "body": "10/01 ‘NH농협생명, ‘건강채움NH암종신보험’ 출시’ 소식이 보도됐습니다. 10/02 전남광주통합특별시 고흥군이 태양광과 해상풍력을 중심으로 지역 내 실현 가능한 재생에너지 개발 규모를 10GW까지 확대하고, 주민 이익공유를 기반으로 한 '군민 에너지연금' 추진에 나선다.",
+        "conclusion": "신상품의 가입 조건·보장 범위·유동성 기능을 비교하고, 고객 상황에 맞는 설명 포인트를 정리할 필요가 있습니다."
+      },
+      "evidence": [
+        {
+          "id": "99887fc70a26",
+          "title": "NH농협생명, ‘건강채움NH암종신보험’ 출시",
+          "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72569",
+          "source": "보험신보",
+          "published_at": "2026-10-01T09:00:00+09:00",
+          "fact": "‘NH농협생명, ‘건강채움NH암종신보험’ 출시’ 소식이 보도됐습니다."
+        },
+        {
+          "id": "afa14f1651c5",
+          "title": "암 진단비 100% 먼저 받고 사망보장 '리필'까지…NH농협생명 '건강채움NH암종신보험' 출시",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33288",
+          "source": "보험저널",
+          "published_at": "2026-10-01T09:04:00+09:00",
+          "fact": "NH농협생명이 일반암 진단 시 보험금을 선지급해 치료비로 활용하고, 이후 줄어든 사망보장을 다시 채워주는 신상품 '건강채움NH암종신보험(해약환급금일부지급형, 무배당)'을 1일 출시했다."
+        },
+        {
+          "id": "b0981a770e14",
+          "title": "고흥군, 재생에너지 10GW 시대 연다···'군민 에너지연금' 추진",
+          "url": "https://www.seoulfn.com/news/articleView.html?idxno=639256",
+          "source": "서울파이낸스",
+          "published_at": "2026-10-02T15:58:00+09:00",
+          "fact": "전남광주통합특별시 고흥군이 태양광과 해상풍력을 중심으로 지역 내 실현 가능한 재생에너지 개발 규모를 10GW까지 확대하고, 주민 이익공유를 기반으로 한 '군민 에너지연금' 추진에 나선다."
+        }
+      ],
+      "sources": [
+        "보험신보",
+        "보험저널",
+        "서울파이낸스",
+        "한국보험신문"
+      ]
+    },
+    {
+      "id": "control",
+      "title": "소비자보호·내부통제",
+      "count": 8,
+      "summary_parts": {
+        "intro": "판매 과정의 설명 책임과 관리 기준 관련 보도가 3일에 걸쳐 8건 수집됐습니다.",
+        "body": "10/01 ‘금감원, ‘보험상품 방송광고 건전화’ 간담회 열어’ 소식이 보도됐습니다. 10/04 보험상품 판매를 전담하는 '보험판매전문회사'(이하 보험판전사) 제도 도입 논의가 본격화하고 있다.",
+        "conclusion": "모집·광고·계약관리 단계의 준수 항목을 점검하고, 고객 안내와 현장 교육을 함께 보완할 필요가 있습니다."
+      },
+      "evidence": [
+        {
+          "id": "7c793e673a6e",
+          "title": "금감원, ‘보험상품 방송광고 건전화’ 간담회 열어",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93086",
+          "source": "한국보험신문",
+          "published_at": "2026-10-01T10:00:00+09:00",
+          "fact": "‘금감원, ‘보험상품 방송광고 건전화’ 간담회 열어’ 소식이 보도됐습니다."
+        },
+        {
+          "id": "53a47392b9ad",
+          "title": "KGA에셋, GA업계 최초 'AI 기반 DB 품질·내부통제 관리 시스템' 전격 도입",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33303",
+          "source": "보험저널",
+          "published_at": "2026-10-01T15:14:00+09:00",
+          "fact": "KGA에셋이 법인보험대리점(GA) 업계 최초로 인공지능(AI)을 활용한 고객 데이터베이스(DB) 품질 및 내부통제 관리 시스템을 구축하고 이달부터 본격적인 운영에 돌입했다."
+        },
+        {
+          "id": "6cc5262b05ef",
+          "title": "[보험판전사發 지각변동/上] 토스, 플랫폼형 GA실험···보안·내부통제 선제 구축",
+          "url": "https://www.seoulfn.com/news/articleView.html?idxno=639257",
+          "source": "서울파이낸스",
+          "published_at": "2026-10-04T14:00:00+09:00",
+          "fact": "보험상품 판매를 전담하는 '보험판매전문회사'(이하 보험판전사) 제도 도입 논의가 본격화하고 있다."
+        }
+      ],
+      "sources": [
+        "보험저널",
+        "서울파이낸스",
+        "한국보험신문"
+      ]
+    },
+    {
+      "id": "channel",
+      "title": "GA·설계사·영업조직",
+      "count": 7,
+      "summary_parts": {
+        "intro": "판매채널과 영업조직의 운영 관련 보도가 3일에 걸쳐 7건 수집됐습니다.",
+        "body": "10/01 700종신보험 판매중단 이후 생보사와 GA가 동시에 ‘고환산’과 ‘설계사 소득공백’을 어떻게 메울 것인가라는 공통 과제를 안게 됐다. 10/04 2026년 상반기 대형 GA의 생명보험 불완전판매비율이 낮은 수준을 이어간 가운데, 설계사 3000명 이상 초대형 GA를 중심으로 판매품질 개선 흐름이 뚜렷하게 나타났다.",
+        "conclusion": "조직 규모와 인당 생산성, 계약 유지 수준을 함께 확인해 교육·활동관리의 우선순위를 정할 필요가 있습니다."
+      },
+      "evidence": [
+        {
+          "id": "297a09d0e4ee",
+          "title": "700종신 판매중단에 ‘고환산’ 공백… GA업계, 발빠르게 대체상품 전략 가동",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33290",
+          "source": "보험저널",
+          "published_at": "2026-10-01T09:26:00+09:00",
+          "fact": "700종신보험 판매중단 이후 생보사와 GA가 동시에 ‘고환산’과 ‘설계사 소득공백’을 어떻게 메울 것인가라는 공통 과제를 안게 됐다."
+        },
+        {
+          "id": "23d985f769c8",
+          "title": "보험시장에 도전장 낸 플랫폼 기업···설계사 조직부터 AI까지 차별화",
+          "url": "https://www.seoulfn.com/news/articleView.html?idxno=639174",
+          "source": "서울파이낸스",
+          "published_at": "2026-10-04T11:00:00+09:00",
+          "fact": "보험 판매 시장에 진출한 플랫폼 기업들이 각자의 강점을 내세워 고객을 공략하고 있다."
+        },
+        {
+          "id": "5963a99221ed",
+          "title": "[26년 상반기 GA 공시분석①] 설계사 늘어도 불판율은 ‘뚝’… 초대형 GA 판매품질 더 좋아졌다",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33320",
+          "source": "보험저널",
+          "published_at": "2026-10-04T17:31:00+09:00",
+          "fact": "2026년 상반기 대형 GA의 생명보험 불완전판매비율이 낮은 수준을 이어간 가운데, 설계사 3000명 이상 초대형 GA를 중심으로 판매품질 개선 흐름이 뚜렷하게 나타났다."
+        }
+      ],
+      "sources": [
+        "보험저널",
+        "서울파이낸스"
+      ]
+    },
+    {
+      "id": "fees",
+      "title": "수수료·제도 변화",
+      "count": 3,
+      "summary_parts": {
+        "intro": "수수료 체계와 판매 제도의 변화 관련 보도가 1일에 걸쳐 3건 수집됐습니다.",
+        "body": "10/01 보험판매전문회사 입법이 본격화하면서 GA업계가 사업비 협상권 못지않게 따져봐야 할 변수로 1차 배상책임이 떠오르고 있다. 10/01 ‘[칼럼] 보험대리점 수수료 환수, 이것만은 알고 대응해야’ 소식이 보도됐습니다.",
+        "conclusion": "적용 시점·대상 채널·환수 조건을 나눠 확인하고, 설계사 교육과 보상 안내에 반영할 필요가 있습니다."
+      },
+      "evidence": [
+        {
+          "id": "7a6994de3f82",
+          "title": "‘GA판 지급여력’?… 보험판매전문회사 ‘1차 배상책임’, GA 부담 얼마나 커질까",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33285",
+          "source": "보험저널",
+          "published_at": "2026-10-01T07:47:00+09:00",
+          "fact": "보험판매전문회사 입법이 본격화하면서 GA업계가 사업비 협상권 못지않게 따져봐야 할 변수로 1차 배상책임이 떠오르고 있다."
+        },
+        {
+          "id": "bd787661e4b9",
+          "title": "[26년 9월 손보 GA채널] ‘1200%룰’ 시행 후 부진 지속… 360억원대 정체, 메리츠 9개월째 선두·DB 4위 회복",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33300",
+          "source": "보험저널",
+          "published_at": "2026-10-01T13:59:00+09:00",
+          "fact": "GA설계사를 대상으로 한 ‘1200%룰’ 시행 이후 손해보험사 장기인보험 신계약 실적이 3개월째 이전 수준을 회복하지 못하고 있다."
+        },
+        {
+          "id": "da1aaabe3d5e",
+          "title": "[칼럼] 보험대리점 수수료 환수, 이것만은 알고 대응해야",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33304",
+          "source": "보험저널",
+          "published_at": "2026-10-01T16:15:00+09:00",
+          "fact": "‘[칼럼] 보험대리점 수수료 환수, 이것만은 알고 대응해야’ 소식이 보도됐습니다."
+        }
+      ],
+      "sources": [
+        "보험저널"
+      ]
+    }
+  ],
+  "articles": [
+    {
+      "id": "5963a99221ed",
+      "title": "[26년 상반기 GA 공시분석①] 설계사 늘어도 불판율은 ‘뚝’… 초대형 GA 판매품질 더 좋아졌다",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33320",
+      "source": "보험저널",
+      "published_at": "2026-10-04T17:31:00+09:00"
+    },
+    {
+      "id": "6cc5262b05ef",
+      "title": "[보험판전사發 지각변동/上] 토스, 플랫폼형 GA실험···보안·내부통제 선제 구축",
+      "url": "https://www.seoulfn.com/news/articleView.html?idxno=639257",
+      "source": "서울파이낸스",
+      "published_at": "2026-10-04T14:00:00+09:00"
+    },
+    {
+      "id": "23d985f769c8",
+      "title": "보험시장에 도전장 낸 플랫폼 기업···설계사 조직부터 AI까지 차별화",
+      "url": "https://www.seoulfn.com/news/articleView.html?idxno=639174",
+      "source": "서울파이낸스",
+      "published_at": "2026-10-04T11:00:00+09:00"
+    },
+    {
+      "id": "0126f7445382",
+      "title": "화재보험협회, 신입·경력 공채실시···AI 인재 확보",
+      "url": "https://www.seoulfn.com/news/articleView.html?idxno=639169",
+      "source": "서울파이낸스",
+      "published_at": "2026-10-03T10:00:00+09:00"
+    },
+    {
+      "id": "b0981a770e14",
+      "title": "고흥군, 재생에너지 10GW 시대 연다···'군민 에너지연금' 추진",
+      "url": "https://www.seoulfn.com/news/articleView.html?idxno=639256",
+      "source": "서울파이낸스",
+      "published_at": "2026-10-02T15:58:00+09:00"
+    },
+    {
+      "id": "dc2c479043cd",
+      "title": "[GA, 품질로 증명했다] ⑤ ‘갈등’ 넘어 ‘동반자’로…GA, 보험산업 핵심 파트너로 성장",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33319",
+      "source": "보험저널",
+      "published_at": "2026-10-02T15:51:00+09:00"
+    },
+    {
+      "id": "c741f5468cdb",
+      "title": "[증권브리핑] KB증권, MTS 연금관리 서비스 전면 개편 외",
+      "url": "https://www.seoulfn.com/news/articleView.html?idxno=639272",
+      "source": "서울파이낸스",
+      "published_at": "2026-10-02T15:31:00+09:00"
+    },
+    {
+      "id": "11df2389046d",
+      "title": "차선 위반 차량 노려 고의 충돌… 4년간 8천만 원 챙긴 보험사기 일당 송치",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33318",
+      "source": "보험저널",
+      "published_at": "2026-10-02T14:44:00+09:00"
+    },
+    {
+      "id": "a56be39cbcaf",
+      "title": "교보생명, 보험업무 넘어 결제·정산까지… 디지털자산 활용 확대",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93136",
+      "source": "한국보험신문",
+      "published_at": "2026-10-02T14:29:00+09:00"
+    },
+    {
+      "id": "efcb6237b929",
+      "title": "[팩트체크] 금융당국, ‘700종신’ 동시 기습 판매중단에도… 왜 동양생명만 83억까지 급증했나",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33316",
+      "source": "보험저널",
+      "published_at": "2026-10-02T14:13:00+09:00"
+    },
+    {
+      "id": "ed4115ccd9f1",
+      "title": "금감원, 사모운용사 위법행위 엄정 대응···적극적 시장 퇴출",
+      "url": "https://www.seoulfn.com/news/articleView.html?idxno=639248",
+      "source": "서울파이낸스",
+      "published_at": "2026-10-02T13:37:00+09:00"
+    },
+    {
+      "id": "fd6ab95be777",
+      "title": "교보생명, 일본SBI·서클과 디지털 금융 협력 확대 논의",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72597",
+      "source": "보험신보",
+      "published_at": "2026-10-02T10:49:00+09:00"
+    },
+    {
+      "id": "d4e078905e6e",
+      "title": "생보사 유동성 관리축 달라졌다… 과거 ‘저축성 만기’, 요즘 ‘원금도달 종신 해지’",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33314",
+      "source": "보험저널",
+      "published_at": "2026-10-02T09:58:00+09:00"
+    },
+    {
+      "id": "b89da4c6de80",
+      "title": "달러연금 공시이율 10년형 6.43%·20년형 6.25%… AIA생명, 단기납·상속종신까지 ‘달러 라인업’ 전면 배치",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33309",
+      "source": "보험저널",
+      "published_at": "2026-10-02T09:36:00+09:00"
+    },
+    {
+      "id": "380b2de68f93",
+      "title": "ABL생명, '우다페' 참여해 비대면 미니보험 2종 판매",
+      "url": "https://www.seoulfn.com/news/articleView.html?idxno=639184",
+      "source": "서울파이낸스",
+      "published_at": "2026-10-02T09:00:00+09:00"
+    },
+    {
+      "id": "80945680e247",
+      "title": "시한부 ‘700종신’ 막판 판매 어디로 몰렸나 했더니… 동양·한화·신한 3사가 58.4% 차지",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33308",
+      "source": "보험저널",
+      "published_at": "2026-10-02T06:59:00+09:00"
+    },
+    {
+      "id": "7fa55973570a",
+      "title": "[26년 9월 생보 GA채널] 700종신 판매중단 ‘막판 쏠림’ 동양생명 가장 컸다… 상위권 희비 엇갈려",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33307",
+      "source": "보험저널",
+      "published_at": "2026-10-02T06:09:00+09:00"
+    },
+    {
+      "id": "af85796e9f24",
+      "title": "화재보험협회, AI·데이터 전문인력 등 공개채용",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72565",
+      "source": "보험신보",
+      "published_at": "2026-10-01T18:09:00+09:00"
+    },
+    {
+      "id": "03425b03dc16",
+      "title": "한화손해보험 인사",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72567",
+      "source": "보험신보",
+      "published_at": "2026-10-01T18:08:00+09:00"
+    },
+    {
+      "id": "0a1a906f38e2",
+      "title": "국민연금공단, ‘청년 생애 첫 연금보험료’ 전액 지원 사전신청 시작",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93126",
+      "source": "한국보험신문",
+      "published_at": "2026-10-01T18:05:00+09:00"
+    },
+    {
+      "id": "25c47b5b7837",
+      "title": "사이먼글로벌그룹, SG Re 본격 가동… 아시아 특약재보험 시장 공략",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93129",
+      "source": "한국보험신문",
+      "published_at": "2026-10-01T18:04:00+09:00"
+    },
+    {
+      "id": "c809eed001c0",
+      "title": "한화생명·한화생명금융서비스 임원 인사",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72568",
+      "source": "보험신보",
+      "published_at": "2026-10-01T18:03:00+09:00"
+    },
+    {
+      "id": "bfedbf193bf2",
+      "title": "화재보험협회, 신입·경력직 공개채용… AI·데이터 인재 찾는다",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93115",
+      "source": "한국보험신문",
+      "published_at": "2026-10-01T17:08:00+09:00"
+    },
+    {
+      "id": "da1aaabe3d5e",
+      "title": "[칼럼] 보험대리점 수수료 환수, 이것만은 알고 대응해야",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33304",
+      "source": "보험저널",
+      "published_at": "2026-10-01T16:15:00+09:00"
+    },
+    {
+      "id": "f5440e788c94",
+      "title": "[GA, 품질로 증명했다] ④‘스카우트비 전쟁’ 넘어 ‘검증·육성’으로…GA 리크루팅 체질도 바꿨다",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33301",
+      "source": "보험저널",
+      "published_at": "2026-10-01T15:23:00+09:00"
+    },
+    {
+      "id": "53a47392b9ad",
+      "title": "KGA에셋, GA업계 최초 'AI 기반 DB 품질·내부통제 관리 시스템' 전격 도입",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33303",
+      "source": "보험저널",
+      "published_at": "2026-10-01T15:14:00+09:00"
+    },
+    {
+      "id": "bd787661e4b9",
+      "title": "[26년 9월 손보 GA채널] ‘1200%룰’ 시행 후 부진 지속… 360억원대 정체, 메리츠 9개월째 선두·DB 4위 회복",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33300",
+      "source": "보험저널",
+      "published_at": "2026-10-01T13:59:00+09:00"
+    },
+    {
+      "id": "08c7bbb6839d",
+      "title": "신한은행, 2.5만명 개인정보 유출···금감원 긴급 현장조사 진행 중",
+      "url": "https://www.seoulfn.com/news/articleView.html?idxno=639102",
+      "source": "서울파이낸스",
+      "published_at": "2026-10-01T13:52:00+09:00"
+    },
+    {
+      "id": "c16b9f612c80",
+      "title": "[GA 신인 육성시대] ⑧엠금융서비스, 신규 위촉 10명 중 3명이 ‘순수신인’…13차월 정착률 72.5%(영상+)",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33196",
+      "source": "보험저널",
+      "published_at": "2026-10-01T13:40:00+09:00"
+    },
+    {
+      "id": "aefcac7c2ff3",
+      "title": "ABL생명·GA코리아, 금융소비자보호 공동관리체계 구축…완전판매·내부통제 강화(영상+)",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33260",
+      "source": "보험저널",
+      "published_at": "2026-10-01T13:35:00+09:00"
+    },
+    {
+      "id": "23a4e5a53aeb",
+      "title": "KB손보, 간병인 보장 365일로 확대…하루 최대 20만원 지급",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33298",
+      "source": "보험저널",
+      "published_at": "2026-10-01T13:30:00+09:00"
+    },
+    {
+      "id": "7f49548d37ad",
+      "title": "“한 끗 차이로 판매 운명 갈렸다”… 700종신 중단·단기납종신 지속, 이유는 ‘원금도달 시점’(영상+)",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33203",
+      "source": "보험저널",
+      "published_at": "2026-10-01T13:30:00+09:00"
+    },
+    {
+      "id": "e2aa1db344e9",
+      "title": "암 치료비 매년 반복·간병은 연중 365일… 한화손보, 암 치료부터 장기 간병까지(영상+)",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33262",
+      "source": "보험저널",
+      "published_at": "2026-10-01T13:25:00+09:00"
+    },
+    {
+      "id": "bb294587baf1",
+      "title": "“기존 암보험 있어도 하나 더”… DB손보, 월 2만원대 ‘최대 34회 보장’ 추가가입형 승부수(영상+)",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33244",
+      "source": "보험저널",
+      "published_at": "2026-10-01T13:15:00+09:00"
+    },
+    {
+      "id": "77de668db752",
+      "title": "금감원, 선 넘은 보험 방송광고에 '제동'… 업계 자율규제 대폭 강화 추진",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33296",
+      "source": "보험저널",
+      "published_at": "2026-10-01T10:43:00+09:00"
+    },
+    {
+      "id": "7ec46371f2a6",
+      "title": "한화손해보험, 임신·출산·육아 고민 다루는 ‘플러스클로버TV’ 론칭",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72562",
+      "source": "보험신보",
+      "published_at": "2026-10-01T10:30:00+09:00"
+    },
+    {
+      "id": "4ae482012fa7",
+      "title": "한화손보, 임신부터 육아까지 다루는 ‘PLUS CLOVR TV’ 공개",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93101",
+      "source": "한국보험신문",
+      "published_at": "2026-10-01T10:16:00+09:00"
+    },
+    {
+      "id": "7c793e673a6e",
+      "title": "금감원, ‘보험상품 방송광고 건전화’ 간담회 열어",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93086",
+      "source": "한국보험신문",
+      "published_at": "2026-10-01T10:00:00+09:00"
+    },
+    {
+      "id": "c9fca10e2926",
+      "title": "NH농협생명 ‘건강채움NH암종신보험’… “경제적 안정 지킨다”",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93100",
+      "source": "한국보험신문",
+      "published_at": "2026-10-01T09:36:00+09:00"
+    },
+    {
+      "id": "e4f35f60ec9e",
+      "title": "AXA손보, 일상 속 ‘간편한 보험 경험’ 담은 신규 건강보험 광고 공개",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33292",
+      "source": "보험저널",
+      "published_at": "2026-10-01T09:26:00+09:00"
+    },
+    {
+      "id": "297a09d0e4ee",
+      "title": "700종신 판매중단에 ‘고환산’ 공백… GA업계, 발빠르게 대체상품 전략 가동",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33290",
+      "source": "보험저널",
+      "published_at": "2026-10-01T09:26:00+09:00"
+    },
+    {
+      "id": "099c494ddbd1",
+      "title": "한화손보, 임신·출산·육아 고민 다루는 ‘PLUS CLOVR TV’ 론칭",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33289",
+      "source": "보험저널",
+      "published_at": "2026-10-01T09:05:00+09:00"
+    },
+    {
+      "id": "afa14f1651c5",
+      "title": "암 진단비 100% 먼저 받고 사망보장 '리필'까지…NH농협생명 '건강채움NH암종신보험' 출시",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33288",
+      "source": "보험저널",
+      "published_at": "2026-10-01T09:04:00+09:00"
+    },
+    {
+      "id": "4c27fdee8a82",
+      "title": "한화생명, 애큐온 품고 증권 덩치 키운다…‘종합금융그룹’ 퍼즐 완성",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33287",
+      "source": "보험저널",
+      "published_at": "2026-10-01T09:02:00+09:00"
+    },
+    {
+      "id": "99887fc70a26",
+      "title": "NH농협생명, ‘건강채움NH암종신보험’ 출시",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72569",
+      "source": "보험신보",
+      "published_at": "2026-10-01T09:00:00+09:00"
+    },
+    {
+      "id": "d2c0e5488508",
+      "title": "보험개발원, '2026 KIDI 보험미래포럼' 성료…\"AI·바이오가 이끄는 보험 패러다임 전환\"",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33286",
+      "source": "보험저널",
+      "published_at": "2026-10-01T09:00:00+09:00"
+    },
+    {
+      "id": "7a6994de3f82",
+      "title": "‘GA판 지급여력’?… 보험판매전문회사 ‘1차 배상책임’, GA 부담 얼마나 커질까",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33285",
+      "source": "보험저널",
+      "published_at": "2026-10-01T07:47:00+09:00"
+    },
+    {
+      "id": "0b6c9533516f",
+      "title": "‘엇갈린 성적표’... 9월 변액보험, 수익률 올랐는데 순자산은 왜 빠졌나",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33283",
+      "source": "보험저널",
+      "published_at": "2026-10-01T07:21:00+09:00"
+    }
+  ]
+}

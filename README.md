@@ -7,7 +7,9 @@
 ```bash
 python3 -m unittest discover -s tests -v
 python3 scripts/update_weather.py
+python3 scripts/backfill_news.py --recent-days 2 --skip-enrichment
 python3 scripts/update_news.py
+python3 scripts/build_trends.py
 python3 scripts/build.py
 ```
 
@@ -16,10 +18,21 @@ python3 scripts/build.py
 ## 지난 날짜 수집
 
 ```bash
-python3 scripts/backfill_news.py --start 2026-11-11 --end 2026-11-19
+python3 scripts/backfill_news.py --start 2026-10-01 --end 2026-11-19
+python3 scripts/build_trends.py
 python3 scripts/build.py
 ```
 
 보험저널·한국보험신문·보험신보·서울파이낸스의 공개 목록에서 해당 날짜에 발행된 기사를 확인합니다. 하루 최대 5건, 매체별 최대 2건을 선정하며, 관련 기사를 확인하지 못한 날짜는 0건으로 남깁니다. 현재 발행본은 유지합니다.
+
+일일 선정 전의 보험 관련 기사도 `data/articles/YYYY-MM-DD.json`에 URL 중복을 제거해 저장합니다. 과거 목록은 첫 페이지와 공개 ‘더보기’ 페이지를 읽고 발행일·기사 수를 대조합니다. 본문 전체를 복제하지 않고 제목, 공개 발췌, 발행일, 매체와 원문 주소를 보존합니다.
+
+## 주간·월간 동향
+
+주간은 월요일~일요일, 월간은 1일~말일 기준입니다. 최초 수집일 이전과 오늘 이후의 날짜는 요약 범위에 포함하지 않습니다. 현재 진행 중인 기간은 ‘오늘까지 집계’로 표시합니다.
+
+`build_trends.py`는 보존된 전체 기사에서 보험영업 관련 보도를 주제별로 묶어 서론·본론·결론 요약과 근거 기사를 생성합니다. 결론은 보험영업 관점의 해석으로 표시하며, 보도 건수는 수집 매체 범위 내 집계입니다. 주간·월간 건수는 URL 중복을 제거하고 계산합니다. 인사·부고·일부 행사성 보도 등은 분석에서 제외합니다.
+
+`data/trends.json`은 기간 목록이며, 각 기간의 요약과 검색 가능한 원문 목록은 `data/trends/weekly/`와 `data/trends/monthly/`에 저장합니다. 매일 오전 8시 예약 작업에서 최근 이틀의 공개 목록과 RSS를 추가 수집한 뒤 주간·월간 동향을 다시 생성합니다.
 
 `data/backfill-report.json`에 날짜별 수집처·후보 수·선정 수·오류를 기록합니다. 과거 자료를 다시 수집한 이력은 관리 기록으로 보존하며, 화면에는 날짜와 기사 건수를 표시합니다. 예약 실행은 저장소의 Actions 실행 내역에서 확인할 수 있습니다.

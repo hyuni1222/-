@@ -10,15 +10,17 @@
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="onepage.css">
   <link rel="stylesheet" href="weather.css">
+  <link rel="stylesheet" href="trends.css">
   <script>/*__BOOTSTRAP__*/</script>
   <script defer src="app.js"></script>
   <script defer src="weather.js"></script>
+  <script defer src="trends.js"></script>
 </head>
 <body>
 <a class="skip" href="#briefing">본문 바로가기</a>
 <header class="topbar">
   <a class="brand" href="./" aria-label="모닝브리프 홈"><span class="brand-mark" aria-hidden="true">m<span>·</span></span><span>MORNING BRIEF<span class="brand-sub">INSURANCE & PEOPLE</span></span></a>
-  <nav aria-label="주요 메뉴"><a href="#briefing" class="nav-active">오늘의 브리프</a><a href="#archive">지난 브리프 <span aria-hidden="true">↗</span></a></nav>
+  <nav aria-label="주요 메뉴"><a href="#briefing" data-view-link="daily" class="nav-active">오늘의 브리프</a><a href="#archive" data-view-link="archive">지난 브리프</a></nav>
   <button class="share-button" id="share" type="button">링크 공유 <span aria-hidden="true">↗</span></button>
 </header>
 <main>
@@ -26,6 +28,8 @@
     <div class="intro-copy"><p class="eyebrow"><span class="live-dot"></span><span id="edition-label">생명보험 · GA</span><span class="eyebrow-divider">/</span>DAILY EDITION</p><h1 id="site-title">보험 영업<br><span>모닝브리프</span></h1><p class="subtitle" id="subtitle">현장을 여는 다섯 가지 소식</p></div>
     <div class="edition-stamp"><div class="weather" role="region" aria-label="오늘 서울 날씨"><div class="weather-heading"><span id="weather-icon" aria-hidden="true">—</span><div><strong id="weather-location">서울 오늘</strong><span id="weather-condition">날씨 확인 중</span></div></div><div class="weather-temperatures" id="weather-temperatures" hidden><span>최저 <b id="weather-low"></b></span><span>최고 <b id="weather-high"></b></span></div><div class="weather-meta"><span id="weather-updated">오늘 예보를 불러오고 있습니다.</span><a href="https://open-meteo.com/" target="_blank" rel="noopener noreferrer">Open-Meteo</a></div></div><p id="date-long">매일 아침, 새로운 시선</p><span>매일 오전 8시 업데이트 예정</span></div>
   </section>
+  <div class="brief-tabs" role="tablist" aria-label="브리프 기간"><button type="button" role="tab" id="tab-daily" data-period="daily" aria-controls="daily-panel" aria-selected="true">일일 브리프</button><button type="button" role="tab" id="tab-weekly" data-period="weekly" aria-controls="trends-panel" aria-selected="false" tabindex="-1">주간동향</button><button type="button" role="tab" id="tab-monthly" data-period="monthly" aria-controls="trends-panel" aria-selected="false" tabindex="-1">월간동향</button></div>
+  <div id="daily-panel" role="tabpanel" aria-labelledby="tab-daily">
   <section class="workspace" id="briefing" aria-labelledby="briefing-heading">
     <div class="toolbar"><div><span class="section-index">01</span><h2 id="briefing-heading">오늘의 주요 뉴스</h2><span class="article-count" id="article-count">—</span></div><div class="view-switch" role="group" aria-label="보기 방식"><button id="view-card" type="button" aria-pressed="true"><span aria-hidden="true">▤</span> 한 장 요약</button><button id="view-paper" type="button" aria-pressed="false"><span aria-hidden="true">▥</span> 신문형</button></div></div>
     <div id="notice" class="notice" role="status" hidden></div>
@@ -34,8 +38,16 @@
     <details class="source-coverage"><summary id="source-coverage-heading">뉴스 수집처 보기</summary><p><strong>수집 대상</strong><span id="source-configured"></span></p><p><strong>최근 수집 성공</strong><span id="source-succeeded"></span></p><p><strong>이번 발행 출처</strong><span id="source-selected"></span></p><p class="source-policy">매체별 RSS 제공 범위에서 수집하고, 관련성·발행 시각·중복 여부를 비교합니다. 같은 매체는 최대 2건까지 선정합니다.</p></details>
   </section>
   <section id="archive" class="archive" aria-labelledby="archive-heading"><div class="archive-heading"><div><p class="eyebrow">THE ARCHIVE</p><h2 id="archive-heading">쌓이는 뉴스, 넓어지는 시야.</h2></div><label class="search"><span aria-hidden="true">⌕</span><input id="archive-search" type="search" placeholder="날짜 또는 기사 검색" aria-label="지난 브리프 검색"></label></div><div id="archive-list" class="archive-list"><p class="empty">지난 브리프를 불러오고 있습니다.</p></div><button id="more-archive" class="more" type="button" hidden>지난 브리프 더 보기 ↓</button></section>
+  </div>
+  <section id="trends-panel" role="tabpanel" aria-labelledby="tab-weekly" hidden>
+    <div class="trend-toolbar"><div><p class="eyebrow" id="trend-eyebrow">WEEKLY TRENDS</p><h2 id="trend-heading">주간동향</h2></div><label class="period-picker">기간 선택<select id="trend-period" aria-label="동향 기간 선택"></select></label></div>
+    <div id="trend-content" aria-live="polite"><p class="empty">동향을 불러오고 있습니다.</p></div>
+    <details class="trend-library" id="trend-library"><summary>이 기간의 기사 모두 보기 <span id="trend-library-count"></span></summary><label class="trend-search">기사 검색<input type="search" id="trend-search" placeholder="제목·매체·날짜로 검색" aria-label="동향 근거 기사 검색"></label><div id="trend-article-list"></div><button type="button" class="more" id="trend-more">기사 더 보기</button></details>
+    <p class="trend-method" id="trend-method"></p>
+    <button type="button" id="trend-print" class="trend-print">동향 인쇄 / PDF 저장</button>
+  </section>
 </main>
-<footer class="site-footer"><a class="footer-brand" href="./">MORNING BRIEF<span>보험 영업 모닝브리프</span></a><p>공개 뉴스로 시작하는 하루.<span>각 기사와 콘텐츠의 권리는 원 출처에 있습니다.</span></p><a href="#briefing">위로 돌아가기 ↑</a></footer>
+<footer class="site-footer"><a class="footer-brand" href="./">MORNING BRIEF<span>보험 영업 모닝브리프</span></a><p>공개 뉴스로 시작하는 하루.<span>각 기사와 콘텐츠의 권리는 원 출처에 있습니다.</span></p><a href="#site-title">위로 돌아가기 ↑</a></footer>
 <div class="toast" role="status" id="toast" hidden></div>
 </body>
 </html>

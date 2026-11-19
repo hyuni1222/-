@@ -13,7 +13,7 @@
     "count": 5,
     "file": "data/editions/2026-11-18.json",
     "backfilled": true,
-    "collected_at": "2026-11-19T09:47:12+09:00"
+    "collected_at": "2026-11-19T10:57:31+09:00"
   },
   {
     "date": "2026-11-17",
@@ -21,7 +21,7 @@
     "count": 5,
     "file": "data/editions/2026-11-17.json",
     "backfilled": true,
-    "collected_at": "2026-11-19T09:47:12+09:00"
+    "collected_at": "2026-11-19T10:57:31+09:00"
   },
   {
     "date": "2026-11-16",
@@ -29,7 +29,7 @@
     "count": 5,
     "file": "data/editions/2026-11-16.json",
     "backfilled": true,
-    "collected_at": "2026-11-19T09:47:12+09:00"
+    "collected_at": "2026-11-19T10:57:31+09:00"
   },
   {
     "date": "2026-11-15",
@@ -37,7 +37,7 @@
     "count": 1,
     "file": "data/editions/2026-11-15.json",
     "backfilled": true,
-    "collected_at": "2026-11-19T09:47:12+09:00"
+    "collected_at": "2026-11-19T10:57:31+09:00"
   },
   {
     "date": "2026-11-14",
@@ -45,7 +45,7 @@
     "count": 0,
     "file": "data/editions/2026-11-14.json",
     "backfilled": true,
-    "collected_at": "2026-11-19T09:47:12+09:00"
+    "collected_at": "2026-11-19T10:57:31+09:00"
   },
   {
     "date": "2026-11-13",
@@ -53,7 +53,7 @@
     "count": 5,
     "file": "data/editions/2026-11-13.json",
     "backfilled": true,
-    "collected_at": "2026-11-19T09:47:12+09:00"
+    "collected_at": "2026-11-19T10:57:31+09:00"
   },
   {
     "date": "2026-11-12",
@@ -61,7 +61,7 @@
     "count": 5,
     "file": "data/editions/2026-11-12.json",
     "backfilled": true,
-    "collected_at": "2026-11-19T09:47:12+09:00"
+    "collected_at": "2026-11-19T10:57:31+09:00"
   },
   {
     "date": "2026-11-11",
@@ -69,6 +69,334 @@
     "count": 5,
     "file": "data/editions/2026-11-11.json",
     "backfilled": true,
-    "collected_at": "2026-11-19T09:47:12+09:00"
+    "collected_at": "2026-11-19T10:57:31+09:00"
+  },
+  {
+    "date": "2026-11-10",
+    "title": "주요 GA 10월 평균 실적, 전월比 15.2%↓…‘700종신’ 판매중단 여파 생보 22% 급감",
+    "count": 5,
+    "file": "data/editions/2026-11-10.json",
+    "backfilled": true,
+    "collected_at": "2026-11-19T10:57:31+09:00"
+  },
+  {
+    "date": "2026-11-09",
+    "title": "\"영업 동력 약화 우려\"… 4·7년 분급제 도입에 GA 대표, 단순 '수수료 전달자' , 설계사, '월급쟁이' 전락 위기",
+    "count": 5,
+    "file": "data/editions/2026-11-09.json",
+    "backfilled": true,
+    "collected_at": "2026-11-19T10:57:31+09:00"
+  },
+  {
+    "date": "2026-11-08",
+    "title": "금리 올랐는데 생보사 '기본자본'은 되레 약해졌다…100bp 더 오르면 62.9%",
+    "count": 2,
+    "file": "data/editions/2026-11-08.json",
+    "backfilled": true,
+    "collected_at": "2026-11-19T10:57:31+09:00"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "[전문가 기고] 홀로 남는 가족을 위한 든든한 울타리 '보험금청구권신탁'",
+    "count": 1,
+    "file": "data/editions/2026-11-07.json",
+    "backfilled": true,
+    "collected_at": "2026-11-19T10:57:31+09:00"
+  },
+  {
+    "date": "2026-11-06",
+    "title": "“700종신 빠져도 GA는 연금 아닌 종신 택했다”… 단기납·건강·인출형종신 판매 급증",
+    "count": 4,
+    "file": "data/editions/2026-11-06.json",
+    "backfilled": true,
+    "collected_at": "2026-11-19T10:57:31+09:00"
+  },
+  {
+    "date": "2026-11-05",
+    "title": "김용태 GA협회장 “매출 1조 시대, GA 행정규제 한계… ‘보험판매전문회사’ 도입 시급”",
+    "count": 5,
+    "file": "data/editions/2026-11-05.json",
+    "backfilled": true,
+    "collected_at": "2026-11-19T10:57:31+09:00"
+  },
+  {
+    "date": "2026-11-04",
+    "title": "[11월 생보GA시책] “700종신 빠진 시책 새판짜기”… 통합건강·단기납종신·경영인정기 강세, 대체 종신 약세",
+    "count": 5,
+    "file": "data/editions/2026-11-04.json",
+    "backfilled": true,
+    "collected_at": "2026-11-19T10:57:31+09:00"
+  },
+  {
+    "date": "2026-11-03",
+    "title": "[26년 10월 생보 GA채널] “700종신 빠지자 실적 희비 교차”… 동양생명 82.8% 급감, 라이나생명 72% 급증",
+    "count": 5,
+    "file": "data/editions/2026-11-03.json",
+    "backfilled": true,
+    "collected_at": "2026-11-19T10:57:31+09:00"
+  },
+  {
+    "date": "2026-11-02",
+    "title": "GA협회, 20일 '보험판매전문회사' 입법토론회…'분급 설명회·인증심사'도 가동",
+    "count": 5,
+    "file": "data/editions/2026-11-02.json",
+    "backfilled": true,
+    "collected_at": "2026-11-19T10:57:31+09:00"
+  },
+  {
+    "date": "2026-11-01",
+    "title": "“IFRS17에 IFRS18까지”… 보험사 셈법 달라지나, 전속·GA 수익성 재평가 촉각",
+    "count": 2,
+    "file": "data/editions/2026-11-01.json",
+    "backfilled": true,
+    "collected_at": "2026-11-19T10:57:31+09:00"
+  },
+  {
+    "date": "2026-10-31",
+    "title": "2026-10-31 · 확인된 보험 관련 기사 없음",
+    "count": 0,
+    "file": "data/editions/2026-10-31.json",
+    "backfilled": true,
+    "collected_at": "2026-11-19T10:57:31+09:00"
+  },
+  {
+    "date": "2026-10-30",
+    "title": "“현재로선 대안이 없다, 700종신 하나 빠졌을 뿐인데”… 생보 GA채널 38% 급감 중",
+    "count": 5,
+    "file": "data/editions/2026-10-30.json",
+    "backfilled": true,
+    "collected_at": "2026-11-19T10:57:31+09:00"
+  },
+  {
+    "date": "2026-10-29",
+    "title": "금융위, 보험사기 연루 설계사 등 29명 무더기 제재…19명 등록취소",
+    "count": 5,
+    "file": "data/editions/2026-10-29.json",
+    "backfilled": true,
+    "collected_at": "2026-11-19T10:57:31+09:00"
+  },
+  {
+    "date": "2026-10-28",
+    "title": "모집질서 확립과 함께 ‘설계사 권익 보호’...국감 이후 'GA 감독' 주요 쟁점 부상",
+    "count": 5,
+    "file": "data/editions/2026-10-28.json",
+    "backfilled": true,
+    "collected_at": "2026-11-19T10:57:31+09:00"
+  },
+  {
+    "date": "2026-10-27",
+    "title": "[GA 2027년 대비⑥내년부턴 수수료율보다 금액이다”… GA 수익성 판단 기준 바꿔야",
+    "count": 5,
+    "file": "data/editions/2026-10-27.json",
+    "backfilled": true,
+    "collected_at": "2026-11-19T10:57:31+09:00"
+  },
+  {
+    "date": "2026-10-26",
+    "title": "\"만두회사라길래\", 짐작 가입 불똥… 직무 확인 소홀한 설계사·GA '1억 공동 배상'",
+    "count": 5,
+    "file": "data/editions/2026-10-26.json",
+    "backfilled": true,
+    "collected_at": "2026-11-19T10:57:31+09:00"
+  },
+  {
+    "date": "2026-10-25",
+    "title": "[국정감사 오해풀기⑤] “수수료 5% 공제, 떼먹는 돈일까?”… GA 위험준비금의 진짜 역할",
+    "count": 2,
+    "file": "data/editions/2026-10-25.json",
+    "backfilled": true,
+    "collected_at": "2026-11-19T10:57:31+09:00"
+  },
+  {
+    "date": "2026-10-24",
+    "title": "2026-10-24 · 확인된 보험 관련 기사 없음",
+    "count": 0,
+    "file": "data/editions/2026-10-24.json",
+    "backfilled": true,
+    "collected_at": "2026-11-19T10:57:31+09:00"
+  },
+  {
+    "date": "2026-10-23",
+    "title": "[GA 2027년 대비⑤] “손보는 이미 역성장, 생보도 역성장 불가피”… GA 신계약 시장 '먹구름'",
+    "count": 5,
+    "file": "data/editions/2026-10-23.json",
+    "backfilled": true,
+    "collected_at": "2026-11-19T10:57:31+09:00"
+  },
+  {
+    "date": "2026-10-22",
+    "title": "[9월 GA 생보사 실적 M/S] 한화라이프랩, 신한라이프 39% '선두', 동양생명 12% '3개월 연속' 몸집 키워",
+    "count": 5,
+    "file": "data/editions/2026-10-22.json",
+    "backfilled": true,
+    "collected_at": "2026-11-19T10:57:31+09:00"
+  },
+  {
+    "date": "2026-10-21",
+    "title": "[팩트체크] “4년 분급, GA가 보험사서 받은 수수료보다 더 줘도 될까?”… 최대 허용 범위는",
+    "count": 5,
+    "file": "data/editions/2026-10-21.json",
+    "backfilled": true,
+    "collected_at": "2026-11-19T10:57:31+09:00"
+  },
+  {
+    "date": "2026-10-20",
+    "title": "[9월 GA 생보사 실적 M/S] 엠금융, 동양생명 13% '선두'… NH농협생명 5%, 6계단 '도약'",
+    "count": 5,
+    "file": "data/editions/2026-10-20.json",
+    "backfilled": true,
+    "collected_at": "2026-11-19T10:57:31+09:00"
+  },
+  {
+    "date": "2026-10-19",
+    "title": "[GA 2027년 대비②] 4년 수수료 분급 앞두고 ‘저울질’ … 같은 2390%, 수수료 지급 ‘3가지 갈림길’",
+    "count": 5,
+    "file": "data/editions/2026-10-19.json",
+    "backfilled": true,
+    "collected_at": "2026-11-19T10:57:31+09:00"
+  },
+  {
+    "date": "2026-10-18",
+    "title": "[9월 GA 생보사 실적 M/S] 메가인포에셋… 한화생명 64.4% '독주', 푸폰현대 25.6% '2위', 이하 '한 자릿수' 점유율",
+    "count": 2,
+    "file": "data/editions/2026-10-18.json",
+    "backfilled": true,
+    "collected_at": "2026-11-19T10:57:31+09:00"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "[9월 생보사 GA M/S] IBK연금보험, 에이플러스에셋 21.9% '1위'…2위 이하 모두 '한 자릿수' 점유율",
+    "count": 2,
+    "file": "data/editions/2026-10-17.json",
+    "backfilled": true,
+    "collected_at": "2026-11-19T10:57:31+09:00"
+  },
+  {
+    "date": "2026-10-16",
+    "title": "[9월 생보사 GA M/S] 푸본현대생명, 인카 17% '선두'...삼성금융파트너스 8.8% 급등, '상위 5개사' 53%",
+    "count": 5,
+    "file": "data/editions/2026-10-16.json",
+    "backfilled": true,
+    "collected_at": "2026-11-19T10:57:31+09:00"
+  },
+  {
+    "date": "2026-10-15",
+    "title": "[9월 100대 GA 실적] 생보실적 '10억' 넘긴 GA 21곳…지에이코리아 52억원 '선두'",
+    "count": 5,
+    "file": "data/editions/2026-10-15.json",
+    "backfilled": true,
+    "collected_at": "2026-11-19T10:57:31+09:00"
+  },
+  {
+    "date": "2026-10-14",
+    "title": "주요 GA 9월 평균 실적, 전월比 5.7%↑…‘700종신’ 막판 판매에 생보 9.4% 증가",
+    "count": 5,
+    "file": "data/editions/2026-10-14.json",
+    "backfilled": true,
+    "collected_at": "2026-11-19T10:57:31+09:00"
+  },
+  {
+    "date": "2026-10-13",
+    "title": "[마감시황] 13일 보험·상장 GA 주가 동향… 생보사 약세 속 롯데손보·인카금융 '선방'",
+    "count": 5,
+    "file": "data/editions/2026-10-13.json",
+    "backfilled": true,
+    "collected_at": "2026-11-19T10:57:31+09:00"
+  },
+  {
+    "date": "2026-10-12",
+    "title": "보험사, 2027년 영업목표 줄이는 5가지 이유… GA채널 생보 최대 40%·손보 10% 축소 전망",
+    "count": 5,
+    "file": "data/editions/2026-10-12.json",
+    "backfilled": true,
+    "collected_at": "2026-11-19T10:57:31+09:00"
+  },
+  {
+    "date": "2026-10-11",
+    "title": "'비용 역전' 생명보험사 환헤지 딜레마… 장기물 고집 꺾고 단기물 비중 늘리나",
+    "count": 2,
+    "file": "data/editions/2026-10-11.json",
+    "backfilled": true,
+    "collected_at": "2026-11-19T10:57:31+09:00"
+  },
+  {
+    "date": "2026-10-10",
+    "title": "[보험판전사發 지각변동/下] 커지는 덩치 걸맞는 GA업계 역할 기대",
+    "count": 1,
+    "file": "data/editions/2026-10-10.json",
+    "backfilled": true,
+    "collected_at": "2026-11-19T10:57:31+09:00"
+  },
+  {
+    "date": "2026-10-09",
+    "title": "마이금융파트너, 설계사 25% 늘고 '13회차 유지율' 동반 상승…'25회차'도 평균 웃돌아(영상+)",
+    "count": 2,
+    "file": "data/editions/2026-10-09.json",
+    "backfilled": true,
+    "collected_at": "2026-11-19T10:57:31+09:00"
+  },
+  {
+    "date": "2026-10-08",
+    "title": "인카금융서비스 ‘정착지원금·수수료 환수’ 국감 도마… GA 감독 강화 촉구",
+    "count": 5,
+    "file": "data/editions/2026-10-08.json",
+    "backfilled": true,
+    "collected_at": "2026-11-19T10:57:31+09:00"
+  },
+  {
+    "date": "2026-10-07",
+    "title": "8일 금융위 국감, '인카금융서비스' 최병채 대표 출석… GA 업계 파장 \"예의주시\"",
+    "count": 4,
+    "file": "data/editions/2026-10-07.json",
+    "backfilled": true,
+    "collected_at": "2026-11-19T10:57:31+09:00"
+  },
+  {
+    "date": "2026-10-06",
+    "title": "한화생명금융서비스, 생명보험 25회차 유지율 3.03%p 상승...대형 GA 평균보다는 7.94%p 낮아",
+    "count": 5,
+    "file": "data/editions/2026-10-06.json",
+    "backfilled": true,
+    "collected_at": "2026-11-19T10:57:31+09:00"
+  },
+  {
+    "date": "2026-10-05",
+    "title": "GA업계, 분급수수료 지급기준 정할 시점 고민",
+    "count": 5,
+    "file": "data/editions/2026-10-05.json",
+    "backfilled": true,
+    "collected_at": "2026-11-19T10:57:31+09:00"
+  },
+  {
+    "date": "2026-10-04",
+    "title": "[26년 상반기 GA 공시분석①] 설계사 늘어도 불판율은 ‘뚝’… 초대형 GA 판매품질 더 좋아졌다",
+    "count": 3,
+    "file": "data/editions/2026-10-04.json",
+    "backfilled": true,
+    "collected_at": "2026-11-19T10:57:31+09:00"
+  },
+  {
+    "date": "2026-10-03",
+    "title": "화재보험협회, 신입·경력 공채실시···AI 인재 확보",
+    "count": 1,
+    "file": "data/editions/2026-10-03.json",
+    "backfilled": true,
+    "collected_at": "2026-11-19T10:57:31+09:00"
+  },
+  {
+    "date": "2026-10-02",
+    "title": "[26년 9월 생보 GA채널] 700종신 판매중단 ‘막판 쏠림’ 동양생명 가장 컸다… 상위권 희비 엇갈려",
+    "count": 5,
+    "file": "data/editions/2026-10-02.json",
+    "backfilled": true,
+    "collected_at": "2026-11-19T10:57:31+09:00"
+  },
+  {
+    "date": "2026-10-01",
+    "title": "ABL생명·GA코리아, 금융소비자보호 공동관리체계 구축…완전판매·내부통제 강화(영상+)",
+    "count": 5,
+    "file": "data/editions/2026-10-01.json",
+    "backfilled": true,
+    "collected_at": "2026-11-19T10:57:31+09:00"
   }
 ]

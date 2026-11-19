@@ -1,0 +1,136 @@
+{
+  "date": "2026-10-27",
+  "updated_at": "2026-11-19T10:57:31+09:00",
+  "collected_at": "2026-11-19T10:57:31+09:00",
+  "summary_version": 2,
+  "title": "[GA 2027년 대비⑥내년부턴 수수료율보다 금액이다”… GA 수익성 판단 기준 바꿔야",
+  "demo": false,
+  "mode": "rss",
+  "backfilled": true,
+  "collection_method": "publisher_archive_calendar_day",
+  "article_window": {
+    "start": "2026-10-27T00:00:00+09:00",
+    "end": "2026-10-28T00:00:00+09:00"
+  },
+  "sources": [
+    "보험신보",
+    "보험저널",
+    "서울파이낸스",
+    "한국보험신문"
+  ],
+  "warnings": [],
+  "articles": [
+    {
+      "title": "[GA 2027년 대비⑥내년부턴 수수료율보다 금액이다”… GA 수익성 판단 기준 바꿔야",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33652",
+      "source": "보험저널",
+      "source_group": "specialist",
+      "published_at": "2026-10-27T09:01:00+09:00",
+      "id": "b944b66e00b6",
+      "category": "제도·정책",
+      "summary_parts": {
+        "intro": "2027년부터 GA(법인보험대리점)의 수익성 판단 기준이 달라질 전망이다.",
+        "body": "기존에는 보험사별 수수료율과 시책률이 중요했다면 앞으로는 실제 지급받는 수수료금액과 GA에 남는 운영재원이 더욱 중요해질 것으로 보인다.",
+        "conclusion": "4년 수수료 분급까지 시행되면 수수료 지급은 늦어지는 반면 인건비와 조직 운영비 등 고정비 부담은 지속된다."
+      },
+      "summary": "2027년부터 GA(법인보험대리점)의 수익성 판단 기준이 달라질 전망이다.",
+      "source_digest": "f246f1ecafe1d6da",
+      "summary_kind": "rss",
+      "implication": ""
+    },
+    {
+      "title": "[27일 보험주 마감시황] 삼성생명 3.45% 상승…상장 GA 동반 하락, 에이플러스에셋 2.80%↓",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33670",
+      "source": "보험저널",
+      "source_group": "specialist",
+      "published_at": "2026-10-27T16:28:00+09:00",
+      "id": "88b02b87a596",
+      "category": "채널",
+      "summary_parts": {
+        "intro": "27일 국내 증시가 3% 넘게 반등한 가운데 보험 관련 상장 종목들은 엇갈린 흐름을 보였다.",
+        "body": "손해보험·재보험과 생명보험·금융지주, 상장 GA 등 14개 종목 가운데 7개가 상승하고 7개가 하락했다.",
+        "conclusion": "이날 코스피는 전 거래일보다 168.87포인트(3.09%) 상승한 5638.34로 마감했다."
+      },
+      "summary": "27일 국내 증시가 3% 넘게 반등한 가운데 보험 관련 상장 종목들은 엇갈린 흐름을 보였다.",
+      "source_digest": "90e0c395e4dc8394",
+      "summary_kind": "rss",
+      "implication": ""
+    },
+    {
+      "title": "교통사고 보험사기 911명 검거… 10건 중 7건 고의사고",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93524",
+      "source": "한국보험신문",
+      "source_group": "specialist",
+      "published_at": "2026-10-27T17:07:00+09:00",
+      "id": "e9fab7b016a0",
+      "category": "영업전략",
+      "summary_parts": {
+        "intro": "고의적으로 교통사고를 내거나 사고 내용을 꾸며 보험금 등을 가로챈 911명이 경찰에 붙잡혔다.",
+        "body": "경찰청 국가수사본부는 지난 6월 15일부터 9월 30일까지 교통사고 보험사기를 집중수사한 결과, 총 2045건을 적발하고 911명을 검거했다고 27일 밝혔다.",
+        "conclusion": "홍석기 경찰청 국가수사본부장은 “국민의 생명·신체의 안전을 위협하고 경제적 부담을 가중하는 중대한 범죄인 교통사고 보험사기 근절에 수사역량을 집중하겠다”며 “수사를 통해 확인된 피해자에 대해서는 행정처분 취소, 할증 보험료…"
+      },
+      "summary": "고의적으로 교통사고를 내거나 사고 내용을 꾸며 보험금 등을 가로챈 911명이 경찰에 붙잡혔다.",
+      "source_digest": "793714ba29efc771",
+      "summary_kind": "rss",
+      "implication": "",
+      "summary_basis": "public_article_excerpt"
+    },
+    {
+      "title": "금감원, 퇴직연금 ETF 위험등급 표시 강화···내년 1월 시행",
+      "url": "https://www.seoulfn.com/news/articleView.html?idxno=641072",
+      "source": "서울파이낸스",
+      "source_group": "general",
+      "published_at": "2026-10-27T12:00:00+09:00",
+      "id": "421aef53d7d7",
+      "category": "제도·정책",
+      "summary_parts": {
+        "intro": "금융감독원이 퇴직연금 상장지수펀드(ETF) 투자자의 위험 인식을 높이기 위해 내년 1월부터 상품 매매화면에 투자한도와 위험등급을 함께 표시하도록 개선한다.",
+        "body": "금감원에 따르면 올해 상반기 말 기준 퇴직연금 적립금은 558조3000억원으로 집계됐다.",
+        "conclusion": "이 가운데 원리금보장형 상품은 360조3000억원, 실적배당형 상품은 198조원이다."
+      },
+      "summary": "금융감독원이 퇴직연금 상장지수펀드(ETF) 투자자의 위험 인식을 높이기 위해 내년 1월부터 상품 매매화면에 투자한도와 위험등급을 함께 표시하도록 개선한다.",
+      "source_digest": "532b9ff98c934478",
+      "summary_kind": "rss",
+      "implication": ""
+    },
+    {
+      "title": "보험개발원, 대전장애인종합복지관에 장애인 이동용 차량 기부",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93526",
+      "source": "한국보험신문",
+      "source_group": "specialist",
+      "published_at": "2026-10-27T17:20:00+09:00",
+      "id": "0ae3ab2ad7e2",
+      "category": "영업전략",
+      "summary_parts": {
+        "intro": "보험개발원이 지역사회 장애인의 이동 편의를 높이기 위해 대전장애인종합복지관에 승합차량을 기부했다.",
+        "body": "보험개발원은 지난 26일 ‘카히스토리(carhistory)’의 공익적 역할을 확대하고 사회적 가치를 실현하기 위해 대전장애인종합복지관에 장애인 이동 지원용 승합차량을 전달했다고 27일 밝혔다.",
+        "conclusion": "2024년부터는 매년 전국 장애인종합복지관 한 곳을 선정해 이동에 필요한 보조기기와 차량을 지원하고 있다."
+      },
+      "summary": "보험개발원이 지역사회 장애인의 이동 편의를 높이기 위해 대전장애인종합복지관에 승합차량을 기부했다.",
+      "source_digest": "e322fdbe85097bf5",
+      "summary_kind": "rss",
+      "implication": "",
+      "summary_basis": "public_article_excerpt"
+    }
+  ],
+  "collection": {
+    "configured": [
+      "보험신보",
+      "보험저널",
+      "서울파이낸스",
+      "한국보험신문"
+    ],
+    "succeeded": [
+      "보험신보",
+      "보험저널",
+      "서울파이낸스",
+      "한국보험신문"
+    ],
+    "selected": [
+      "보험저널",
+      "서울파이낸스",
+      "한국보험신문"
+    ],
+    "items_received": 147
+  }
+}

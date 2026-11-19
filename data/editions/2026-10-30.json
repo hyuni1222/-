@@ -1,0 +1,137 @@
+{
+  "date": "2026-10-30",
+  "updated_at": "2026-11-19T10:57:31+09:00",
+  "collected_at": "2026-11-19T10:57:31+09:00",
+  "summary_version": 2,
+  "title": "“현재로선 대안이 없다, 700종신 하나 빠졌을 뿐인데”… 생보 GA채널 38% 급감 중",
+  "demo": false,
+  "mode": "rss",
+  "backfilled": true,
+  "collection_method": "publisher_archive_calendar_day",
+  "article_window": {
+    "start": "2026-10-30T00:00:00+09:00",
+    "end": "2026-10-31T00:00:00+09:00"
+  },
+  "sources": [
+    "보험신보",
+    "보험저널",
+    "서울파이낸스",
+    "한국보험신문"
+  ],
+  "warnings": [],
+  "articles": [
+    {
+      "title": "“현재로선 대안이 없다, 700종신 하나 빠졌을 뿐인데”… 생보 GA채널 38% 급감 중",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33718",
+      "source": "보험저널",
+      "source_group": "specialist",
+      "published_at": "2026-10-30T07:33:00+09:00",
+      "id": "fba40f64ddbd",
+      "category": "상품",
+      "summary_parts": {
+        "intro": "700종신보험 판매중단 여파가 10월 생명보험사 GA(법인보험대리점)채널 판매실적에 본격적으로 나타나고 있다.",
+        "body": "9월까지 전체 판매실적의 40% 이상을 차지했던 700종신이 시장에서 사라진 가운데 단기납종신과 건강종신 등 대체상품만으로는 판매 공백을 메우기 어려운 상황이다.",
+        "conclusion": "GA업계에 따르면 10월 28일 기준 누적 판매실적을 토대로 추산한 생보 GA채널의 10월 전체 판매액은 전월 대비 약 38% 감소할 것으로 전망된다."
+      },
+      "summary": "700종신보험 판매중단 여파가 10월 생명보험사 GA(법인보험대리점)채널 판매실적에 본격적으로 나타나고 있다.",
+      "source_digest": "008228dbddfd00a1",
+      "summary_kind": "rss",
+      "implication": ""
+    },
+    {
+      "title": "[30일 보험주 마감시황] 대형 손보 3사 동반 상승…삼성생명 2.70%↓·상장 GA 엇갈림",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33730",
+      "source": "보험저널",
+      "source_group": "specialist",
+      "published_at": "2026-10-30T16:00:00+09:00",
+      "id": "401f6d082440",
+      "category": "채널",
+      "summary_parts": {
+        "intro": "30일 국내 증시가 큰 폭으로 하락한 가운데 보험 관련 상장 종목들도 하락 우위로 돌아섰다.",
+        "body": "손해보험·재보험과 생명보험·금융지주, 상장 GA 등 14개 종목 가운데 5개가 상승하고 9개가 하락했다.",
+        "conclusion": "삼성생명은 2.70% 하락하며 가장 큰 낙폭을 보였다."
+      },
+      "summary": "30일 국내 증시가 큰 폭으로 하락한 가운데 보험 관련 상장 종목들도 하락 우위로 돌아섰다.",
+      "source_digest": "cb834e0e4fc94d13",
+      "summary_kind": "rss",
+      "implication": ""
+    },
+    {
+      "title": "생보업계, 생산적 금융 6.2조 공급… 9월 목표 37% 웃돌아",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93606",
+      "source": "한국보험신문",
+      "source_group": "specialist",
+      "published_at": "2026-10-30T15:51:00+09:00",
+      "id": "14d85dd811b2",
+      "category": "영업전략",
+      "summary_parts": {
+        "intro": "생명보험업계가 장기자금을 활용해 올해 9월까지 생산적 금융 분야에 약 6조2000억원을 공급했다.",
+        "body": "올해 9월까지 6조2000억원을 공급했으며, 투자계획에 포함되지 않았던 주거용 부동산 프로젝트파이낸싱(PF) 실적 1조2800억원을 제외해도 당초 목표액인 3조6000억원을 37% 웃돌았다.",
+        "conclusion": "김철주 생명보험협회장은 “금융 대전환이 선언에 그치지 않고 각 회사의 투자와 상품, 서비스 등 구체적인 경영활동을 통해 실현돼야 한다”며 “간담회에서 제시된 의견을 바탕으로 실행과제를 구체화하고 자산운용규제 합리화 등…"
+      },
+      "summary": "생명보험업계가 장기자금을 활용해 올해 9월까지 생산적 금융 분야에 약 6조2000억원을 공급했다.",
+      "source_digest": "0e0d47173246ecec",
+      "summary_kind": "rss",
+      "implication": "",
+      "summary_basis": "public_article_excerpt"
+    },
+    {
+      "title": "롯데손보 ‘원더’, 외식 매장서 ‘N잡 설계사’ 찾는다",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93605",
+      "source": "한국보험신문",
+      "source_group": "specialist",
+      "published_at": "2026-10-30T15:47:00+09:00",
+      "id": "6767a78fe664",
+      "category": "채널",
+      "summary_parts": {
+        "intro": "식사 시간 등 일상 속에서 보험영업을 통한 새로운 소득 기회를 살펴볼 수 있게 된다.",
+        "body": "롯데손보는 직화 볶음 전문 외식 프랜차이즈 ‘제제집’과 제휴하고 매장 방문 고객에게 디지털 영업 플랫폼 ‘원더(wonder)’를 소개하는 공동 마케팅을 진행한다고 30일 밝혔다.",
+        "conclusion": "원더는 교육과 보험상품 설계, 청약, 고객관리 등 보험영업에 필요한 과정을 스마트폰 앱(App)으로 진행할 수 있는 디지털 보험영업 플랫폼이다."
+      },
+      "summary": "식사 시간 등 일상 속에서 보험영업을 통한 새로운 소득 기회를 살펴볼 수 있게 된다.",
+      "source_digest": "284786189d9c6d50",
+      "summary_kind": "rss",
+      "implication": "",
+      "summary_basis": "public_article_excerpt"
+    },
+    {
+      "title": "현대해상, AI 보험설계 지원 시스템 'Hi-헬퍼' 오픈",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72877",
+      "source": "보험신보",
+      "source_group": "specialist",
+      "published_at": "2026-10-30T15:23:00+09:00",
+      "id": "609f701be747",
+      "category": "영업전략",
+      "summary_parts": {
+        "intro": "현대해상은 AI기술을 활용해 고객별 가입 조건에 맞는 보험 플랜을 신속하게 제안하는 보험설계 지원 시스템 'Hi-헬퍼'를 오픈했다고 30일 밝혔다.",
+        "body": "특히, Hi-헬퍼는 선별된 상품에 최신 설계 트렌드를 반영, 클릭 한 번으로 1분 이내에 3가지 추천 플랜을 자동 생성한다.",
+        "conclusion": "설계사는 이를 바탕으로 고객과 상담하며 보장 내용과 가입 조건을 조정할 수 있고 고객은 여러 보장안을 비교해 자신의 필요에 맞는 보험을 선택할 수 있다."
+      },
+      "summary": "현대해상은 AI기술을 활용해 고객별 가입 조건에 맞는 보험 플랜을 신속하게 제안하는 보험설계 지원 시스템 'Hi-헬퍼'를 오픈했다고 30일 밝혔다.",
+      "source_digest": "8334bb54853a2c25",
+      "summary_kind": "rss",
+      "implication": "",
+      "summary_basis": "public_article_excerpt"
+    }
+  ],
+  "collection": {
+    "configured": [
+      "보험신보",
+      "보험저널",
+      "서울파이낸스",
+      "한국보험신문"
+    ],
+    "succeeded": [
+      "보험신보",
+      "보험저널",
+      "서울파이낸스",
+      "한국보험신문"
+    ],
+    "selected": [
+      "보험신보",
+      "보험저널",
+      "한국보험신문"
+    ],
+    "items_received": 139
+  }
+}

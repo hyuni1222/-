@@ -442,6 +442,8 @@ def main():
             except Exception as error:
                 warnings.append(feed["name"] + " 수집 실패")
                 LOG.warning("Feed %s unavailable (%s)", feed["name"], type(error).__name__)
+    from corpus import save_candidates
+    save_candidates(root, candidates, config, now)
     articles = select_articles(candidates, config, now)
     if not articles:
         LOG.error("No fresh relevant articles. Existing editions were preserved; deployment should stop.")

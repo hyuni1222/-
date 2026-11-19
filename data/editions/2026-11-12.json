@@ -1,7 +1,7 @@
 {
   "date": "2026-11-12",
-  "updated_at": "2026-11-19T09:47:12+09:00",
-  "collected_at": "2026-11-19T09:47:12+09:00",
+  "updated_at": "2026-11-19T10:57:31+09:00",
+  "collected_at": "2026-11-19T10:57:31+09:00",
   "summary_version": 2,
   "title": "“GA 내부통제, 어디까지 왔나”…준법감시인 워크숍서 현안 집중 조명",
   "demo": false,
@@ -76,23 +76,22 @@
       "summary_basis": "public_article_excerpt"
     },
     {
-      "title": "교보생명, 3분기 퇴직연금 DC·IRP 수익률 1위",
-      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72966",
-      "source": "보험신보",
-      "source_group": "specialist",
-      "published_at": "2026-11-12T11:00:00+09:00",
-      "id": "89693776dd0b",
+      "title": "[보험브리핑] 교보생명, 3분기 퇴직연금 DC∙IRP 수익률 1위 외",
+      "url": "https://www.seoulfn.com/news/articleView.html?idxno=642611",
+      "source": "서울파이낸스",
+      "source_group": "general",
+      "published_at": "2026-11-12T10:06:00+09:00",
+      "id": "aad4d4dd1613",
       "category": "상품",
       "summary_parts": {
-        "intro": "교보생명은 2026년 3분기 기준 DC형과 IRP 각각의 적립금 상위 15개 퇴직연금사업자 가운데 원리금비보장형 상품의 장단기 수익률 모두 1위에 올랐다고 12일 밝혔다.",
-        "body": "5년 연평균 수익률 역시 DC형 8.73%, IRP 8.31%로 모두 1위에 올랐으며 7년은 각각 9.47%, 8.69%, 10년은 각각 6.74%, 6.30%로 전 구간에서 1위를 차지했다.",
-        "conclusion": "문영미 교보생명 법인사업본부 본부장은 “시장 변동성이 높은 상황에서도 좋은 결과를 낼 수 있었던 것은 장기 분산투자와 고객 중심의 투자 원칙을 꾸준히 지켜온 결과”라며 “앞으로도 고객의 노후자산을 안정적으로 불리고 고객이…"
+        "intro": "교보생명은 올해 3분기 말 기준 퇴직연금 적립금 상위 15개 사업자 가운데 DC형과 IRP 원리금비보장형 상품의 장단기 수익률 모두 1위를 기록했다고 12일 밝혔다.",
+        "body": "최근 1년 수익률은 DC형 23.30%, IRP 22.81%다.",
+        "conclusion": "현대해상은 다이렉트 상품 2종을 개편해 출시했다고 12일 밝혔다."
       },
-      "summary": "교보생명은 2026년 3분기 기준 DC형과 IRP 각각의 적립금 상위 15개 퇴직연금사업자 가운데 원리금비보장형 상품의 장단기 수익률 모두 1위에 올랐다고 12일 밝혔다.",
-      "source_digest": "86a946bbe98cb901",
+      "summary": "교보생명은 올해 3분기 말 기준 퇴직연금 적립금 상위 15개 사업자 가운데 DC형과 IRP 원리금비보장형 상품의 장단기 수익률 모두 1위를 기록했다고 12일 밝혔다.",
+      "source_digest": "8cf442dde76942b0",
       "summary_kind": "rss",
-      "implication": "",
-      "summary_basis": "public_article_excerpt"
+      "implication": ""
     },
     {
       "title": "보험연구원 '의학기술 혁신과 금융·보험의 미래' 세미나 개최",
@@ -130,8 +129,9 @@
     "selected": [
       "보험신보",
       "보험저널",
+      "서울파이낸스",
       "한국보험신문"
     ],
-    "items_received": 59
+    "items_received": 132
   }
 }

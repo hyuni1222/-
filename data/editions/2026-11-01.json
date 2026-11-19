@@ -1,0 +1,80 @@
+{
+  "date": "2026-11-01",
+  "updated_at": "2026-11-19T10:57:31+09:00",
+  "collected_at": "2026-11-19T10:57:31+09:00",
+  "summary_version": 2,
+  "title": "“IFRS17에 IFRS18까지”… 보험사 셈법 달라지나, 전속·GA 수익성 재평가 촉각",
+  "demo": false,
+  "mode": "rss",
+  "backfilled": true,
+  "collection_method": "publisher_archive_calendar_day",
+  "article_window": {
+    "start": "2026-11-01T00:00:00+09:00",
+    "end": "2026-11-02T00:00:00+09:00"
+  },
+  "sources": [
+    "보험신보",
+    "보험저널",
+    "서울파이낸스",
+    "한국보험신문"
+  ],
+  "warnings": [],
+  "articles": [
+    {
+      "title": "“IFRS17에 IFRS18까지”… 보험사 셈법 달라지나, 전속·GA 수익성 재평가 촉각",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33733",
+      "source": "보험저널",
+      "source_group": "specialist",
+      "published_at": "2026-11-01T20:47:00+09:00",
+      "id": "18957f834021",
+      "category": "채널",
+      "summary_parts": {
+        "intro": "2023년 IFRS17 도입 이후 신계약 보험계약마진(CSM) 확보에 집중해 온 보험사들이 2027년 IFRS18 시행을 앞두고 판매채널별 수익성 관리에도 변화를 줄지 관심이 쏠리고 있다.",
+        "body": "IFRS17이 보험계약의 미래이익과 부채를 평가하는 기준을 바꿨다면 IFRS18은 영업손익의 표시와 공시체계를 개편하는 기준이다.",
+        "conclusion": "GA(법인보험대리점)채널은 신계약 판매와 CSM 확보에 중요한 역할을 하고 있지만 모집수수료와 시책비 부담도 적지 않다."
+      },
+      "summary": "2023년 IFRS17 도입 이후 신계약 보험계약마진(CSM) 확보에 집중해 온 보험사들이 2027년 IFRS18 시행을 앞두고 판매채널별 수익성 관리에도 변화를 줄지 관심이 쏠리고 있다.",
+      "source_digest": "c09cd31934400542",
+      "summary_kind": "rss",
+      "implication": ""
+    },
+    {
+      "title": "자동 가입되는 시민안전보험… 보험금은 직접 청구",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93612",
+      "source": "한국보험신문",
+      "source_group": "specialist",
+      "published_at": "2026-11-01T18:07:00+09:00",
+      "id": "7089ab925f33",
+      "category": "영업전략",
+      "summary_parts": {
+        "intro": "지방자치단체가 시민을 위해 운영하는 시민안전보험은 별도 절차 없이 자동 가입되지만, 보험금을 받으려면 가입자가 보험사에 직접 청구해야 한다.",
+        "body": "금융감독원은 1일 시민안전보험의 주요 보장내용과 보험금 청구 시 소비자 유의사항을 안내했다.",
+        "conclusion": "보험금 청구서와 주민등록등본 등 제출이 필요하며 사고 유형에 따라 추가 증빙자료가 요구될 수 있다."
+      },
+      "summary": "지방자치단체가 시민을 위해 운영하는 시민안전보험은 별도 절차 없이 자동 가입되지만, 보험금을 받으려면 가입자가 보험사에 직접 청구해야 한다.",
+      "source_digest": "500d227a726e749c",
+      "summary_kind": "rss",
+      "implication": "",
+      "summary_basis": "public_article_excerpt"
+    }
+  ],
+  "collection": {
+    "configured": [
+      "보험신보",
+      "보험저널",
+      "서울파이낸스",
+      "한국보험신문"
+    ],
+    "succeeded": [
+      "보험신보",
+      "보험저널",
+      "서울파이낸스",
+      "한국보험신문"
+    ],
+    "selected": [
+      "보험저널",
+      "한국보험신문"
+    ],
+    "items_received": 32
+  }
+}

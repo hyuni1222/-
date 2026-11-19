@@ -1,0 +1,118 @@
+{
+  "date": "2026-10-07",
+  "updated_at": "2026-11-19T10:57:31+09:00",
+  "collected_at": "2026-11-19T10:57:31+09:00",
+  "summary_version": 2,
+  "title": "8일 금융위 국감, '인카금융서비스' 최병채 대표 출석… GA 업계 파장 \"예의주시\"",
+  "demo": false,
+  "mode": "rss",
+  "backfilled": true,
+  "collection_method": "publisher_archive_calendar_day",
+  "article_window": {
+    "start": "2026-10-07T00:00:00+09:00",
+    "end": "2026-10-08T00:00:00+09:00"
+  },
+  "sources": [
+    "보험신보",
+    "보험저널",
+    "서울파이낸스",
+    "한국보험신문"
+  ],
+  "warnings": [],
+  "articles": [
+    {
+      "title": "8일 금융위 국감, '인카금융서비스' 최병채 대표 출석… GA 업계 파장 \"예의주시\"",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33349",
+      "source": "보험저널",
+      "source_group": "specialist",
+      "published_at": "2026-10-07T13:36:00+09:00",
+      "id": "72a211f85bd9",
+      "category": "제도·정책",
+      "summary_parts": {
+        "intro": "오는 8일 열리는 국회 정무위원회의 금융위원회 국정감사에 인카금융서비스 최병채 대표가 일반 증인으로 출석할 예정인 가운데 GA 업계와 관련 협회가 우려 섞인 시선으로 상황을 예의주시하고 있다.",
+        "body": "당초 GA 업계는 이번 국정감사를 통해 보험판매전문회사 도입 등 산업을 한 단계 도약시킬 건설적인 정책 논의가 이루어지기를 기대했다.",
+        "conclusion": "특정 대형 GA의 개별 이슈가 부각되면서 자칫 업계 전체에 대한 규제 강화나 대국민 이미지 훼손으로 이어질 수 있다는 우려가 제기되고 있다."
+      },
+      "summary": "오는 8일 열리는 국회 정무위원회의 금융위원회 국정감사에 인카금융서비스 최병채 대표가 일반 증인으로 출석할 예정인 가운데 GA 업계와 관련 협회가 우려 섞인 시선으로 상황을 예의주시하고 있다.",
+      "source_digest": "894364ade87ece2c",
+      "summary_kind": "rss",
+      "implication": ""
+    },
+    {
+      "title": "[단독] GA시책서 빠진 5·7·10년납 단기납종신… 교보생명이 ‘신호탄’될까",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33351",
+      "source": "보험저널",
+      "source_group": "specialist",
+      "published_at": "2026-10-07T13:51:00+09:00",
+      "id": "4422e296e849",
+      "category": "상품",
+      "summary_parts": {
+        "intro": "지난달 700종신보험(보험료 납입 중 원금도달 상품) 판매중단 과정에서 가까스로 살아남은 5·7·10년납 단기납종신보험의 GA채널 시책에 변화가 감지되고 있다.",
+        "body": "연초 320~400%였던 시책은 8월 80%까지 낮아진 뒤 9월에 이어 10월에도 시책표에서 자취를 감췄다.",
+        "conclusion": "700종신 판매공백을 단기납종신보험이 메우면서 시책 경쟁도 확대될 것이란 예상과 달리, 10월 주요 생보사의 5·7·10년납 단기납종신보험 시책률은 전월과 큰 차이가 없는 것으로 나타났다."
+      },
+      "summary": "지난달 700종신보험(보험료 납입 중 원금도달 상품) 판매중단 과정에서 가까스로 살아남은 5·7·10년납 단기납종신보험의 GA채널 시책에 변화가 감지되고 있다.",
+      "source_digest": "849bd56dc71cd99a",
+      "summary_kind": "rss",
+      "implication": ""
+    },
+    {
+      "title": "금융당국, 대형 GA 73개사 보안실태 점검",
+      "url": "https://www.seoulfn.com/news/articleView.html?idxno=639587",
+      "source": "서울파이낸스",
+      "source_group": "general",
+      "published_at": "2026-10-07T17:15:00+09:00",
+      "id": "11f85484b67a",
+      "category": "제도·정책",
+      "summary_parts": {
+        "intro": "최근 AI가 동원된 해킹 공격이 2금융권으로 번지면서 금융당국의 보안점검이 강화되고 있다.",
+        "body": "7일 금융권에 따르면 금융감독원은 지난 6일 GA협회와 금융보안원을 소집해 대형 GA 73곳을 대상으로 최근 해킹 사태와 관련한 공격이 있었는지 점검해 달라고 요청했다.",
+        "conclusion": "한 대형 GA 관계자는 \"일반적인 GA는 대형 금융사와 같은 수준의 보안 체계를 갖추지 못한 곳도 있다\"며 \"해킹 피해가 확인되지 않았더라도 이번 기회에 보안 현황을 전반적으로 확인하고 필요한 추가 조치를 할 가능성이…"
+      },
+      "summary": "최근 AI가 동원된 해킹 공격이 2금융권으로 번지면서 금융당국의 보안점검이 강화되고 있다.",
+      "source_digest": "c0beea897f164d5a",
+      "summary_kind": "rss",
+      "implication": "",
+      "summary_basis": "public_article_excerpt"
+    },
+    {
+      "title": "농업용 드론 보급 늘자 사고도 급증… 보험금 지급 3년 새 4.7배",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93194",
+      "source": "한국보험신문",
+      "source_group": "specialist",
+      "published_at": "2026-10-07T10:57:00+09:00",
+      "id": "4dd16c0f6684",
+      "category": "영업전략",
+      "summary_parts": {
+        "intro": "농촌 인력 부족을 보완하기 위해 농업용 드론 활용이 늘면서 관련 사고도 빠르게 증가한 것으로 나타났다.",
+        "body": "농업용 드론 보유 대수는 2021년 1661대에서 2022년 2098대, 2023년 2555대, 2024년 2910대를 거쳐 지난해 3555대까지 늘었다.",
+        "conclusion": "이양수 의원은 “농업용 드론은 농촌의 일손 부족을 해소하고 작업 효율을 높이는 데 중요한 역할을 하고 있지만, 보급 확대에 비해 안전관리는 이를 따라가지 못하고 있다”며 “농업인이 드론을 안전하게 활용할 수 있도록 현장…"
+      },
+      "summary": "농촌 인력 부족을 보완하기 위해 농업용 드론 활용이 늘면서 관련 사고도 빠르게 증가한 것으로 나타났다.",
+      "source_digest": "3fb897f0c4b81470",
+      "summary_kind": "rss",
+      "implication": "",
+      "summary_basis": "public_article_excerpt"
+    }
+  ],
+  "collection": {
+    "configured": [
+      "보험신보",
+      "보험저널",
+      "서울파이낸스",
+      "한국보험신문"
+    ],
+    "succeeded": [
+      "보험신보",
+      "보험저널",
+      "서울파이낸스",
+      "한국보험신문"
+    ],
+    "selected": [
+      "보험저널",
+      "서울파이낸스",
+      "한국보험신문"
+    ],
+    "items_received": 113
+  }
+}

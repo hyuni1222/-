@@ -1,7 +1,7 @@
 {
   "date": "2026-11-14",
-  "updated_at": "2026-11-19T09:47:12+09:00",
-  "collected_at": "2026-11-19T09:47:12+09:00",
+  "updated_at": "2026-11-19T10:57:31+09:00",
+  "collected_at": "2026-11-19T10:57:31+09:00",
   "summary_version": 2,
   "title": "2026-11-14 · 확인된 보험 관련 기사 없음",
   "demo": false,
@@ -34,6 +34,6 @@
       "한국보험신문"
     ],
     "selected": [],
-    "items_received": 21
+    "items_received": 23
   }
 }

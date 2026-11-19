@@ -1,0 +1,78 @@
+{
+  "date": "2026-10-09",
+  "updated_at": "2026-11-19T10:57:31+09:00",
+  "collected_at": "2026-11-19T10:57:31+09:00",
+  "summary_version": 2,
+  "title": "마이금융파트너, 설계사 25% 늘고 '13회차 유지율' 동반 상승…'25회차'도 평균 웃돌아(영상+)",
+  "demo": false,
+  "mode": "rss",
+  "backfilled": true,
+  "collection_method": "publisher_archive_calendar_day",
+  "article_window": {
+    "start": "2026-10-09T00:00:00+09:00",
+    "end": "2026-10-10T00:00:00+09:00"
+  },
+  "sources": [
+    "보험신보",
+    "보험저널",
+    "서울파이낸스",
+    "한국보험신문"
+  ],
+  "warnings": [],
+  "articles": [
+    {
+      "title": "마이금융파트너, 설계사 25% 늘고 '13회차 유지율' 동반 상승…'25회차'도 평균 웃돌아(영상+)",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33356",
+      "source": "보험저널",
+      "source_group": "specialist",
+      "published_at": "2026-10-09T10:00:00+09:00",
+      "id": "6034c931d383",
+      "category": "채널",
+      "summary_parts": {
+        "intro": "마이금융파트너가 조직 확대 속에서도 13회차 계약 유지율을 생·손보 모두 평균을 웃도는 수준으로 끌어올렸다.",
+        "body": "보험저널이 2026년 상반기 GA 경영공시를 분석한 결과 마이금융파트너의 생명보험 13회차 유지율은 87.88%로 지난해 상반기 86.81%보다 1.07%p 상승했다.",
+        "conclusion": "손해보험의 개선폭은 더 컸다."
+      },
+      "summary": "마이금융파트너가 조직 확대 속에서도 13회차 계약 유지율을 생·손보 모두 평균을 웃도는 수준으로 끌어올렸다.",
+      "source_digest": "5dfd5cd8e1d84ba9",
+      "summary_kind": "rss",
+      "implication": ""
+    },
+    {
+      "title": "ABL생명 질병 진단 시 사망보험금 전액 선지급...'우리WON더채움종신보험' 출시(영상+)",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33369",
+      "source": "보험저널",
+      "source_group": "specialist",
+      "published_at": "2026-10-09T10:48:00+09:00",
+      "id": "2fe4b4a492d5",
+      "category": "상품",
+      "summary_parts": {
+        "intro": "우리금융그룹 계열사인 ABL생명은 아플 때도 건강할 때도 든든하게 일상을 지켜주는 무배당 우리WON더채움종신보험 해약환급금 일부지급형을 오는 10일 신규 출시한다고 8일 밝혔다.",
+        "body": "이번에 선보인 우리WON더채움종신보험은 1형 암보장형과 2형 뇌심보장형으로 구성됐다.",
+        "conclusion": "RSS에서 확인되는 내용은 위와 같으며, 추가 영향은 원문 확인이 필요합니다."
+      },
+      "summary": "우리금융그룹 계열사인 ABL생명은 아플 때도 건강할 때도 든든하게 일상을 지켜주는 무배당 우리WON더채움종신보험 해약환급금 일부지급형을 오는 10일 신규 출시한다고 8일 밝혔다.",
+      "source_digest": "670acfc08cbf6ca0",
+      "summary_kind": "rss",
+      "implication": ""
+    }
+  ],
+  "collection": {
+    "configured": [
+      "보험신보",
+      "보험저널",
+      "서울파이낸스",
+      "한국보험신문"
+    ],
+    "succeeded": [
+      "보험신보",
+      "보험저널",
+      "서울파이낸스",
+      "한국보험신문"
+    ],
+    "selected": [
+      "보험저널"
+    ],
+    "items_received": 24
+  }
+}

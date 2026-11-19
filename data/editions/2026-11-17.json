@@ -1,7 +1,7 @@
 {
   "date": "2026-11-17",
-  "updated_at": "2026-11-19T09:47:12+09:00",
-  "collected_at": "2026-11-19T09:47:12+09:00",
+  "updated_at": "2026-11-19T10:57:31+09:00",
+  "collected_at": "2026-11-19T10:57:31+09:00",
   "summary_version": 2,
   "title": "월 1107만원 찍는데 한쪽은 239만원…'자회사형' GA, 한 지붕 아래서도 갈린 '인당 수수료'",
   "demo": false,
@@ -58,23 +58,22 @@
       "summary_basis": "public_article_excerpt"
     },
     {
-      "title": "교보생명, 최근 1년 배타적사용권 6건 획득···생보업계 최다",
-      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=73026",
-      "source": "보험신보",
-      "source_group": "specialist",
-      "published_at": "2026-11-17T11:00:00+09:00",
-      "id": "d18a9d97910e",
+      "title": "[이슈+] 삼성·한화 '방긋'-교보·신한·KB '우울'···5대 생보사 실적 '희비'",
+      "url": "https://www.seoulfn.com/news/articleView.html?idxno=643017",
+      "source": "서울파이낸스",
+      "source_group": "general",
+      "published_at": "2026-11-17T09:00:00+09:00",
+      "id": "5a1a16246edd",
       "category": "영업전략",
       "summary_parts": {
-        "intro": "교보생명은 최근 1년간 배타적사용권 6건을 획득해 생명보험업계 최다를 기록했다고 17일 밝혔다.",
-        "body": "생명보험협회에 따르면 지난 2025년 11월부터 2026년 10월까지 신규 부여된 배타적사용권은 교보생명이 6건으로 생보사 중 가장 많았다.",
-        "conclusion": "교보생명 관계자는 “의료환경과 치료 방식이 빠르게 변하면서 고객에 필요한 보장도 달라지고 있다”며 “치료 과정에서 고객이 겪는 어려움을 세밀하게 반영한 상품을 지속적으로 선보이겠다”고 말했다."
+        "intro": "올해 3분기 주요 생명보험사 실적이 엇갈렸다.",
+        "body": "17일 보험업권에 따르면 삼성생명의 올해 3분기 누적 연결 기준 당기순이익은 2조6859억원으로 전년 동기 대비 26.9% 증가했다.",
+        "conclusion": "교보생명과 신한라이프, KB라이프생명은 투자손익 감소 등이 순이익에 부담으로 작용했다."
       },
-      "summary": "교보생명은 최근 1년간 배타적사용권 6건을 획득해 생명보험업계 최다를 기록했다고 17일 밝혔다.",
-      "source_digest": "5fd95d1afdd66308",
+      "summary": "올해 3분기 주요 생명보험사 실적이 엇갈렸다.",
+      "source_digest": "79cbfc2cce5c68a2",
       "summary_kind": "rss",
-      "implication": "",
-      "summary_basis": "public_article_excerpt"
+      "implication": ""
     },
     {
       "title": "“한도만 알려주면 되지 않나?”… GA 계약체결비용 세부내역 요구에 보험사 난색",
@@ -128,10 +127,10 @@
       "한국보험신문"
     ],
     "selected": [
-      "보험신보",
       "보험저널",
+      "서울파이낸스",
       "한국보험신문"
     ],
-    "items_received": 49
+    "items_received": 124
   }
 }

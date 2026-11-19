@@ -1,0 +1,136 @@
+{
+  "date": "2026-10-13",
+  "updated_at": "2026-11-19T10:57:31+09:00",
+  "collected_at": "2026-11-19T10:57:31+09:00",
+  "summary_version": 2,
+  "title": "[마감시황] 13일 보험·상장 GA 주가 동향… 생보사 약세 속 롯데손보·인카금융 '선방'",
+  "demo": false,
+  "mode": "rss",
+  "backfilled": true,
+  "collection_method": "publisher_archive_calendar_day",
+  "article_window": {
+    "start": "2026-10-13T00:00:00+09:00",
+    "end": "2026-10-14T00:00:00+09:00"
+  },
+  "sources": [
+    "보험신보",
+    "보험저널",
+    "서울파이낸스",
+    "한국보험신문"
+  ],
+  "warnings": [],
+  "articles": [
+    {
+      "title": "[마감시황] 13일 보험·상장 GA 주가 동향… 생보사 약세 속 롯데손보·인카금융 '선방'",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33419",
+      "source": "보험저널",
+      "source_group": "specialist",
+      "published_at": "2026-10-13T16:20:00+09:00",
+      "id": "9417e9c21a94",
+      "category": "채널",
+      "summary_parts": {
+        "intro": "13일 국내 증시가 외국인과 기관의 동반 매도세로 하방 압력을 받은 가운데, 보험 및 법인보험대리점(GA) 섹터 역시 종목별로 희비가 극명하게 엇갈리는 장세를 연출했다.",
+        "body": "단기 상승에 따른 차익 실현 매물이 쏟아진 대형 생명보험사들의 낙폭이 두드러진 반면, 개별 모멘텀이 부각된 일부 손해보험사와 상장 GA는 견조한 흐름을 유지하며 하락장 속 방어력을 입증했다.",
+        "conclusion": "RSS에서 확인되는 내용은 위와 같으며, 추가 영향은 원문 확인이 필요합니다."
+      },
+      "summary": "13일 국내 증시가 외국인과 기관의 동반 매도세로 하방 압력을 받은 가운데, 보험 및 법인보험대리점(GA) 섹터 역시 종목별로 희비가 극명하게 엇갈리는 장세를 연출했다.",
+      "source_digest": "15af7cb970329514",
+      "summary_kind": "rss",
+      "implication": ""
+    },
+    {
+      "title": "[GA M&A 시장 분석] ①대형 직영 매물 실종… 연합형 GA 인수 모델의 부상과 현실적 난관",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33417",
+      "source": "보험저널",
+      "source_group": "specialist",
+      "published_at": "2026-10-13T15:00:00+09:00",
+      "id": "cbb43cdfb416",
+      "category": "채널",
+      "summary_parts": {
+        "intro": "[GA M&A 시장 분석] ①대형 직영 매물 실종… 연합형 GA 인수 모델의 부상과 현실적 난관",
+        "body": "RSS에 상세 사실·수치가 제공되지 않았습니다.",
+        "conclusion": "추가 내용과 영향은 기사 원문에서 확인하세요."
+      },
+      "summary": "[GA M&A 시장 분석] ①대형 직영 매물 실종… 연합형 GA 인수 모델의 부상과 현실적 난관",
+      "source_digest": "301321befdb8d20d",
+      "summary_kind": "rss",
+      "implication": ""
+    },
+    {
+      "title": "[보험브리핑] 삼성생명, '삼성 골든종신보험' 개정 출시 외",
+      "url": "https://www.seoulfn.com/news/articleView.html?idxno=639911",
+      "source": "서울파이낸스",
+      "source_group": "general",
+      "published_at": "2026-10-13T10:01:00+09:00",
+      "id": "4255e9e79f52",
+      "category": "상품",
+      "summary_parts": {
+        "intro": "삼성생명은 기존 '삼성 골든종신보험'을 개정해 오는 14일 출시한다고 13일 밝혔다.",
+        "body": "7년납은 계약일부터 10년, 10년납은 12년이 지난 시점부터 인출할 수 있다.",
+        "conclusion": "보험료 납입기간 중 암 진단을 받으면 이후 보험료 납입이 면제되며, 암진단가산서비스를 통해 기본 인출금액인 납입보험료에 더해, 최대 100%를 추가로 인출할 수 있다."
+      },
+      "summary": "삼성생명은 기존 '삼성 골든종신보험'을 개정해 오는 14일 출시한다고 13일 밝혔다.",
+      "source_digest": "5aed2055d1345f88",
+      "summary_kind": "rss",
+      "implication": ""
+    },
+    {
+      "title": "미래에셋생명, ‘은퇴 후 30년’ 연금 지키고 쓰는 법 제시",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93283",
+      "source": "한국보험신문",
+      "source_group": "specialist",
+      "published_at": "2026-10-13T17:07:00+09:00",
+      "id": "cdefe966a65a",
+      "category": "상품",
+      "summary_parts": {
+        "intro": "미래에셋생명이 은퇴를 앞둔 고객에게 절세와 노후 위험 관리, 연금 운용 방안을 소개한다.",
+        "body": "미래에셋생명은 오는 23일 서울 종로구 포시즌스호텔 서울에서 50세 이상 고객을 대상으로 ‘퇴직연금 세미나’를 개최한다고 13일 밝혔다.",
+        "conclusion": "전문가들은 세금 부담을 줄이는 방안과 길어진 노후에 대비하는 방법, 연금자산의 운용·보호 전략 등을 설명할 예정이다."
+      },
+      "summary": "미래에셋생명이 은퇴를 앞둔 고객에게 절세와 노후 위험 관리, 연금 운용 방안을 소개한다.",
+      "source_digest": "0e02c83a373f3ac8",
+      "summary_kind": "rss",
+      "implication": "",
+      "summary_basis": "public_article_excerpt"
+    },
+    {
+      "title": "화재보험협회, 행안부·농협과 ‘화재안전 강화’ 나선다",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93293",
+      "source": "한국보험신문",
+      "source_group": "specialist",
+      "published_at": "2026-10-13T18:42:00+09:00",
+      "id": "5344c2308acb",
+      "category": "영업전략",
+      "summary_parts": {
+        "intro": "화재보험협회가 행정안전부, 농협중앙회와 손잡고 노후주택 화재 예방과 국민 안전 강화에 나선다.",
+        "body": "한국화재보험협회는 13일 서울 중구 농협중앙회에서 행정안전부, 농협중앙회와 ‘전국민 화재안심 프로젝트’ 업무협약을 체결했다.",
+        "conclusion": "대상 가구의 전기시설 등 화재위험요인을 점검하고 필요한 예방조치와 컨설팅을 진행할 예정이다."
+      },
+      "summary": "화재보험협회가 행정안전부, 농협중앙회와 손잡고 노후주택 화재 예방과 국민 안전 강화에 나선다.",
+      "source_digest": "6ed87d439776deee",
+      "summary_kind": "rss",
+      "implication": "",
+      "summary_basis": "public_article_excerpt"
+    }
+  ],
+  "collection": {
+    "configured": [
+      "보험신보",
+      "보험저널",
+      "서울파이낸스",
+      "한국보험신문"
+    ],
+    "succeeded": [
+      "보험신보",
+      "보험저널",
+      "서울파이낸스",
+      "한국보험신문"
+    ],
+    "selected": [
+      "보험저널",
+      "서울파이낸스",
+      "한국보험신문"
+    ],
+    "items_received": 136
+  }
+}

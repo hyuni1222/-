@@ -1,0 +1,80 @@
+{
+  "date": "2026-11-08",
+  "updated_at": "2026-11-19T10:57:31+09:00",
+  "collected_at": "2026-11-19T10:57:31+09:00",
+  "summary_version": 2,
+  "title": "금리 올랐는데 생보사 '기본자본'은 되레 약해졌다…100bp 더 오르면 62.9%",
+  "demo": false,
+  "mode": "rss",
+  "backfilled": true,
+  "collection_method": "publisher_archive_calendar_day",
+  "article_window": {
+    "start": "2026-11-08T00:00:00+09:00",
+    "end": "2026-11-09T00:00:00+09:00"
+  },
+  "sources": [
+    "보험신보",
+    "보험저널",
+    "서울파이낸스",
+    "한국보험신문"
+  ],
+  "warnings": [],
+  "articles": [
+    {
+      "title": "금리 올랐는데 생보사 '기본자본'은 되레 약해졌다…100bp 더 오르면 62.9%",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33818",
+      "source": "보험저널",
+      "source_group": "specialist",
+      "published_at": "2026-11-08T13:59:00+09:00",
+      "id": "deca531cfe37",
+      "category": "영업전략",
+      "summary_parts": {
+        "intro": "국고채 금리가 오른 지난 1년 동안 생명보험회사의 지급여력비율은 1.1%포인트 하락하는 데 그쳤지만, 손실을 즉시 흡수할 수 있는 기본자본비율은 7.0%포인트 떨어졌다.",
+        "body": "금리가 100bp 더 오르면 기본자본비율이 62.9%까지 낮아질 수 있다는 분석도 나왔다.",
+        "conclusion": "금리 상승이 생보사의 건전성 개선으로 이어진다는 인식과 달리, 자본의 질과 금리위험을 함께 살펴야 한다는 지적이다."
+      },
+      "summary": "국고채 금리가 오른 지난 1년 동안 생명보험회사의 지급여력비율은 1.1%포인트 하락하는 데 그쳤지만, 손실을 즉시 흡수할 수 있는 기본자본비율은 7.0%포인트 떨어졌다.",
+      "source_digest": "794e1a112af50f31",
+      "summary_kind": "rss",
+      "implication": ""
+    },
+    {
+      "title": "실손보험 할인제도 시행 앞두고···손보업계, 손해율 관리 '비상'",
+      "url": "https://www.seoulfn.com/news/articleView.html?idxno=642167",
+      "source": "서울파이낸스",
+      "source_group": "general",
+      "published_at": "2026-11-08T12:00:00+09:00",
+      "id": "32e0dd432319",
+      "category": "제도·정책",
+      "summary_parts": {
+        "intro": "초기 실손보험 가입자를 대상으로 한 할인제도가 이달 중 시행될 예정인 가운데 기존 계약의 손해율에 미칠 영향이 변수로 떠올랐다.",
+        "body": "6일 보험업계에 따르면 금융당국은 초기 실손보험 가입자의 보험료 부담을 낮추기 위해 선택형 할인특약과 5세대 실손보험 전환 할인을 이달 중 도입할 예정이다.",
+        "conclusion": "금융위원회 관계자는 \"실손보험은 갱신형 상품인 만큼 갱신 과정에서 손해율과 보험료가 조정된다\"며 \"기존 가입자의 보험료 부담은 비급여 보장 축소 등 관련 제도와 함께 관리해 나가겠다\"고 말했다."
+      },
+      "summary": "초기 실손보험 가입자를 대상으로 한 할인제도가 이달 중 시행될 예정인 가운데 기존 계약의 손해율에 미칠 영향이 변수로 떠올랐다.",
+      "source_digest": "0b65a0bf77b1a9e8",
+      "summary_kind": "rss",
+      "implication": "",
+      "summary_basis": "public_article_excerpt"
+    }
+  ],
+  "collection": {
+    "configured": [
+      "보험신보",
+      "보험저널",
+      "서울파이낸스",
+      "한국보험신문"
+    ],
+    "succeeded": [
+      "보험신보",
+      "보험저널",
+      "서울파이낸스",
+      "한국보험신문"
+    ],
+    "selected": [
+      "보험저널",
+      "서울파이낸스"
+    ],
+    "items_received": 24
+  }
+}

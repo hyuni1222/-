@@ -1,0 +1,136 @@
+{
+  "date": "2026-10-21",
+  "updated_at": "2026-11-19T10:57:31+09:00",
+  "collected_at": "2026-11-19T10:57:31+09:00",
+  "summary_version": 2,
+  "title": "[팩트체크] “4년 분급, GA가 보험사서 받은 수수료보다 더 줘도 될까?”… 최대 허용 범위는",
+  "demo": false,
+  "mode": "rss",
+  "backfilled": true,
+  "collection_method": "publisher_archive_calendar_day",
+  "article_window": {
+    "start": "2026-10-21T00:00:00+09:00",
+    "end": "2026-10-22T00:00:00+09:00"
+  },
+  "sources": [
+    "보험신보",
+    "보험저널",
+    "서울파이낸스",
+    "한국보험신문"
+  ],
+  "warnings": [],
+  "articles": [
+    {
+      "title": "[팩트체크] “4년 분급, GA가 보험사서 받은 수수료보다 더 줘도 될까?”… 최대 허용 범위는",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33580",
+      "source": "보험저널",
+      "source_group": "specialist",
+      "published_at": "2026-10-21T08:01:00+09:00",
+      "id": "6c305d3f79ad",
+      "category": "제도·정책",
+      "summary_parts": {
+        "intro": "2027년 보험 판매수수료 4년 분급 시행을 앞두고 법인보험대리점(GA)이 보험사로부터 받은 수수료보다 더 많은 금액을 소속 설계사에게 지급할 수 있는지가 관심사로 떠오르고 있다.",
+        "body": "쟁점은 GA가 자체 영업이익이나 사내유보금을 활용해 추가 수수료를 지급하는 경우에도 보험사로부터 실제 받은 금액을 초과할 수 없느냐는 것이다.",
+        "conclusion": "보험업감독규정을 살펴보면 GA 역시 상품별 계약체결비용을 기준으로 정한 수수료 지급한도를 준수해야 한다."
+      },
+      "summary": "2027년 보험 판매수수료 4년 분급 시행을 앞두고 법인보험대리점(GA)이 보험사로부터 받은 수수료보다 더 많은 금액을 소속 설계사에게 지급할 수 있는지가 관심사로 떠오르고 있다.",
+      "source_digest": "39a1243d9a62178a",
+      "summary_kind": "rss",
+      "implication": ""
+    },
+    {
+      "title": "[9월 GA 생보사 실적 M/S] 우리인슈맨라이프, 신한라이프 43% '선두'...농협 17%, KDB 13% 순",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33520",
+      "source": "보험저널",
+      "source_group": "specialist",
+      "published_at": "2026-10-21T10:30:00+09:00",
+      "id": "6b51096ee578",
+      "category": "채널",
+      "summary_parts": {
+        "intro": "9월 우리인슈맨라이프의 생명보험사 전체 실적은 약 2억 4,801만원을 기록하며 전월 약 2억 673만원 대비 뚜렷한 증가세를 보였다.",
+        "body": "신한라이프는 전월 대비 1계단 상승하며 점유율 43.3%(약 1억 750만원)로 1위 자리에 올랐다.",
+        "conclusion": "지난 7월 10.8%, 8월 26.5%에 이어 3개월 연속 점유율을 크게 확대하며 시장을 장악했다."
+      },
+      "summary": "9월 우리인슈맨라이프의 생명보험사 전체 실적은 약 2억 4,801만원을 기록하며 전월 약 2억 673만원 대비 뚜렷한 증가세를 보였다.",
+      "source_digest": "0f46bd97eaee7ad9",
+      "summary_kind": "rss",
+      "implication": ""
+    },
+    {
+      "title": "토스인슈어런스, 대면 영업 4년 만에 우수인증설계사 127명 배출",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93425",
+      "source": "한국보험신문",
+      "source_group": "specialist",
+      "published_at": "2026-10-21T11:14:00+09:00",
+      "id": "09e77f38707d",
+      "category": "채널",
+      "summary_parts": {
+        "intro": "토스인슈어런스가 디지털 영업지원과 내부통제를 바탕으로 설계사의 상담 역량과 고객 신뢰를 높여온 결과 우수인증설계사를 배출했다.",
+        "body": "동일 회사에서 3년 이상 근무하고 생명·손해보험 합산 13회차 계약 유지율이 90% 이상이어야 인증받을 수 있다.",
+        "conclusion": "이를 통해 설계사가 고객의 보장 현황을 살피고 적합한 상품을 제안하는 데 집중하도록 했다."
+      },
+      "summary": "토스인슈어런스가 디지털 영업지원과 내부통제를 바탕으로 설계사의 상담 역량과 고객 신뢰를 높여온 결과 우수인증설계사를 배출했다.",
+      "source_digest": "ddeab03045dcb92d",
+      "summary_kind": "rss",
+      "implication": "",
+      "summary_basis": "public_article_excerpt"
+    },
+    {
+      "title": "DB손해보험, 중소기업 사이버위험 대응 강화",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93443",
+      "source": "한국보험신문",
+      "source_group": "specialist",
+      "published_at": "2026-10-21T21:16:00+09:00",
+      "id": "d4d50940f46b",
+      "category": "영업전략",
+      "summary_parts": {
+        "intro": "DB손해보험이 이노비즈협회, SK쉴더스와 손잡고 중소기업의 사이버위험 대응 역량 강화에 나선다.",
+        "body": "DB손해보험은 지난 20일 경기 성남시 SK쉴더스 판교사옥에서 이노비즈협회, SK쉴더스와 이노비즈협회 회원사의 사이버위험 대응 역량 강화를 위한 3자 업무협약(MOU)을 체결했다고 21일 밝혔다.",
+        "conclusion": "DB손해보험 관계자는 “사이버위험은 기업의 경영 전반에 영향을 미칠 수 있다”며 “회원사들이 사이버위험에 체계적으로 대비하고 사고 발생 이후에도 신속하게 회복할 수 있도록 지원할 것”이라고 말했다."
+      },
+      "summary": "DB손해보험이 이노비즈협회, SK쉴더스와 손잡고 중소기업의 사이버위험 대응 역량 강화에 나선다.",
+      "source_digest": "30b618a7b9ba572f",
+      "summary_kind": "rss",
+      "implication": "",
+      "summary_basis": "public_article_excerpt"
+    },
+    {
+      "title": "[마켓+] 손보사 3분기 실적 기대치 낮추는 증권가, 왜?",
+      "url": "https://www.seoulfn.com/news/articleView.html?idxno=640551",
+      "source": "서울파이낸스",
+      "source_group": "general",
+      "published_at": "2026-10-21T09:17:00+09:00",
+      "id": "af11b4c44d31",
+      "category": "영업전략",
+      "summary_parts": {
+        "intro": "보험사들의 올해 3분기 실적 발표를 앞두고 시장 기대치를 밑도는 실적을 예상하는 증권사 보고서가 잇따르고 있다.",
+        "body": "주요 손해보험사의 순이익은 전년 동기보다 늘어났을 것으로 기대되지만, 증시 약세와 금리 상승에 따른 투자손실이 보험영업의 수익성 개선 효과를 제한할 수 있다는 분석이다.",
+        "conclusion": "21일 금융정보업체 에프앤가이드에 따르면 삼성화재·DB손해보험·현대해상·한화손해보험 등 손보사 4곳의 올해 3분기 별도 기준 순이익 컨센서스(증권사 전망치 평균)는 합산 1조1953억원이다."
+      },
+      "summary": "보험사들의 올해 3분기 실적 발표를 앞두고 시장 기대치를 밑도는 실적을 예상하는 증권사 보고서가 잇따르고 있다.",
+      "source_digest": "a60b5a415663d8b6",
+      "summary_kind": "rss",
+      "implication": ""
+    }
+  ],
+  "collection": {
+    "configured": [
+      "보험신보",
+      "보험저널",
+      "서울파이낸스",
+      "한국보험신문"
+    ],
+    "succeeded": [
+      "보험신보",
+      "보험저널",
+      "서울파이낸스",
+      "한국보험신문"
+    ],
+    "selected": [
+      "보험저널",
+      "서울파이낸스",
+      "한국보험신문"
+    ],
+    "items_received": 125
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "date": "2026-10-18",
+  "updated_at": "2026-11-19T10:57:31+09:00",
+  "collected_at": "2026-11-19T10:57:31+09:00",
+  "summary_version": 2,
+  "title": "[9월 GA 생보사 실적 M/S] 메가인포에셋… 한화생명 64.4% '독주', 푸폰현대 25.6% '2위', 이하 '한 자릿수' 점유율",
+  "demo": false,
+  "mode": "rss",
+  "backfilled": true,
+  "collection_method": "publisher_archive_calendar_day",
+  "article_window": {
+    "start": "2026-10-18T00:00:00+09:00",
+    "end": "2026-10-19T00:00:00+09:00"
+  },
+  "sources": [
+    "보험신보",
+    "보험저널",
+    "서울파이낸스",
+    "한국보험신문"
+  ],
+  "warnings": [],
+  "articles": [
+    {
+      "title": "[9월 GA 생보사 실적 M/S] 메가인포에셋… 한화생명 64.4% '독주', 푸폰현대 25.6% '2위', 이하 '한 자릿수' 점유율",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33485",
+      "source": "보험저널",
+      "source_group": "specialist",
+      "published_at": "2026-10-18T06:00:00+09:00",
+      "id": "d49751cff585",
+      "category": "채널",
+      "summary_parts": {
+        "intro": "9월 메가인포에셋의 생명보험사 전체 실적은 당월 총합 약 5억 1,811만원을 기록하며 전월 약 4억 7,084만원 대비 증가세를 보였다.",
+        "body": "지난 7월 49.1%, 8월 51.2%에 이어 3개월 연속 점유율을 크게 확대하며 시장 내 지배력을 한층 강화했다.",
+        "conclusion": "2위권에서는 푸본현대생명이 전월과 동일한 순위를 유지했으나 비중은 다소 줄었다."
+      },
+      "summary": "9월 메가인포에셋의 생명보험사 전체 실적은 당월 총합 약 5억 1,811만원을 기록하며 전월 약 4억 7,084만원 대비 증가세를 보였다.",
+      "source_digest": "7121e3ecd0554024",
+      "summary_kind": "rss",
+      "implication": ""
+    },
+    {
+      "title": "[9월 GA 생보사 실적 M/S] 메가…동양생명 23.9% '선두 탈환', 한화 11.6% '2위', 신한·KB 7% '3위'",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33484",
+      "source": "보험저널",
+      "source_group": "specialist",
+      "published_at": "2026-10-18T06:00:00+09:00",
+      "id": "f49ab6b51cf3",
+      "category": "채널",
+      "summary_parts": {
+        "intro": "9월 메가의 생명보험사 전체 실적은 약 15억 168만원을 기록하며 전월 약 14억 2,266만원 대비 뚜렷한 실적 증가세를 보였다.",
+        "body": "지난 7월 8.4%, 8월 11.5%에 이어 3개월 연속 점유율을 크게 확대하며 시장 내 지배력을 단숨에 끌어올렸다.",
+        "conclusion": "상위권에서는 2~4위 회사들이 치열한 각축전을 벌였다."
+      },
+      "summary": "9월 메가의 생명보험사 전체 실적은 약 15억 168만원을 기록하며 전월 약 14억 2,266만원 대비 뚜렷한 실적 증가세를 보였다.",
+      "source_digest": "41d9f18387d23e89",
+      "summary_kind": "rss",
+      "implication": ""
+    }
+  ],
+  "collection": {
+    "configured": [
+      "보험신보",
+      "보험저널",
+      "서울파이낸스",
+      "한국보험신문"
+    ],
+    "succeeded": [
+      "보험신보",
+      "보험저널",
+      "서울파이낸스",
+      "한국보험신문"
+    ],
+    "selected": [
+      "보험저널"
+    ],
+    "items_received": 28
+  }
+}

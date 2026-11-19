@@ -1,0 +1,136 @@
+{
+  "date": "2026-10-14",
+  "updated_at": "2026-11-19T10:57:31+09:00",
+  "collected_at": "2026-11-19T10:57:31+09:00",
+  "summary_version": 2,
+  "title": "주요 GA 9월 평균 실적, 전월比 5.7%↑…‘700종신’ 막판 판매에 생보 9.4% 증가",
+  "demo": false,
+  "mode": "rss",
+  "backfilled": true,
+  "collection_method": "publisher_archive_calendar_day",
+  "article_window": {
+    "start": "2026-10-14T00:00:00+09:00",
+    "end": "2026-10-15T00:00:00+09:00"
+  },
+  "sources": [
+    "보험신보",
+    "보험저널",
+    "서울파이낸스",
+    "한국보험신문"
+  ],
+  "warnings": [],
+  "articles": [
+    {
+      "title": "주요 GA 9월 평균 실적, 전월比 5.7%↑…‘700종신’ 막판 판매에 생보 9.4% 증가",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33432",
+      "source": "보험저널",
+      "source_group": "specialist",
+      "published_at": "2026-10-14T13:49:00+09:00",
+      "id": "86592f4710ec",
+      "category": "상품",
+      "summary_parts": {
+        "intro": "주요 GA의 9월 신계약 월납초회보험료 실적이 전월 대비 증가하며 반등했다.",
+        "body": "7월 10.2%, 8월 1.9% 각각 감소한 이후 두 달 만에 증가세로 돌아섰다.",
+        "conclusion": "생명보험은 판매중단을 앞둔 ‘700종신보험’에 막판 수요가 집중되면서 실적이 크게 늘어난 것으로 풀이된다."
+      },
+      "summary": "주요 GA의 9월 신계약 월납초회보험료 실적이 전월 대비 증가하며 반등했다.",
+      "source_digest": "26b4d66d1262d0fc",
+      "summary_kind": "rss",
+      "implication": ""
+    },
+    {
+      "title": "[마감시황] 14일 보험·GA 주가 동향… 현대해상 11%대 급락 등 약세 속 롯데손보 '연속 강세'",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33435",
+      "source": "보험저널",
+      "source_group": "specialist",
+      "published_at": "2026-10-14T16:14:00+09:00",
+      "id": "ffa3e96cf0eb",
+      "category": "채널",
+      "summary_parts": {
+        "intro": "14일 국내 증시에서 보험 및 법인보험대리점(GA) 섹터는 대다수 종목이 하락하는 약세장을 연출했다.",
+        "body": "현대해상이 11% 이상 급락하고 한화손해보험이 9%대 밀리는 등 대형·중소형 원수사 전반에 걸쳐 거센 매물 출회가 이어졌다.",
+        "conclusion": "전날 신한금융지주의 인수가 확정된 롯데손해보험은 이틀 연속 강세를 이어갔고, 흥국화재도 소폭 상승하며 하락장 속 방어력을 입증했다."
+      },
+      "summary": "14일 국내 증시에서 보험 및 법인보험대리점(GA) 섹터는 대다수 종목이 하락하는 약세장을 연출했다.",
+      "source_digest": "190cacfc6c98e174",
+      "summary_kind": "rss",
+      "implication": ""
+    },
+    {
+      "title": "금감원, 증권사 영업점 계좌 수수료 차등 부과 개선···투자자 선택권 보장",
+      "url": "https://www.seoulfn.com/news/articleView.html?idxno=640061",
+      "source": "서울파이낸스",
+      "source_group": "general",
+      "published_at": "2026-10-14T15:08:00+09:00",
+      "id": "16e1f880a8f3",
+      "category": "제도·정책",
+      "summary_parts": {
+        "intro": "증권사 영업점에서 개설한 계좌에 온라인 계좌보다 높은 매매수수료를 부과해 온 관행이 개선된다.",
+        "body": "같은 모바일트레이딩시스템(MTS)으로 거래하더라도 계좌 개설 방식에 따라 수수료 차이가 발생한다는 지적에 따라, 금융감독원은 투자자가 계좌 유형을 직접 선택하고 수수료 기준을 충분히 안내받을 수 있도록 관련 절차를…",
+        "conclusion": "RSS에서 확인되는 내용은 위와 같으며, 추가 영향은 원문 확인이 필요합니다."
+      },
+      "summary": "증권사 영업점에서 개설한 계좌에 온라인 계좌보다 높은 매매수수료를 부과해 온 관행이 개선된다.",
+      "source_digest": "eec00fbc39b31f80",
+      "summary_kind": "rss",
+      "implication": ""
+    },
+    {
+      "title": "한화생명, ‘필요할때 쓰는 종신보험’ 선보여",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93309",
+      "source": "한국보험신문",
+      "source_group": "specialist",
+      "published_at": "2026-10-14T10:38:00+09:00",
+      "id": "9b938ebb0d27",
+      "category": "상품",
+      "summary_parts": {
+        "intro": "한화생명이 보장이 필요할 때는 사망보험금으로, 생애자금이 필요할 때는 납입보험료 전액을 생애자금인출기간 동안 나눠 받을 수 있는 ‘한화생명 필요할때 쓰는 종신보험’을 출시했다고 14일 밝혔다.",
+        "body": "국가데이터처에 따르면 평균 초혼 연령은 1995년 남성 28.4세·여성 25.4세에서 2024년 남성 33.9세·여성 31.6세로 높아졌고, 평균 부양기간은 약 30년에서 약 36년으로, 가장의 책임나이는 58.8세에서…",
+        "conclusion": "송시연 한화생명 상품개발2팀장은 “필요할때 쓰는 종신보험은 인생 시기마다 필요한 보장이 다른 만큼 보장이 필요할 때는 든든한 사망보장을, 생애자금이 필요할 때는 생애자금인출전환 기능을 활용할 수 있도록 고객 선택권을 강화한…"
+      },
+      "summary": "한화생명이 보장이 필요할 때는 사망보험금으로, 생애자금이 필요할 때는 납입보험료 전액을 생애자금인출기간 동안 나눠 받을 수 있는 ‘한화생명 필요할때 쓰는 종신보험’을 출시했다고 14일 밝혔다.",
+      "source_digest": "661c56649ae89ac5",
+      "summary_kind": "rss",
+      "implication": "",
+      "summary_basis": "public_article_excerpt"
+    },
+    {
+      "title": "화재보험협회, 다문화 학생 ‘안전이음 지원사업’ 참여",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93330",
+      "source": "한국보험신문",
+      "source_group": "specialist",
+      "published_at": "2026-10-14T17:57:00+09:00",
+      "id": "e25c2522568e",
+      "category": "영업전략",
+      "summary_parts": {
+        "intro": "화재보험협회가 다문화 학생들의 안전한 교육환경 조성을 위해 화재예방 물품을 지원하고 학교시설 안전점검에 나섰다.",
+        "body": "화재보험협회는 14일 경기 안산시 자이언 국제상호 다문화 대안학교에서 열린 ‘다문화 학생 안전이음 지원사업’에 참여했다고 밝혔다.",
+        "conclusion": "이철주 화재보험협회 경기강원지역본부장은 “언어와 문화의 차이가 안전의 격차로 이어지지 않도록 다문화 학생들에게도 소방안전교육과 화재예방 지원이 고르게 제공돼야 한다”며 “이번 안전물품 지원과 안전점검이 학생들의 안전한…"
+      },
+      "summary": "화재보험협회가 다문화 학생들의 안전한 교육환경 조성을 위해 화재예방 물품을 지원하고 학교시설 안전점검에 나섰다.",
+      "source_digest": "78172ea92aaa0fa8",
+      "summary_kind": "rss",
+      "implication": "",
+      "summary_basis": "public_article_excerpt"
+    }
+  ],
+  "collection": {
+    "configured": [
+      "보험신보",
+      "보험저널",
+      "서울파이낸스",
+      "한국보험신문"
+    ],
+    "succeeded": [
+      "보험신보",
+      "보험저널",
+      "서울파이낸스",
+      "한국보험신문"
+    ],
+    "selected": [
+      "보험저널",
+      "서울파이낸스",
+      "한국보험신문"
+    ],
+    "items_received": 103
+  }
+}

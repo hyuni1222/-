@@ -1,0 +1,137 @@
+{
+  "date": "2026-11-10",
+  "updated_at": "2026-11-19T10:57:31+09:00",
+  "collected_at": "2026-11-19T10:57:31+09:00",
+  "summary_version": 2,
+  "title": "주요 GA 10월 평균 실적, 전월比 15.2%↓…‘700종신’ 판매중단 여파 생보 22% 급감",
+  "demo": false,
+  "mode": "rss",
+  "backfilled": true,
+  "collection_method": "publisher_archive_calendar_day",
+  "article_window": {
+    "start": "2026-11-10T00:00:00+09:00",
+    "end": "2026-11-11T00:00:00+09:00"
+  },
+  "sources": [
+    "보험신보",
+    "보험저널",
+    "서울파이낸스",
+    "한국보험신문"
+  ],
+  "warnings": [],
+  "articles": [
+    {
+      "title": "주요 GA 10월 평균 실적, 전월比 15.2%↓…‘700종신’ 판매중단 여파 생보 22% 급감",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33845",
+      "source": "보험저널",
+      "source_group": "specialist",
+      "published_at": "2026-11-10T09:51:00+09:00",
+      "id": "a2bad6062b76",
+      "category": "상품",
+      "summary_parts": {
+        "intro": "주요 GA의 10월 신계약 월납초회보험료 실적이 전월 대비 큰 폭으로 감소했다.",
+        "body": "조사 대상 27개 주요 GA의 생명·손해보험 합산 실적은 전월 대비 15.2% 줄었다.",
+        "conclusion": "생명보험은 9월 판매중단 직전 ‘700종신보험’에 수요가 집중됐던 것과 달리 10월부터 해당 상품 판매가 중단되면서 실적이 크게 감소한 것으로 풀이된다."
+      },
+      "summary": "주요 GA의 10월 신계약 월납초회보험료 실적이 전월 대비 큰 폭으로 감소했다.",
+      "source_digest": "028270c84bf3181e",
+      "summary_kind": "rss",
+      "implication": ""
+    },
+    {
+      "title": "“중·대형 GA 감소, 1년 전부터 이미 시작됐다”… 4년 수수료 분급 후 양극화 가능성 높아",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33838",
+      "source": "보험저널",
+      "source_group": "specialist",
+      "published_at": "2026-11-10T07:43:00+09:00",
+      "id": "f869e2da8312",
+      "category": "제도·정책",
+      "summary_parts": {
+        "intro": "2027년 판매수수료 4년 분급 시행을 앞두고 법인보험대리점(GA)시장에서 이미 진행 중인 조직 재편이 한층 빨라질지 주목된다.",
+        "body": "GA시장에서는 500명 이상 1,000명 미만 중대형 GA가 감소하는 반면 3,000명 이상 초대형 GA는 꾸준히 증가하는 등 조직 규모별 변화가 뚜렷해지고 있다.",
+        "conclusion": "여기에 2026년 7월 GA 소속 설계사에 대한 1200%룰 확대 적용에 이어 2027년 1월부터 계약체결비용 한도에 따른 수수료·시책비 지급 제한과 4년 분급이 시행되면서 GA의 자금 운용 능력이 중요한 경쟁 변수로…"
+      },
+      "summary": "2027년 판매수수료 4년 분급 시행을 앞두고 법인보험대리점(GA)시장에서 이미 진행 중인 조직 재편이 한층 빨라질지 주목된다.",
+      "source_digest": "e48200ba3fcb0f59",
+      "summary_kind": "rss",
+      "implication": ""
+    },
+    {
+      "title": "[보험브리핑] 생보협회, '마음 살리는 금융' 릴레이 캠페이 동참 외",
+      "url": "https://www.seoulfn.com/news/articleView.html?idxno=642444",
+      "source": "서울파이낸스",
+      "source_group": "general",
+      "published_at": "2026-11-10T17:40:00+09:00",
+      "id": "7f73be9deca0",
+      "category": "영업전략",
+      "summary_parts": {
+        "intro": "생명보험협회 는 서민금융진흥원이 주관하는 '사람 살리는 금융' 릴레이 캠페인에 참여했다고 10일 밝혔다.",
+        "body": "DB생명 은 지난 5일 독서소외 아동을 위한 동화 낭독 봉사활동을 진행했다고 10일 밝혔다.",
+        "conclusion": "완성된 음원은 다문화가정과 특수학교, 아동복지센터 등에 도서와 함께 전달될 예정이다."
+      },
+      "summary": "생명보험협회 는 서민금융진흥원이 주관하는 '사람 살리는 금융' 릴레이 캠페인에 참여했다고 10일 밝혔다.",
+      "source_digest": "2cdc62aae75d01da",
+      "summary_kind": "rss",
+      "implication": "",
+      "summary_basis": "public_article_excerpt"
+    },
+    {
+      "title": "서비스 수출실적, 무역보험과 연계… 기업 증빙 부담 줄인다",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93774",
+      "source": "한국보험신문",
+      "source_group": "specialist",
+      "published_at": "2026-11-10T18:41:00+09:00",
+      "id": "d63cfc58f80b",
+      "category": "영업전략",
+      "summary_parts": {
+        "intro": "서비스 수출기업이 무역보험 등 수출지원제도를 이용할 때 증빙자료를 따로 제출해야 하는 부담이 줄어들 전망이다.",
+        "body": "산업통상부(이하 산업부)에 따르면 한국무역협회와 한국콘텐츠진흥원, 한국무역보험공사, 한국인공지능·소프트웨어산업협회, 한국해운협회, 한국관광협회중앙회 등 6개 기관은 10일 서울 강남 트레이드타워에서 ‘차세대 무역플랫폼 기반…",
+        "conclusion": "산업부는 이번 협약을 통해 기관 간 정보 연계가 강화되면 기업의 증빙자료 제출 부담도 완화될 것으로 기대했다."
+      },
+      "summary": "서비스 수출기업이 무역보험 등 수출지원제도를 이용할 때 증빙자료를 따로 제출해야 하는 부담이 줄어들 전망이다.",
+      "source_digest": "3d47e9d00b013d3f",
+      "summary_kind": "rss",
+      "implication": "",
+      "summary_basis": "public_article_excerpt"
+    },
+    {
+      "title": "우리은행, 연말 퇴직연금 가입·납입 이벤트… 배달의민족 쿠폰 혜택",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93750",
+      "source": "한국보험신문",
+      "source_group": "specialist",
+      "published_at": "2026-11-10T11:20:00+09:00",
+      "id": "a1cd7405dd65",
+      "category": "상품",
+      "summary_parts": {
+        "intro": "우리은행은 지난 9일부터 오는 12월 31일까지 ‘키우자, 굴리자 퇴직연금’ 이벤트를 진행한다고 10일 밝혔다.",
+        "body": "이벤트 기간에 우리은행 확정기여형 퇴직연금(DC)이나 개인형 퇴직연금(IRP)에 새로 가입하고 12월 31일 기준 계좌 잔액이 10만원 이상이면 배달의민족 1만5000원 쿠폰을 받을 수 있다.",
+        "conclusion": "개편된 시스템에서는 연금자산과 예상 수령액을 한눈에 확인하고, 상장지수펀드(ETF) 실시간 시세 조회와 당일 매매를 할 수 있다."
+      },
+      "summary": "우리은행은 지난 9일부터 오는 12월 31일까지 ‘키우자, 굴리자 퇴직연금’ 이벤트를 진행한다고 10일 밝혔다.",
+      "source_digest": "982d3f3c60a94f9d",
+      "summary_kind": "rss",
+      "implication": "",
+      "summary_basis": "public_article_excerpt"
+    }
+  ],
+  "collection": {
+    "configured": [
+      "보험신보",
+      "보험저널",
+      "서울파이낸스",
+      "한국보험신문"
+    ],
+    "succeeded": [
+      "보험신보",
+      "보험저널",
+      "서울파이낸스",
+      "한국보험신문"
+    ],
+    "selected": [
+      "보험저널",
+      "서울파이낸스",
+      "한국보험신문"
+    ],
+    "items_received": 146
+  }
+}

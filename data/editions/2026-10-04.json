@@ -1,0 +1,99 @@
+{
+  "date": "2026-10-04",
+  "updated_at": "2026-11-19T10:57:31+09:00",
+  "collected_at": "2026-11-19T10:57:31+09:00",
+  "summary_version": 2,
+  "title": "[26년 상반기 GA 공시분석①] 설계사 늘어도 불판율은 ‘뚝’… 초대형 GA 판매품질 더 좋아졌다",
+  "demo": false,
+  "mode": "rss",
+  "backfilled": true,
+  "collection_method": "publisher_archive_calendar_day",
+  "article_window": {
+    "start": "2026-10-04T00:00:00+09:00",
+    "end": "2026-10-05T00:00:00+09:00"
+  },
+  "sources": [
+    "보험신보",
+    "보험저널",
+    "서울파이낸스",
+    "한국보험신문"
+  ],
+  "warnings": [],
+  "articles": [
+    {
+      "title": "[26년 상반기 GA 공시분석①] 설계사 늘어도 불판율은 ‘뚝’… 초대형 GA 판매품질 더 좋아졌다",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33320",
+      "source": "보험저널",
+      "source_group": "specialist",
+      "published_at": "2026-10-04T17:31:00+09:00",
+      "id": "5963a99221ed",
+      "category": "채널",
+      "summary_parts": {
+        "intro": "2026년 상반기 대형 GA의 생명보험 불완전판매비율이 낮은 수준을 이어간 가운데, 설계사 3000명 이상 초대형 GA를 중심으로 판매품질 개선 흐름이 뚜렷하게 나타났다.",
+        "body": "조직 규모는 커졌지만 불완전판매비율은 오히려 낮아졌다.",
+        "conclusion": "보험저널이 2026년 상반기 주요 GA 공시자료(73개사)를 분석한 결과, 설계사 3000명 이상 초대형 GA의 생보 불완전판매비율은 평균 0.05%로 집계됐다."
+      },
+      "summary": "2026년 상반기 대형 GA의 생명보험 불완전판매비율이 낮은 수준을 이어간 가운데, 설계사 3000명 이상 초대형 GA를 중심으로 판매품질 개선 흐름이 뚜렷하게 나타났다.",
+      "source_digest": "cbe0a300fc6e4128",
+      "summary_kind": "rss",
+      "implication": ""
+    },
+    {
+      "title": "[보험판전사發 지각변동/上] 토스, 플랫폼형 GA실험···보안·내부통제 선제 구축",
+      "url": "https://www.seoulfn.com/news/articleView.html?idxno=639257",
+      "source": "서울파이낸스",
+      "source_group": "general",
+      "published_at": "2026-10-04T14:00:00+09:00",
+      "id": "6cc5262b05ef",
+      "category": "채널",
+      "summary_parts": {
+        "intro": "보험상품 판매를 전담하는 '보험판매전문회사'(이하 보험판전사) 제도 도입 논의가 본격화하고 있다.",
+        "body": "회사에 따르면 올해 6월 말 기준 설계사 수는 약 3300명으로, 매월 100명 이상 순증하는 흐름을 보이고 있다.",
+        "conclusion": "다만 보험판매전문회사 관련 법안은 현재 국회에 계류 중으로, 실제 제도 도입 과정에서 자본요건과 배상책임, 내부통제 기준 등이 어떻게 구체화될지는 추가 논의가 필요한 상황이다."
+      },
+      "summary": "보험상품 판매를 전담하는 '보험판매전문회사'(이하 보험판전사) 제도 도입 논의가 본격화하고 있다.",
+      "source_digest": "3c3e7645888586fa",
+      "summary_kind": "rss",
+      "implication": "",
+      "summary_basis": "public_article_excerpt"
+    },
+    {
+      "title": "보험시장에 도전장 낸 플랫폼 기업···설계사 조직부터 AI까지 차별화",
+      "url": "https://www.seoulfn.com/news/articleView.html?idxno=639174",
+      "source": "서울파이낸스",
+      "source_group": "general",
+      "published_at": "2026-10-04T11:00:00+09:00",
+      "id": "23d985f769c8",
+      "category": "채널",
+      "summary_parts": {
+        "intro": "보험 판매 시장에 진출한 플랫폼 기업들이 각자의 강점을 내세워 고객을 공략하고 있다.",
+        "body": "4일 금융권에 따르면 토스의 법인보험대리점(GA)인 토스인슈어런스는 올해 3월 말 기준 3000명 이상의 설계사를 보유하고 있다.",
+        "conclusion": "핀테크업계 관계자는 \"플랫폼 기업들은 기존 고객 기반과 데이터베이스(DB)를 보험 판매로 연결할 수 있다는 점을 강점으로 내세울 수 있다\"며 \"보험 판매수수료 제도 변화와 맞물려 고객 DB와 디지털 시스템, 브랜드를 갖춘…"
+      },
+      "summary": "보험 판매 시장에 진출한 플랫폼 기업들이 각자의 강점을 내세워 고객을 공략하고 있다.",
+      "source_digest": "86047f23663f71d3",
+      "summary_kind": "rss",
+      "implication": "",
+      "summary_basis": "public_article_excerpt"
+    }
+  ],
+  "collection": {
+    "configured": [
+      "보험신보",
+      "보험저널",
+      "서울파이낸스",
+      "한국보험신문"
+    ],
+    "succeeded": [
+      "보험신보",
+      "보험저널",
+      "서울파이낸스",
+      "한국보험신문"
+    ],
+    "selected": [
+      "보험저널",
+      "서울파이낸스"
+    ],
+    "items_received": 27
+  }
+}

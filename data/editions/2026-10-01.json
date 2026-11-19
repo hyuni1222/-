@@ -1,0 +1,136 @@
+{
+  "date": "2026-10-01",
+  "updated_at": "2026-11-19T10:57:31+09:00",
+  "collected_at": "2026-11-19T10:57:31+09:00",
+  "summary_version": 2,
+  "title": "ABL생명·GA코리아, 금융소비자보호 공동관리체계 구축…완전판매·내부통제 강화(영상+)",
+  "demo": false,
+  "mode": "rss",
+  "backfilled": true,
+  "collection_method": "publisher_archive_calendar_day",
+  "article_window": {
+    "start": "2026-10-01T00:00:00+09:00",
+    "end": "2026-10-02T00:00:00+09:00"
+  },
+  "sources": [
+    "보험신보",
+    "보험저널",
+    "서울파이낸스",
+    "한국보험신문"
+  ],
+  "warnings": [],
+  "articles": [
+    {
+      "title": "ABL생명·GA코리아, 금융소비자보호 공동관리체계 구축…완전판매·내부통제 강화(영상+)",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33260",
+      "source": "보험저널",
+      "source_group": "specialist",
+      "published_at": "2026-10-01T13:35:00+09:00",
+      "id": "aefcac7c2ff3",
+      "category": "채널",
+      "summary_parts": {
+        "intro": "우리금융그룹 계열 ABL생명이 대형 법인보험대리점(GA) GA코리아와 손잡고 보험 판매 현장의 금융소비자보호와 내부통제 강화에 나선다.",
+        "body": "보험사가 상품을 공급하고 GA가 판매하는 과정에서 소비자보호 업무를 각각 관리하는 데 그치지 않고, 모집 단계의 위험요인을 함께 점검하고 민원·불완전판매 예방을 위한 정보를 공유하는 공동 관리체계를 구축한다는 계획이다.",
+        "conclusion": "RSS에서 확인되는 내용은 위와 같으며, 추가 영향은 원문 확인이 필요합니다."
+      },
+      "summary": "우리금융그룹 계열 ABL생명이 대형 법인보험대리점(GA) GA코리아와 손잡고 보험 판매 현장의 금융소비자보호와 내부통제 강화에 나선다.",
+      "source_digest": "ed35f197fdd604cf",
+      "summary_kind": "rss",
+      "implication": ""
+    },
+    {
+      "title": "‘GA판 지급여력’?… 보험판매전문회사 ‘1차 배상책임’, GA 부담 얼마나 커질까",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33285",
+      "source": "보험저널",
+      "source_group": "specialist",
+      "published_at": "2026-10-01T07:47:00+09:00",
+      "id": "7a6994de3f82",
+      "category": "채널",
+      "summary_parts": {
+        "intro": "보험판매전문회사 입법이 본격화하면서 GA업계가 사업비 협상권 못지않게 따져봐야 할 변수로 1차 배상책임이 떠오르고 있다.",
+        "body": "민병덕 의원이 발의한 금융소비자보호법 개정안은 보험판매전문회사 소속 설계사의 모집으로 소비자에게 손해가 발생한 경우 보험판매전문회사에 1차적인 손해배상책임을 부여하는 내용을 담고 있다.",
+        "conclusion": "소비자는 보험판매전문회사 또는 보험회사 가운데 책임주체를 선택할 수 있도록 했다현행 금융소비자보호법에도 GA와 보험회사에 대한 손해배상책임 체계는 존재한다."
+      },
+      "summary": "보험판매전문회사 입법이 본격화하면서 GA업계가 사업비 협상권 못지않게 따져봐야 할 변수로 1차 배상책임이 떠오르고 있다.",
+      "source_digest": "dc501bf6461f6f42",
+      "summary_kind": "rss",
+      "implication": ""
+    },
+    {
+      "title": "국민연금공단, ‘청년 생애 첫 연금보험료’ 전액 지원 사전신청 시작",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93126",
+      "source": "한국보험신문",
+      "source_group": "specialist",
+      "published_at": "2026-10-01T18:05:00+09:00",
+      "id": "0a1a906f38e2",
+      "category": "상품",
+      "summary_parts": {
+        "intro": "국민연금공단, ‘청년 생애 첫 연금보험료’ 전액 지원 사전신청 시작",
+        "body": "RSS에 상세 사실·수치가 제공되지 않았습니다.",
+        "conclusion": "추가 내용과 영향은 기사 원문에서 확인하세요."
+      },
+      "summary": "국민연금공단, ‘청년 생애 첫 연금보험료’ 전액 지원 사전신청 시작",
+      "source_digest": "197fb90c1a658bb2",
+      "summary_kind": "rss",
+      "implication": ""
+    },
+    {
+      "title": "NH농협생명 ‘건강채움NH암종신보험’… “경제적 안정 지킨다”",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93100",
+      "source": "한국보험신문",
+      "source_group": "specialist",
+      "published_at": "2026-10-01T09:36:00+09:00",
+      "id": "c9fca10e2926",
+      "category": "상품",
+      "summary_parts": {
+        "intro": "NH농협생명은 일반암 진단 시 보험금을 선지급하고 이후 사망보장을 다시 채워주는 신상품 ‘건강채움NH암종신보험’을 출시했다고 1일 밝혔다.",
+        "body": "가입은 일반가입의 경우 만 15세부터, 간편가입은 20세부터 가능하며 가입조건에 따라 최대 70세까지 가입할 수 있다.",
+        "conclusion": "신명용 NH농협생명 상품개발본부장은 “종신보험은 예기치 못한 사망에 대비해 가족의 경제적 안정을 지키기 위한 상품”이라며 “암 진단시 필요한 자금으로 활용하면서도 사망보장을 다시 채워 종신보험 본연의 역할을 이어갈 수…"
+      },
+      "summary": "NH농협생명은 일반암 진단 시 보험금을 선지급하고 이후 사망보장을 다시 채워주는 신상품 ‘건강채움NH암종신보험’을 출시했다고 1일 밝혔다.",
+      "source_digest": "2176278bf0abbfd6",
+      "summary_kind": "rss",
+      "implication": "",
+      "summary_basis": "public_article_excerpt"
+    },
+    {
+      "title": "화재보험협회, AI·데이터 전문인력 등 공개채용",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72565",
+      "source": "보험신보",
+      "source_group": "specialist",
+      "published_at": "2026-10-01T18:09:00+09:00",
+      "id": "af85796e9f24",
+      "category": "영업전략",
+      "summary_parts": {
+        "intro": "화재보험협회는 2026년 신입·경력직 사원 공개채용을 실시한다고 1일 밝혔다.",
+        "body": "지원서 접수는 오는 18일까지다.",
+        "conclusion": "화보협회 관계자는 “화재·재난 위험이 복잡·다양해지고 AI와 데이터 활용이 확대되면서 방재 분야에서도 새로운 전문역량이 중요해지고 있다”며 “협회의 슬로건인 ‘국민의 내일을 지키는 사람들’에 동참할 역량 있는 미래 인재의…"
+      },
+      "summary": "화재보험협회는 2026년 신입·경력직 사원 공개채용을 실시한다고 1일 밝혔다.",
+      "source_digest": "e465a51095c3f31f",
+      "summary_kind": "rss",
+      "implication": "",
+      "summary_basis": "public_article_excerpt"
+    }
+  ],
+  "collection": {
+    "configured": [
+      "보험신보",
+      "보험저널",
+      "서울파이낸스",
+      "한국보험신문"
+    ],
+    "succeeded": [
+      "보험신보",
+      "보험저널",
+      "서울파이낸스",
+      "한국보험신문"
+    ],
+    "selected": [
+      "보험신보",
+      "보험저널",
+      "한국보험신문"
+    ],
+    "items_received": 146
+  }
+}
