@@ -1,7 +1,7 @@
 {
   "start": "2026-11-18",
   "end": "2026-11-19",
-  "collected_at": "2026-11-19T16:23:24+09:00",
+  "collected_at": "2026-11-19T16:26:13+09:00",
   "method": "publisher_archive_calendar_day",
   "scheduled_run_evidence": false,
   "days": [
@@ -12,17 +12,6 @@
       "stored_articles": 31,
       "coverage": [
         {
-          "source": "보험신보",
-          "day": "2026-11-18",
-          "success": true,
-          "complete": true,
-          "collector_version": 5,
-          "listed_total": 7,
-          "listing_urls": [
-            "https://www.insweek.co.kr/news/articleList.html?sc_sdate=2026-11-18&sc_edate=2026-11-18&view_type=sm&page=1"
-          ]
-        },
-        {
           "source": "한국보험신문",
           "day": "2026-11-18",
           "success": true,
@@ -31,6 +20,17 @@
           "listed_total": 16,
           "listing_urls": [
             "https://www.insnews.co.kr/news/articleList.html?sc_sdate=2026-11-18&sc_edate=2026-11-18&view_type=sm&page=1"
+          ]
+        },
+        {
+          "source": "보험신보",
+          "day": "2026-11-18",
+          "success": true,
+          "complete": true,
+          "collector_version": 5,
+          "listed_total": 7,
+          "listing_urls": [
+            "https://www.insweek.co.kr/news/articleList.html?sc_sdate=2026-11-18&sc_edate=2026-11-18&view_type=sm&page=1"
           ]
         },
         {
@@ -69,8 +69,8 @@
       ],
       "warnings": [],
       "listing_urls": [
-        "https://www.insweek.co.kr/news/articleList.html?sc_sdate=2026-11-18&sc_edate=2026-11-18&view_type=sm&page=1",
         "https://www.insnews.co.kr/news/articleList.html?sc_sdate=2026-11-18&sc_edate=2026-11-18&view_type=sm&page=1",
+        "https://www.insweek.co.kr/news/articleList.html?sc_sdate=2026-11-18&sc_edate=2026-11-18&view_type=sm&page=1",
         "https://www.insjournal.co.kr/news/articleList.html?sc_sdate=2026-11-18&sc_edate=2026-11-18&view_type=sm&page=1",
         "https://www.insjournal.co.kr/news/articleList.html?sc_sdate=2026-11-18&sc_edate=2026-11-18&view_type=sm&page=2",
         "https://www.seoulfn.com/news/articleList.html?sc_sdate=2026-11-18&sc_edate=2026-11-18&view_type=sm&page=1",
