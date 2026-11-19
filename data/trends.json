@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-11-19T10:59:34+09:00",
+  "updated_at": "2026-11-19T11:07:52+09:00",
   "collection_start": "2026-10-01",
   "collection_end": "2026-11-19",
-  "stored_articles": 1151,
-  "article_count": 1065,
+  "stored_articles": 1153,
+  "article_count": 1067,
   "coverage_days": 50,
   "sources": {
     "보험신보": 240,
-    "한국보험신문": 287,
+    "한국보험신문": 288,
     "보험저널": 420,
     "서울파이낸스": 112,
     "매일경제": 4,
-    "연합뉴스": 2
+    "연합뉴스": 3
   },
   "method": "수집된 기사에서 주제를 분류하고 공개 발췌·제목의 핵심을 묶었습니다. 결론은 보험영업 관점의 해석입니다. 보도 건수는 수집 범위 내 집계이며 시장 점유율이나 업계 전체 기사 수를 뜻하지 않습니다.",
   "weekly": [
@@ -22,7 +22,7 @@
       "end": "2026-11-19",
       "in_progress": true,
       "partial": true,
-      "article_count": 123,
+      "article_count": 125,
       "source_count": 6,
       "file": "data/trends/weekly/2026-11-16.json"
     },
@@ -112,7 +112,7 @@
       "end": "2026-11-19",
       "in_progress": true,
       "partial": true,
-      "article_count": 385,
+      "article_count": 387,
       "source_count": 6,
       "file": "data/trends/monthly/2026-11.json"
     },
