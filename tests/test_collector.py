@@ -46,5 +46,28 @@ class CollectorTests(unittest.TestCase):
         parts=c.structured_summary('GA 뉴스','업계 동향에 관한 새로운 소식이 전해졌다.')
         self.assertIn('원문',parts['conclusion'])
         self.assertNotIn('전망이다',parts['conclusion'])
+    def test_publisher_cap_stays_strict_when_backfilling(self):
+        self.config['max_per_source']=2
+        rows=c.select_articles([self.article('GA '+chr(0xac00+i)*5,url=f'https://a.test/{i}') for i in range(8)],self.config,self.now)
+        self.assertEqual(len(rows),2)
+    def test_context_filter_rejects_non_insurance_new_products(self):
+        self.config.update(keywords={'신상품':4,'GA':9,'보험':2},context_keywords=['보험','GA'])
+        rows=c.select_articles([self.article('패션 신상품 출시'),self.article('MEGA 신상품 발표',url='https://a.test/b'),self.article('보험 신상품 출시',url='https://a.test/c')],self.config,self.now)
+        self.assertEqual(len(rows),1)
+        self.assertEqual(rows[0]['title'],'보험 신상품 출시')
+    def test_general_media_slot_requires_relevance(self):
+        self.config.update(daily_count=2,min_general_articles=1,general_min_relevance=6,keywords={'GA':9,'보험사기':6,'보험':2})
+        general=self.article('보험사기 경보',url='https://general.test/1',source='일반매체');general['source_group']='general'
+        items=[self.article('GA 조직 수수료',url='https://a.test/1'),self.article('GA 제도 개편',url='https://a.test/2'),general]
+        rows=c.select_articles(items,self.config,self.now)
+        self.assertEqual(len(rows),2);self.assertIn('일반매체',[r['source'] for r in rows])
+        general['title']='보험 소식'
+        rows=c.select_articles(items,self.config,self.now)
+        self.assertNotIn('일반매체',[r['source'] for r in rows])
+    def test_public_body_parser_ignores_navigation_and_scripts(self):
+        p=c.PublicArticleBody();p.feed('<nav>menu</nav><div itemprop="articleBody"><p>첫 문장이다.</p><script>private()</script><p>둘째 문장이다.</p></div><footer>end</footer>')
+        text=c.clean(' '.join(p.parts))
+        self.assertIn('첫 문장이다.',text);self.assertIn('둘째 문장이다.',text)
+        self.assertNotIn('private',text);self.assertNotIn('menu',text);self.assertNotIn('end',text)
 
 if __name__=='__main__':unittest.main()

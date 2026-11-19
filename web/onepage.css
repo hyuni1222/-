@@ -1,4 +1,10 @@
 /* One continuous sheet: all selected stories, without pagination or clipping. */
+.source-coverage{margin-top:14px;border:1px solid #c5d1c2;padding:14px 18px;color:var(--ink);font-size:14px;line-height:1.9}
+.source-coverage summary{cursor:pointer;font-size:14px;font-weight:600}
+.source-coverage p{margin:12px 0 0}
+.source-coverage strong{display:block;font-size:13px}
+.source-coverage span{font-size:14px;color:#425247}
+.source-coverage .source-policy{font-size:13px;color:#59675e}
 .paper{min-height:0;padding:24px 30px 16px}
 .paper-title{padding:18px 0 10px}
 .news-card{padding:16px 0;grid-template-columns:30px minmax(0,1fr);gap:10px}
@@ -30,6 +36,7 @@
  .newspaper .news-card:first-child h4,.newspaper .news-card:not(:first-child) h4{font-size:17px}
 }
 @media print{
+ .source-coverage{display:none!important}
  @page{size:A4 portrait;margin:9mm 10mm}
  html,body{margin:0;padding:0;font-size:10pt;print-color-adjust:exact;-webkit-print-color-adjust:exact}
  .paper{padding:0;min-height:0;border:0;box-shadow:none}

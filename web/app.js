@@ -27,7 +27,7 @@
     $('paper-date').textContent=edition.date.replaceAll('-','.');
     $('paper-date').dateTime=edition.date;
     $('date-long').textContent=format(dateOnly(edition.date),{year:'numeric',month:'long',day:'numeric',weekday:'short'});
-    $('updated-at').textContent=format(edition.updated_at,{month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',hour12:false})+' KST · '+(edition.mode==='ai'?'RSS 기반 AI 요약':'RSS 핵심 문장');
+    $('updated-at').textContent=format(edition.updated_at,{month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',hour12:false})+' KST · '+(edition.mode==='ai'?'기사 발췌 기반 AI 요약':'기사 핵심 문장');
     $('mode-label').textContent='서론 · 본론 · 결론';
     $('edition-status').textContent=edition===state.latest?'LATEST SELECTION':'FROM THE ARCHIVE';
     $('page-label').textContent=items.length+'건 · 한 장에 모두 보기';
@@ -43,6 +43,12 @@
     }
     $('notice').hidden=!notices.length;
     $('notice').textContent=notices.join(' ');
+    const configured=[...new Set((state.config.feeds||[]).map(f=>f.name))];
+    const selected=[...new Set(items.map(a=>a.source))];
+    $('source-coverage-heading').textContent='뉴스 수집처 '+configured.length+'곳 · 이번 발행 '+selected.length+'곳';
+    $('source-configured').textContent=configured.join(' · ');
+    $('source-succeeded').textContent=(state.status.collection?.succeeded||[]).join(' · ')||'다음 수집부터 표시합니다.';
+    $('source-selected').textContent=selected.join(' · ');
     document.title=(state.config.title||'보험 영업 모닝브리프')+' · '+edition.date;
   }
   function renderArchive() {

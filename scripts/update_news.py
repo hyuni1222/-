@@ -47,6 +47,39 @@ class PlainText(HTMLParser):
             self.parts.append(data)
 
 
+class PublicArticleBody(HTMLParser):
+    """Read only a publisher's explicitly marked public article body."""
+    VOID = {"area", "base", "br", "col", "embed", "hr", "img", "input", "link", "meta", "param", "source", "track", "wbr"}
+
+    def __init__(self):
+        super().__init__()
+        self.depth = 0
+        self.hidden = 0
+        self.parts = []
+
+    def handle_starttag(self, tag, attrs):
+        values = dict(attrs)
+        if self.depth:
+            if tag not in self.VOID:
+                self.depth += 1
+            if tag in ("script", "style", "aside", "figure"):
+                self.hidden += 1
+        elif "articleBody" in values.get("itemprop", "").split():
+            self.depth = 1
+
+    def handle_endtag(self, tag):
+        if self.depth and tag not in self.VOID:
+            self.depth -= 1
+            if tag in ("script", "style", "aside", "figure"):
+                self.hidden = max(0, self.hidden - 1)
+            if tag in ("p", "div", "li"):
+                self.parts.append(" ")
+
+    def handle_data(self, data):
+        if self.depth and not self.hidden:
+            self.parts.append(data)
+
+
 def clean(value: str) -> str:
     parser = PlainText()
     parser.feed(html.unescape(value or ""))
@@ -170,7 +203,10 @@ def fetch_feed(feed: dict) -> list[dict]:
                 raw = response.read(3_000_001)
             if len(raw) > 3_000_000:
                 raise ValueError("Feed exceeds 3 MB")
-            return parse_feed(raw, feed["name"])
+            rows = parse_feed(raw, feed["name"])
+            for row in rows:
+                row["source_group"] = feed.get("group", "specialist")
+            return rows
         except Exception:
             if attempt == 2:
                 raise
@@ -178,8 +214,51 @@ def fetch_feed(feed: dict) -> list[dict]:
     return []
 
 
+def enrich_public_extracts(articles: list[dict], feeds: list[dict]):
+    """For short feeds, use marked public body text from configured publishers.
+
+    No login, subscription, or access-control workaround is attempted. On failure,
+    keep the feed's original excerpt and explicitly limited summary.
+    """
+    allowed = {urllib.parse.urlsplit(f["url"]).hostname for f in feeds}
+    for article in articles:
+        if len(re.findall(r"다\.", article["_rss_text"])) >= 2:
+            continue
+        if urllib.parse.urlsplit(article["url"]).hostname not in allowed:
+            continue
+        try:
+            request = urllib.request.Request(article["url"], headers={"User-Agent": HEADERS["User-Agent"], "Accept": "text/html"})
+            with urllib.request.urlopen(request, timeout=10) as response:
+                if urllib.parse.urlsplit(response.url).hostname not in allowed:
+                    continue
+                raw = response.read(2_000_001)
+                charset = response.headers.get_content_charset() or "utf-8"
+            if len(raw) > 2_000_000:
+                continue
+            page = raw.decode(charset, errors="replace")
+            if re.search(r'"isAccessibleForFree"\s*:\s*(?:false|"false")', page, re.I):
+                continue
+            parser = PublicArticleBody()
+            parser.feed(page)
+            text = shorten(news_text(" ".join(parser.parts)), 3000)
+            if len(text) > len(article["_rss_text"]) and len(re.findall(r"다\.", text)) >= 2:
+                article["_rss_text"] = text
+                article["summary_parts"] = structured_summary(article["title"], text)
+                article["summary"] = article["summary_parts"]["intro"]
+                article["source_digest"] = hashlib.sha256((article["title"] + text).encode()).hexdigest()[:16]
+                article["summary_basis"] = "public_article_excerpt"
+        except Exception as error:
+            LOG.warning("Public excerpt unavailable for %s (%s); keeping RSS", article["source"], type(error).__name__)
+
+
 def normalized_title(title: str) -> str:
     return re.sub(r"[^a-z0-9가-힣]", "", title.lower())
+
+
+def has_keyword(text: str, keyword: str) -> bool:
+    if keyword.upper() == "GA":
+        return re.search(r"(?<![a-z])ga(?![a-z])", text, re.I) is not None
+    return keyword.casefold() in text.casefold()
 
 
 def category(title: str) -> str:
@@ -203,13 +282,19 @@ def select_articles(articles: list[dict], config: dict, now: datetime) -> list[d
         if hours < -1 or hours > max_age:
             continue
         text = article["title"].casefold()
+        context = config.get("context_keywords", [])
+        if context and not any(has_keyword(text, word) for word in context):
+            continue
         if any(word.casefold() in text for word in config.get("exclude_keywords", [])):
             continue
-        relevance = sum(weight for word, weight in config["keywords"].items() if word.casefold() in text)
+        relevance = sum(weight for word, weight in config["keywords"].items() if has_keyword(text, word))
         if relevance == 0:
             continue
+        relevance -= sum(weight for word, weight in config.get("headline_penalties", {}).items() if has_keyword(text, word))
+        if relevance <= 0:
+            continue
         score = relevance + max(0, 8 * (1 - hours / max_age))
-        ranked.append((score, article))
+        ranked.append((score, {**article, "_selection_relevance": relevance}))
     ranked.sort(key=lambda x: (x[0], x[1]["published_at"]), reverse=True)
     unique = []
     urls = set()
@@ -222,11 +307,23 @@ def select_articles(articles: list[dict], config: dict, now: datetime) -> list[d
         unique.append(article.copy())
         titles.append(title)
         urls.add(url)
-    # Prefer source diversity, then backfill if a feed has too few relevant stories.
+    # Diversify categories first. The publisher cap remains strict during backfill.
     selected = []
     counts = {}
     category_counts = {}
+    # Include a relevant economy/general-media perspective when one is available.
+    general_candidates = [a for a in unique if a.get("source_group") == "general"
+                          and a["_selection_relevance"] >= config.get("general_min_relevance", 6)]
+    for item in general_candidates[:min(config.get("min_general_articles", 0), config["daily_count"])]:
+        selected.append(item)
+        counts[item["source"]] = counts.get(item["source"], 0) + 1
+        section = category(item["title"])
+        category_counts[section] = category_counts.get(section, 0) + 1
     for item in unique:
+        if len(selected) >= config["daily_count"]:
+            break
+        if item in selected:
+            continue
         if counts.get(item["source"], 0) >= config.get("max_per_source", 3):
             continue
         section = category(item["title"])
@@ -240,9 +337,12 @@ def select_articles(articles: list[dict], config: dict, now: datetime) -> list[d
     for item in unique:
         if len(selected) >= config["daily_count"]:
             break
-        if item not in selected:
+        if item not in selected and counts.get(item["source"], 0) < config.get("max_per_source", 3):
             selected.append(item)
+            counts[item["source"]] = counts.get(item["source"], 0) + 1
+    selected.sort(key=lambda item: next(i for i, candidate in enumerate(unique) if candidate["url"] == item["url"]))
     for item in selected:
+        item.pop("_selection_relevance", None)
         item["id"] = hashlib.sha256(item["url"].encode()).hexdigest()[:12]
         item["category"] = category(item["title"])
         description = item.pop("description")
@@ -333,16 +433,30 @@ def main():
     if not articles:
         LOG.error("No fresh relevant articles. Existing editions were preserved; deployment should stop.")
         return 1
+    enrich_public_extracts(articles, config["feeds"])
     date = now.date().isoformat()
     previous_path = root / "data" / "latest.json"
     previous = json.loads(previous_path.read_text()) if previous_path.exists() else None
+    collection = {"configured": sorted({f["name"] for f in config["feeds"]}),
+                  "succeeded": sorted(set(feeds_ok)),
+                  "selected": sorted({a["source"] for a in articles}),
+                  "items_received": len(candidates)}
     target_mode = "ai" if config.get("ai", {}).get("enabled") and os.environ.get("OPENAI_API_KEY") else "rss"
+    # Keep reviewed wording when the underlying RSS facts have not changed.
+    if previous and previous.get("summary_version") == SUMMARY_VERSION and previous.get("mode") == target_mode:
+        prior = {a["id"]: a for a in previous["articles"]}
+        for article in articles:
+            old = prior.get(article["id"])
+            if old and old.get("source_digest") == article["source_digest"]:
+                for key in ("summary", "summary_parts", "summary_kind", "implication"):
+                    if key in old:
+                        article[key] = old[key]
     unchanged = (previous and not previous.get("demo") and previous.get("summary_version") == SUMMARY_VERSION
                  and previous["mode"] == target_mode
-                 and [(a["id"], a.get("source_digest")) for a in previous["articles"]] == [(a["id"], a["source_digest"]) for a in articles])
+                 and [(a["id"], a.get("source_digest"), a["source"]) for a in previous["articles"]] == [(a["id"], a["source_digest"], a["source"]) for a in articles])
     if unchanged:
         LOG.info("No new selection. Preserving edition date %s", previous["date"])
-        atomic_json(root / "data" / "status.json", {"checked_at": now.isoformat(timespec="seconds"), "warnings": warnings, "new_edition": False})
+        atomic_json(root / "data" / "status.json", {"checked_at": now.isoformat(timespec="seconds"), "warnings": warnings, "new_edition": False, "collection": collection})
         return 0
     # Paid API use is explicitly opt-in in config and requires a repository secret.
     used_ai = enrich_ai(articles, config)
@@ -362,7 +476,7 @@ def main():
             continue
         archive.append({"date": row["date"], "title": row["title"], "count": len(row["articles"]), "file": "data/editions/" + path.name})
     atomic_json(root / "data" / "archive.json", archive)
-    atomic_json(root / "data" / "status.json", {"checked_at": now.isoformat(timespec="seconds"), "warnings": warnings, "new_edition": True})
+    atomic_json(root / "data" / "status.json", {"checked_at": now.isoformat(timespec="seconds"), "warnings": warnings, "new_edition": True, "collection": collection})
     LOG.info("Saved %s: %d articles (%s)", date, len(articles), edition["mode"])
     return 0
 

@@ -5,7 +5,7 @@
   "demo": false,
   "mode": "rss",
   "sources": [
-    "보험신보",
+    "한국보험신문",
     "보험저널"
   ],
   "warnings": [],
@@ -57,7 +57,7 @@
     {
       "title": "GA 관리 책임 강화, 보험판매전문회사 법제화 논의도 탄력",
       "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93649",
-      "source": "보험신보",
+      "source": "한국보험신문",
       "published_at": "2026-11-09T00:00:00+00:00",
       "id": "e55323c5d8ce",
       "category": "채널",

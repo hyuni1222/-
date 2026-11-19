@@ -5,19 +5,119 @@
   "timezone": "Asia/Seoul",
   "daily_count": 5,
   "max_age_hours": 120,
-  "max_per_source": 4,
+  "max_per_source": 2,
   "max_per_category": 2,
-  "keywords": {
-    "GA": 9, "법인보험대리점": 9, "생명보험": 7, "생보": 7,
-    "수수료": 7, "분급": 8, "제판분리": 7, "설계사": 6,
-    "종신": 6, "연금": 5, "유지율": 5, "리쿠르팅": 5,
-    "신상품": 4, "판매채널": 6, "보험판매전문회사": 7,
-    "푸본현대생명": 9, "인카금융서비스": 8
-  },
-  "exclude_keywords": ["부고", "인사발령", "결혼", "포토뉴스", "캠페인 동참", "사회공헌"],
-  "feeds": [
-    {"name": "보험저널", "url": "https://www.insjournal.co.kr/rss/allArticle.xml"},
-    {"name": "보험신보", "url": "https://www.insnews.co.kr/rss/allArticle.xml"}
+  "context_keywords": [
+    "보험",
+    "생보",
+    "손보",
+    "GA",
+    "설계사",
+    "종신",
+    "연금",
+    "금감원",
+    "금융감독원",
+    "금융위원회",
+    "교보생명",
+    "삼성생명",
+    "한화생명",
+    "신한라이프",
+    "미래에셋생명"
   ],
-  "ai": {"enabled": false, "model": "gpt-4.1-mini"}
+  "keywords": {
+    "GA": 9,
+    "법인보험대리점": 9,
+    "생명보험": 7,
+    "생보": 7,
+    "수수료": 7,
+    "분급": 8,
+    "제판분리": 7,
+    "설계사": 6,
+    "종신": 6,
+    "연금": 5,
+    "유지율": 5,
+    "리쿠르팅": 5,
+    "신상품": 4,
+    "판매채널": 6,
+    "보험판매전문회사": 7,
+    "푸본현대생명": 9,
+    "인카금융서비스": 8,
+    "보험": 2,
+    "영업관리": 5,
+    "소비자보호": 5,
+    "보험사기": 4,
+    "등록취소": 7,
+    "영업조직": 6,
+    "보험업법": 6,
+    "보험료": 4,
+    "배타적사용권": 5,
+    "실적": 5,
+    "내부통제": 5,
+    "상품개정": 5
+  },
+  "exclude_keywords": [
+    "부고",
+    "인사발령",
+    "결혼",
+    "포토뉴스",
+    "캠페인",
+    "사회공헌",
+    "일손돕기",
+    "봉사활동",
+    "기부금 전달",
+    "할로마켓",
+    "생명보험재단"
+  ],
+  "headline_penalties": {
+    "인터뷰": 8,
+    "원데이클래스": 5
+  },
+  "feeds": [
+    {
+      "name": "보험저널",
+      "url": "https://www.insjournal.co.kr/rss/allArticle.xml",
+      "group": "specialist"
+    },
+    {
+      "name": "한국보험신문",
+      "url": "https://www.insnews.co.kr/rss/allArticle.xml",
+      "group": "specialist"
+    },
+    {
+      "name": "보험신보",
+      "url": "https://www.insweek.co.kr/rss/allArticle.xml",
+      "group": "specialist"
+    },
+    {
+      "name": "서울파이낸스",
+      "url": "https://www.seoulfn.com/rss/allArticle.xml",
+      "group": "general"
+    },
+    {
+      "name": "서울파이낸스",
+      "url": "https://www.seoulfn.com/rss/S1N2.xml",
+      "group": "general"
+    },
+    {
+      "name": "연합뉴스",
+      "url": "https://www.yna.co.kr/rss/economy.xml",
+      "group": "general"
+    },
+    {
+      "name": "뉴시스",
+      "url": "https://www.newsis.com/RSS/economy.xml",
+      "group": "general"
+    },
+    {
+      "name": "매일경제",
+      "url": "https://www.mk.co.kr/rss/30100041/",
+      "group": "general"
+    }
+  ],
+  "ai": {
+    "enabled": false,
+    "model": "gpt-4.1-mini"
+  },
+  "min_general_articles": 1,
+  "general_min_relevance": 6
 }

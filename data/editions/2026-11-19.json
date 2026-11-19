@@ -1,13 +1,19 @@
 {
   "date": "2026-11-19",
   "summary_version": 2,
-  "updated_at": "2026-11-19T09:00:33+09:00",
+  "updated_at": "2026-11-19T09:21:22+09:00",
   "title": "손보 '신계약' 1.6배 많은데 '수수료'는 생보가 앞섰다…GA 73곳, 엇갈린 판매 지형",
   "demo": false,
   "mode": "rss",
   "sources": [
+    "뉴시스",
+    "매일경제",
     "보험신보",
-    "보험저널"
+    "보험저널",
+    "서울파이낸스",
+    "서울파이낸스",
+    "연합뉴스",
+    "한국보험신문"
   ],
   "warnings": [],
   "articles": [
@@ -16,6 +22,7 @@
       "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33965",
       "source": "보험저널",
       "published_at": "2026-11-18T15:43:05+00:00",
+      "source_group": "specialist",
       "id": "c511173331fe",
       "category": "제도·정책",
       "summary_parts": {
@@ -33,6 +40,7 @@
       "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33933",
       "source": "보험저널",
       "published_at": "2026-11-18T06:00:00+00:00",
+      "source_group": "specialist",
       "id": "d5dcbe304bca",
       "category": "제도·정책",
       "summary_parts": {
@@ -46,55 +54,59 @@
       "implication": ""
     },
     {
-      "title": "“종신 신상품 쏟아지는데 팔리는 건, 몇 개뿐”… 내년 환급률 인하 앞둔 단기납 판매 압도적",
-      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33968",
-      "source": "보험저널",
-      "published_at": "2026-11-18T23:37:27+00:00",
-      "id": "80bc66e09d25",
-      "category": "상품",
-      "summary_parts": {
-        "intro": "700종신 중단 후 신상품이 늘었지만, GA 현장의 판매는 일부 단기납종신에 집중됐습니다.",
-        "body": "선지급·건강·상속종신 등 유형은 다양해졌으나, 실제 판매는 단기납 중심으로 이어졌습니다.",
-        "conclusion": "내년 공시이율 하락에 따른 환급률 인하 예상으로, 연말 단기납 판매 쏠림이 심해질 수 있습니다."
-      },
-      "summary": "700종신 중단 후 신상품이 늘었지만, GA 현장의 판매는 일부 단기납종신에 집중됐습니다.",
-      "source_digest": "d4e70060b495000c",
-      "summary_kind": "rss",
-      "implication": ""
-    },
-    {
-      "title": "“GA 관리책임 어디까지 늘어나나?”… CPO에 CISO까지 두고 영업해야 한다는 데",
-      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33969",
-      "source": "보험저널",
-      "published_at": "2026-11-18T23:43:08+00:00",
-      "id": "bddce80971c5",
-      "category": "채널",
-      "summary_parts": {
-        "intro": "GA업계에서 정보보호 최고책임자(CISO)의 지정·신고 대상 여부를 두고 혼선이 나타났습니다.",
-        "body": "홈페이지 운영 여부와 매출액·자본금 등에 따라 대상 여부와 지정 직급을 확인해야 합니다.",
-        "conclusion": "10월 기준 강화에 따라 기존 CPO와 함께 정보보호 책임체계를 점검할 필요가 커졌습니다."
-      },
-      "summary": "GA업계에서 정보보호 최고책임자(CISO)의 지정·신고 대상 여부를 두고 혼선이 나타났습니다.",
-      "source_digest": "486cc2e55bbad54b",
-      "summary_kind": "rss",
-      "implication": ""
-    },
-    {
-      "title": "교보생명, 배타적사용권 1년 새 6건… 생보업계 최다",
-      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93883",
-      "source": "보험신보",
-      "published_at": "2026-11-17T13:50:55+00:00",
-      "id": "ddbe70224127",
+      "title": "한국보험금융 등록취소 사전통지 후폭풍… 6000명 영업조직 촉각",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93924",
+      "source": "한국보험신문",
+      "published_at": "2026-11-18T18:20:28+00:00",
+      "source_group": "specialist",
+      "id": "5106d0aa74af",
       "category": "영업전략",
       "summary_parts": {
-        "intro": "교보생명이 가입 심사와 검사·치료의 보장 사각지대를 보완한 상품을 잇달아 선보였습니다.",
-        "body": "2025년 11월~2026년 10월 배타적사용권 6건을 획득해 생보업계 최다를 기록했습니다.",
-        "conclusion": "사용권이 유지되는 동안 다른 보험사는 해당 상품·특약과 유사한 상품을 판매할 수 없습니다."
+        "intro": "대형 법인보험대리점(GA) 한국보험금융이 보험대리점 등록취소 사전통지를 받으면서 후폭풍이 확산되고 있다.",
+        "body": "최종 처분까지는 회사 측 소명과 제재심의위원회 심의, 금융위원회 의결 등의 절차가 남아 있지만, 소속 설계사가 6000여 명에 이르는 만큼 영업조직과 기존 보험계약 관리에 미칠 영향에도 관심이 쏠린다.",
+        "conclusion": "GA 업계에서는 이번 사건이 업계 전반의 신뢰와 내부통제 수준을 점검하는 계기가 될 수 있다는 우려도 나온다."
       },
-      "summary": "교보생명이 가입 심사와 검사·치료의 보장 사각지대를 보완한 상품을 잇달아 선보였습니다.",
-      "source_digest": "80a77b8bfdebee5f",
+      "summary": "대형 법인보험대리점(GA) 한국보험금융이 보험대리점 등록취소 사전통지를 받으면서 후폭풍이 확산되고 있다.",
+      "source_digest": "b02748badb9a6783",
       "summary_kind": "rss",
       "implication": ""
+    },
+    {
+      "title": "▨보험GA 준법·내부통제 체크리스트 북▨-광고심의",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72995",
+      "source": "보험신보",
+      "published_at": "2026-11-16T00:00:00+00:00",
+      "source_group": "specialist",
+      "id": "776d7d3a3bf4",
+      "category": "채널",
+      "summary_parts": {
+        "intro": "GA의 대외 광고는 금융소비자보호법의 적용을 받으며 사전심의 의무와 필수안내사항 및 금지사항 등 준수요건이 부과된다.",
+        "body": "생명·손해보험협회의 광고심의기준은 금소법의 요구사항을 반영하고 있으며 GA는 서약서 제출을 통해 해당 규정을 적용받고 있다.",
+        "conclusion": "광고는 금융상품 또는 업무 관련 사항을 소비자에 널리 알리거나 제시하는 행위를 말하며 상품광고(특정 상품 안내)와 업무광고(보험설계사 상담, 보장분석 서비스 등 안내)로 구분된다."
+      },
+      "summary": "GA의 대외 광고는 금융소비자보호법의 적용을 받으며 사전심의 의무와 필수안내사항 및 금지사항 등 준수요건이 부과된다.",
+      "source_digest": "4ffd5ad7eb4f1931",
+      "summary_kind": "rss",
+      "implication": ""
+    },
+    {
+      "title": "킥보드 고의사고에 대리운전 허위입원까지…車보험사기 주의보",
+      "url": "https://www.mk.co.kr/news/economy/12212328",
+      "source": "매일경제",
+      "published_at": "2026-11-18T13:43:04+00:00",
+      "source_group": "general",
+      "id": "d25fee797fd5",
+      "category": "영업전략",
+      "summary_parts": {
+        "intro": "금감원, 車보험사기 기획조사 골목길 고의 충돌·보험금 편취 징역 출소 후 재범 사례도 적발 당국, 모니터링·신고센터 운영 자차로 출퇴근을 하는 김 모씨(34)는 최근 황당한 일을 겪었다.",
+        "body": "18일 금감원 보험사기대응단은 최근 실시한 자동차보험 사기 기획조사 결과를 토대로 보험사기 사례와 대응요령을 안내했다.",
+        "conclusion": "금감원은 “급한 끼어들기, 이유 없는 급정거 등 고의 사고가 의심되면, 경찰·보험사에 알리기 전 상대방과 합의하지 말아야 한다”며 “블랙박스 영상과 현장 사진, 목격자 진술을 확보할 필요가 있다”고 밝혔다."
+      },
+      "summary": "금감원, 車보험사기 기획조사 골목길 고의 충돌·보험금 편취 징역 출소 후 재범 사례도 적발 당국, 모니터링·신고센터 운영 자차로 출퇴근을 하는 김 모씨(34)는 최근 황당한 일을 겪었다.",
+      "source_digest": "8a87c26f8ba17184",
+      "summary_kind": "rss",
+      "implication": "",
+      "summary_basis": "public_article_excerpt"
     }
   ]
 }
