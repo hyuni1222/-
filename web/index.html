@@ -12,12 +12,12 @@
   <link rel="stylesheet" href="weather.css">
   <link rel="stylesheet" href="trends.css">
   <link rel="stylesheet" href="reports.css">
-  <link rel="stylesheet" href="products.css?v=20261119-products-1">
+  <link rel="stylesheet" href="products.css?v=20261119-products-3">
   <script>/*__BOOTSTRAP__*/</script>
   <script defer src="app.js?v=20261119-products-1"></script>
   <script defer src="weather.js"></script>
-  <script defer src="products-model.js?v=20261119-products-2"></script>
-  <script defer src="products.js?v=20261119-products-1"></script>
+  <script defer src="products-model.js?v=20261119-products-3"></script>
+  <script defer src="products.js?v=20261119-products-3"></script>
   <script defer src="trends.js?v=20261119-products-1"></script>
 </head>
 <body>
@@ -52,7 +52,8 @@
   </section>
   <section id="products-panel" class="products-panel" role="tabpanel" aria-labelledby="tab-products" hidden>
     <header class="product-heading"><div><p class="product-kicker">GA PRODUCT LIBRARY</p><h2>GA 상품비교</h2><p class="product-intro">상품 구조부터, 자금 활용까지.</p></div><div class="product-dates"><span id="product-scope">21개사 상품 자료</span><time id="product-research-date" datetime="2026-11-19">상품 자료정리일 2026.11.19</time></div></header>
-    <p class="product-method">GA 취급·소개 자료를 바탕으로 정리했습니다. 납입기간과 환급률은 자료에 기재된 조건이며, 개별 GA의 현재 판매 여부와 개인 가입조건은 다를 수 있습니다.</p>
+    <p class="product-method"><strong>21개사는 조사 대상 보험사 수이며, 모든 상품의 수록을 뜻하지 않습니다.</strong> GA 취급·소개 근거가 확인된 상품군을 정리했습니다. 납입기간과 환급률은 각 자료 시점의 조건이며, 현행 미대조 항목과 개별 GA의 현재 판매 여부는 상품별 안내를 확인하세요.</p>
+    <details class="product-coverage"><summary>보험사별 수록 현황</summary><p>종신·연금·정기 상품군 기준입니다. 상품이 소개된 이력과 현재 판매 가능 여부는 구분하며, 확인이 부족한 후보는 아래의 추가 확인 목록에서 안내합니다.</p><div class="product-coverage-scroll" tabindex="0" role="region" aria-label="보험사별 수록 현황"><table class="product-coverage-table"><caption>보험사별 상품군 수 · 전체 목록 기준</caption><thead><tr><th scope="col">보험사</th><th scope="col">종신</th><th scope="col">연금</th><th scope="col">정기</th><th scope="col">추가 확인</th></tr></thead><tbody id="product-coverage-body"></tbody></table></div></details>
     <form id="product-filters" class="product-filters" hidden>
       <div class="product-categories" id="product-categories" role="group" aria-label="보험 종류"><button type="button" data-category="" aria-pressed="true">전체</button><button type="button" data-category="종신" aria-pressed="false">종신보험</button><button type="button" data-category="연금" aria-pressed="false">연금보험</button><button type="button" data-category="정기" aria-pressed="false">정기보험</button></div>
       <div class="product-filter-fields"><label>보험사<select id="product-insurer"><option value="">전체 보험사</option></select></label><label>납입기간<select id="product-pay"><option value="">전체 납입기간</option></select></label><label class="product-query">상품·특징 검색<input id="product-query" type="search" maxlength="120" placeholder="상품명, 노후자금, 달러 등"></label></div>

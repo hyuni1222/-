@@ -87,8 +87,9 @@
       $('product-insurer').value=state.insurer;$('product-pay').value=state.pay;$('product-query').value=state.query;$('product-previous').checked=state.previous;
       $('product-research-date').textContent='상품 자료정리일 '+data.research_date.replaceAll('-','.');
       $('product-scope').textContent=data.insurers.length+'개사 · '+data.products.length+'개 상품군';
+      $('product-coverage-body').innerHTML=data.insurers.map(insurer=>`<tr><th scope="row">${esc(insurer)}</th>${M.categories.map(category=>`<td>${data.products.filter(p=>p.insurer===insurer&&p.category===category).length}</td>`).join('')}<td>${data.pending.filter(p=>p.insurer===insurer).length}</td></tr>`).join('');
       $('product-pending-summary').textContent='GA 취급·분류 추가 확인 '+data.pending.length+'개 상품';
-      $('product-pending-list').innerHTML=data.pending.map(p=>`<li><strong>${esc(p.insurer)} · ${esc(p.name)}</strong><p>${esc(p.reason)}. ${esc(p.missing)}</p></li>`).join('');
+      $('product-pending-list').innerHTML=data.pending.map(p=>`<li><strong>${esc(p.insurer)} · ${esc(p.name)}</strong><p>${esc(p.reason)}. ${esc(p.missing)}</p>${p.source_ids?.length?`<details class="product-sources"><summary>확인 자료</summary><ul>${p.source_ids.map(sourceLink).join('')}</ul></details>`:''}</li>`).join('');
       $('product-filters').hidden=false;
     })();
     try{await loading;}finally{loading=null;}

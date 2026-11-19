@@ -56,6 +56,7 @@ def validate_catalog(data):
     for pending in data['pending']:
         require(pending['id'] not in ids,'Pending product leaked into catalog')
         require(pending['insurer'] in data['insurers'] and bool(pending['reason']),'Missing pending reason')
+        require(set(pending.get('source_ids',[]))<=sources.keys(),'Missing pending source')
     return {'products':len(ids),'examples':len(example_ids),'pending':len(data['pending'])}
 
 if __name__=='__main__':

@@ -9,6 +9,7 @@
   function payKey(value){
     if(typeof value==='number')return 'years:'+value;
     const text=String(value);
+    if(text==='일시납')return 'single';
     const age=text.match(/^(\d+)세납$/);if(age)return 'age:'+age[1];
     const years=text.match(/^(\d+)년납\(예시\)$/);if(years)return 'years:'+years[1];
     if(text.startsWith('전기납'))return 'full';
@@ -17,9 +18,9 @@
   function payOptions(data){
     const keys=[...new Set(data.products.flatMap(p=>p.pays.map(payKey)).filter(Boolean))];
     return keys.sort((a,b)=>{
-      const rank=x=>x.startsWith('years:')?0:x.startsWith('age:')?1:2;
+      const rank=x=>x==='single'?-1:x.startsWith('years:')?0:x.startsWith('age:')?1:2;
       return rank(a)-rank(b)||(parseInt(a.split(':')[1])||0)-(parseInt(b.split(':')[1])||0);
-    }).map(value=>({value,label:value==='full'?'전기납':value.split(':')[1]+(value.startsWith('age:')?'세납':'년납')}));
+    }).map(value=>({value,label:value==='single'?'일시납':value==='full'?'전기납':value.split(':')[1]+(value.startsWith('age:')?'세납':'년납')}));
   }
   function filterProducts(data,state){
     const q=searchText(state.query);

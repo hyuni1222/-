@@ -7,16 +7,20 @@ const M=require('../web/products-model.js');
 const data=JSON.parse(fs.readFileSync(path.join(__dirname,'../data/products.json'),'utf8'));
 const empty={insurer:'',category:'',pay:'',query:'',previous:false,compare:[]};
 
-test('payment filters keep years, ages and continuous payments distinct',()=>{
+test('payment filters keep single, years, ages and continuous payments distinct',()=>{
+ assert.equal(M.payKey('일시납'),'single');
  assert.equal(M.payKey(10),'years:10');assert.equal(M.payKey('10년납(예시)'),'years:10');
  assert.equal(M.payKey('90세납'),'age:90');assert.equal(M.payKey('전기납'),'full');
  const ten=M.filterProducts(data,{...empty,pay:'years:10'});
  assert(ten.some(p=>p.id==='SH02'));assert(!ten.some(p=>p.id==='ME04'));
  assert(!M.payOptions(data).some(p=>p.value==='years:90'));
+ assert.deepEqual(M.filterProducts(data,{...empty,pay:'single'}).map(p=>p.id),['HA02','ME07','AI03']);
+ assert.equal(M.payOptions(data).find(p=>p.value==='single').label,'일시납');
+ assert.equal(M.readState(new URLSearchParams('pay=single'),data).pay,'single');
 });
 test('combined insurer, type and payment filters work without mutating catalog',()=>{
  const result=M.filterProducts(data,{...empty,insurer:'푸본현대생명',category:'종신',pay:'years:20'});
- assert.deepEqual(result.map(p=>p.id),['F01']);assert.equal(data.products.length,61);
+ assert.deepEqual(result.map(p=>p.id),['F01']);assert.equal(data.products.length,74);
  assert.equal(M.filterProducts(data,{...empty,insurer:'흥국생명'}).length,0);
 });
 test('prior documents are hidden unless explicitly requested',()=>{

@@ -18,13 +18,24 @@ class ProductPublicationTests(unittest.TestCase):
     def test_public_catalog_retains_coverage_without_promoting_pending_products(self):
         counts=validate_catalog(self.data)
         self.assertEqual(len(self.data['insurers']),21)
-        self.assertEqual(counts,{'products':61,'examples':17,'pending':2})
-        self.assertTrue(all(p['id'] not in {'H03','HK01'} for p in self.data['products']))
+        self.assertEqual(counts,{'products':74,'examples':17,'pending':5})
+        self.assertTrue(all(p['id'] not in {q['id'] for q in self.data['pending']} for p in self.data['products']))
         hanwha=next(p for p in self.data['products'] if p['id']=='H02')
         self.assertIn('HNEWGA',hanwha['source_ids'])
         self.assertEqual(hanwha['pays'],[10,12])
         self.assertFalse(hanwha['examples'])
         self.assertEqual(sum(e['version_status']=='current_document' for p in self.data['products'] for e in p['examples']),5)
+
+    def test_expansion_has_sources_without_promoting_news_refund_numbers(self):
+        added={'H04','H05','Y04','SH05','A03','A04','K04','HA02','IM06','IM07','NH04','ME07','AI03'}
+        products={p['id']:p for p in self.data['products']}
+        self.assertTrue(added<=products.keys())
+        self.assertTrue(all(products[pid]['source_ids'] and not products[pid]['examples'] for pid in added))
+        self.assertEqual(products['ME07']['currency'],'USD')
+        self.assertEqual(products['AI03']['currency'],'USD')
+        self.assertIn('공식 GA',next(s['kind'] for s in self.data['sources'] if s['id']=='HANAONLY'))
+        pending={p['id']:p for p in self.data['pending']}
+        self.assertIn('방카슈랑스',pending['AI04']['reason'])
 
     def test_news_only_refund_claim_cannot_be_published_as_official(self):
         value=copy.deepcopy(self.data)

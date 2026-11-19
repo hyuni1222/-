@@ -6,6 +6,16 @@
 .product-dates{display:grid;text-align:right;gap:.25rem;font-size:.875rem;color:#50665e;white-space:nowrap}
 .product-dates>span{font-weight:700;color:var(--ink)}
 .product-method,.product-refund-policy,.product-date-policy{font-size:.875rem;color:#4d635a;line-height:1.85;margin:1rem 0}
+.product-method strong{color:var(--ink)}
+.product-coverage{border:1px solid #c7d4c7;border-radius:.3rem;padding:.85rem 1rem;background:#f9fcf8}
+.product-coverage>summary{cursor:pointer;font-size:.875rem;font-weight:600;color:var(--ink)}
+.product-coverage p{font-size:.875rem;color:#566b5c}
+.product-coverage-scroll{overflow:auto;max-height:420px;margin-top:.8rem}
+.product-coverage-table{border-collapse:collapse;width:100%;min-width:360px;font-size:.875rem;text-align:left;font-variant-numeric:tabular-nums}
+.product-coverage-table caption{text-align:left;color:#566b5c;padding:.4rem 0}
+.product-coverage-table th,.product-coverage-table td{border-bottom:1px solid #d4dfcf;padding:.55rem .65rem;white-space:nowrap}
+.product-coverage-table thead th{position:sticky;top:0;background:#e3eddf;color:var(--ink)}
+.product-coverage-table td{text-align:center}.product-coverage-table tbody th{font-weight:500}
 .product-filters{background:#f9fcf8;border:1px solid #bfcfc1;padding:1.25rem;border-radius:.5rem;margin:1.5rem 0}
 .product-categories{display:flex;flex-wrap:wrap;gap:.5rem;margin:0 0 1.2rem}
 .product-categories button{font-size:.875rem;border:1px solid #b9cabc;border-radius:2rem;background:transparent;padding:.5rem 1rem;color:var(--ink);min-height:42px}
