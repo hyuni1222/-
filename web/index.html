@@ -12,9 +12,12 @@
   <link rel="stylesheet" href="weather.css">
   <link rel="stylesheet" href="trends.css">
   <link rel="stylesheet" href="reports.css">
+  <link rel="stylesheet" href="products.css">
   <script>/*__BOOTSTRAP__*/</script>
   <script defer src="app.js"></script>
   <script defer src="weather.js"></script>
+  <script defer src="products-model.js"></script>
+  <script defer src="products.js"></script>
   <script defer src="trends.js"></script>
 </head>
 <body>
@@ -29,7 +32,7 @@
     <div class="intro-copy"><p class="eyebrow"><span class="live-dot"></span><span id="edition-label">생명보험 · GA</span><span class="eyebrow-divider">/</span>DAILY EDITION</p><h1 id="site-title">보험 영업<br><span>모닝브리프</span></h1><p class="subtitle" id="subtitle">현장을 여는 다섯 가지 소식</p></div>
     <div class="edition-stamp"><div class="weather" role="region" aria-label="오늘 서울 날씨"><div class="weather-heading"><span id="weather-icon" aria-hidden="true">—</span><div><strong id="weather-location">서울 오늘</strong><span id="weather-condition">날씨 확인 중</span></div></div><div class="weather-temperatures" id="weather-temperatures" hidden><span>최저 <b id="weather-low"></b></span><span>최고 <b id="weather-high"></b></span></div><div class="weather-meta"><span id="weather-updated">오늘 예보를 불러오고 있습니다.</span><a href="https://open-meteo.com/" target="_blank" rel="noopener noreferrer">Open-Meteo</a></div></div><p id="date-long">매일 아침, 새로운 시선</p><span>매일 오전 8시 업데이트 예정</span></div>
   </section>
-  <div class="brief-tabs" role="tablist" aria-label="브리프 기간"><button type="button" role="tab" id="tab-daily" data-period="daily" aria-controls="daily-panel" aria-selected="true">일일 브리프</button><button type="button" role="tab" id="tab-weekly" data-period="weekly" aria-controls="trends-panel" aria-selected="false" tabindex="-1">주간동향</button><button type="button" role="tab" id="tab-monthly" data-period="monthly" aria-controls="trends-panel" aria-selected="false" tabindex="-1">월간동향</button></div>
+  <div class="brief-tabs" role="tablist" aria-label="브리프와 상품"><button type="button" role="tab" id="tab-daily" data-period="daily" aria-controls="daily-panel" aria-selected="true">일일 브리프</button><button type="button" role="tab" id="tab-weekly" data-period="weekly" aria-controls="trends-panel" aria-selected="false" tabindex="-1">주간동향</button><button type="button" role="tab" id="tab-monthly" data-period="monthly" aria-controls="trends-panel" aria-selected="false" tabindex="-1">월간동향</button><button type="button" role="tab" id="tab-products" data-period="products" aria-controls="products-panel" aria-selected="false" tabindex="-1">GA 상품비교</button></div>
   <div id="daily-panel" role="tabpanel" aria-labelledby="tab-daily">
   <section class="workspace" id="briefing" aria-labelledby="briefing-heading">
     <div class="toolbar"><div><span class="section-index">01</span><h2 id="briefing-heading">오늘의 주요 뉴스</h2><span class="article-count" id="article-count">—</span></div><div class="view-switch" role="group" aria-label="보기 방식"><button id="view-card" type="button" aria-pressed="true"><span aria-hidden="true">▤</span> 한 장 요약</button><button id="view-paper" type="button" aria-pressed="false"><span aria-hidden="true">▥</span> 신문형</button></div></div>
@@ -46,6 +49,24 @@
     <details class="trend-library" id="trend-library"><summary>이 기간의 기사 모두 보기 <span id="trend-library-count"></span></summary><label class="trend-search">기사 검색<input type="search" id="trend-search" placeholder="제목·매체·날짜로 검색" aria-label="동향 근거 기사 검색"></label><div id="trend-article-list"></div><button type="button" class="more" id="trend-more">기사 더 보기</button></details>
     <p class="trend-method" id="trend-method"></p>
     <button type="button" id="trend-print" class="trend-print">동향 인쇄 / PDF 저장</button>
+  </section>
+  <section id="products-panel" class="products-panel" role="tabpanel" aria-labelledby="tab-products" hidden>
+    <header class="product-heading"><div><p class="product-kicker">GA PRODUCT LIBRARY</p><h2>GA 상품비교</h2><p class="product-intro">상품 구조부터, 자금 활용까지.</p></div><div class="product-dates"><span id="product-scope">21개사 상품 자료</span><time id="product-research-date" datetime="2026-11-19">상품 자료정리일 2026.11.19</time></div></header>
+    <p class="product-method">GA 취급·소개 자료를 바탕으로 정리했습니다. 납입기간과 환급률은 자료에 기재된 조건이며, 개별 GA의 현재 판매 여부와 개인 가입조건은 다를 수 있습니다.</p>
+    <form id="product-filters" class="product-filters" hidden>
+      <div class="product-categories" id="product-categories" role="group" aria-label="보험 종류"><button type="button" data-category="" aria-pressed="true">전체</button><button type="button" data-category="종신" aria-pressed="false">종신보험</button><button type="button" data-category="연금" aria-pressed="false">연금보험</button><button type="button" data-category="정기" aria-pressed="false">정기보험</button></div>
+      <div class="product-filter-fields"><label>보험사<select id="product-insurer"><option value="">전체 보험사</option></select></label><label>납입기간<select id="product-pay"><option value="">전체 납입기간</option></select></label><label class="product-query">상품·특징 검색<input id="product-query" type="search" maxlength="120" placeholder="상품명, 노후자금, 달러 등"></label></div>
+      <div class="product-filter-footer"><label class="product-previous"><input type="checkbox" id="product-previous"><span>이전 공시 예시도 보기<small>현재 판매본과 일치 여부가 미확인인 공식 문서 포함</small></span></label><button type="button" id="product-reset" class="product-reset">검색 초기화</button></div>
+    </form>
+    <div class="product-results-heading"><h3 id="product-result-count" aria-live="polite">상품을 불러오고 있습니다.</h3><p>자료에 표시된 납기 기준 · 최대 3개 선택 비교</p></div>
+    <p class="product-refund-policy">환급률은 공식 문서에서 수치를 대조한 예시만 표시합니다. 기사·교육자료에서만 확인한 수치는 공식 원문과 대조 중이며, 미확인은 0%를 뜻하지 않습니다.</p>
+    <div id="product-list" class="product-list"><p class="empty">상품 자료를 불러오고 있습니다.</p></div>
+    <button id="product-more" class="product-more" type="button" hidden>상품 더 보기</button>
+    <p id="product-feedback" class="product-feedback" role="status" aria-live="polite"></p>
+    <details class="product-pending"><summary id="product-pending-summary">GA 취급·분류 추가 확인 상품</summary><p>아래 상품은 기본 비교 목록에서 제외했습니다.</p><ul id="product-pending-list"></ul></details>
+    <p class="product-date-policy">상품 자료정리일과 문서일은 뉴스 수집일과 별도로 관리합니다. 뉴스가 갱신되어도 상품 검증일이나 환급 예시는 자동으로 바뀌지 않습니다.</p>
+    <aside id="product-compare-tray" class="product-compare-tray" aria-label="비교할 상품" hidden><div><span>비교할 상품</span><div id="product-compare-selected"></div></div><div class="product-compare-actions"><button type="button" id="product-compare-clear">비우기</button><button type="button" id="product-compare-open" disabled>상품 비교</button></div></aside>
+    <dialog id="product-comparison" class="product-comparison"><header><div><p class="product-kicker">SELECTED PRODUCTS</p><h2>선택 상품 비교</h2></div><button type="button" id="product-comparison-close" autofocus>닫기</button></header><div id="product-comparison-body"></div></dialog>
   </section>
 </main>
 <footer class="site-footer"><a class="footer-brand" href="./">MORNING BRIEF<span>보험 영업 모닝브리프</span></a><p>공개 뉴스로 시작하는 하루.<span>각 기사와 콘텐츠의 권리는 원 출처에 있습니다.</span></p><a href="#site-title">위로 돌아가기 ↑</a></footer>

@@ -2,11 +2,15 @@
 import json
 from pathlib import Path
 import shutil
+from validate_products import validate_catalog
 
 ROOT = Path(__file__).resolve().parents[1]
 DIST = ROOT / "dist"
 
 def main():
+    products=ROOT/'data/products.json'
+    if products.exists():
+        validate_catalog(json.loads(products.read_text()))
     if DIST.exists():
         shutil.rmtree(DIST)
     shutil.copytree(ROOT / "web", DIST)

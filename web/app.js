@@ -58,7 +58,7 @@
     $('source-selected').textContent=selected.join(' · ');
     $('source-selected').textContent=selected.join(' · ')||'선정 기사 없음';
     document.querySelector('.source-policy').textContent=(edition.backfilled?'해당 날짜의 공개 기사 목록에서 발행일을 확인해 수집했습니다.':'매체별 RSS 제공 범위에서 수집합니다.')+' 관련성·발행 시각·중복 여부를 비교하며 같은 매체는 최대 2건까지 선정합니다.';
-    document.title=(state.config.title||'보험 영업 모닝브리프')+' · '+edition.date;
+    if(!document.body.dataset.period||document.body.dataset.period==='daily')document.title=(state.config.title||'보험 영업 모닝브리프')+' · '+edition.date;
   }
   function renderArchive() {
     const query=$('archive-search').value.trim().toLowerCase();
@@ -97,7 +97,7 @@
   $('archive-list').addEventListener('click',e=>{const row=e.target.closest('[data-date]');if(row)openDate(row.dataset.date);});
   $('share').addEventListener('click',async()=>{
     if(!state.edition)return;
-    const url=new URL(location.href);if(!['weekly','monthly'].includes(url.searchParams.get('view')))url.searchParams.set('date',state.edition.date);url.hash='';
+    const url=new URL(location.href);if(!['weekly','monthly','products'].includes(url.searchParams.get('view')))url.searchParams.set('date',state.edition.date);url.hash='';
     try { if(navigator.share) await navigator.share({title:document.title,url:url.href});else {await navigator.clipboard.writeText(url.href);toast('브리프 링크를 복사했습니다. 카카오톡 등에 붙여넣어 공유하세요.');} }
     catch(error){if(error.name!=='AbortError')toast('주소창의 링크를 복사해 공유해주세요.');}
   });
