@@ -2,19 +2,16 @@
 import json
 from pathlib import Path
 import shutil
-from validate_products import validate_catalog
 
 ROOT = Path(__file__).resolve().parents[1]
 DIST = ROOT / "dist"
 
 def main():
-    products=ROOT/'data/products.json'
-    if products.exists():
-        validate_catalog(json.loads(products.read_text()))
     if DIST.exists():
         shutil.rmtree(DIST)
-    shutil.copytree(ROOT / "web", DIST)
-    shutil.copytree(ROOT / "data", DIST / "data")
+    # The user-selected newsletter replaces the former public product catalog.
+    shutil.copytree(ROOT / "web", DIST, ignore=shutil.ignore_patterns("products.js", "products-model.js"))
+    shutil.copytree(ROOT / "data", DIST / "data", ignore=shutil.ignore_patterns("products.json"))
     shutil.copyfile(ROOT / "config.json", DIST / "config.json")
     (DIST / ".nojekyll").touch()
     # Embed data for an instant first render and a working downloaded HTML preview.

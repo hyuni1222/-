@@ -4,7 +4,7 @@
   const escape=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const safeURL=value=>{try{const url=new URL(value);return ['https:','http:'].includes(url.protocol)&&!url.username&&!url.password?url.href:'#';}catch{return '#';}};
   const state={mode:'daily',index:null,period:null,limit:20,request:0};
-  const labels={daily:'일일 브리프',weekly:'주간동향',monthly:'월간동향',products:'GA 상품비교'};
+  const labels={daily:'일일 브리프',weekly:'주간동향',monthly:'월간동향',products:'보험사별 소식'};
   const cache=new Map();
   async function json(path){const r=await fetch(path,{cache:'no-cache'});if(!r.ok)throw new Error('HTTP '+r.status);return r.json();}
   const range=period=>period.start.replaceAll('-','.')+' — '+period.end.replaceAll('-','.');
@@ -62,7 +62,10 @@
     $('daily-panel').hidden=mode!=='daily';$('trends-panel').hidden=!['weekly','monthly'].includes(mode);$('products-panel').hidden=mode!=='products';
     window.dispatchEvent(new CustomEvent('brief:mode',{detail:{mode}}));
     if(mode==='products'){
-      const url=new URL(location.href);url.searchParams.set('view','products');url.searchParams.delete('period');url.searchParams.delete('date');url.hash='';history.replaceState(null,'',url);return;
+      document.title=labels.products+' | 보험 영업 모닝브리프';
+      const url=new URL(location.href);url.searchParams.set('view','products');
+      for(const key of ['period','date','insurer','category','pay','q','previous','compare'])url.searchParams.delete(key);
+      url.hash='';history.replaceState(null,'',url);return;
     }
     {const url=new URL(location.href);for(const key of ['insurer','category','pay','q','previous','compare'])url.searchParams.delete(key);history.replaceState(null,'',url);}
     if(mode==='daily'){
