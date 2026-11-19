@@ -4,7 +4,7 @@
   const escape=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const safeURL=value=>{try{const url=new URL(value);return ['https:','http:'].includes(url.protocol)&&!url.username&&!url.password?url.href:'#';}catch{return '#';}};
   const state={mode:'daily',index:null,period:null,limit:20,request:0};
-  const labels={daily:'일일 브리프',weekly:'주간동향',monthly:'월간동향',products:'보험사별 소식'};
+  const labels={daily:'일일 브리프',weekly:'주간동향',monthly:'월간동향',products:'보험사별 소식지'};
   const cache=new Map();
   async function json(path){const r=await fetch(path,{cache:'no-cache'});if(!r.ok)throw new Error('HTTP '+r.status);return r.json();}
   const range=period=>period.start.replaceAll('-','.')+' — '+period.end.replaceAll('-','.');
