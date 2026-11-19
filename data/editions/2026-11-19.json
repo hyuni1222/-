@@ -1,111 +1,134 @@
 {
   "date": "2026-11-19",
+  "updated_at": "2026-11-20T08:32:38+09:00",
+  "collected_at": "2026-11-20T08:32:38+09:00",
   "summary_version": 2,
-  "updated_at": "2026-11-19T17:30:43+09:00",
-  "title": "손보 '신계약' 1.6배 많은데 '수수료'는 생보가 앞섰다…GA 73곳, 엇갈린 판매 지형",
+  "title": "KB라이프, 법인보험대리점 6개사와 ‘금융소비자보호’ 협력 강화",
   "demo": false,
   "mode": "rss",
+  "backfilled": true,
+  "collection_method": "publisher_archive_calendar_day",
+  "article_window": {
+    "start": "2026-11-19T00:00:00+09:00",
+    "end": "2026-11-20T00:00:00+09:00"
+  },
   "sources": [
-    "뉴시스",
-    "매일경제",
     "보험신보",
     "보험저널",
     "서울파이낸스",
-    "서울파이낸스",
-    "연합뉴스",
     "한국보험신문"
   ],
   "warnings": [],
   "articles": [
     {
-      "title": "손보 '신계약' 1.6배 많은데 '수수료'는 생보가 앞섰다…GA 73곳, 엇갈린 판매 지형",
-      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33965",
-      "source": "보험저널",
-      "published_at": "2026-11-18T15:43:05+00:00",
+      "title": "KB라이프, 법인보험대리점 6개사와 ‘금융소비자보호’ 협력 강화",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93937",
+      "source": "한국보험신문",
       "source_group": "specialist",
-      "id": "c511173331fe",
-      "category": "제도·정책",
+      "published_at": "2026-11-19T11:34:00+09:00",
+      "id": "ac59d4f1fd36",
+      "category": "채널",
       "summary_parts": {
-        "intro": "대형 GA 73개사의 상반기 실적에서 판매 건수와 수수료가 서로 다른 흐름을 보였습니다.",
-        "body": "설계사 1인당 월 신계약은 생보 1.7건·손보 2.7건이지만, 수수료는 생보가 더 높았습니다.",
-        "conclusion": "건수만으로 수익성을 판단하기 어려워, 채널·상품별 수수료 구조를 함께 살펴봐야 합니다."
+        "intro": "KB라이프, 법인보험대리점 6개사와 ‘금융소비자보호’ 협력 강화",
+        "body": "RSS에 상세 사실·수치가 제공되지 않았습니다.",
+        "conclusion": "추가 내용과 영향은 기사 원문에서 확인하세요."
       },
-      "summary": "대형 GA 73개사의 상반기 실적에서 판매 건수와 수수료가 서로 다른 흐름을 보였습니다.",
-      "source_digest": "0791d252d7d4448f",
+      "summary": "KB라이프, 법인보험대리점 6개사와 ‘금융소비자보호’ 협력 강화",
+      "source_digest": "f6fa598cc53f332a",
       "summary_kind": "rss",
       "implication": ""
     },
     {
-      "title": "한국보험금융 등록취소 사전통지 후폭풍… 6000명 영업조직 촉각",
-      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93924",
-      "source": "한국보험신문",
-      "published_at": "2026-11-18T18:20:28+00:00",
+      "title": "KB라이프, GA 초청 금융소비자보호 세미나 개최",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=73042",
+      "source": "보험신보",
       "source_group": "specialist",
-      "id": "5106d0aa74af",
+      "published_at": "2026-11-19T09:30:00+09:00",
+      "id": "a5fa188c2793",
+      "category": "채널",
+      "summary_parts": {
+        "intro": "KB라이프, GA 초청 금융소비자보호 세미나 개최",
+        "body": "RSS에 상세 사실·수치가 제공되지 않았습니다.",
+        "conclusion": "추가 내용과 영향은 기사 원문에서 확인하세요."
+      },
+      "summary": "KB라이프, GA 초청 금융소비자보호 세미나 개최",
+      "source_digest": "ff8c43324dc69d9c",
+      "summary_kind": "rss",
+      "implication": ""
+    },
+    {
+      "title": "김형연 의원·사무금융노조, 24일 국회서 ‘GA 제도개선’ 토론회 개최",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93952",
+      "source": "한국보험신문",
+      "source_group": "specialist",
+      "published_at": "2026-11-19T15:02:00+09:00",
+      "id": "4f3ae6849386",
+      "category": "제도·정책",
+      "summary_parts": {
+        "intro": "김형연 의원·사무금융노조, 24일 국회서 ‘GA 제도개선’ 토론회 개최",
+        "body": "RSS에 상세 사실·수치가 제공되지 않았습니다.",
+        "conclusion": "추가 내용과 영향은 기사 원문에서 확인하세요."
+      },
+      "summary": "김형연 의원·사무금융노조, 24일 국회서 ‘GA 제도개선’ 토론회 개최",
+      "source_digest": "e9bed7818a4e7b76",
+      "summary_kind": "rss",
+      "implication": ""
+    },
+    {
+      "title": "NH농협손해보험, 3년 연속 금융소비자보호 우수기업 선정",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=73039",
+      "source": "보험신보",
+      "source_group": "specialist",
+      "published_at": "2026-11-19T17:41:00+09:00",
+      "id": "7b55a9972d52",
       "category": "영업전략",
       "summary_parts": {
-        "intro": "대형 법인보험대리점(GA) 한국보험금융이 보험대리점 등록취소 사전통지를 받으면서 후폭풍이 확산되고 있다.",
-        "body": "최종 처분까지는 회사 측 소명과 제재심의위원회 심의, 금융위원회 의결 등의 절차가 남아 있지만, 소속 설계사가 6000여 명에 이르는 만큼 영업조직과 기존 보험계약 관리에 미칠 영향에도 관심이 쏠린다.",
-        "conclusion": "GA 업계에서는 이번 사건이 업계 전반의 신뢰와 내부통제 수준을 점검하는 계기가 될 수 있다는 우려도 나온다."
+        "intro": "NH농협손해보험, 3년 연속 금융소비자보호 우수기업 선정",
+        "body": "RSS에 상세 사실·수치가 제공되지 않았습니다.",
+        "conclusion": "추가 내용과 영향은 기사 원문에서 확인하세요."
       },
-      "summary": "대형 법인보험대리점(GA) 한국보험금융이 보험대리점 등록취소 사전통지를 받으면서 후폭풍이 확산되고 있다.",
-      "source_digest": "b02748badb9a6783",
+      "summary": "NH농협손해보험, 3년 연속 금융소비자보호 우수기업 선정",
+      "source_digest": "e9ea3dc07a26d910",
       "summary_kind": "rss",
       "implication": ""
     },
     {
-      "title": "KB라이프·협약 GA 6개사, 민원 예방 및 내부통제 강화 위해 머리 맞대",
-      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33974",
-      "source": "보험저널",
-      "published_at": "2026-11-19T09:09:54+00:00",
-      "source_group": "specialist",
-      "id": "3cdde81ed80f",
-      "category": "채널",
-      "summary_parts": {
-        "intro": "KB라이프(대표이사 사장 정문철)는 서울 힐튼가든인호텔 강남에서 금융소비자보호 업무협약(MOU)을 체결한 법인보험대리점(GA) 6개사의 소비자보호 및 준법 담당자를 초청해 금융소비자보호 세미나를 개최했다고 19일 밝혔다.",
-        "body": "이번 세미나는 협약 GA의 금융소비자보호 역량 강화를 지원하고 관련 제도와 실무 사례를 공유하는 한편, GA 소비자보호 책임자들과 소통을 확대해 상호 협력체계를 공고히 하기 위해 마련됐다.",
-        "conclusion": "RSS에서 확인되는 내용은 위와 같으며, 추가 영향은 원문 확인이 필요합니다."
-      },
-      "summary": "KB라이프(대표이사 사장 정문철)는 서울 힐튼가든인호텔 강남에서 금융소비자보호 업무협약(MOU)을 체결한 법인보험대리점(GA) 6개사의 소비자보호 및 준법 담당자를 초청해 금융소비자보호 세미나를 개최했다고 19일 밝혔다.",
-      "source_digest": "a5b6880518056ed0",
-      "summary_kind": "rss",
-      "implication": ""
-    },
-    {
-      "title": "▨보험GA 준법·내부통제 체크리스트 북▨-광고심의",
-      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72995",
-      "source": "보험신보",
-      "published_at": "2026-11-16T00:00:00+00:00",
-      "source_group": "specialist",
-      "id": "776d7d3a3bf4",
-      "category": "채널",
-      "summary_parts": {
-        "intro": "GA의 대외 광고는 금융소비자보호법의 적용을 받으며 사전심의 의무와 필수안내사항 및 금지사항 등 준수요건이 부과된다.",
-        "body": "생명·손해보험협회의 광고심의기준은 금소법의 요구사항을 반영하고 있으며 GA는 서약서 제출을 통해 해당 규정을 적용받고 있다.",
-        "conclusion": "광고는 금융상품 또는 업무 관련 사항을 소비자에 널리 알리거나 제시하는 행위를 말하며 상품광고(특정 상품 안내)와 업무광고(보험설계사 상담, 보장분석 서비스 등 안내)로 구분된다."
-      },
-      "summary": "GA의 대외 광고는 금융소비자보호법의 적용을 받으며 사전심의 의무와 필수안내사항 및 금지사항 등 준수요건이 부과된다.",
-      "source_digest": "4ffd5ad7eb4f1931",
-      "summary_kind": "rss",
-      "implication": ""
-    },
-    {
-      "title": "금감원 \"퇴직연금 단기실적 경쟁안돼…변칙 고금리 등 엄정대응\"",
-      "url": "https://www.yna.co.kr/view/AKR20261119114700002",
-      "source": "연합뉴스",
-      "published_at": "2026-11-19T15:00:01+09:00",
+      "title": "저축성보험 만기 후 3년까지 연금전환 신청",
+      "url": "https://www.seoulfn.com/news/articleView.html?idxno=643343",
+      "source": "서울파이낸스",
       "source_group": "general",
-      "id": "00c9aa85ec61",
-      "category": "제도·정책",
+      "published_at": "2026-11-19T14:52:00+09:00",
+      "id": "a0fdcce3fbeb",
+      "category": "상품",
       "summary_parts": {
-        "intro": "(서울=연합뉴스) 강수련 기자 = 금융감독원은 퇴직연금 사업자의 연말 변칙적 고금리나 이벤트성 특별이익 제공 등 불건전 영업행위에 엄정 대응하겠...",
-        "body": "RSS에서 확인할 수 있는 추가 근거가 부족합니다.",
-        "conclusion": "세부 내용과 후속 전망은 기사 원문에서 확인하세요."
+        "intro": "다음달부터 저축성보험 만기보험금을 활용한 연금 전환 신청 기간이 만기일 당일에서 만기 후 최대 3년까지 확대된다.",
+        "body": "19일 금융감독원은 이 같은 내용을 담은 저축성보험 연금전환 제도 개선 방안을 발표했다.",
+        "conclusion": "지난해 말 기준 저축성보험 계약의 79.3%에 이러한 특약이 부가돼 있어 가입자가 요건을 충족하면 연금으로 전환해 노후 생활비로 활용할 수 있다."
       },
-      "summary": "(서울=연합뉴스) 강수련 기자 = 금융감독원은 퇴직연금 사업자의 연말 변칙적 고금리나 이벤트성 특별이익 제공 등 불건전 영업행위에 엄정 대응하겠...",
-      "source_digest": "06135fe538e0ce80",
+      "summary": "다음달부터 저축성보험 만기보험금을 활용한 연금 전환 신청 기간이 만기일 당일에서 만기 후 최대 3년까지 확대된다.",
+      "source_digest": "e2ddda49be2a0708",
       "summary_kind": "rss",
       "implication": ""
     }
-  ]
+  ],
+  "collection": {
+    "configured": [
+      "보험신보",
+      "보험저널",
+      "서울파이낸스",
+      "한국보험신문"
+    ],
+    "succeeded": [
+      "보험신보",
+      "보험저널",
+      "서울파이낸스",
+      "한국보험신문"
+    ],
+    "selected": [
+      "보험신보",
+      "서울파이낸스",
+      "한국보험신문"
+    ],
+    "items_received": 151
+  }
 }

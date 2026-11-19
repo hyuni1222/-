@@ -1,11 +1,19 @@
 [
   {
-    "date": "2026-11-19",
+    "date": "2026-11-20",
     "title": "손보 '신계약' 1.6배 많은데 '수수료'는 생보가 앞섰다…GA 73곳, 엇갈린 판매 지형",
     "count": 5,
-    "file": "data/editions/2026-11-19.json",
+    "file": "data/editions/2026-11-20.json",
     "backfilled": false,
-    "collected_at": "2026-11-19T17:30:43+09:00"
+    "collected_at": "2026-11-20T08:32:46+09:00"
+  },
+  {
+    "date": "2026-11-19",
+    "title": "KB라이프, 법인보험대리점 6개사와 ‘금융소비자보호’ 협력 강화",
+    "count": 5,
+    "file": "data/editions/2026-11-19.json",
+    "backfilled": true,
+    "collected_at": "2026-11-20T08:32:38+09:00"
   },
   {
     "date": "2026-11-18",
