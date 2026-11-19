@@ -5,7 +5,7 @@
   "source": "Open-Meteo",
   "source_url": "https://open-meteo.com/",
   "basis": "weather_model_and_daily_forecast",
-  "fetched_at": "2026-11-19T17:30:32+09:00",
+  "fetched_at": "2026-11-19T17:42:08+09:00",
   "weather_time": "2026-11-19T17:30+09:00",
   "temperature": 2.1,
   "weather_code": 0,
