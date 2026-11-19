@@ -5,11 +5,11 @@
   "source": "Open-Meteo",
   "source_url": "https://open-meteo.com/",
   "basis": "weather_model_and_daily_forecast",
-  "fetched_at": "2026-11-19T17:03:00+09:00",
-  "weather_time": "2026-11-19T17:00+09:00",
-  "temperature": 2.6,
+  "fetched_at": "2026-11-19T17:30:32+09:00",
+  "weather_time": "2026-11-19T17:30+09:00",
+  "temperature": 2.1,
   "weather_code": 0,
-  "is_day": true,
+  "is_day": false,
   "minimum": -1.2,
   "maximum": 3.7
 }
