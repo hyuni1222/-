@@ -3,12 +3,72 @@
     "date": "2026-11-19",
     "title": "손보 '신계약' 1.6배 많은데 '수수료'는 생보가 앞섰다…GA 73곳, 엇갈린 판매 지형",
     "count": 5,
-    "file": "data/editions/2026-11-19.json"
+    "file": "data/editions/2026-11-19.json",
+    "backfilled": false,
+    "collected_at": "2026-11-19T09:21:22+09:00"
+  },
+  {
+    "date": "2026-11-18",
+    "title": "손보 '신계약' 1.6배 많은데 '수수료'는 생보가 앞섰다…GA 73곳, 엇갈린 판매 지형",
+    "count": 5,
+    "file": "data/editions/2026-11-18.json",
+    "backfilled": true,
+    "collected_at": "2026-11-19T09:47:12+09:00"
+  },
+  {
+    "date": "2026-11-17",
+    "title": "월 1107만원 찍는데 한쪽은 239만원…'자회사형' GA, 한 지붕 아래서도 갈린 '인당 수수료'",
+    "count": 5,
+    "file": "data/editions/2026-11-17.json",
+    "backfilled": true,
+    "collected_at": "2026-11-19T09:47:12+09:00"
+  },
+  {
+    "date": "2026-11-16",
+    "title": "[26년 상반기 GA공시분석③] “GA 성장 공식 달라졌다”… 초대형, 생산성·수수료 증가 속도 빨라",
+    "count": 5,
+    "file": "data/editions/2026-11-16.json",
+    "backfilled": true,
+    "collected_at": "2026-11-19T09:47:12+09:00"
+  },
+  {
+    "date": "2026-11-15",
+    "title": "한화생명, 자립준비·가족돌봄청년 95명에 ‘저축보험’ 지원",
+    "count": 1,
+    "file": "data/editions/2026-11-15.json",
+    "backfilled": true,
+    "collected_at": "2026-11-19T09:47:12+09:00"
+  },
+  {
+    "date": "2026-11-14",
+    "title": "2026-11-14 · 확인된 보험 관련 기사 없음",
+    "count": 0,
+    "file": "data/editions/2026-11-14.json",
+    "backfilled": true,
+    "collected_at": "2026-11-19T09:47:12+09:00"
+  },
+  {
+    "date": "2026-11-13",
+    "title": "“GA업계 산 넘어 산”… 이제는 원수보험사 수준 보안요구, 투자비용 급증 우려",
+    "count": 5,
+    "file": "data/editions/2026-11-13.json",
+    "backfilled": true,
+    "collected_at": "2026-11-19T09:47:12+09:00"
+  },
+  {
+    "date": "2026-11-12",
+    "title": "“GA 내부통제, 어디까지 왔나”…준법감시인 워크숍서 현안 집중 조명",
+    "count": 5,
+    "file": "data/editions/2026-11-12.json",
+    "backfilled": true,
+    "collected_at": "2026-11-19T09:47:12+09:00"
   },
   {
     "date": "2026-11-11",
-    "title": "\"영업 동력 약화 우려\"… 4·7년 분급제 도입에 GA 대표, 단순 '수수료 전달자' , 설계사, '월급쟁이' 전락 위기",
+    "title": "“낸 보험료 다 꺼내 쓰고, 치매 땐 연금 증액”… 생보사 11월 신상품 ‘봇물’ (영상+)",
     "count": 5,
-    "file": "data/editions/2026-11-11.json"
+    "file": "data/editions/2026-11-11.json",
+    "backfilled": true,
+    "collected_at": "2026-11-19T09:47:12+09:00"
   }
 ]

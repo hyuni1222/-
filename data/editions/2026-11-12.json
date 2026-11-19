@@ -1,0 +1,137 @@
+{
+  "date": "2026-11-12",
+  "updated_at": "2026-11-19T09:47:12+09:00",
+  "collected_at": "2026-11-19T09:47:12+09:00",
+  "summary_version": 2,
+  "title": "“GA 내부통제, 어디까지 왔나”…준법감시인 워크숍서 현안 집중 조명",
+  "demo": false,
+  "mode": "rss",
+  "backfilled": true,
+  "collection_method": "publisher_archive_calendar_day",
+  "article_window": {
+    "start": "2026-11-12T00:00:00+09:00",
+    "end": "2026-11-13T00:00:00+09:00"
+  },
+  "sources": [
+    "보험신보",
+    "보험저널",
+    "서울파이낸스",
+    "한국보험신문"
+  ],
+  "warnings": [],
+  "articles": [
+    {
+      "title": "“GA 내부통제, 어디까지 왔나”…준법감시인 워크숍서 현안 집중 조명",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33881",
+      "source": "보험저널",
+      "source_group": "specialist",
+      "published_at": "2026-11-12T08:54:00+09:00",
+      "id": "11d32200d25b",
+      "category": "채널",
+      "summary_parts": {
+        "intro": "GA업계의 내부통제 역량을 강화하고 주요 준법감시 현안을 공유하기 위한 워크숍이 열린다.",
+        "body": "한국보험대리점협회(GA협회)는 오는 12월 10일 오전 10시 30분부터 오후 5시까지 협회 4층 교육장에서 ‘2026년 준법감시인협의회 워크숍’을 개최한다.",
+        "conclusion": "대형 GA 준법감시인 등을 대상으로 진행되는 이번 행사는 GA업계의 내부통제 및 준법감시 역량 강화와 주요 현안 공유를 목적으로 마련됐다."
+      },
+      "summary": "GA업계의 내부통제 역량을 강화하고 주요 준법감시 현안을 공유하기 위한 워크숍이 열린다.",
+      "source_digest": "f83b9ea5a7b55970",
+      "summary_kind": "rss",
+      "implication": ""
+    },
+    {
+      "title": "[팩트체크] “GA 기관경고 받아도 대표이사 연임 가능?”… 수위별 제재 따져보니",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33893",
+      "source": "보험저널",
+      "source_group": "specialist",
+      "published_at": "2026-11-12T13:57:00+09:00",
+      "id": "205ac4537872",
+      "category": "채널",
+      "summary_parts": {
+        "intro": "최근 대형 GA(법인보험대리점)에 대한 금융당국의 기관경고와 거액의 과태료 처분이 잇따르면서 대표이사와 임원의 연임 제한 여부에 관심이 쏠리고 있다.",
+        "body": "GA가 기관경고를 받았다는 이유만으로 대표이사나 임원의 연임이 제한되는 것은 아니다.",
+        "conclusion": "GA가 업무정지·등록취소 처분을 받고, 해당 처분에 책임이 있는 임원이 직무정지 이상의 제재를 받는 등 법정 요건을 충족하면 2년간 임원 자격이 제한될 수 있다."
+      },
+      "summary": "최근 대형 GA(법인보험대리점)에 대한 금융당국의 기관경고와 거액의 과태료 처분이 잇따르면서 대표이사와 임원의 연임 제한 여부에 관심이 쏠리고 있다.",
+      "source_digest": "086fccd5c3a04402",
+      "summary_kind": "rss",
+      "implication": ""
+    },
+    {
+      "title": "교보생명, 퇴직연금 DC·IRP 수익률 동반 1위… 장단기 운용 두각",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93820",
+      "source": "한국보험신문",
+      "source_group": "specialist",
+      "published_at": "2026-11-12T19:22:00+09:00",
+      "id": "41973dbc72c8",
+      "category": "상품",
+      "summary_parts": {
+        "intro": "교보생명이 퇴직연금 원리금비보장형(실적배당형) 상품 수익률 부문에서 확정기여형 퇴직연금(DC)과 개인형 퇴직연금(IRP) 모두 1위에 올랐다.",
+        "body": "교보생명은 올해 3분기 말 기준 DC와 IRP 각각의 적립금 상위 15개 퇴직연금사업자를 비교한 결과, 원리금비보장형 상품의 1년·3년·5년·7년·10년 수익률에서 모두 1위를 기록했다고 12일 밝혔다.",
+        "conclusion": "TDF는 가입자의 예상 은퇴 시점에 맞춰 주식과 채권 등 자산의 투자 비중을 조절하는 상품이다."
+      },
+      "summary": "교보생명이 퇴직연금 원리금비보장형(실적배당형) 상품 수익률 부문에서 확정기여형 퇴직연금(DC)과 개인형 퇴직연금(IRP) 모두 1위에 올랐다.",
+      "source_digest": "3b1bdb75e71e4fa1",
+      "summary_kind": "rss",
+      "implication": "",
+      "summary_basis": "public_article_excerpt"
+    },
+    {
+      "title": "교보생명, 3분기 퇴직연금 DC·IRP 수익률 1위",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72966",
+      "source": "보험신보",
+      "source_group": "specialist",
+      "published_at": "2026-11-12T11:00:00+09:00",
+      "id": "89693776dd0b",
+      "category": "상품",
+      "summary_parts": {
+        "intro": "교보생명은 2026년 3분기 기준 DC형과 IRP 각각의 적립금 상위 15개 퇴직연금사업자 가운데 원리금비보장형 상품의 장단기 수익률 모두 1위에 올랐다고 12일 밝혔다.",
+        "body": "5년 연평균 수익률 역시 DC형 8.73%, IRP 8.31%로 모두 1위에 올랐으며 7년은 각각 9.47%, 8.69%, 10년은 각각 6.74%, 6.30%로 전 구간에서 1위를 차지했다.",
+        "conclusion": "문영미 교보생명 법인사업본부 본부장은 “시장 변동성이 높은 상황에서도 좋은 결과를 낼 수 있었던 것은 장기 분산투자와 고객 중심의 투자 원칙을 꾸준히 지켜온 결과”라며 “앞으로도 고객의 노후자산을 안정적으로 불리고 고객이…"
+      },
+      "summary": "교보생명은 2026년 3분기 기준 DC형과 IRP 각각의 적립금 상위 15개 퇴직연금사업자 가운데 원리금비보장형 상품의 장단기 수익률 모두 1위에 올랐다고 12일 밝혔다.",
+      "source_digest": "86a946bbe98cb901",
+      "summary_kind": "rss",
+      "implication": "",
+      "summary_basis": "public_article_excerpt"
+    },
+    {
+      "title": "보험연구원 '의학기술 혁신과 금융·보험의 미래' 세미나 개최",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72967",
+      "source": "보험신보",
+      "source_group": "specialist",
+      "published_at": "2026-11-12T18:58:00+09:00",
+      "id": "c8b23d3fc92c",
+      "category": "영업전략",
+      "summary_parts": {
+        "intro": "보험연구원은 의학기술 혁신을 지원하는 금융의 역할과 수명 연장에 따른 보험산업의 대응 방향을 모색하기 위해 ‘의학기술 혁신과 금융·보험의 미래: 생산적 금융과 장수리스크를 중심으로’ 세미나를 개최했다고 12일 밝혔다.",
+        "body": "세미나에서는 이광표 한국생명공학연구원 노화연구센터 센터장이 ‘노화·역노화 연구의 현주소와 건강수명 연장의 전망’을 주제로 첫 번째 발표를 진행했다.",
+        "conclusion": "김헌수 연구원 원장은 “의학기술의 발전에 따라 의료·돌봄 수요와 비용에 대한 불확실성이 커질 수 있다”며 “보험업권은 수명과 건강상태의 변화를 지속적으로 관찰해 위험평가에 반영할 필요가 있다”고 말했다."
+      },
+      "summary": "보험연구원은 의학기술 혁신을 지원하는 금융의 역할과 수명 연장에 따른 보험산업의 대응 방향을 모색하기 위해 ‘의학기술 혁신과 금융·보험의 미래: 생산적 금융과 장수리스크를 중심으로’ 세미나를 개최했다고 12일 밝혔다.",
+      "source_digest": "645c5da4b043b11c",
+      "summary_kind": "rss",
+      "implication": "",
+      "summary_basis": "public_article_excerpt"
+    }
+  ],
+  "collection": {
+    "configured": [
+      "보험신보",
+      "보험저널",
+      "서울파이낸스",
+      "한국보험신문"
+    ],
+    "succeeded": [
+      "보험신보",
+      "보험저널",
+      "서울파이낸스",
+      "한국보험신문"
+    ],
+    "selected": [
+      "보험신보",
+      "보험저널",
+      "한국보험신문"
+    ],
+    "items_received": 59
+  }
+}

@@ -403,6 +403,19 @@ def atomic_json(path: Path, value):
     os.replace(temporary, path)
 
 
+def rebuild_archive(root: Path):
+    archive = []
+    for path in sorted((root / "data" / "editions").glob("????-??-??.json"), reverse=True):
+        row = json.loads(path.read_text())
+        if row.get("demo"):
+            continue
+        archive.append({"date": row["date"], "title": row["title"], "count": len(row["articles"]),
+                        "file": "data/editions/" + path.name, "backfilled": row.get("backfilled", False),
+                        "collected_at": row.get("collected_at", row["updated_at"])})
+    atomic_json(root / "data" / "archive.json", archive)
+    return archive
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--root", type=Path, default=ROOT)
@@ -469,13 +482,7 @@ def main():
                "warnings": warnings, "articles": articles}
     atomic_json(root / "data" / "editions" / (date + ".json"), edition)
     atomic_json(previous_path, edition)
-    archive = []
-    for path in sorted((root / "data" / "editions").glob("????-??-??.json"), reverse=True):
-        row = json.loads(path.read_text())
-        if row.get("demo"):
-            continue
-        archive.append({"date": row["date"], "title": row["title"], "count": len(row["articles"]), "file": "data/editions/" + path.name})
-    atomic_json(root / "data" / "archive.json", archive)
+    rebuild_archive(root)
     atomic_json(root / "data" / "status.json", {"checked_at": now.isoformat(timespec="seconds"), "warnings": warnings, "new_edition": True, "collection": collection})
     LOG.info("Saved %s: %d articles (%s)", date, len(articles), edition["mode"])
     return 0

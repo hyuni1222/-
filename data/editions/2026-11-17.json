@@ -1,0 +1,137 @@
+{
+  "date": "2026-11-17",
+  "updated_at": "2026-11-19T09:47:12+09:00",
+  "collected_at": "2026-11-19T09:47:12+09:00",
+  "summary_version": 2,
+  "title": "월 1107만원 찍는데 한쪽은 239만원…'자회사형' GA, 한 지붕 아래서도 갈린 '인당 수수료'",
+  "demo": false,
+  "mode": "rss",
+  "backfilled": true,
+  "collection_method": "publisher_archive_calendar_day",
+  "article_window": {
+    "start": "2026-11-17T00:00:00+09:00",
+    "end": "2026-11-18T00:00:00+09:00"
+  },
+  "sources": [
+    "보험신보",
+    "보험저널",
+    "서울파이낸스",
+    "한국보험신문"
+  ],
+  "warnings": [],
+  "articles": [
+    {
+      "title": "월 1107만원 찍는데 한쪽은 239만원…'자회사형' GA, 한 지붕 아래서도 갈린 '인당 수수료'",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33947",
+      "source": "보험저널",
+      "source_group": "specialist",
+      "published_at": "2026-11-17T16:22:00+09:00",
+      "id": "ed8752d937e0",
+      "category": "제도·정책",
+      "summary_parts": {
+        "intro": "보험사 자회사형 법인보험대리점(GA)들의 영업 생산성이 크게 엇갈리고 있다.",
+        "body": "일부 생명보험사 자회사 GA는 설계사 1인당 월평균 수수료가 1,000만원을 넘어선 반면, 일부 손해보험사 자회사는 200만~300만원대에 머물렀다.",
+        "conclusion": "같은 보험사 계열 판매조직이라도 설계사 수와 정착률, 신계약 건수, 인당 수수료에서 상당한 차이가 나타났다."
+      },
+      "summary": "보험사 자회사형 법인보험대리점(GA)들의 영업 생산성이 크게 엇갈리고 있다.",
+      "source_digest": "91406a7fbe2f2f1a",
+      "summary_kind": "rss",
+      "implication": ""
+    },
+    {
+      "title": "교보생명, 배타적사용권 1년 새 6건… 생보업계 최다",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93883",
+      "source": "한국보험신문",
+      "source_group": "specialist",
+      "published_at": "2026-11-17T13:50:00+09:00",
+      "id": "ddbe70224127",
+      "category": "영업전략",
+      "summary_parts": {
+        "intro": "교보생명이 보험 가입 심사와 검사·치료 과정의 보장 사각지대를 보완한 상품을 잇달아 선보이며 생명보험사 가운데 가장 많은 배타적사용권을 확보했다.",
+        "body": "교보생명은 2025년 11월부터 2026년 10월까지 1년간 배타적사용권 6건을 획득해 생명보험업계에서 최다를 기록했다고 17일 밝혔다.",
+        "conclusion": "교보생명 관계자는 “의료환경과 치료 방식이 빠르게 변하면서 고객에게 필요한 보장도 달라지고 있다”며 “치료 과정에서 고객이 겪는 어려움을 세밀하게 반영한 상품을 지속해서 선보이겠다”고 말했다."
+      },
+      "summary": "교보생명이 보험 가입 심사와 검사·치료 과정의 보장 사각지대를 보완한 상품을 잇달아 선보이며 생명보험사 가운데 가장 많은 배타적사용권을 확보했다.",
+      "source_digest": "435ef9d95b53b45d",
+      "summary_kind": "rss",
+      "implication": "",
+      "summary_basis": "public_article_excerpt"
+    },
+    {
+      "title": "교보생명, 최근 1년 배타적사용권 6건 획득···생보업계 최다",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=73026",
+      "source": "보험신보",
+      "source_group": "specialist",
+      "published_at": "2026-11-17T11:00:00+09:00",
+      "id": "d18a9d97910e",
+      "category": "영업전략",
+      "summary_parts": {
+        "intro": "교보생명은 최근 1년간 배타적사용권 6건을 획득해 생명보험업계 최다를 기록했다고 17일 밝혔다.",
+        "body": "생명보험협회에 따르면 지난 2025년 11월부터 2026년 10월까지 신규 부여된 배타적사용권은 교보생명이 6건으로 생보사 중 가장 많았다.",
+        "conclusion": "교보생명 관계자는 “의료환경과 치료 방식이 빠르게 변하면서 고객에 필요한 보장도 달라지고 있다”며 “치료 과정에서 고객이 겪는 어려움을 세밀하게 반영한 상품을 지속적으로 선보이겠다”고 말했다."
+      },
+      "summary": "교보생명은 최근 1년간 배타적사용권 6건을 획득해 생명보험업계 최다를 기록했다고 17일 밝혔다.",
+      "source_digest": "5fd95d1afdd66308",
+      "summary_kind": "rss",
+      "implication": "",
+      "summary_basis": "public_article_excerpt"
+    },
+    {
+      "title": "“한도만 알려주면 되지 않나?”… GA 계약체결비용 세부내역 요구에 보험사 난색",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33936",
+      "source": "보험저널",
+      "source_group": "specialist",
+      "published_at": "2026-11-17T08:15:00+09:00",
+      "id": "5f9fb931011e",
+      "category": "채널",
+      "summary_parts": {
+        "intro": "2027년 1월 보험 판매수수료 4년 분급제 시행을 앞두고 보험사와 GA(법인보험대리점) 간 상품별 계약체결비용 공개범위를 둘러싼 협의가 난항을 겪고 있다.",
+        "body": "핵심 쟁점은 계약체결비용 지급한도 자체보다 이를 산출하는 데 사용된 세부내역과 산정방식을 어디까지 공개할 것인지에 있다.",
+        "conclusion": "보험사 측에서는 지급한도는 관련 기준을 적용해 역산할 수 있지만, 일부 GA가 산출방식과 세부자료까지 요구하면서 협의가 복잡해지고 있다는 입장이다."
+      },
+      "summary": "2027년 1월 보험 판매수수료 4년 분급제 시행을 앞두고 보험사와 GA(법인보험대리점) 간 상품별 계약체결비용 공개범위를 둘러싼 협의가 난항을 겪고 있다.",
+      "source_digest": "06fbcd8dd3d9751b",
+      "summary_kind": "rss",
+      "implication": ""
+    },
+    {
+      "title": "금감원, ‘불법리베이트’ 한국보험금융에 등록취소 사전통지",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93873",
+      "source": "한국보험신문",
+      "source_group": "specialist",
+      "published_at": "2026-11-17T08:57:00+09:00",
+      "id": "39de93821c2b",
+      "category": "제도·정책",
+      "summary_parts": {
+        "intro": "금융감독원이 불법 리베이트 등 혐의를 받는 법인보험대리점(GA) 한국보험금융에 등록취소를 사전 통지한 것으로 나타났다.",
+        "body": "앞서 서울경찰청 광역수사단 광역범죄수사대는 한국보험금융 지사 운영자인 총책 A씨와 조직원 26명, 리베이트를 받은 법인 대표 46명, 모집 수당 분산 수수를 위해 명의를 빌려준 보험설계사 158명 등 총 231명을 송치했다.",
+        "conclusion": "새 회계제도(IFRS17) 도입 후 대형 GA 중심으로 수수료 과당경쟁 등 불건전한 영업 관행이 나타나고 있는 만큼, 당국은 관련 상황을 주시하며 점검에 나설 걸로 보인다."
+      },
+      "summary": "금융감독원이 불법 리베이트 등 혐의를 받는 법인보험대리점(GA) 한국보험금융에 등록취소를 사전 통지한 것으로 나타났다.",
+      "source_digest": "5a83568a6f2f8b20",
+      "summary_kind": "rss",
+      "implication": "",
+      "summary_basis": "public_article_excerpt"
+    }
+  ],
+  "collection": {
+    "configured": [
+      "보험신보",
+      "보험저널",
+      "서울파이낸스",
+      "한국보험신문"
+    ],
+    "succeeded": [
+      "보험신보",
+      "보험저널",
+      "서울파이낸스",
+      "한국보험신문"
+    ],
+    "selected": [
+      "보험신보",
+      "보험저널",
+      "한국보험신문"
+    ],
+    "items_received": 49
+  }
+}

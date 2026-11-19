@@ -1,0 +1,61 @@
+{
+  "date": "2026-11-15",
+  "updated_at": "2026-11-19T09:47:12+09:00",
+  "collected_at": "2026-11-19T09:47:12+09:00",
+  "summary_version": 2,
+  "title": "한화생명, 자립준비·가족돌봄청년 95명에 ‘저축보험’ 지원",
+  "demo": false,
+  "mode": "rss",
+  "backfilled": true,
+  "collection_method": "publisher_archive_calendar_day",
+  "article_window": {
+    "start": "2026-11-15T00:00:00+09:00",
+    "end": "2026-11-16T00:00:00+09:00"
+  },
+  "sources": [
+    "보험신보",
+    "보험저널",
+    "서울파이낸스",
+    "한국보험신문"
+  ],
+  "warnings": [],
+  "articles": [
+    {
+      "title": "한화생명, 자립준비·가족돌봄청년 95명에 ‘저축보험’ 지원",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93844",
+      "source": "한국보험신문",
+      "source_group": "specialist",
+      "published_at": "2026-11-15T17:17:00+09:00",
+      "id": "cecc5f5e7413",
+      "category": "영업전략",
+      "summary_parts": {
+        "intro": "한화생명이 자립준비청년과 가족돌봄청년의 경제적 자립을 돕기 위해 저축보험 지원 대상을 확대했다.",
+        "body": "한화생명은 지난 14일 서울 여의도 63빌딩에서 ‘WE CARE DREAM 저축보험’ 계약 체결 및 약정식을 개최했다고 15일 밝혔다.",
+        "conclusion": "이를 통해 생일·명절·결혼 등 경조사와 긴급한 상황에 필요한 자금을 지원한다."
+      },
+      "summary": "한화생명이 자립준비청년과 가족돌봄청년의 경제적 자립을 돕기 위해 저축보험 지원 대상을 확대했다.",
+      "source_digest": "bee8c8070096fb5d",
+      "summary_kind": "rss",
+      "implication": "",
+      "summary_basis": "public_article_excerpt"
+    }
+  ],
+  "collection": {
+    "configured": [
+      "보험신보",
+      "보험저널",
+      "서울파이낸스",
+      "한국보험신문"
+    ],
+    "succeeded": [
+      "보험신보",
+      "보험저널",
+      "서울파이낸스",
+      "한국보험신문"
+    ],
+    "selected": [
+      "한국보험신문"
+    ],
+    "items_received": 25
+  }
+}

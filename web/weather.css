@@ -1,0 +1,24 @@
+.weather{margin:0 0 20px auto;max-width:275px}
+.weather-heading{display:flex;align-items:center;justify-content:flex-end;gap:12px}
+#weather-icon{font-size:52px;line-height:1.2;color:var(--accent)}
+.weather-heading strong{display:block;font-size:14px;font-weight:600}
+.weather-heading div>span{display:block;font-size:15px;margin-top:5px}
+.weather-temperatures{display:flex;gap:16px;justify-content:flex-end;margin-top:12px;font-size:14px}
+.weather-temperatures b{font-weight:700;margin-left:3px}
+#weather-low{color:#356c97}#weather-high{color:#b34e2e}
+.weather-meta{font-size:12px;color:#596e63;line-height:1.7;margin-top:9px}
+.weather-meta span{display:block}.weather-meta a{text-decoration:underline;text-underline-offset:3px}
+.archive-note{font-size:14px;line-height:1.8;color:#4d6659;margin:20px 0 4px}
+.archive-row{grid-template-columns:110px minmax(0,1fr) auto}
+.archive-row time{font-size:14px}.archive-row .archive-title{font-size:14px}
+.archive-badge{font-size:12px;padding:3px 7px;background:#e0e8dd;color:#496651;white-space:nowrap}
+@media(max-width:760px){
+ .intro{gap:18px;align-items:flex-start}.edition-stamp{max-width:180px;align-self:center;flex:0 0 160px}
+ .weather{margin-bottom:17px}.weather-heading{gap:7px}#weather-icon{font-size:36px}
+ .weather-heading strong{font-size:12px}.weather-heading div>span{font-size:13px}
+ .weather-temperatures{font-size:13px;gap:12px;margin-top:9px}.weather-meta{font-size:12px}
+ .edition-stamp>span{max-width:none}.edition-stamp p{line-height:1.7}
+ .archive-row{grid-template-columns:90px minmax(0,1fr);gap:8px}.archive-row time{font-size:12px}
+ .archive-badge{grid-column:2;justify-self:start}.archive-row .archive-title{font-size:14px}
+}
+@media(max-width:420px){.intro{flex-wrap:wrap}.edition-stamp{max-width:none;flex:1 1 100%;display:grid;grid-template-columns:1fr auto;align-items:center;text-align:left;border-top:1px solid var(--line);padding-top:18px}.weather{grid-row:1/3;margin:0 auto 0 0}.weather-heading{justify-content:flex-start}.weather-temperatures{justify-content:flex-start}.edition-stamp p{margin:0 0 5px}.edition-stamp>span{text-align:right}}

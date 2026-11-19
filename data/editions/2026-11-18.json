@@ -1,0 +1,137 @@
+{
+  "date": "2026-11-18",
+  "updated_at": "2026-11-19T09:47:12+09:00",
+  "collected_at": "2026-11-19T09:47:12+09:00",
+  "summary_version": 2,
+  "title": "손보 '신계약' 1.6배 많은데 '수수료'는 생보가 앞섰다…GA 73곳, 엇갈린 판매 지형",
+  "demo": false,
+  "mode": "rss",
+  "backfilled": true,
+  "collection_method": "publisher_archive_calendar_day",
+  "article_window": {
+    "start": "2026-11-18T00:00:00+09:00",
+    "end": "2026-11-19T00:00:00+09:00"
+  },
+  "sources": [
+    "보험신보",
+    "보험저널",
+    "서울파이낸스",
+    "한국보험신문"
+  ],
+  "warnings": [],
+  "articles": [
+    {
+      "title": "손보 '신계약' 1.6배 많은데 '수수료'는 생보가 앞섰다…GA 73곳, 엇갈린 판매 지형",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33965",
+      "source": "보험저널",
+      "source_group": "specialist",
+      "published_at": "2026-11-18T15:43:00+09:00",
+      "id": "c511173331fe",
+      "category": "제도·정책",
+      "summary_parts": {
+        "intro": "2026년 상반기 대형 법인보험대리점(GA)의 보험 판매 실적에서 신계약 건수와 수수료가 서로 다른 양상을 나타냈다.",
+        "body": "보험저널이 2026년 상반기 설계사 500명 이상 GA 73개사의 경영공시를 분석한 결과, 재적인당 월평균 신계약 건수는 생보 1.7건, 손보 2.7건으로 나타났다.",
+        "conclusion": "회사별로도 생보 수수료가 전체의 90% 이상을 차지하는 GA가 있는 반면, 손보에 수수료 대부분이 집중된 회사도 있었다."
+      },
+      "summary": "2026년 상반기 대형 법인보험대리점(GA)의 보험 판매 실적에서 신계약 건수와 수수료가 서로 다른 양상을 나타냈다.",
+      "source_digest": "0791d252d7d4448f",
+      "summary_kind": "rss",
+      "implication": ""
+    },
+    {
+      "title": "‘덩치’와 생산성은 달랐다…초대형 GA 설계사 규모 톱5, ‘인당 수수료’ 순위는 딴판 (영상+)",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33933",
+      "source": "보험저널",
+      "source_group": "specialist",
+      "published_at": "2026-11-18T06:00:00+09:00",
+      "id": "d5dcbe304bca",
+      "category": "제도·정책",
+      "summary_parts": {
+        "intro": "설계사 수로 대표되는 외형 순위와 설계사 1인당 수수료 생산성 순위가 크게 엇갈렸다.",
+        "body": "2026년 상반기 초대형 GA의 조직효율을 분석한 결과, 설계사 규모 상위 5개사 가운데 인당 수수료가 1,000만원을 넘긴 곳은 없었다.",
+        "conclusion": "설계사 3,000~6,000명 규모의 GA 3곳이 인당 월평균 수수료 1,000만원을 넘어서며 외형 상위권 GA들을 앞섰다."
+      },
+      "summary": "설계사 수로 대표되는 외형 순위와 설계사 1인당 수수료 생산성 순위가 크게 엇갈렸다.",
+      "source_digest": "82f7877dcb306bab",
+      "summary_kind": "rss",
+      "implication": ""
+    },
+    {
+      "title": "한국보험금융 등록취소 사전통지 후폭풍… 6000명 영업조직 촉각",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93924",
+      "source": "한국보험신문",
+      "source_group": "specialist",
+      "published_at": "2026-11-18T18:20:00+09:00",
+      "id": "5106d0aa74af",
+      "category": "영업전략",
+      "summary_parts": {
+        "intro": "대형 법인보험대리점(GA) 한국보험금융이 보험대리점 등록취소 사전통지를 받으면서 후폭풍이 확산되고 있다.",
+        "body": "보험계약 410건을 조기 해지해 본사에 약 224억원의 손해를 입히고 약 229억원의 세금을 포탈한 혐의도 포함됐다.",
+        "conclusion": "이어 “금융당국도 관련 지침을 마련하고 현장에서 제대로 이행되는지 관리한다면 소비자의 불안감을 줄일 수 있을 것”이라며 “일정 규모 이상의 GA에는 보험사에 준하는 감사·내부통제 조직과 비상 대응체계를 갖추도록 하는 제도…"
+      },
+      "summary": "대형 법인보험대리점(GA) 한국보험금융이 보험대리점 등록취소 사전통지를 받으면서 후폭풍이 확산되고 있다.",
+      "source_digest": "282364be0648ed96",
+      "summary_kind": "rss",
+      "implication": "",
+      "summary_basis": "public_article_excerpt"
+    },
+    {
+      "title": "고의사고·허위입원으로 보험금 편취… 자동차 보험사기 주의보",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93904",
+      "source": "한국보험신문",
+      "source_group": "specialist",
+      "published_at": "2026-11-18T12:00:00+09:00",
+      "id": "67a7d0d578b2",
+      "category": "영업전략",
+      "summary_parts": {
+        "intro": "전동킥보드로 주행 차량에 고의로 부딪치거나 음주운전이 의심되는 차량을 노려 사고를 유발하는 등 자동차 보험사기 수법이 다양해지고 있다.",
+        "body": "택시기사 중에는 23일간 입원하면서 14일 동안 총 36시간 영업하거나 입원 기간 유가보조금 카드를 10회 이상 사용한 사례도 확인됐다.",
+        "conclusion": "금감원은 “자동차 보험사기에 대한 상시 모니터링을 강화하고, 보험사기에 연루될 우려가 높은 유형에 대해 보험소비자의 피해사례 및 유의사항을 적극 발굴해 나가겠다”고 밝혔다."
+      },
+      "summary": "전동킥보드로 주행 차량에 고의로 부딪치거나 음주운전이 의심되는 차량을 노려 사고를 유발하는 등 자동차 보험사기 수법이 다양해지고 있다.",
+      "source_digest": "60b2d8488039702a",
+      "summary_kind": "rss",
+      "implication": "",
+      "summary_basis": "public_article_excerpt"
+    },
+    {
+      "title": "[보험브리핑] 한화손보, SSC와 사이버보험 업무협약 외",
+      "url": "https://www.seoulfn.com/news/articleView.html?idxno=643243",
+      "source": "서울파이낸스",
+      "source_group": "general",
+      "published_at": "2026-11-18T17:40:00+09:00",
+      "id": "78d0aea16de8",
+      "category": "영업전략",
+      "summary_parts": {
+        "intro": "한화손해보험 은 지난 17일 글로벌 보안등급 평가기업 시큐리티스코어카드(SSC)와 사이버보험 사업 협력을 위한 업무협약(MOU)을 체결했다고 18일 밝혔다.",
+        "body": "DB생명 은 지난 13일 한국프레스센터에서 열린 '제19회 대한민국소통어워즈'에서 3개 부문 상을 받았다고 18일 밝혔다.",
+        "conclusion": "이번 활동은 일손 부족을 겪는 농가의 작업 부담을 덜기 위해 마련됐다."
+      },
+      "summary": "한화손해보험 은 지난 17일 글로벌 보안등급 평가기업 시큐리티스코어카드(SSC)와 사이버보험 사업 협력을 위한 업무협약(MOU)을 체결했다고 18일 밝혔다.",
+      "source_digest": "0e31bbbfe55854b5",
+      "summary_kind": "rss",
+      "implication": "",
+      "summary_basis": "public_article_excerpt"
+    }
+  ],
+  "collection": {
+    "configured": [
+      "보험신보",
+      "보험저널",
+      "서울파이낸스",
+      "한국보험신문"
+    ],
+    "succeeded": [
+      "보험신보",
+      "보험저널",
+      "서울파이낸스",
+      "한국보험신문"
+    ],
+    "selected": [
+      "보험저널",
+      "서울파이낸스",
+      "한국보험신문"
+    ],
+    "items_received": 63
+  }
+}

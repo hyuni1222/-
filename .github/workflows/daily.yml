@@ -28,6 +28,8 @@ jobs:
           python-version: '3.12'
       - name: Verify collector
         run: python -m unittest discover -s tests -v
+      - name: Update Seoul weather forecast
+        run: python scripts/update_weather.py
       - name: Collect and prepare briefing
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}

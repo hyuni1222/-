@@ -1,0 +1,201 @@
+{
+  "start": "2026-11-11",
+  "end": "2026-11-19",
+  "collected_at": "2026-11-19T09:47:12+09:00",
+  "method": "publisher_archive_calendar_day",
+  "scheduled_run_evidence": false,
+  "days": [
+    {
+      "date": "2026-11-11",
+      "candidates": 64,
+      "verified_articles": 5,
+      "successful_sources": [
+        "보험신보",
+        "보험저널",
+        "서울파이낸스",
+        "한국보험신문"
+      ],
+      "warnings": [],
+      "listing_urls": [
+        "https://www.insjournal.co.kr/news/articleList.html?sc_sdate=2026-11-11&sc_edate=2026-11-11&view_type=sm&page=1",
+        "https://www.insjournal.co.kr/news/articleList.html?sc_sdate=2026-11-11&sc_edate=2026-11-11&view_type=sm&page=2",
+        "https://www.insweek.co.kr/news/articleList.html?sc_sdate=2026-11-11&sc_edate=2026-11-11&view_type=sm&page=1",
+        "https://www.insnews.co.kr/news/articleList.html?sc_sdate=2026-11-11&sc_edate=2026-11-11&view_type=sm&page=1",
+        "https://www.seoulfn.com/news/articleList.html?sc_sdate=2026-11-11&sc_edate=2026-11-11&view_type=sm&page=1&sc_sub_section_code=S2N5",
+        "https://www.seoulfn.com/news/articleList.html?sc_sdate=2026-11-11&sc_edate=2026-11-11&view_type=sm&page=2&sc_sub_section_code=S2N5"
+      ],
+      "displayed_articles": 5,
+      "display_mode": "backfilled"
+    },
+    {
+      "date": "2026-11-12",
+      "candidates": 59,
+      "verified_articles": 5,
+      "successful_sources": [
+        "보험신보",
+        "보험저널",
+        "서울파이낸스",
+        "한국보험신문"
+      ],
+      "warnings": [],
+      "listing_urls": [
+        "https://www.insjournal.co.kr/news/articleList.html?sc_sdate=2026-11-12&sc_edate=2026-11-12&view_type=sm&page=1",
+        "https://www.insnews.co.kr/news/articleList.html?sc_sdate=2026-11-12&sc_edate=2026-11-12&view_type=sm&page=1",
+        "https://www.insweek.co.kr/news/articleList.html?sc_sdate=2026-11-12&sc_edate=2026-11-12&view_type=sm&page=1",
+        "https://www.seoulfn.com/news/articleList.html?sc_sdate=2026-11-12&sc_edate=2026-11-12&view_type=sm&page=1&sc_sub_section_code=S2N5",
+        "https://www.seoulfn.com/news/articleList.html?sc_sdate=2026-11-12&sc_edate=2026-11-12&view_type=sm&page=2&sc_sub_section_code=S2N5"
+      ],
+      "displayed_articles": 5,
+      "display_mode": "backfilled"
+    },
+    {
+      "date": "2026-11-13",
+      "candidates": 50,
+      "verified_articles": 5,
+      "successful_sources": [
+        "보험신보",
+        "보험저널",
+        "서울파이낸스",
+        "한국보험신문"
+      ],
+      "warnings": [],
+      "listing_urls": [
+        "https://www.insjournal.co.kr/news/articleList.html?sc_sdate=2026-11-13&sc_edate=2026-11-13&view_type=sm&page=1",
+        "https://www.insnews.co.kr/news/articleList.html?sc_sdate=2026-11-13&sc_edate=2026-11-13&view_type=sm&page=1",
+        "https://www.insweek.co.kr/news/articleList.html?sc_sdate=2026-11-13&sc_edate=2026-11-13&view_type=sm&page=1",
+        "https://www.seoulfn.com/news/articleList.html?sc_sdate=2026-11-13&sc_edate=2026-11-13&view_type=sm&page=1&sc_sub_section_code=S2N5",
+        "https://www.seoulfn.com/news/articleList.html?sc_sdate=2026-11-13&sc_edate=2026-11-13&view_type=sm&page=2&sc_sub_section_code=S2N5"
+      ],
+      "displayed_articles": 5,
+      "display_mode": "backfilled"
+    },
+    {
+      "date": "2026-11-14",
+      "candidates": 21,
+      "verified_articles": 0,
+      "successful_sources": [
+        "보험신보",
+        "보험저널",
+        "서울파이낸스",
+        "한국보험신문"
+      ],
+      "warnings": [],
+      "listing_urls": [
+        "https://www.insjournal.co.kr/news/articleList.html?sc_sdate=2026-11-14&sc_edate=2026-11-14&view_type=sm&page=1",
+        "https://www.insnews.co.kr/news/articleList.html?sc_sdate=2026-11-14&sc_edate=2026-11-14&view_type=sm&page=1",
+        "https://www.insweek.co.kr/news/articleList.html?sc_sdate=2026-11-14&sc_edate=2026-11-14&view_type=sm&page=1",
+        "https://www.seoulfn.com/news/articleList.html?sc_sdate=2026-11-14&sc_edate=2026-11-14&view_type=sm&page=1&sc_sub_section_code=S2N5",
+        "https://www.seoulfn.com/news/articleList.html?sc_sdate=2026-11-14&sc_edate=2026-11-14&view_type=sm&page=2&sc_sub_section_code=S2N5"
+      ],
+      "displayed_articles": 0,
+      "display_mode": "backfilled"
+    },
+    {
+      "date": "2026-11-15",
+      "candidates": 25,
+      "verified_articles": 1,
+      "successful_sources": [
+        "보험신보",
+        "보험저널",
+        "서울파이낸스",
+        "한국보험신문"
+      ],
+      "warnings": [],
+      "listing_urls": [
+        "https://www.insjournal.co.kr/news/articleList.html?sc_sdate=2026-11-15&sc_edate=2026-11-15&view_type=sm&page=1",
+        "https://www.insnews.co.kr/news/articleList.html?sc_sdate=2026-11-15&sc_edate=2026-11-15&view_type=sm&page=1",
+        "https://www.insweek.co.kr/news/articleList.html?sc_sdate=2026-11-15&sc_edate=2026-11-15&view_type=sm&page=1",
+        "https://www.seoulfn.com/news/articleList.html?sc_sdate=2026-11-15&sc_edate=2026-11-15&view_type=sm&page=1&sc_sub_section_code=S2N5",
+        "https://www.seoulfn.com/news/articleList.html?sc_sdate=2026-11-15&sc_edate=2026-11-15&view_type=sm&page=2&sc_sub_section_code=S2N5"
+      ],
+      "displayed_articles": 1,
+      "display_mode": "backfilled"
+    },
+    {
+      "date": "2026-11-16",
+      "candidates": 77,
+      "verified_articles": 5,
+      "successful_sources": [
+        "보험신보",
+        "보험저널",
+        "서울파이낸스",
+        "한국보험신문"
+      ],
+      "warnings": [],
+      "listing_urls": [
+        "https://www.insjournal.co.kr/news/articleList.html?sc_sdate=2026-11-16&sc_edate=2026-11-16&view_type=sm&page=1",
+        "https://www.insnews.co.kr/news/articleList.html?sc_sdate=2026-11-16&sc_edate=2026-11-16&view_type=sm&page=1",
+        "https://www.insnews.co.kr/news/articleList.html?sc_sdate=2026-11-16&sc_edate=2026-11-16&view_type=sm&page=2",
+        "https://www.seoulfn.com/news/articleList.html?sc_sdate=2026-11-16&sc_edate=2026-11-16&view_type=sm&page=1&sc_sub_section_code=S2N5",
+        "https://www.seoulfn.com/news/articleList.html?sc_sdate=2026-11-16&sc_edate=2026-11-16&view_type=sm&page=2&sc_sub_section_code=S2N5",
+        "https://www.insweek.co.kr/news/articleList.html?sc_sdate=2026-11-16&sc_edate=2026-11-16&view_type=sm&page=1",
+        "https://www.insweek.co.kr/news/articleList.html?sc_sdate=2026-11-16&sc_edate=2026-11-16&view_type=sm&page=2"
+      ],
+      "displayed_articles": 5,
+      "display_mode": "backfilled"
+    },
+    {
+      "date": "2026-11-17",
+      "candidates": 49,
+      "verified_articles": 5,
+      "successful_sources": [
+        "보험신보",
+        "보험저널",
+        "서울파이낸스",
+        "한국보험신문"
+      ],
+      "warnings": [],
+      "listing_urls": [
+        "https://www.insjournal.co.kr/news/articleList.html?sc_sdate=2026-11-17&sc_edate=2026-11-17&view_type=sm&page=1",
+        "https://www.insnews.co.kr/news/articleList.html?sc_sdate=2026-11-17&sc_edate=2026-11-17&view_type=sm&page=1",
+        "https://www.insweek.co.kr/news/articleList.html?sc_sdate=2026-11-17&sc_edate=2026-11-17&view_type=sm&page=1",
+        "https://www.seoulfn.com/news/articleList.html?sc_sdate=2026-11-17&sc_edate=2026-11-17&view_type=sm&page=1&sc_sub_section_code=S2N5",
+        "https://www.seoulfn.com/news/articleList.html?sc_sdate=2026-11-17&sc_edate=2026-11-17&view_type=sm&page=2&sc_sub_section_code=S2N5"
+      ],
+      "displayed_articles": 5,
+      "display_mode": "backfilled"
+    },
+    {
+      "date": "2026-11-18",
+      "candidates": 63,
+      "verified_articles": 5,
+      "successful_sources": [
+        "보험신보",
+        "보험저널",
+        "서울파이낸스",
+        "한국보험신문"
+      ],
+      "warnings": [],
+      "listing_urls": [
+        "https://www.insjournal.co.kr/news/articleList.html?sc_sdate=2026-11-18&sc_edate=2026-11-18&view_type=sm&page=1",
+        "https://www.insjournal.co.kr/news/articleList.html?sc_sdate=2026-11-18&sc_edate=2026-11-18&view_type=sm&page=2",
+        "https://www.insnews.co.kr/news/articleList.html?sc_sdate=2026-11-18&sc_edate=2026-11-18&view_type=sm&page=1",
+        "https://www.insweek.co.kr/news/articleList.html?sc_sdate=2026-11-18&sc_edate=2026-11-18&view_type=sm&page=1",
+        "https://www.seoulfn.com/news/articleList.html?sc_sdate=2026-11-18&sc_edate=2026-11-18&view_type=sm&page=1&sc_sub_section_code=S2N5",
+        "https://www.seoulfn.com/news/articleList.html?sc_sdate=2026-11-18&sc_edate=2026-11-18&view_type=sm&page=2&sc_sub_section_code=S2N5"
+      ],
+      "displayed_articles": 5,
+      "display_mode": "backfilled"
+    },
+    {
+      "date": "2026-11-19",
+      "candidates": 28,
+      "verified_articles": 4,
+      "successful_sources": [
+        "보험신보",
+        "보험저널",
+        "서울파이낸스",
+        "한국보험신문"
+      ],
+      "warnings": [],
+      "listing_urls": [
+        "https://www.insjournal.co.kr/news/articleList.html?sc_sdate=2026-11-19&sc_edate=2026-11-19&view_type=sm&page=1",
+        "https://www.insweek.co.kr/news/articleList.html?sc_sdate=2026-11-19&sc_edate=2026-11-19&view_type=sm&page=1",
+        "https://www.insnews.co.kr/news/articleList.html?sc_sdate=2026-11-19&sc_edate=2026-11-19&view_type=sm&page=1",
+        "https://www.seoulfn.com/news/articleList.html?sc_sdate=2026-11-19&sc_edate=2026-11-19&view_type=sm&page=1&sc_sub_section_code=S2N5"
+      ],
+      "displayed_articles": 5,
+      "display_mode": "existing_live_edition"
+    }
+  ]
+}
