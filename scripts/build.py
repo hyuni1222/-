@@ -27,7 +27,18 @@ def main():
         bootstrap[key] = json.loads(path.read_text()) if path.exists() else {}
     encoded = json.dumps(bootstrap, ensure_ascii=False).replace("<", "\\u003c").replace("\u2028", "\\u2028").replace("\u2029", "\\u2029")
     page = (DIST / "index.html").read_text()
-    (DIST / "index.html").write_text(page.replace("/*__BOOTSTRAP__*/", "window.BRIEFING_BOOTSTRAP=" + encoded + ";"))
+    page=page.replace("/*__BOOTSTRAP__*/", "window.BRIEFING_BOOTSTRAP=" + encoded + ";")
+    (DIST / "index.html").write_text(page)
+    # A fresh public URL avoids reusing an older social-preview cache entry.
+    # It serves the full app without a redirect and keeps query-selected views.
+    share_page=page.replace(
+        '<link rel="canonical" href="https://hyuni1222.github.io/-/">',
+        '<link rel="canonical" href="https://hyuni1222.github.io/-/brief.html">'
+    ).replace(
+        '<meta property="og:url" content="https://hyuni1222.github.io/-/">',
+        '<meta property="og:url" content="https://hyuni1222.github.io/-/brief.html">'
+    )
+    (DIST / "brief.html").write_text(share_page)
     print("Built dist/ (public files only)")
 
 if __name__ == "__main__":

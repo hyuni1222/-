@@ -8,7 +8,9 @@
 
 이전 상품 조사 데이터(`data/products.json`)와 비교 화면 모듈은 소스에 보관하지만 배포 산출물에서 제외합니다. 기존 `?view=products` 주소는 계속 보험사별 소식지를 열며, 이전 검색·비교 매개변수는 제거합니다.
 
-링크 공유 대표 이미지는 `web/assets/social/morning-brief-20261119.png`입니다. 정적 HTML의 Open Graph·Twitter 메타데이터에 절대 URL로 지정하여 소식지의 첫 보험사 이미지가 대표 이미지로 선택되지 않도록 합니다.
+링크 공유 대표 이미지는 `web/assets/social/morning-brief-share-v2.jpg`입니다. 정적 HTML의 Open Graph·Twitter 메타데이터에 절대 URL로 지정하여 소식지의 첫 보험사 이미지가 대표 이미지로 선택되지 않도록 합니다.
+
+공유 버튼은 `brief.html`의 전체 페이지 복사본을 사용합니다. 이 페이지는 리디렉션 없이 동일한 브리프와 소식지를 제공하고, 별도의 canonical·og:url로 예전 공유 주소의 미리보기 캐시와 구분합니다. `view`, `date`, `period` 등 현재 화면의 쿼리를 유지합니다. 공유 이미지는 153KB JPG로 제공하며, 기존에 전송된 카카오톡 메시지의 캐시는 사이트 배포로 직접 삭제할 수 없습니다.
 
 ## 뉴스와 날씨 업데이트
 
