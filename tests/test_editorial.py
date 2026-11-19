@@ -23,6 +23,8 @@ class EditorialTests(unittest.TestCase):
         self.assertIn('유지율',result['insight']['action'])
         self.assertNotEqual(result['summary'],result['insight']['meaning'])
         self.assertEqual(result['insight']['source_ids'],['mix'])
+        pressure=profile_for(article('pressure','[GA 2027년 대비] 신계약 감소·수수료 재원 축소·운영비 부담'))
+        self.assertNotEqual(pressure['id'],'mix')
 
     def test_registration_notice_and_advertising_have_distinct_actions(self):
         notice=daily_analysis(article('notice','한국보험금융 등록취소 사전통지'))['insight']

@@ -4,6 +4,7 @@ No regulatory dates, financial amounts, product terms or forecasts are invented.
 The issue rules provide management interpretations; facts retain source links.
 """
 from collections import Counter
+from datetime import date, timedelta
 from difflib import SequenceMatcher
 import re
 
@@ -17,7 +18,7 @@ PROFILES = [
          meaning='판매채널 제도에 대한 논의는 영업 권한과 고객관리 책임을 함께 정리해야 한다는 과제를 보여줍니다. 채널의 외형 성장과 책임 체계의 정비를 같이 살펴야 합니다.',
          action='공식 논의의 확정 범위를 확인하고, 비교 설명·계약관리·민원 대응에서 보험사와 판매채널이 맡는 역할을 점검하세요.',
          monitor='제도 논의의 진행 단계와 권한·책임의 범위', metrics=['역할 분장','비교 설명 기준','계약관리 책임','민원 처리 경로'], owner='채널전략·준법 담당'),
-    dict(id='mix', pattern=r'(?:신계약|판매.?건수|생.?손보).*수수료|수수료.*(?:판매.?건수|생.?손보)',
+    dict(id='mix', pattern=r'(?:신계약\s*건수|판매\s*건수).*수수료|수수료.*판매\s*건수|(?=.*생보)(?=.*손보)(?=.*수수료).*(?:신계약|판매)',
          title='판매 건수와 수수료 기여의 차이', importance=9,
          meaning='판매 건수와 수수료 기여가 다르면 건수 순위만으로 채널의 수익 기여를 판단하기 어렵습니다.',
          action='생보·손보를 나눠 인당 건수와 인당 수수료를 비교하고, 상품별 MIP·유지율을 더해 지원 우선순위를 정하세요.',
@@ -266,7 +267,8 @@ def build_report(kind,start,end,articles,themes,theme_for,previous_articles=()):
     names=' · '.join(g['profile']['title'] for g in leaders)
     executive.append(paragraph(f"{opening} 보험영업에서 우선 점검할 쟁점은 {names}입니다. 아래 분석은 해당 기간에 확인된 보도와 원문 근거를 묶어 정리했습니다.",kind='overview'))
     for group in leaders:
-        evidence=choose_evidence(group,1);article=evidence[0];p=group['profile']
+        recent=[a for a in group['articles'] if a['published_at'][:10]>=(date.fromisoformat(end)-timedelta(days=6)).isoformat()] if kind=='monthly' else []
+        evidence=choose_evidence(dict(group,articles=recent or group['articles']),1);article=evidence[0];p=group['profile']
         executive.append(paragraph(fact_paragraph(article)+' '+p['meaning'],evidence,'fact_and_interpretation'))
         references.extend(ref(a) for a in evidence)
     sections=[]
@@ -288,7 +290,6 @@ def build_report(kind,start,end,articles,themes,theme_for,previous_articles=()):
         weeks={}
         for a in articles:
             # ISO week numbers preserve real ordering across the month boundary.
-            from datetime import date
             day=date.fromisoformat(a['published_at'][:10]);weeks.setdefault(day.isocalendar()[:2],[]).append(a)
         for _,rows in sorted(weeks.items()):
             group=issue_groups(rows)[0];evidence=choose_evidence(group,1);article=evidence[0]
