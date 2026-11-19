@@ -18,8 +18,12 @@ class ProductPublicationTests(unittest.TestCase):
     def test_public_catalog_retains_coverage_without_promoting_pending_products(self):
         counts=validate_catalog(self.data)
         self.assertEqual(len(self.data['insurers']),21)
-        self.assertEqual(counts,{'products':60,'examples':17,'pending':3})
-        self.assertTrue(all(p['id'] not in {'H02','H03','HK01'} for p in self.data['products']))
+        self.assertEqual(counts,{'products':61,'examples':17,'pending':2})
+        self.assertTrue(all(p['id'] not in {'H03','HK01'} for p in self.data['products']))
+        hanwha=next(p for p in self.data['products'] if p['id']=='H02')
+        self.assertIn('HNEWGA',hanwha['source_ids'])
+        self.assertEqual(hanwha['pays'],[10,12])
+        self.assertFalse(hanwha['examples'])
         self.assertEqual(sum(e['version_status']=='current_document' for p in self.data['products'] for e in p['examples']),5)
 
     def test_news_only_refund_claim_cannot_be_published_as_official(self):

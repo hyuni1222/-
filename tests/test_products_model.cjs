@@ -16,7 +16,7 @@ test('payment filters keep years, ages and continuous payments distinct',()=>{
 });
 test('combined insurer, type and payment filters work without mutating catalog',()=>{
  const result=M.filterProducts(data,{...empty,insurer:'푸본현대생명',category:'종신',pay:'years:20'});
- assert.deepEqual(result.map(p=>p.id),['F01']);assert.equal(data.products.length,60);
+ assert.deepEqual(result.map(p=>p.id),['F01']);assert.equal(data.products.length,61);
  assert.equal(M.filterProducts(data,{...empty,insurer:'흥국생명'}).length,0);
 });
 test('prior documents are hidden unless explicitly requested',()=>{
@@ -29,6 +29,12 @@ test('prior documents are hidden unless explicitly requested',()=>{
 test('missing numeric values never become zero percent',()=>{
  assert.equal(M.formatRate(null),'미확인');assert.equal(M.formatRate(''),'미확인');
  assert.equal(M.formatRate(0),'0.0%');assert.equal(M.formatRate(1.2378),'123.78%');
+});
+test('Hanwha life-fund product is discoverable with natural Korean spacing',()=>{
+ const result=M.filterProducts(data,{...empty,query:'필요할 때 쓰는 종신보험'});
+ assert.deepEqual(result.map(p=>p.id),['H02']);
+ assert.deepEqual(M.filterProducts(data,{...empty,insurer:'한화생명',pay:'years:12'}).map(p=>p.id),['H02']);
+ assert.equal(M.visibleExamples(result[0],{...empty,previous:true}).length,0);
 });
 test('bookmarked filters round-trip and cannot include pending product IDs',()=>{
  const state={...empty,insurer:'메트라이프생명',category:'연금',pay:'years:10',query:'달러',previous:true,compare:['ME02','F02']};

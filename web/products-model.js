@@ -2,6 +2,7 @@
 /* Pure product filtering and publication rules, shared by UI and checks. */
 ((root)=>{
   const categories=['종신','연금','정기'];
+  const searchText=value=>String(value??'').toLocaleLowerCase('ko-KR').replace(/\s+/g,'');
   const number=value=>typeof value==='number'&&Number.isFinite(value);
   const safeURL=value=>{try{const u=new URL(value);return ['https:','http:'].includes(u.protocol)&&!u.username&&!u.password?u.href:null;}catch{return null;}};
   const payLabel=value=>typeof value==='number'?value+'년납':String(value);
@@ -21,11 +22,11 @@
     }).map(value=>({value,label:value==='full'?'전기납':value.split(':')[1]+(value.startsWith('age:')?'세납':'년납')}));
   }
   function filterProducts(data,state){
-    const q=String(state.query||'').trim().toLocaleLowerCase('ko-KR');
+    const q=searchText(state.query);
     return data.products.filter(p=>p.channel_status==='ga_material_found'&&
       (!state.insurer||p.insurer===state.insurer)&&(!state.category||p.category===state.category)&&
       (!state.pay||p.pays.some(x=>payKey(x)===state.pay))&&
-      (!q||[p.insurer,p.name,p.feature,p.analysis,p.after_use,p.currency].join(' ').toLocaleLowerCase('ko-KR').includes(q)));
+      (!q||searchText([p.insurer,p.name,p.feature,p.analysis,p.after_use,p.currency].join(' ')).includes(q)));
   }
   function visibleExamples(product,state){
     return product.examples.filter(e=>
