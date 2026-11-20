@@ -21,6 +21,7 @@
     "company": "NH농협생명",
     "source_url": "https://www.nhlife.co.kr/ho/on/HOON0038M00.nhl",
     "rows": 23,
-    "status": "당월 수집 완료"
+    "status": "기존 자료 유지",
+    "reason": "URLError"
   }
 ]
