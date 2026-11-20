@@ -29,7 +29,6 @@
     $('article-count').textContent=items.length+'건';
     $('paper-date').textContent=edition.date.replaceAll('-','.');
     $('paper-date').dateTime=edition.date;
-    $('date-long').textContent=format(dateOnly(edition.date),{year:'numeric',month:'long',day:'numeric',weekday:'short'});
     $('updated-at').textContent=format(edition.updated_at,{month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',hour12:false})+' KST · 기사 요약 · 영업 해석';
     $('mode-label').textContent='기사 요약 · 영업 시사점';
     $('edition-status').textContent=edition===state.latest?'LATEST SELECTION':'FROM THE ARCHIVE';
@@ -87,6 +86,7 @@
     render();
     const url=new URL(location.href);url.searchParams.set('date',date);url.hash='briefing';
     history.replaceState(null,'',url);
+    window.dispatchEvent(new CustomEvent('brief:navigate',{detail:{mode:'daily'}}));
     $('briefing').scrollIntoView({behavior:'smooth'});
   }
   function view(mode) { state.view=mode;try{localStorage.setItem('brief-view',mode);}catch{}render(); }
@@ -99,12 +99,14 @@
     if(!state.edition)return;
     const current=new URL(location.href),url=new URL('brief.html',current);
     url.search=current.search;
-    if(!['weekly','monthly','products'].includes(url.searchParams.get('view')))url.searchParams.set('date',state.edition.date);
+    if(document.body.dataset.period==='home'){url.search='';}
+    else if(!['weekly','monthly','products'].includes(url.searchParams.get('view')))url.searchParams.set('date',state.edition.date);
     url.hash='';
     const title=document.querySelector('meta[property="og:title"]')?.content||document.title;
     try { if(navigator.share) await navigator.share({title,url:url.href});else {await navigator.clipboard.writeText(url.href);toast('브리프 링크를 복사했습니다. 카카오톡 등에 붙여넣어 공유하세요.');} }
     catch(error){if(error.name!=='AbortError')toast('주소창의 링크를 복사해 공유해주세요.');}
   });
+  window.addEventListener('brief:latest',()=>{if(state.latest)openDate(state.latest.date);});
   $('print').addEventListener('click',()=>window.print());
   async function init() {
     try {
@@ -114,8 +116,6 @@
       state.analysisCache[state.latest.date]=values.daily_analysis||(await getJSON('data/daily-analysis.json').catch(()=>({}))).editions?.[state.latest.date]||{};
       try{state.view=localStorage.getItem('brief-view')==='paper'?'paper':'card';}catch{}
       $('site-title').textContent=state.config.title;
-      // Preserve a deliberate two-line masthead without injecting configuration as HTML.
-      const h=$('site-title');if(state.config.title.startsWith('보험 영업 '))h.replaceChildren(document.createTextNode('보험 영업'),document.createElement('br'),Object.assign(document.createElement('span'),{textContent:state.config.title.replace(/^보험 영업\s*/, '')}));
       $('subtitle').textContent=state.config.subtitle;
       $('edition-label').textContent=state.config.edition_label;
       render();renderArchive();
