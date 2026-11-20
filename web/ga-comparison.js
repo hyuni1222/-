@@ -23,6 +23,20 @@
         (page?'<small>'+esc(page)+'</small>':'');
     } catch { return ''; }
   }
+  function mobileSourceLinks(value,page=''){
+    const original=sourceLink(value,'원본 다운로드');
+    if(!original)return '';
+    const url=new URL(value);
+    const officialPDF=(url.host==='pub.insure.or.kr'&&url.pathname==='/FileDown.do')||
+      (url.host==='brand.metlife.co.kr'&&url.pathname==='/pn/mcvrgProd/mcvrgProdDownloadFile.do');
+    if(!officialPDF)return sourceLink(value,'공시 문서',page);
+    const viewer=new URL('https://docs.google.com/gview');
+    viewer.searchParams.set('embedded','true');
+    viewer.searchParams.set('url',url.href);
+    const preview=sourceLink(viewer.href,'PDF 새 탭에서 보기');
+    return '<div class="ga-source-actions">'+preview+original+'</div>'+
+      (page?'<small>'+esc(page)+'</small>':'');
+  }
   const availablePayments=p=>state.group==='short'?p.shortPays:p.pays;
   function syncOptions(){
     const relevant=catalog.products.filter(p=>(!state.group||p.group===state.group)&&(!state.company||p.company===state.company));
@@ -106,7 +120,7 @@
     return `<li class="ga-sheet-example"><div class="ga-sheet-example-heading"><strong>${esc(e.pay||'공시 예시')}</strong>${e.reference?'<span class="ga-sheet-reference">다른 개정본·유형 참고</span>':selected?'<span>비교 목록에 표시한 예시</span>':''}</div>
       <dl class="ga-sheet-metrics">${metrics.map(([term,value])=>`<div><dt>${term}</dt><dd>${rate(value)}</dd></div>`).join('')}</dl>
       <p>${esc(condition(e)||e.position)}</p>
-      ${sourceLink(e.source,'공식 PDF',e.page)}
+      ${mobileSourceLinks(e.source,e.page)}
     </li>`;
   }
   function openSheet(product){
@@ -122,7 +136,7 @@
       ${product.context?`<p>${esc(product.context)}</p>`:''}
     </section><h4>공시 환급률 예시</h4>
     ${!primary?`<p class="ga-sheet-status">${esc(missingExample(product))}</p>`:''}
-    ${ordered.length?`<ul class="ga-sheet-examples">${ordered.map(e=>sheetExample(e,e===primary)).join('')}</ul>`:sourceLink(product.source,'공시 문서')}
+    ${ordered.length?`<ul class="ga-sheet-examples">${ordered.map(e=>sheetExample(e,e===primary)).join('')}</ul>`:mobileSourceLinks(product.source)}
     ${note?`<p class="ga-sheet-status">${esc(note)}</p>`:''}`;
     sheet.showModal();
     sheetContent.scrollTop=0;

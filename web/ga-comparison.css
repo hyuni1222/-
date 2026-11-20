@@ -180,6 +180,20 @@ body[data-period="comparison"] .portal-right {
   text-decoration: underline;
   text-underline-offset: 3px;
 }
+.ga-source-actions {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0 14px;
+}
+.ga-source-actions .ga-source {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  margin: 0;
+  font-size: .875rem;
+}
+.ga-source-actions .ga-source + .ga-source { color: #466473; font-weight: 500; }
 .ga-expand {
   display: block;
   padding: 4px 8px;
