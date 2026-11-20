@@ -1,0 +1,26 @@
+[
+  {
+    "company": "메트라이프",
+    "source_url": "https://brand.metlife.co.kr/pn/tsmmInttr/retrieveTsmmInttrPop_1.do",
+    "rows": 16,
+    "status": "당월 수집 완료"
+  },
+  {
+    "company": "메트라이프",
+    "source_url": "https://brand.metlife.co.kr/pn/tsmmInttr/retrieveTsmmInttrMain.do",
+    "rows": 5,
+    "status": "당월 수집 완료"
+  },
+  {
+    "company": "AIA생명",
+    "source_url": "https://mypage.aia.co.kr/AIAHomepage/disclosure/our-products/interest-rate/interest-rate-linked.do",
+    "rows": 47,
+    "status": "당월 수집 완료"
+  },
+  {
+    "company": "NH농협생명",
+    "source_url": "https://www.nhlife.co.kr/ho/on/HOON0038M00.nhl",
+    "rows": 23,
+    "status": "당월 수집 완료"
+  }
+]

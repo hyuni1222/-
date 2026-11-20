@@ -2,8 +2,8 @@ name: Monthly product rate collection
 
 on:
   schedule:
-    # 09:17 Asia/Seoul on the first seven days; allow late disclosures to replace the snapshot.
-    - cron: '17 0 1-7 * *'
+    # 09:17 Asia/Seoul. Recheck after the mid-month rate change and allow time for delayed disclosures.
+    - cron: '17 0 1-7,16-19 * *'
   workflow_dispatch:
   push:
     branches: [main]
