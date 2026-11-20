@@ -10,6 +10,7 @@ from concurrent.futures import ThreadPoolExecutor
 from datetime import date, datetime, timedelta
 from decimal import Decimal
 from pathlib import Path
+from urllib.error import URLError
 from urllib.request import Request, urlopen
 from zoneinfo import ZoneInfo
 
@@ -221,8 +222,15 @@ def parse_rates(body, company, url, parser):
 
 def source_rows(company, url, parser):
     request = Request(url, headers={"User-Agent": "MorningBriefPublicDisclosure/1.0"})
-    with urlopen(request, timeout=30) as response:
-        body = response.read(2_000_001)
+    for attempt in range(2):
+        try:
+            with urlopen(request, timeout=25) as response:
+                body = response.read(2_000_001)
+            break
+        except (TimeoutError, URLError) as error:
+            reason = error.reason if isinstance(error, URLError) else error
+            if attempt or not isinstance(reason, TimeoutError):
+                raise
     if len(body) > 2_000_000:
         raise ValueError("공시 페이지 크기 제한 초과")
     return parse_rates(body, company, url, parser)
