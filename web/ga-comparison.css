@@ -295,6 +295,11 @@ body:has(.ga-sheet[open]) { overflow: hidden; }
 }
 .ga-sheet-example-heading span,.ga-sheet-example small { font-size: .82rem; color: #466473; }
 .ga-sheet-example-heading .ga-sheet-reference { color: #8a4f13; }
+.ga-source.ga-newsletter-source,
+.ga-mobile-product .ga-newsletter-source,
+.ga-sheet-example-heading .ga-newsletter-source { color: #805017; font-weight: 700; }
+.ga-mobile-product .ga-mobile-anniversary { color: var(--ga-blue); font-weight: 700; }
+.ga-mobile-qualifier { display: block; font-size: .75rem; }
 .ga-sheet-example p { margin: 8px 0; font-size: .875rem; line-height: 1.65; }
 .ga-sheet-metrics {
   display: grid;
