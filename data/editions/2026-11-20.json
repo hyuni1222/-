@@ -1,111 +1,135 @@
 {
   "date": "2026-11-20",
+  "updated_at": "2026-11-21T08:34:58+09:00",
+  "collected_at": "2026-11-21T08:34:58+09:00",
   "summary_version": 2,
-  "updated_at": "2026-11-20T17:10:51+09:00",
-  "title": "손보 '신계약' 1.6배 많은데 '수수료'는 생보가 앞섰다…GA 73곳, 엇갈린 판매 지형",
+  "title": "[칼럼] 한 지사의 일탈에 설계사 6천 명 GA 등록취소?...문제는 ‘대마불사’가 아니라 ‘비례원칙’이다",
   "demo": false,
   "mode": "rss",
+  "backfilled": true,
+  "collection_method": "publisher_archive_calendar_day",
+  "article_window": {
+    "start": "2026-11-20T00:00:00+09:00",
+    "end": "2026-11-21T00:00:00+09:00"
+  },
   "sources": [
-    "뉴시스",
-    "매일경제",
     "보험신보",
     "보험저널",
     "서울파이낸스",
-    "서울파이낸스",
-    "연합뉴스",
     "한국보험신문"
   ],
   "warnings": [],
   "articles": [
     {
-      "title": "손보 '신계약' 1.6배 많은데 '수수료'는 생보가 앞섰다…GA 73곳, 엇갈린 판매 지형",
-      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33965",
+      "title": "[칼럼] 한 지사의 일탈에 설계사 6천 명 GA 등록취소?...문제는 ‘대마불사’가 아니라 ‘비례원칙’이다",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34002",
       "source": "보험저널",
-      "published_at": "2026-11-18T15:43:05+00:00",
       "source_group": "specialist",
-      "id": "c511173331fe",
+      "published_at": "2026-11-20T14:57:00+09:00",
+      "id": "9c746f4c0a87",
+      "category": "채널",
+      "summary_parts": {
+        "intro": "필자는 지난 칼럼( '회사 돈으로 보험 들고 대표는 현금…법인보험 리베이트, 누구도 빠져나갈 수 없다' 2026. 11. 13)에서 한 GA 지사의 경영인정기보험 리베이트 사건을 다루며, 몰랐더라도 그 손해와 책임은 GA…",
+        "body": "보도에 따르면 금융감독원은 지난 13일 해당 GA인 한국보험금융에 ‘보험대리점 등록취소’를 예고했다.",
+        "conclusion": "그런데 2026. 11. 13. 책임의 크기가 예상보다 훨씬 큰 형태로 다가오고 있다."
+      },
+      "summary": "필자는 지난 칼럼( '회사 돈으로 보험 들고 대표는 현금…법인보험 리베이트, 누구도 빠져나갈 수 없다' 2026. 11. 13)에서 한 GA 지사의 경영인정기보험 리베이트 사건을 다루며, 몰랐더라도 그 손해와 책임은 GA…",
+      "source_digest": "fa457104d1296cfd",
+      "summary_kind": "rss",
+      "implication": ""
+    },
+    {
+      "title": "“보험판매전문회사 입법 놓고 입장차 뚜렷”… 금융당국·생손보협회 신중론에 GA업계“더 미룰 수 없다”",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34011",
+      "source": "보험저널",
+      "source_group": "specialist",
+      "published_at": "2026-11-20T16:42:00+09:00",
+      "id": "1357f71883bf",
       "category": "제도·정책",
       "summary_parts": {
-        "intro": "대형 GA 73개사의 상반기 실적에서 판매 건수와 수수료가 서로 다른 흐름을 보였습니다.",
-        "body": "설계사 1인당 월 신계약은 생보 1.7건·손보 2.7건이지만, 수수료는 생보가 더 높았습니다.",
-        "conclusion": "건수만으로 수익성을 판단하기 어려워, 채널·상품별 수수료 구조를 함께 살펴봐야 합니다."
-      },
-      "summary": "대형 GA 73개사의 상반기 실적에서 판매 건수와 수수료가 서로 다른 흐름을 보였습니다.",
-      "source_digest": "0791d252d7d4448f",
-      "summary_kind": "rss",
-      "implication": ""
-    },
-    {
-      "title": "‘700종신’ 끝난 줄 알았는데…” 내년 초 수정버전 나온다” GA시장 다시 뒤흔들까",
-      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33992",
-      "source": "보험저널",
-      "published_at": "2026-11-20T07:57:06+00:00",
-      "source_group": "specialist",
-      "id": "bf0cfd33418a",
-      "category": "상품",
-      "summary_parts": {
-        "intro": "올해 9월 판매가 중단된 이른바 '700종신보험'의 수정버전이 내년 초 출시될 가능성이 거론되면서 GA시장의 관심이 다시 높아지고 있다.",
-        "body": "관건은 환급률과 사망보험금 체증률을 조정하더라도 기존 상품의 판매 경쟁력을 얼마나 유지할 수 있느냐이다.",
-        "conclusion": "금융감독원이 문제 삼은 해약환급금 지급구조와 과도한 사망보험금 체증률을 개선해야 하는 만큼 기존 700종신의 핵심 판매 포인트였던 계약 후 7년 경과시점 환급률 100% 도달구조에도 변화가 예상된다."
-      },
-      "summary": "올해 9월 판매가 중단된 이른바 '700종신보험'의 수정버전이 내년 초 출시될 가능성이 거론되면서 GA시장의 관심이 다시 높아지고 있다.",
-      "source_digest": "d5f98fc9413dbb56",
-      "summary_kind": "rss",
-      "implication": ""
-    },
-    {
-      "title": "KB라이프, 법인보험대리점 6개사와 ‘금융소비자보호’ 협력 강화",
-      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93937",
-      "source": "한국보험신문",
-      "published_at": "2026-11-19T11:34:52+00:00",
-      "source_group": "specialist",
-      "id": "ac59d4f1fd36",
-      "category": "채널",
-      "summary_parts": {
-        "intro": "KB라이프생명(이하 KB라이프)이 법인보험대리점(GA)과 금융소비자보호 역량 강화에 나섰다.",
-        "body": "KB라이프는 지난 17일 서울 힐든가든인호텔 강남에서 금융소비자보호 업무협약(MOU)을 체결한 GA 6개사의 소비자보호 및 준법 담당자를 초청해 ‘금융소비자보호 세미나’를 개최했다고 19일 밝혔다.",
-        "conclusion": "보험사와 GA 간 소통을 확대해 금융소비자 권익 보호를 위한 협력체계를 강화하는 데도 목적을 뒀다."
-      },
-      "summary": "KB라이프생명(이하 KB라이프)이 법인보험대리점(GA)과 금융소비자보호 역량 강화에 나섰다.",
-      "source_digest": "b8941f7984308a65",
-      "summary_kind": "rss",
-      "implication": ""
-    },
-    {
-      "title": "KB라이프, GA 초청 금융소비자보호 세미나 개최",
-      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=73042",
-      "source": "보험신보",
-      "published_at": "2026-11-19T09:30:00+00:00",
-      "source_group": "specialist",
-      "id": "a5fa188c2793",
-      "category": "채널",
-      "summary_parts": {
-        "intro": "KB라이프는 서울 서초구에 위치한 힐튼가든인호텔강남에서 금융소비자보호 업무협약을 체결한 GA 6개사의 소비자보호 및 준법 담당자를 초청해 금융소비자보호 세미나를 개최했다고 19일 밝혔다.",
-        "body": "이 세미나는 업무협약을 체결한 GA의 금융소비자보호 역량 강화를 지원하고 소비자보호 관련 제도와 실무 사례를 공유하는 한편 GA 소비자보호 책임자와 소통을 확대해 상호 협력체계를 강화하기 위해 마련했다.",
+        "intro": "보험판매전문회사 법제화를 둘러싸고 금융당국과 보험업계, GA업계 간 입장차가 뚜렷하게 드러났다.",
+        "body": "20일 국회의원회관 제3세미나실에서 국민의힘 주호영 의원과 더불어민주당 민병덕·김용만 의원 공동주최로 열린 ‘금융소비자 보호 강화를 위한 보험판매전문회사 제도 도입 입법토론회’에서다.",
         "conclusion": "RSS에서 확인되는 내용은 위와 같으며, 추가 영향은 원문 확인이 필요합니다."
       },
-      "summary": "KB라이프는 서울 서초구에 위치한 힐튼가든인호텔강남에서 금융소비자보호 업무협약을 체결한 GA 6개사의 소비자보호 및 준법 담당자를 초청해 금융소비자보호 세미나를 개최했다고 19일 밝혔다.",
-      "source_digest": "611bac8557e47997",
+      "summary": "보험판매전문회사 법제화를 둘러싸고 금융당국과 보험업계, GA업계 간 입장차가 뚜렷하게 드러났다.",
+      "source_digest": "285a201de9a7f40e",
       "summary_kind": "rss",
       "implication": ""
     },
     {
-      "title": "푸본현대생명, 100세까지 암케어보험 출시…암 전조단계도 보장",
-      "url": "https://www.yna.co.kr/view/AKR20261120062100002",
-      "source": "연합뉴스",
-      "published_at": "2026-11-20T10:39:08+09:00",
+      "title": "보험판전사 권한 놓고 '갑론을박'···GA '법제화' vs 당국·보험업계 '신중'",
+      "url": "https://www.seoulfn.com/news/articleView.html?idxno=643515",
+      "source": "서울파이낸스",
       "source_group": "general",
-      "id": "4d03b70e9c08",
+      "published_at": "2026-11-20T17:01:00+09:00",
+      "id": "745f7b486183",
+      "category": "채널",
+      "summary_parts": {
+        "intro": "보험판전사 권한 놓고 '갑론을박'···GA '법제화' vs 당국·보험업계 '신중'",
+        "body": "RSS에 상세 사실·수치가 제공되지 않았습니다.",
+        "conclusion": "추가 내용과 영향은 기사 원문에서 확인하세요."
+      },
+      "summary": "보험판전사 권한 놓고 '갑론을박'···GA '법제화' vs 당국·보험업계 '신중'",
+      "source_digest": "0ad7cd705cc6378a",
+      "summary_kind": "rss",
+      "implication": ""
+    },
+    {
+      "title": "푸본현대생명, 양성종양·용종부터 암 치료까지 보장 보험 출시",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93966",
+      "source": "한국보험신문",
+      "source_group": "specialist",
+      "published_at": "2026-11-20T15:47:00+09:00",
+      "id": "0ea9463523a7",
       "category": "상품",
       "summary_parts": {
-        "intro": "(서울=연합뉴스) 강수련 기자 = 푸본현대생명이 암의 전조단계부터 치료까지 보장하는 '푸본현대 100세까지 암케어보험(무)'을 출시했다고 20일...",
-        "body": "RSS에서 확인할 수 있는 추가 근거가 부족합니다.",
-        "conclusion": "세부 내용과 후속 전망은 기사 원문에서 확인하세요."
+        "intro": "푸본현대생명, 양성종양·용종부터 암 치료까지 보장 보험 출시",
+        "body": "RSS에 상세 사실·수치가 제공되지 않았습니다.",
+        "conclusion": "추가 내용과 영향은 기사 원문에서 확인하세요."
       },
-      "summary": "(서울=연합뉴스) 강수련 기자 = 푸본현대생명이 암의 전조단계부터 치료까지 보장하는 '푸본현대 100세까지 암케어보험(무)'을 출시했다고 20일...",
-      "source_digest": "23a542b373b7317b",
+      "summary": "푸본현대생명, 양성종양·용종부터 암 치료까지 보장 보험 출시",
+      "source_digest": "041c484b06374b65",
+      "summary_kind": "rss",
+      "implication": ""
+    },
+    {
+      "title": "푸본현대생명, ‘100세까지 암케어보험’ 출시",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=73062",
+      "source": "보험신보",
+      "source_group": "specialist",
+      "published_at": "2026-11-20T11:09:00+09:00",
+      "id": "bdf149b7fe2b",
+      "category": "상품",
+      "summary_parts": {
+        "intro": "푸본현대생명, ‘100세까지 암케어보험’ 출시",
+        "body": "RSS에 상세 사실·수치가 제공되지 않았습니다.",
+        "conclusion": "추가 내용과 영향은 기사 원문에서 확인하세요."
+      },
+      "summary": "푸본현대생명, ‘100세까지 암케어보험’ 출시",
+      "source_digest": "b9ee5a2f5ddeed15",
       "summary_kind": "rss",
       "implication": ""
     }
-  ]
+  ],
+  "collection": {
+    "configured": [
+      "보험신보",
+      "보험저널",
+      "서울파이낸스",
+      "한국보험신문"
+    ],
+    "succeeded": [
+      "보험신보",
+      "보험저널",
+      "서울파이낸스",
+      "한국보험신문"
+    ],
+    "selected": [
+      "보험신보",
+      "보험저널",
+      "서울파이낸스",
+      "한국보험신문"
+    ],
+    "items_received": 119
+  }
 }
