@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-11-20T14:48:54+09:00",
+  "updated_at": "2026-11-20T15:24:21+09:00",
   "collection_start": "2026-10-01",
   "collection_end": "2026-11-20",
-  "stored_articles": 1205,
-  "article_count": 1115,
+  "stored_articles": 1206,
+  "article_count": 1116,
   "coverage_days": 51,
   "sources": {
     "보험신보": 247,
     "한국보험신문": 296,
-    "보험저널": 434,
+    "보험저널": 435,
     "서울파이낸스": 115,
     "매일경제": 9,
     "연합뉴스": 14
@@ -22,7 +22,7 @@
       "end": "2026-11-20",
       "in_progress": true,
       "partial": true,
-      "article_count": 173,
+      "article_count": 174,
       "source_count": 6,
       "file": "data/trends/weekly/2026-11-16.json"
     },
@@ -112,7 +112,7 @@
       "end": "2026-11-20",
       "in_progress": true,
       "partial": true,
-      "article_count": 435,
+      "article_count": 436,
       "source_count": 6,
       "file": "data/trends/monthly/2026-11.json"
     },
