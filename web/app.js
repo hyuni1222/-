@@ -100,7 +100,7 @@
     const current=new URL(location.href),url=new URL('brief.html',current);
     url.search=current.search;
     if(document.body.dataset.period==='home'){url.search='';}
-    else if(!['weekly','monthly','products'].includes(url.searchParams.get('view')))url.searchParams.set('date',state.edition.date);
+    else if(!['weekly','monthly','products','comparison'].includes(url.searchParams.get('view')))url.searchParams.set('date',state.edition.date);
     url.hash='';
     const title=document.querySelector('meta[property="og:title"]')?.content||document.title;
     try { if(navigator.share) await navigator.share({title,url:url.href});else {await navigator.clipboard.writeText(url.href);toast('브리프 링크를 복사했습니다. 카카오톡 등에 붙여넣어 공유하세요.');} }

@@ -4,7 +4,7 @@
   const escape=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const safeURL=value=>{try{const url=new URL(value);return ['https:','http:'].includes(url.protocol)&&!url.username&&!url.password?url.href:'#';}catch{return '#';}};
   const state={mode:'home',index:null,period:null,limit:20,request:0};
-  const labels={home:'홈',daily:'일일 브리프',weekly:'주간동향',monthly:'월간동향',products:'보험사별 소식지'};
+  const labels={home:'홈',daily:'일일 브리프',weekly:'주간동향',monthly:'월간동향',products:'보험사별 소식지',comparison:'GA 상품 비교'};
   const cache=new Map();
   async function json(path){const r=await fetch(path,{cache:'no-cache'});if(!r.ok)throw new Error('HTTP '+r.status);return r.json();}
   const range=period=>period.start.replaceAll('-','.')+' — '+period.end.replaceAll('-','.');
@@ -57,13 +57,19 @@
   async function setMode(mode,id){
     if(!Object.hasOwn(labels,mode))return;
     state.mode=mode;++state.request;document.body.dataset.period=mode;
-    document.querySelector('.skip').href=mode==='home'?'#home-panel':mode==='daily'?'#briefing':mode==='products'?'#products-panel':'#trends-panel';
+    document.querySelector('.skip').href=mode==='home'?'#home-panel':mode==='daily'?'#briefing':mode==='products'?'#products-panel':mode==='comparison'?'#comparison-panel':'#trends-panel';
     document.querySelectorAll('[role="tab"][data-period]').forEach(tab=>{const selected=tab.dataset.period===mode;tab.setAttribute('aria-selected',String(selected));tab.tabIndex=selected||(mode==='home'&&tab.dataset.period==='daily')?0:-1;});
-    $('home-panel').hidden=mode!=='home';$('daily-panel').hidden=mode!=='daily';$('trends-panel').hidden=!['weekly','monthly'].includes(mode);$('products-panel').hidden=mode!=='products';
+    $('home-panel').hidden=mode!=='home';$('daily-panel').hidden=mode!=='daily';$('trends-panel').hidden=!['weekly','monthly'].includes(mode);$('products-panel').hidden=mode!=='products';$('comparison-panel').hidden=mode!=='comparison';
     window.dispatchEvent(new CustomEvent('brief:mode',{detail:{mode}}));
     if(mode==='home'){
       const url=new URL(location.href);url.search='';url.hash='';history.replaceState(null,'',url);
       document.title='보험 영업 모닝브리프';return;
+    }
+    if(mode==='comparison'){
+      document.title=labels.comparison+' | 보험 영업 모닝브리프';
+      const url=new URL(location.href);url.searchParams.set('view',mode);
+      url.searchParams.delete('period');url.searchParams.delete('date');url.hash='';
+      history.replaceState(null,'',url);return;
     }
     if(mode==='products'){
       document.title=labels.products+' | 보험 영업 모닝브리프';
@@ -97,6 +103,6 @@
   $('trend-print').addEventListener('click',()=>window.print());
   window.addEventListener('brief:navigate',event=>setMode(event.detail.mode,event.detail.period));
   const params=new URL(location.href).searchParams,initial=params.get('view');
-  setMode(['daily','weekly','monthly','products'].includes(initial)?initial:params.has('date')||location.hash==='#briefing'||location.hash==='#archive'?'daily':'home',params.get('period'));
+  setMode(['daily','weekly','monthly','products','comparison'].includes(initial)?initial:params.has('date')||location.hash==='#briefing'||location.hash==='#archive'?'daily':'home',params.get('period'));
   window.addEventListener('popstate',()=>{const p=new URL(location.href).searchParams;setMode(p.get('view')||(p.has('date')?'daily':'home'),p.get('period'));});
 })();

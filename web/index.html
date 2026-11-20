@@ -33,11 +33,13 @@
   <link rel="stylesheet" href="reports.css">
   <link rel="stylesheet" href="products.css?v=20261119-captures-1">
   <link rel="stylesheet" href="portal.css?v=20261120-fubon-1">
+  <link rel="stylesheet" href="ga-comparison.css?v=20261120-1">
   <script>/*__BOOTSTRAP__*/</script>
-  <script defer src="app.js?v=20261120-portal-1"></script>
+  <script defer src="app.js?v=20261120-comparison-1"></script>
   <script defer src="weather.js"></script>
   <script defer src="newsletter-images.js?v=20261119-captures-1"></script>
-  <script defer src="trends.js?v=20261120-portal-1"></script>
+  <script defer src="ga-comparison.js?v=20261120-1"></script>
+  <script defer src="trends.js?v=20261120-comparison-1"></script>
   <script defer src="portal.js?v=20261120-1"></script>
 </head>
 <body data-period="home">
@@ -61,11 +63,11 @@
 <aside class="portal-left" aria-label="데일리뉴스와 날씨">
   <section class="side-card daily-preview"><div class="side-card-title"><svg class="ui-icon" aria-hidden="true"><use href="#i-news"/></svg><h2>데일리뉴스</h2></div><button type="button" class="mini-brief" data-open-view="daily" data-latest><span class="mini-masthead">MORNING <b>BRIEF</b></span><span class="mini-date" id="mini-date">최신 발행본 확인 중</span><strong class="mini-headline">오늘, 알아둘 이야기</strong><span class="mini-stories" id="mini-stories"></span><span class="mini-bottom">기사 요약 · 영업 시사점</span></button><button type="button" class="side-text-button" data-open-view="daily" data-latest>오늘의 브리프 읽기</button></section>
   <section class="side-card side-weather"><div class="side-card-title"><h2>오늘의 서울 날씨</h2></div><div class="weather" role="region" aria-label="오늘 서울 날씨"><div class="weather-heading"><span id="weather-icon" aria-hidden="true">—</span><div><strong id="weather-location">서울 오늘</strong><span id="weather-condition">날씨 확인 중</span></div></div><div class="weather-temperatures" id="weather-temperatures" hidden><span>최저 <b id="weather-low"></b></span><span>최고 <b id="weather-high"></b></span></div><div class="weather-meta"><span id="weather-updated">오늘 예보를 불러오고 있습니다.</span><a href="https://open-meteo.com/" target="_blank" rel="noopener noreferrer">Open-Meteo</a></div></div></section>
-  <section class="side-card side-navigation"><h2>모닝브리프 둘러보기</h2><button type="button" data-open-view="home">홈 대시보드</button><button type="button" data-open-view="daily" data-scroll="archive">지난 브리프 모아보기</button><button type="button" data-open-view="products">보험사별 소식지</button></section>
+  <section class="side-card side-navigation"><h2>모닝브리프 둘러보기</h2><button type="button" data-open-view="home">홈 대시보드</button><button type="button" data-open-view="daily" data-scroll="archive">지난 브리프 모아보기</button><button type="button" data-open-view="products">보험사별 소식지</button><button type="button" data-open-view="comparison">GA 상품 비교</button></section>
   <div class="side-signature"><strong>MORNING BRIEF</strong><span id="edition-label">생명보험 · GA</span><span>정보를 읽고, 현장에 연결하다.</span></div>
 </aside>
 <main class="portal-main" id="portal-main">
-  <div class="brief-tabs" role="tablist" aria-label="브리프와 보험사 소식지"><button type="button" role="tab" id="tab-daily" data-period="daily" aria-controls="daily-panel" aria-selected="false" tabindex="-1"><svg class="ui-icon" aria-hidden="true"><use href="#i-news"/></svg><span>일일 브리프<small>뉴스 요약과 시사점</small></span></button><button type="button" role="tab" id="tab-weekly" data-period="weekly" aria-controls="trends-panel" aria-selected="false" tabindex="-1"><svg class="ui-icon" aria-hidden="true"><use href="#i-chart"/></svg><span>주간동향<small>일주일의 흐름</small></span></button><button type="button" role="tab" id="tab-monthly" data-period="monthly" aria-controls="trends-panel" aria-selected="false" tabindex="-1"><svg class="ui-icon" aria-hidden="true"><use href="#i-folder"/></svg><span>월간동향<small>한 달의 인사이트</small></span></button><button type="button" role="tab" id="tab-products" data-period="products" aria-controls="products-panel" aria-selected="false" tabindex="-1"><svg class="ui-icon" aria-hidden="true"><use href="#i-book"/></svg><span>보험사별 소식지<small>생보사 상품·영업전략</small></span></button></div>
+  <div class="brief-tabs" role="tablist" aria-label="브리프와 영업 자료"><button type="button" role="tab" id="tab-daily" data-period="daily" aria-controls="daily-panel" aria-selected="false" tabindex="-1"><svg class="ui-icon" aria-hidden="true"><use href="#i-news"/></svg><span>일일 브리프<small>뉴스 요약과 시사점</small></span></button><button type="button" role="tab" id="tab-weekly" data-period="weekly" aria-controls="trends-panel" aria-selected="false" tabindex="-1"><svg class="ui-icon" aria-hidden="true"><use href="#i-chart"/></svg><span>주간동향<small>일주일의 흐름</small></span></button><button type="button" role="tab" id="tab-monthly" data-period="monthly" aria-controls="trends-panel" aria-selected="false" tabindex="-1"><svg class="ui-icon" aria-hidden="true"><use href="#i-folder"/></svg><span>월간동향<small>한 달의 인사이트</small></span></button><button type="button" role="tab" id="tab-products" data-period="products" aria-controls="products-panel" aria-selected="false" tabindex="-1"><svg class="ui-icon" aria-hidden="true"><use href="#i-book"/></svg><span>보험사별 소식지<small>생보사 상품·영업전략</small></span></button><button type="button" role="tab" id="tab-comparison" data-period="comparison" aria-controls="comparison-panel" aria-selected="false" tabindex="-1"><svg class="ui-icon" aria-hidden="true"><use href="#i-chart"/></svg><span>GA 상품 비교<small>보험사별 비교장표</small></span></button></div>
   <section id="home-panel" aria-labelledby="home-heading">
     <div class="welcome-banner"><div class="welcome-copy"><p class="portal-kicker">YOUR MORNING, YOUR INSIGHT</p><h2 id="home-heading">매일의 정보가,<br>현장의 자신감으로.</h2><p>보험 뉴스부터 영업 시사점, 보험사 소식까지.<br>오늘의 시작을 모닝브리프와 함께하세요.</p><button type="button" data-open-view="daily" data-latest class="primary-button">오늘의 브리프 읽기</button></div><div class="welcome-art" aria-hidden="true"><div class="art-orbit"></div><div class="art-sun"></div><div class="art-paper"><span>MORNING BRIEF</span><b>오늘의<br>새로운 시선</b><i></i><i></i><div><em></em><em></em><em></em></div></div><div class="art-label">DAILY INSURANCE INSIGHT</div></div></div>
     <div class="portal-metrics"><div><span>최신 브리프</span><strong id="home-edition-date">—</strong></div><div><span>선정 뉴스</span><strong><b id="home-news-count">—</b><small>건</small></strong></div><div><span>생명보험사 소식지</span><strong><b id="home-insurer-count">19</b><small>개사</small></strong></div></div>
@@ -119,10 +121,37 @@
     <dialog id="newsletter-viewer" class="newsletter-viewer" aria-labelledby="newsletter-viewer-title"><header><h3 id="newsletter-viewer-title">소식지 크게 보기</h3><button type="button" id="newsletter-viewer-close" autofocus>닫기</button></header><div id="newsletter-viewer-body" class="newsletter-viewer-body"></div></dialog>
   </section>
 
+  <section id="comparison-panel" class="ga-comparison" role="tabpanel" aria-labelledby="tab-comparison" hidden>
+    <header class="ga-heading"><div><h2>11월 GA 상품 비교</h2><p id="ga-scope">생명보험 상품과 유형</p></div><time id="ga-date" datetime="2026-11-20">2026.11.20</time></header>
+    <div id="ga-groups" class="ga-groups" role="group" aria-label="상품 분류"></div>
+    <form id="ga-filters" class="ga-filters" hidden>
+      <label for="ga-company">보험사<select id="ga-company"><option value="">전체 보험사</option></select></label>
+      <label for="ga-pay">납기<select id="ga-pay"><option value="">전체 납기</option></select></label>
+      <label for="ga-search">상품 검색<input type="search" id="ga-search" placeholder="보험사·상품명·특징" maxlength="120"></label>
+      <button type="button" id="ga-clear" disabled>필터 초기화</button>
+    </form>
+    <details class="ga-method"><summary>비교 기준</summary>
+      <p>2026년 11월 GROW ON GA 자료를 기준으로 상품을 골랐습니다. 단기납 종신은 단기납 비교표와 소식지에 명시된 납기로 분류했습니다. 변액연금과 변액정기는 각각 연금과 정기에 포함했습니다.</p>
+      <p>기본 표는 상품당 공시 예시 한 건을 보여줍니다. 10년과 15년이 함께 나온 예시, 40세 남성 조건 순으로 우선 표시합니다. 상품별 가입금액·심사형·이율 등의 차이는 공시 예시 조건에서 확인하세요.</p>
+      <p>‘—’는 해당 조건의 공시 수치를 확인하지 못했다는 뜻입니다. ‘예시’ 버튼에서 추가 납기와 조건을 펼칠 수 있습니다. 다른 개정본·유형의 수치는 펼친 표에서 참고로 표시합니다.</p>
+    </details>
+    <p class="ga-result" id="ga-result" aria-live="polite"></p>
+    <div class="ga-scroll" role="region" aria-label="GA 상품 비교표" tabindex="0">
+      <table class="ga-grid" id="ga-table" hidden>
+        <thead><tr><th scope="col">보험사</th><th scope="col">상품명</th><th scope="col">납기</th><th scope="col" class="ga-rate">10년 환급률</th><th scope="col" class="ga-rate">15년 환급률</th><th scope="col" class="ga-rate" id="ga-anniversary" hidden>10년+1일</th><th scope="col">핵심 특징·활용</th><th scope="col">공시 예시 조건·근거</th></tr></thead>
+        <tbody id="ga-rows"></tbody>
+      </table>
+    </div>
+    <p class="empty" id="ga-notice" role="status">비교장표를 불러오고 있습니다.</p>
+    <button type="button" class="ga-load-more" id="ga-retry" hidden>다시 불러오기</button>
+    <button type="button" class="ga-load-more" id="ga-next" hidden>상품 더 보기</button>
+  </section>
+
 </main>
 <aside class="portal-right" aria-label="영업 실무 바로가기">
   <p class="rail-heading">영업 실무 공간</p>
   <button type="button" class="rail-feature accent" data-open-view="products"><svg class="ui-icon" aria-hidden="true"><use href="#i-book"/></svg><span>보험사별 소식지<small>상품 · 인수 · 영업전략</small></span></button>
+  <button type="button" class="rail-feature" data-open-view="comparison"><svg class="ui-icon" aria-hidden="true"><use href="#i-chart"/></svg><span>GA 상품 비교<small>납기 · 해약환급률 · 공시 근거</small></span></button>
   <button type="button" class="rail-feature" data-open-view="weekly"><svg class="ui-icon" aria-hidden="true"><use href="#i-chart"/></svg><span>동향 리포트<small>주간 · 월간 인사이트</small></span></button>
   <button type="button" class="rail-feature" data-open-view="daily" data-scroll="archive"><svg class="ui-icon" aria-hidden="true"><use href="#i-folder"/></svg><span>뉴스 아카이브<small>날짜별 브리프 찾기</small></span></button>
   <section class="side-card work-links"><div class="side-card-title"><svg class="ui-icon" aria-hidden="true"><use href="#i-link"/></svg><h2>업무 링크</h2></div><p>공식 기관 · 공시 · 교육</p>
