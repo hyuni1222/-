@@ -5,6 +5,8 @@
   const companySelect=$('ga-company'), paySelect=$('ga-pay'), search=$('ga-search');
   const table=$('ga-table'), rows=$('ga-rows'), result=$('ga-result'), more=$('ga-next');
   const notice=$('ga-notice'), retry=$('ga-retry'), clear=$('ga-clear');
+  const mobile=$('ga-mobile'), mobileList=$('ga-mobile-list'), sheet=$('ga-sheet'), sheetContent=$('ga-sheet-content');
+  const filterToggle=$('ga-filter-toggle');
   let catalog, request;
   let state={group:'short',company:'',pay:'',query:''}, limit=40;
   const opened=new Set();
@@ -67,6 +69,14 @@
   function detailExamples(p){
     return p.examples.filter(e=>!state.pay||e.pay===state.pay);
   }
+  function displayPayment(p){
+    if(state.pay)return state.pay;
+    return p.group==='short'&&state.group==='short'?p.shortPays.join(' · '):p.payLabel;
+  }
+  function missingExample(p){
+    if(state.pay)return '이 납기 공식 예시 미확인';
+    return state.group==='short'&&p.examples.some(x=>!x.reference)?'단기납 공식 예시 미확인':p.coverage;
+  }
   function evidence(p,details){
     const hasAnniversary=details.some(e=>e.anniversary!=null), columns=hasAnniversary?7:6;
     const tableRows=details.map(e=>`<tr><th scope="row">${esc(e.pay||'원문 참조')}${e.reference?'<small class="ga-reference">다른 개정본·유형 참고</small>':''}</th><td class="ga-rate">${rate(e.ten)}</td><td class="ga-rate">${rate(e.fifteen)}</td>${hasAnniversary?`<td class="ga-rate">${rate(e.anniversary)}</td>`:''}<td class="ga-rate">${rate(e.twenty)}</td><td>${esc(condition(e)||e.position)}${e.condition&&e.position?`<small>${esc(e.position)}</small>`:''}</td><td>${sourceLink(e.source,'공식 PDF',e.page)}</td></tr>`).join('');
@@ -75,12 +85,47 @@
   }
   function productRow(p, showAnniversary){
     const e=mainExample(p), details=detailExamples(p), expanded=opened.has(p.id);
-    const displayPay=p.group==='short'&&state.group==='short'?p.shortPays.join(' · '):p.payLabel;
     const link=e?sourceLink(e.source,'공식 PDF',e.page):sourceLink(p.source,'공시 문서');
-    const conditionLabel=e?condition(e)||e.position:state.pay?'이 납기 공식 예시 미확인':
-      state.group==='short'&&p.examples.some(x=>!x.reference)?'단기납 공식 예시 미확인':p.coverage;
+    const conditionLabel=e?condition(e)||e.position:missingExample(p);
     const detailButton=details.length?`<button type="button" class="ga-expand" data-product-id="${esc(p.id)}" aria-expanded="${expanded}" aria-controls="ga-detail-${esc(p.id)}" aria-label="${esc(p.name)} 공식 예시 ${expanded?'접기':'보기'}">${expanded?'예시 접기':'예시 '+details.length+'건'}</button>`:'';
-    return `<tr class="ga-product"><td class="ga-insurer">${esc(p.company)}</td><th scope="row" class="ga-product-name">${esc(p.name)}<small>${esc(names.get(p.group))}${p.currency?' · '+esc(p.currency):''}</small></th><td class="ga-pay">${esc(state.pay||displayPay)}${e?.pay?`<small>표의 예시 ${esc(e.pay)}</small>`:''}</td><td class="ga-rate">${rate(e?.ten)}</td><td class="ga-rate">${rate(e?.fifteen)}</td>${showAnniversary?`<td class="ga-rate">${rate(e?.anniversary)}</td>`:''}<td class="ga-features"><strong>${esc(p.feature||'상품요약서 참조')}</strong>${p.context?`<small>${esc(p.context)}</small>`:''}</td><td class="ga-proof"><span>${esc(conditionLabel)}</span>${link}${detailButton}</td></tr>${details.length?`<tr class="ga-detail-row" id="ga-detail-${esc(p.id)}" ${expanded?'':'hidden'}><td colspan="${showAnniversary?8:7}">${expanded?evidence(p,details):''}</td></tr>`:''}`;
+    return `<tr class="ga-product"><td class="ga-insurer">${esc(p.company)}</td><th scope="row" class="ga-product-name">${esc(p.name)}<small>${esc(names.get(p.group))}${p.currency?' · '+esc(p.currency):''}</small></th><td class="ga-pay">${esc(displayPayment(p))}${e?.pay?`<small>표의 예시 ${esc(e.pay)}</small>`:''}</td><td class="ga-rate">${rate(e?.ten)}</td><td class="ga-rate">${rate(e?.fifteen)}</td>${showAnniversary?`<td class="ga-rate">${rate(e?.anniversary)}</td>`:''}<td class="ga-features"><strong>${esc(p.feature||'상품요약서 참조')}</strong>${p.context?`<small>${esc(p.context)}</small>`:''}</td><td class="ga-proof"><span>${esc(conditionLabel)}</span>${link}${detailButton}</td></tr>${details.length?`<tr class="ga-detail-row" id="ga-detail-${esc(p.id)}" ${expanded?'':'hidden'}><td colspan="${showAnniversary?8:7}">${expanded?evidence(p,details):''}</td></tr>`:''}`;
+  }
+  function mobileRow(p){
+    const e=mainExample(p);
+    const subtitle=e?.pay?' · '+e.pay:p.currency?' · '+p.currency:'';
+    return `<li><button type="button" class="ga-mobile-row" data-ga-open="${esc(p.id)}" aria-haspopup="dialog" aria-controls="ga-sheet">
+      <span class="ga-mobile-product"><small>${esc(p.company+subtitle)}</small><strong>${esc(p.name)}</strong></span>
+      <span class="ga-mobile-rate"><span class="ga-a11y">10년 환급률 </span>${rate(e?.ten)}</span>
+      <span class="ga-mobile-rate"><span class="ga-a11y">15년 환급률 </span>${rate(e?.fifteen)}</span>
+    </button></li>`;
+  }
+  function sheetExample(e,selected){
+    const metrics=[['10년',e.ten],['15년',e.fifteen]];
+    if(e.anniversary!=null)metrics.push(['10년+1일',e.anniversary]);
+    if(e.twenty!=null)metrics.push(['20년',e.twenty]);
+    return `<li class="ga-sheet-example"><div class="ga-sheet-example-heading"><strong>${esc(e.pay||'공시 예시')}</strong>${e.reference?'<span class="ga-sheet-reference">다른 개정본·유형 참고</span>':selected?'<span>비교 목록에 표시한 예시</span>':''}</div>
+      <dl class="ga-sheet-metrics">${metrics.map(([term,value])=>`<div><dt>${term}</dt><dd>${rate(value)}</dd></div>`).join('')}</dl>
+      <p>${esc(condition(e)||e.position)}</p>
+      ${sourceLink(e.source,'공식 PDF',e.page)}
+    </li>`;
+  }
+  function openSheet(product){
+    const primary=mainExample(product);
+    const examples=detailExamples(product);
+    const ordered=primary?[primary,...examples.filter(e=>e!==primary)]:examples;
+    const note=product.note?.includes('납기별 설계 탭')?'':product.note;
+    $('ga-sheet-company').textContent=[product.company,names.get(product.group),product.currency].filter(Boolean).join(' · ');
+    $('ga-sheet-title').textContent=product.name;
+    sheetContent.innerHTML=`<section class="ga-sheet-summary" aria-label="상품 특징">
+      <p><strong>납기</strong> ${esc(displayPayment(product))}</p>
+      ${product.feature?`<p><strong>${esc(product.feature)}</strong></p>`:''}
+      ${product.context?`<p>${esc(product.context)}</p>`:''}
+    </section><h4>공시 환급률 예시</h4>
+    ${!primary?`<p class="ga-sheet-status">${esc(missingExample(product))}</p>`:''}
+    ${ordered.length?`<ul class="ga-sheet-examples">${ordered.map(e=>sheetExample(e,e===primary)).join('')}</ul>`:sourceLink(product.source,'공시 문서')}
+    ${note?`<p class="ga-sheet-status">${esc(note)}</p>`:''}`;
+    sheet.showModal();
+    sheetContent.scrollTop=0;
   }
   function render(){
     const matched=catalog.products.filter(productMatches);
@@ -93,13 +138,18 @@
     result.textContent=(state.group?names.get(state.group):'전체')+' · '+items.length+'개 상품·유형';
     const hasAnniversary=items.some(p=>mainExample(p)?.anniversary!=null);
     $('ga-anniversary').hidden=!hasAnniversary;
-    rows.innerHTML=items.slice(0,limit).map(p=>productRow(p,hasAnniversary)).join('');
+    const visible=items.slice(0,limit);
+    rows.innerHTML=visible.map(p=>productRow(p,hasAnniversary)).join('');
+    mobileList.innerHTML=visible.map(mobileRow).join('');
+    mobile.hidden=!items.length;
     table.hidden=!items.length;
     notice.textContent=items.length?'':'조건에 맞는 상품이 없습니다. 검색어나 필터를 바꿔보세요.';
     notice.hidden=items.length>0;
     more.hidden=items.length<=limit;
     more.textContent='상품 더 보기 ('+Math.min(items.length,limit)+'/'+items.length+')';
-    clear.disabled=!(state.pay||state.company||state.query);
+    const activeFilters=[state.pay,state.company,state.query].filter(Boolean).length;
+    $('ga-filter-label').textContent=activeFilters?'검색·필터 '+activeFilters+'개 적용':'검색·필터';
+    clear.disabled=!activeFilters;
     saveState();
   }
   function resetPage(){
@@ -126,6 +176,7 @@
           $('ga-date').textContent=data.date.replaceAll('-','.');
           $('ga-scope').textContent=data.companies.length+'개 보험사 · '+data.products.length+'개 상품·유형';
           filters.hidden=false;
+          filterToggle.hidden=false;
         }
       }
       if(panel.hidden)return;
@@ -147,6 +198,10 @@
     resetPage();
   });
   filters.addEventListener('submit',e=>e.preventDefault());
+  filterToggle.addEventListener('click',()=>{
+    const open=filters.classList.toggle('ga-filters-open');
+    filterToggle.setAttribute('aria-expanded',String(open));
+  });
   companySelect.addEventListener('change',()=>{state.company=companySelect.value;syncOptions();resetPage();});
   paySelect.addEventListener('change',()=>{state.pay=paySelect.value;resetPage();});
   search.addEventListener('input',()=>{state.query=search.value.trim().slice(0,120);resetPage();});
@@ -158,6 +213,13 @@
   });
   more.addEventListener('click',()=>{limit+=40;render();});
   retry.addEventListener('click',activate);
+  sheet.addEventListener('click',event=>{if(event.target===sheet)sheet.close();});
+  mobileList.addEventListener('click',event=>{
+    const button=event.target.closest('[data-ga-open]');
+    if(!button)return;
+    const product=catalog.products.find(p=>p.id===button.dataset.gaOpen);
+    if(product)openSheet(product);
+  });
   rows.addEventListener('click',event=>{
     const button=event.target.closest('[data-product-id]');
     if(!button)return;
@@ -171,5 +233,8 @@
     button.setAttribute('aria-label',p.name+' 공식 예시 '+(next?'접기':'보기'));
     button.textContent=next?'예시 접기':'예시 '+detailExamples(p).length+'건';
   });
-  window.addEventListener('brief:mode',event=>{if(event.detail.mode==='comparison')activate();});
+  window.addEventListener('brief:mode',event=>{
+    if(event.detail.mode==='comparison')activate();
+    else if(sheet.open)sheet.close();
+  });
 })();
