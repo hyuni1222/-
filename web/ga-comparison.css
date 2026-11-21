@@ -210,6 +210,31 @@ body[data-period="comparison"] .portal-right {
 }
 .ga-evidence-table thead { background: #e4f2fa; }
 .ga-grid small.ga-reference { color: #8a4f13; }
+.ga-grid .ga-age-summary,
+.ga-mobile-product .ga-age-summary { color: var(--ga-blue); }
+.ga-enrollment { margin: 0 0 14px; font-size: .875rem; }
+.ga-enrollment h4 { margin: 0 0 6px; font-size: 1rem; }
+.ga-enrollment-source {
+  margin-bottom: 8px;
+  padding: 10px 12px;
+  background: #fff;
+  border: 1px solid var(--ga-line);
+  border-radius: 8px;
+}
+.ga-enrollment-source ul {
+  display: grid;
+  gap: 6px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.ga-enrollment-source li { display: grid; gap: 1px 12px; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
+.ga-enrollment-source strong { color: var(--ga-blue); }
+.ga-enrollment-source p { margin: 6px 0 0; }
+@media screen and (max-width: 450px) {
+  .ga-enrollment-source li { grid-template-columns: minmax(0, 1fr); }
+  .ga-enrollment-source li + li { border-top: 1px solid var(--ga-line); padding-top: 5px; }
+}
 .ga-load-more {
   display: block;
   padding: 8px 14px;
