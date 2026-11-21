@@ -102,20 +102,27 @@
     )})).filter(entry=>entry.rows.length);
   }
   function enrollmentLabel(entries){
-    const ages=[...new Set(entries.flatMap(entry=>entry.rows.map(r=>r.age)))];
-    if(!ages.length)return '가입나이 미확인';
+    const ages=[...new Set(entries.filter(entry=>!entry.reference).flatMap(entry=>entry.rows.map(r=>r.age)))];
+    if(!ages.length)return entries.length?'가입나이 · 참고자료':'가입나이 확인 필요';
     if(ages.some(age=>age.includes('연금개시')))return '가입나이 · 연금개시 조건별';
     if(ages.length>1||ages[0].includes(' / '))return '가입나이 · 조건별';
     return '가입나이 '+ages[0];
   }
-  function enrollmentDetails(entries, mobile=false){
-    if(!entries.length)return '';
-    return `<section class="ga-enrollment"><h4>가입 가능 나이</h4>${entries.map(entry=>`
+  function enrollmentDetails(p,entries,mobile=false){
+    const pending=p.enrollmentPending;
+    const message=entries.length?'':pending?.note||
+      (state.pay?'선택한 납기의 가입나이 조건은 상품요약서에서 추가 확인이 필요합니다.':'가입나이 조건 확인이 필요합니다.');
+    const missing=message?`<p class="ga-enrollment-status">${esc(message)}</p>
+      ${sourceLink(pending?.source||p.source,pending?.label||'공시 문서')}`:'';
+    const records=entries.map(entry=>`
       <div class="ga-enrollment-source">
+        ${entry.reference?'<p class="ga-enrollment-reference">참고자료 · 해당 개정본 조건 확인 필요</p>':''}
         <ul>${entry.rows.map(r=>`<li><span>${esc([r.type,r.pays.join('·')].filter(Boolean).join(' · '))}</span><strong>${esc(r.age)}</strong></li>`).join('')}</ul>
+        ${entry.conditions?.length?`<dl class="ga-enrollment-terms">${entry.conditions.map(c=>`<div><dt>${esc(c.label)}</dt><dd>${esc(c.value)} <small>${esc(c.page)}</small></dd></div>`).join('')}</dl>`:''}
         ${entry.note?`<p>${esc(entry.note)}</p>`:''}
-        ${mobile?mobileSourceLinks(entry.source,entry.page):sourceLink(entry.source,'가입나이 상품요약서',entry.page)}
-      </div>`).join('')}</section>`;
+        ${mobile&&!entry.label?mobileSourceLinks(entry.source,entry.page):sourceLink(entry.source,entry.label||'가입나이 상품요약서',entry.page)}
+      </div>`).join('');
+    return `<section class="ga-enrollment"><h4>가입나이·조건</h4>${records}${missing}</section>`;
   }
   function missingExample(p){
     if(state.pay)return '이 납기 환급률 예시 미확인';
@@ -125,12 +132,12 @@
     const hasAnniversary=details.some(e=>e.anniversary!=null);
     const tableRows=details.map(e=>`<tr><th scope="row">${esc(e.pay||'원문 참조')}${e.reference?'<small class="ga-reference">다른 개정본·유형 참고</small>':''}</th><td class="ga-rate">${rate(e.ten,e.qualifier)}</td><td class="ga-rate">${rate(e.fifteen,e.qualifier)}</td>${hasAnniversary?`<td class="ga-rate">${rate(e.anniversary,e.qualifier)}</td>`:''}<td class="ga-rate">${rate(e.twenty,e.qualifier)}</td><td>${esc(condition(e)||e.position)}${e.condition&&e.position?`<small>${esc(e.position)}</small>`:''}</td><td>${refundSource(e)}</td></tr>`).join('');
     const refunds=details.length?`<div class="ga-evidence-scroll" role="region" tabindex="0" aria-label="${esc(p.name)} 환급률 예시"><table class="ga-evidence-table"><thead><tr><th scope="col">예시 납기</th><th scope="col">10년</th><th scope="col">15년</th>${hasAnniversary?'<th scope="col">10년+1일</th>':''}<th scope="col">20년</th><th scope="col">원문 예시 조건</th><th scope="col">출처</th></tr></thead><tbody>${tableRows}</tbody></table></div>`:'';
-    return `<div class="ga-detail-inner">${enrollmentDetails(enrollmentEntries(p))}${p.note?`<p>${esc(p.note)}</p>`:''}${refunds}</div>`;
+    return `<div class="ga-detail-inner">${enrollmentDetails(p,enrollmentEntries(p))}${p.note?`<p>${esc(p.note)}</p>`:''}${refunds}</div>`;
   }
-  function detailLabel(details, hasEnrollment){
+  function detailLabel(details){
     const newsletterCount=details.filter(e=>e.newsletter).length;
     return [
-      hasEnrollment?'가입나이':'',
+      '가입 조건',
       details.length?'예시 '+details.length+'건':'',
       newsletterCount?'소식지 '+newsletterCount+'건':''
     ].filter(Boolean).join(' · ');
@@ -138,12 +145,11 @@
   function productRow(p, showAnniversary){
     const e=mainExample(p), details=detailExamples(p), expanded=opened.has(p.id);
     const enrollment=enrollmentEntries(p);
-    const hasDetails=details.length||enrollment.length;
     const link=e?refundSource(e):sourceLink(p.source,'공시 문서');
     const conditionLabel=e?condition(e)||e.position:missingExample(p);
-    const label=expanded?'상세 접기':detailLabel(details,enrollment.length);
-    const detailButton=hasDetails?`<button type="button" class="ga-expand" data-product-id="${esc(p.id)}" aria-expanded="${expanded}" aria-controls="ga-detail-${esc(p.id)}" aria-label="${esc(p.name)} ${label}">${label}</button>`:'';
-    return `<tr class="ga-product"><td class="ga-insurer">${esc(p.company)}</td><th scope="row" class="ga-product-name">${esc(p.name)}<small>${esc(names.get(p.group))}${p.currency?' · '+esc(p.currency):''}</small></th><td class="ga-pay">${esc(displayPayment(p))}<small class="ga-age-summary">${esc(enrollmentLabel(enrollment))}</small>${e?.pay?`<small>표의 예시 ${esc(e.pay)}</small>`:''}</td><td class="ga-rate">${rate(e?.ten,e?.qualifier)}</td><td class="ga-rate">${rate(e?.fifteen,e?.qualifier)}</td>${showAnniversary?`<td class="ga-rate">${rate(e?.anniversary,e?.qualifier)}</td>`:''}<td class="ga-features"><strong>${esc(p.feature||'상품요약서 참조')}</strong>${p.context?`<small>${esc(p.context)}</small>`:''}</td><td class="ga-proof"><span>${esc(conditionLabel)}</span>${link}${detailButton}</td></tr>${hasDetails?`<tr class="ga-detail-row" id="ga-detail-${esc(p.id)}" ${expanded?'':'hidden'}><td colspan="${showAnniversary?8:7}">${expanded?evidence(p,details):''}</td></tr>`:''}`;
+    const label=expanded?'상세 접기':detailLabel(details);
+    const detailButton=`<button type="button" class="ga-expand" data-product-id="${esc(p.id)}" aria-expanded="${expanded}" aria-controls="ga-detail-${esc(p.id)}" aria-label="${esc(p.name)} ${label}">${label}</button>`;
+    return `<tr class="ga-product"><td class="ga-insurer">${esc(p.company)}</td><th scope="row" class="ga-product-name">${esc(p.name)}<small>${esc(names.get(p.group))}${p.currency?' · '+esc(p.currency):''}</small></th><td class="ga-pay">${esc(displayPayment(p))}<small class="ga-age-summary">${esc(enrollmentLabel(enrollment))}</small>${e?.pay?`<small>표의 예시 ${esc(e.pay)}</small>`:''}</td><td class="ga-rate">${rate(e?.ten,e?.qualifier)}</td><td class="ga-rate">${rate(e?.fifteen,e?.qualifier)}</td>${showAnniversary?`<td class="ga-rate">${rate(e?.anniversary,e?.qualifier)}</td>`:''}<td class="ga-features"><strong>${esc(p.feature||'상품요약서 참조')}</strong>${p.context?`<small>${esc(p.context)}</small>`:''}</td><td class="ga-proof"><span>${esc(conditionLabel)}</span>${link}${detailButton}</td></tr><tr class="ga-detail-row" id="ga-detail-${esc(p.id)}" ${expanded?'':'hidden'}><td colspan="${showAnniversary?8:7}">${expanded?evidence(p,details):''}</td></tr>`;
   }
   function mobileRow(p){
     const e=mainExample(p);
@@ -178,7 +184,7 @@
       <p><strong>납기</strong> ${esc(displayPayment(product))}</p>
       ${product.feature?`<p><strong>${esc(product.feature)}</strong></p>`:''}
       ${product.context?`<p>${esc(product.context)}</p>`:''}
-    </section>${enrollmentDetails(enrollmentEntries(product),true)}<h4>해약환급률 예시</h4>
+    </section>${enrollmentDetails(product,enrollmentEntries(product),true)}<h4>해약환급률 예시</h4>
     ${!primary?`<p class="ga-sheet-status">${esc(missingExample(product))}</p>`:''}
     ${examples.length?`<ul class="ga-sheet-examples">${examples.map(e=>sheetExample(e,e===primary)).join('')}</ul>`:mobileSourceLinks(product.source)}
     ${note?`<p class="ga-sheet-status">${esc(note)}</p>`:''}`;
@@ -193,8 +199,8 @@
       button.setAttribute('aria-pressed',String(state.group===group));
       button.querySelector('small').textContent=catalog.products.filter(p=>!group||p.group===group).length;
     }
-    const enrolled=items.filter(p=>enrollmentEntries(p).length).length;
-    result.textContent=(state.group?names.get(state.group):'전체')+' · '+items.length+'개 상품·유형 · 가입나이 확인 '+enrolled+'개';
+    const enrolled=items.filter(p=>enrollmentEntries(p).some(e=>!e.reference)).length;
+    result.textContent=(state.group?names.get(state.group):'전체')+' · '+items.length+'개 상품·유형 · 가입나이 공식 확인 '+enrolled+'개';
     const hasAnniversary=items.some(p=>mainExample(p)?.anniversary!=null);
     $('ga-anniversary').hidden=!hasAnniversary;
     const visible=items.slice(0,limit);
@@ -249,7 +255,15 @@
         if(data.version!==1||!Array.isArray(data.products))throw new Error('Invalid comparison data');
         if(!catalog){
           addNewsletterExamples(data,newsletter);
-          for(const p of data.products)p.enrollment=enrollment.products?.[p.id]||[];
+          for(const p of data.products){
+            p.enrollment=enrollment.products?.[p.id]||[];
+            p.enrollmentPending=enrollment.pending?.[p.id];
+            const verifiedPay=p.enrollment.filter(e=>!e.reference).flatMap(e=>e.rows.flatMap(r=>r.pays))
+              .filter(pay=>/^(\d+(?:년|세)납|전기납|일시납)$/.test(pay));
+            const pays=[...new Set([...p.pays,...verifiedPay,...(p.enrollmentPending?.pays||[])])];
+            if(pays.length>p.pays.length)p.payLabel=pays.sort((a,b)=>a.localeCompare(b,'ko',{numeric:true})).join(' · ');
+            p.pays=pays;
+          }
           catalog=data;
           for(const group of data.groups)names.set(group.id,group.label);
           groupBar.innerHTML=[...data.groups,{id:'',label:'전체'}].map(g=>
@@ -313,7 +327,7 @@
     else opened.delete(id);
     detail.hidden=!next;
     button.setAttribute('aria-expanded',String(next));
-    const label=next?'상세 접기':detailLabel(details,enrollmentEntries(p).length);
+    const label=next?'상세 접기':detailLabel(details);
     button.setAttribute('aria-label',p.name+' '+label);
     button.textContent=label;
   });

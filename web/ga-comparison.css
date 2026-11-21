@@ -231,6 +231,17 @@ body[data-period="comparison"] .portal-right {
 .ga-enrollment-source li { display: grid; gap: 1px 12px; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
 .ga-enrollment-source strong { color: var(--ga-blue); }
 .ga-enrollment-source p { margin: 6px 0 0; }
+.ga-enrollment-source .ga-enrollment-reference {
+  margin: 0 0 8px;
+  color: #805017;
+  font-weight: 700;
+}
+.ga-enrollment-status { color: #466473; margin: 0; }
+.ga-enrollment-terms { margin: 9px 0 0; padding-top: 7px; border-top: 1px solid var(--ga-line); }
+.ga-enrollment-terms div + div { margin-top: 5px; }
+.ga-enrollment-terms dt { color: #466473; }
+.ga-enrollment-terms dd { margin: 0; font-weight: 700; }
+.ga-enrollment-terms small { display: inline; font-weight: 400; }
 @media screen and (max-width: 450px) {
   .ga-enrollment-source li { grid-template-columns: minmax(0, 1fr); }
   .ga-enrollment-source li + li { border-top: 1px solid var(--ga-line); padding-top: 5px; }
