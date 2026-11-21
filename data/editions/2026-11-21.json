@@ -1,112 +1,60 @@
 {
   "date": "2026-11-21",
+  "updated_at": "2026-11-22T08:26:48+09:00",
+  "collected_at": "2026-11-22T08:26:48+09:00",
   "summary_version": 2,
-  "updated_at": "2026-11-21T08:35:03+09:00",
-  "title": "[칼럼] 한 지사의 일탈에 설계사 6천 명 GA 등록취소?...문제는 ‘대마불사’가 아니라 ‘비례원칙’이다",
+  "title": "(사)한국보험연구원, ‘2028년 ESG 공시와 보험업의 과제’ 세미나 개최",
   "demo": false,
   "mode": "rss",
+  "backfilled": true,
+  "collection_method": "publisher_archive_calendar_day",
+  "article_window": {
+    "start": "2026-11-21T00:00:00+09:00",
+    "end": "2026-11-22T00:00:00+09:00"
+  },
   "sources": [
-    "뉴시스",
-    "매일경제",
     "보험신보",
     "보험저널",
     "서울파이낸스",
-    "서울파이낸스",
-    "연합뉴스",
     "한국보험신문"
   ],
   "warnings": [],
   "articles": [
     {
-      "title": "[칼럼] 한 지사의 일탈에 설계사 6천 명 GA 등록취소?...문제는 ‘대마불사’가 아니라 ‘비례원칙’이다",
-      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34002",
-      "source": "보험저널",
-      "published_at": "2026-11-20T14:57:27+00:00",
-      "source_group": "specialist",
-      "id": "9c746f4c0a87",
-      "category": "채널",
-      "summary_parts": {
-        "intro": "필자는 지난 칼럼( '회사 돈으로 보험 들고 대표는 현금…법인보험 리베이트, 누구도 빠져나갈 수 없다' 2026. 11. 13)에서 한 GA 지사의 경영인정기보험 리베이트 사건을 다루며, 몰랐더라도 그 손해와 책임은 GA…",
-        "body": "보도에 따르면 금융감독원은 지난 13일 해당 GA인 한국보험금융에 ‘보험대리점 등록취소’를 예고했다.",
-        "conclusion": "그런데 2026. 11. 13. 책임의 크기가 예상보다 훨씬 큰 형태로 다가오고 있다."
-      },
-      "summary": "필자는 지난 칼럼( '회사 돈으로 보험 들고 대표는 현금…법인보험 리베이트, 누구도 빠져나갈 수 없다' 2026. 11. 13)에서 한 GA 지사의 경영인정기보험 리베이트 사건을 다루며, 몰랐더라도 그 손해와 책임은 GA…",
-      "source_digest": "fa457104d1296cfd",
-      "summary_kind": "rss",
-      "implication": ""
-    },
-    {
-      "title": "손보 '신계약' 1.6배 많은데 '수수료'는 생보가 앞섰다…GA 73곳, 엇갈린 판매 지형",
-      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33965",
-      "source": "보험저널",
-      "published_at": "2026-11-18T15:43:05+00:00",
-      "source_group": "specialist",
-      "id": "c511173331fe",
-      "category": "제도·정책",
-      "summary_parts": {
-        "intro": "대형 GA 73개사의 상반기 실적에서 판매 건수와 수수료가 서로 다른 흐름을 보였습니다.",
-        "body": "설계사 1인당 월 신계약은 생보 1.7건·손보 2.7건이지만, 수수료는 생보가 더 높았습니다.",
-        "conclusion": "건수만으로 수익성을 판단하기 어려워, 채널·상품별 수수료 구조를 함께 살펴봐야 합니다."
-      },
-      "summary": "대형 GA 73개사의 상반기 실적에서 판매 건수와 수수료가 서로 다른 흐름을 보였습니다.",
-      "source_digest": "0791d252d7d4448f",
-      "summary_kind": "rss",
-      "implication": ""
-    },
-    {
-      "title": "GA업계 “보험판매전문社 도입해 소비자보호”…당국은 신중론",
-      "url": "https://www.mk.co.kr/news/economy/12214697",
-      "source": "매일경제",
-      "published_at": "2026-11-20T16:14:40+00:00",
-      "source_group": "general",
-      "id": "64bbb6e69856",
-      "category": "채널",
-      "summary_parts": {
-        "intro": "GA업계 대형화에 국회 입법토론회 역량 갖춘 곳부터 단계적 도입 제안 당국은 “책임성 확보 먼저” 장기검토 보험시장에서 영향력이 커지고 있는 법인보험대리점(GA)에 독립적인 법적 지위와 강화된 책임을 부여하는…",
-        "body": "지난해 기준 GA 소속 설계사는 약 32만명으로 전체 보험설계사의 45%에 달했다.",
-        "conclusion": "손해배상 책임과 비용 부담 기준, 우선변제권, 설계사 관리 의무 등을 명확히 해 보험판매전문회사의 권한에 상응하는 책임을 부여해야 한다고 제언했다."
-      },
-      "summary": "GA업계 대형화에 국회 입법토론회 역량 갖춘 곳부터 단계적 도입 제안 당국은 “책임성 확보 먼저” 장기검토 보험시장에서 영향력이 커지고 있는 법인보험대리점(GA)에 독립적인 법적 지위와 강화된 책임을 부여하는…",
-      "source_digest": "aa4f006e12eb0743",
-      "summary_kind": "rss",
-      "implication": "",
-      "summary_basis": "public_article_excerpt"
-    },
-    {
-      "title": "한국보험금융 등록취소 사전통지 후폭풍… 6000명 영업조직 촉각",
-      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93924",
+      "title": "(사)한국보험연구원, ‘2028년 ESG 공시와 보험업의 과제’ 세미나 개최",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93975",
       "source": "한국보험신문",
-      "published_at": "2026-11-18T18:20:28+00:00",
       "source_group": "specialist",
-      "id": "5106d0aa74af",
+      "published_at": "2026-11-21T17:35:00+09:00",
+      "id": "82ac022f9699",
       "category": "영업전략",
       "summary_parts": {
-        "intro": "대형 법인보험대리점(GA) 한국보험금융이 보험대리점 등록취소 사전통지를 받으면서 후폭풍이 확산되고 있다.",
-        "body": "최종 처분까지는 회사 측 소명과 제재심의위원회 심의, 금융위원회 의결 등의 절차가 남아 있지만, 소속 설계사가 6000여 명에 이르는 만큼 영업조직과 기존 보험계약 관리에 미칠 영향에도 관심이 쏠린다.",
-        "conclusion": "GA 업계에서는 이번 사건이 업계 전반의 신뢰와 내부통제 수준을 점검하는 계기가 될 수 있다는 우려도 나온다."
+        "intro": "(사)한국보험연구원, ‘2028년 ESG 공시와 보험업의 과제’ 세미나 개최",
+        "body": "RSS에 상세 사실·수치가 제공되지 않았습니다.",
+        "conclusion": "추가 내용과 영향은 기사 원문에서 확인하세요."
       },
-      "summary": "대형 법인보험대리점(GA) 한국보험금융이 보험대리점 등록취소 사전통지를 받으면서 후폭풍이 확산되고 있다.",
-      "source_digest": "b02748badb9a6783",
-      "summary_kind": "rss",
-      "implication": ""
-    },
-    {
-      "title": "푸본현대생명, 양성종양·용종부터 암 치료까지 보장 보험 출시",
-      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93966",
-      "source": "한국보험신문",
-      "published_at": "2026-11-20T15:47:17+00:00",
-      "source_group": "specialist",
-      "id": "0ea9463523a7",
-      "category": "상품",
-      "summary_parts": {
-        "intro": "양성종양 및 용종 진단과 수술부터 암 치료까지 보장하는 암보험이 나왔다.",
-        "body": "푸본현대생명은 텔레마케팅(TM) 전용 상품 ‘푸본현대 100세까지 암케어보험(무)’을 출시했다고 20일 밝혔다.",
-        "conclusion": "아울러 ‘소액암진단특약II’에 가입하면 기타피부암, 중증 이외 갑상선암, 경계성종양, 제자리암, 대장점막내암 진단 시 진단비를 받을 수 있다."
-      },
-      "summary": "양성종양 및 용종 진단과 수술부터 암 치료까지 보장하는 암보험이 나왔다.",
-      "source_digest": "358b56fdf036ddb1",
+      "summary": "(사)한국보험연구원, ‘2028년 ESG 공시와 보험업의 과제’ 세미나 개최",
+      "source_digest": "df6f2398ea7ef7b9",
       "summary_kind": "rss",
       "implication": ""
     }
-  ]
+  ],
+  "collection": {
+    "configured": [
+      "보험신보",
+      "보험저널",
+      "서울파이낸스",
+      "한국보험신문"
+    ],
+    "succeeded": [
+      "보험신보",
+      "보험저널",
+      "서울파이낸스",
+      "한국보험신문"
+    ],
+    "selected": [
+      "한국보험신문"
+    ],
+    "items_received": 20
+  }
 }

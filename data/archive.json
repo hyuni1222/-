@@ -1,11 +1,19 @@
 [
   {
+    "date": "2026-11-22",
+    "title": "2026-11-22 · 확인된 보험 관련 기사 없음",
+    "count": 0,
+    "file": "data/editions/2026-11-22.json",
+    "backfilled": true,
+    "collected_at": "2026-11-22T08:26:48+09:00"
+  },
+  {
     "date": "2026-11-21",
-    "title": "[칼럼] 한 지사의 일탈에 설계사 6천 명 GA 등록취소?...문제는 ‘대마불사’가 아니라 ‘비례원칙’이다",
-    "count": 5,
+    "title": "(사)한국보험연구원, ‘2028년 ESG 공시와 보험업의 과제’ 세미나 개최",
+    "count": 1,
     "file": "data/editions/2026-11-21.json",
-    "backfilled": false,
-    "collected_at": "2026-11-21T08:35:03+09:00"
+    "backfilled": true,
+    "collected_at": "2026-11-22T08:26:48+09:00"
   },
   {
     "date": "2026-11-20",

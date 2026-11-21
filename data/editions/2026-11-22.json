@@ -1,0 +1,39 @@
+{
+  "date": "2026-11-22",
+  "updated_at": "2026-11-22T08:26:48+09:00",
+  "collected_at": "2026-11-22T08:26:48+09:00",
+  "summary_version": 2,
+  "title": "2026-11-22 · 확인된 보험 관련 기사 없음",
+  "demo": false,
+  "mode": "rss",
+  "backfilled": true,
+  "collection_method": "publisher_archive_calendar_day",
+  "article_window": {
+    "start": "2026-11-22T00:00:00+09:00",
+    "end": "2026-11-22T08:26:48.789411+09:00"
+  },
+  "sources": [
+    "보험신보",
+    "보험저널",
+    "서울파이낸스",
+    "한국보험신문"
+  ],
+  "warnings": [],
+  "articles": [],
+  "collection": {
+    "configured": [
+      "보험신보",
+      "보험저널",
+      "서울파이낸스",
+      "한국보험신문"
+    ],
+    "succeeded": [
+      "보험신보",
+      "보험저널",
+      "서울파이낸스",
+      "한국보험신문"
+    ],
+    "selected": [],
+    "items_received": 2
+  }
+}
