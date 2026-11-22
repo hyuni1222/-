@@ -1,16 +1,16 @@
 {
   "date": "2026-11-22",
-  "updated_at": "2026-11-22T08:26:48+09:00",
-  "collected_at": "2026-11-22T08:26:48+09:00",
+  "updated_at": "2026-11-23T08:30:31+09:00",
+  "collected_at": "2026-11-23T08:30:31+09:00",
   "summary_version": 2,
-  "title": "2026-11-22 · 확인된 보험 관련 기사 없음",
+  "title": "“재해보험으로 겨울철 자연재난 대비”… 보험료 최대100% 지원",
   "demo": false,
   "mode": "rss",
   "backfilled": true,
   "collection_method": "publisher_archive_calendar_day",
   "article_window": {
     "start": "2026-11-22T00:00:00+09:00",
-    "end": "2026-11-22T08:26:48.789411+09:00"
+    "end": "2026-11-23T00:00:00+09:00"
   },
   "sources": [
     "보험신보",
@@ -19,7 +19,44 @@
     "한국보험신문"
   ],
   "warnings": [],
-  "articles": [],
+  "articles": [
+    {
+      "title": "“재해보험으로 겨울철 자연재난 대비”… 보험료 최대100% 지원",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93976",
+      "source": "한국보험신문",
+      "source_group": "specialist",
+      "published_at": "2026-11-22T19:53:00+09:00",
+      "id": "4d100be24654",
+      "category": "영업전략",
+      "summary_parts": {
+        "intro": "“재해보험으로 겨울철 자연재난 대비”… 보험료 최대100% 지원",
+        "body": "RSS에 상세 사실·수치가 제공되지 않았습니다.",
+        "conclusion": "추가 내용과 영향은 기사 원문에서 확인하세요."
+      },
+      "summary": "“재해보험으로 겨울철 자연재난 대비”… 보험료 최대100% 지원",
+      "source_digest": "a5e82dc93a9df74b",
+      "summary_kind": "rss",
+      "implication": ""
+    },
+    {
+      "title": "자본 부담 줄이는 ‘자산집약형 재보험’ 확산…美·英, 신용·환수위험 감독 강화",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34004",
+      "source": "보험저널",
+      "source_group": "specialist",
+      "published_at": "2026-11-22T12:00:00+09:00",
+      "id": "567a96016a91",
+      "category": "제도·정책",
+      "summary_parts": {
+        "intro": "보험사의 자본 부담을 줄이고 자산운용 수익률을 높이기 위한 자산집약형 재보험(AIR)이 확대되면서 주요국이 감독을 강화하고 있다.",
+        "body": "재보험사 부실 등으로 원수보험사가 이전했던 위험을 다시 떠안으면 자본과 유동성에 부담이 생길 수 있어, 거래 전후에 준비금과 이를 뒷받침하는 자산의 적정성을 점검해야 한다는 판단에서다.",
+        "conclusion": "보험연구원 최우석 연구위원과 김가현 연구원은 22일, 미국·영국·네덜란드의 규제 변화를 분석하고, 국내에서도 거래 초기부터 AIR 관련 위험을 종합적으로 평가하는 체계를 보완할 필요가 있다고 제언했다."
+      },
+      "summary": "보험사의 자본 부담을 줄이고 자산운용 수익률을 높이기 위한 자산집약형 재보험(AIR)이 확대되면서 주요국이 감독을 강화하고 있다.",
+      "source_digest": "4f84f1de8cb37d89",
+      "summary_kind": "rss",
+      "implication": ""
+    }
+  ],
   "collection": {
     "configured": [
       "보험신보",
@@ -33,7 +70,10 @@
       "서울파이낸스",
       "한국보험신문"
     ],
-    "selected": [],
-    "items_received": 2
+    "selected": [
+      "보험저널",
+      "한국보험신문"
+    ],
+    "items_received": 20
   }
 }

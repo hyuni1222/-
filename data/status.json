@@ -1,7 +1,7 @@
 {
-  "checked_at": "2026-11-22T08:26:51+09:00",
+  "checked_at": "2026-11-23T08:30:36+09:00",
   "warnings": [],
-  "new_edition": false,
+  "new_edition": true,
   "collection": {
     "configured": [
       "뉴시스",
@@ -26,6 +26,6 @@
       "보험저널",
       "한국보험신문"
     ],
-    "items_received": 437
+    "items_received": 460
   }
 }
