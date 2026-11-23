@@ -1,15 +1,15 @@
 {
   "location": "서울",
-  "date": "2026-11-23",
+  "date": "2026-11-24",
   "timezone": "Asia/Seoul",
   "source": "Open-Meteo",
   "source_url": "https://open-meteo.com/",
   "basis": "weather_model_and_daily_forecast",
-  "fetched_at": "2026-11-23T08:30:31+09:00",
-  "weather_time": "2026-11-23T08:30+09:00",
-  "temperature": 3.5,
-  "weather_code": 2,
+  "fetched_at": "2026-11-24T08:38:27+09:00",
+  "weather_time": "2026-11-24T08:30+09:00",
+  "temperature": -0.8,
+  "weather_code": 0,
   "is_day": true,
-  "minimum": 1.2,
-  "maximum": 12.3
+  "minimum": -2.8,
+  "maximum": 4.8
 }

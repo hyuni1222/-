@@ -1,55 +1,58 @@
 {
   "date": "2026-11-23",
+  "updated_at": "2026-11-24T08:38:28+09:00",
+  "collected_at": "2026-11-24T08:38:28+09:00",
   "summary_version": 2,
-  "updated_at": "2026-11-23T08:30:36+09:00",
-  "title": "[칼럼] 한 지사의 일탈에 설계사 6천 명 GA 등록취소?...문제는 ‘대마불사’가 아니라 ‘비례원칙’이다",
+  "title": "보험판매전문회사 도입 국회 토론 소비자보호·판매책임 강화 논의",
   "demo": false,
   "mode": "rss",
+  "backfilled": true,
+  "collection_method": "publisher_archive_calendar_day",
+  "article_window": {
+    "start": "2026-11-23T00:00:00+09:00",
+    "end": "2026-11-24T00:00:00+09:00"
+  },
   "sources": [
-    "뉴시스",
-    "매일경제",
     "보험신보",
     "보험저널",
     "서울파이낸스",
-    "서울파이낸스",
-    "연합뉴스",
     "한국보험신문"
   ],
   "warnings": [],
   "articles": [
     {
-      "title": "[칼럼] 한 지사의 일탈에 설계사 6천 명 GA 등록취소?...문제는 ‘대마불사’가 아니라 ‘비례원칙’이다",
-      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34002",
-      "source": "보험저널",
-      "published_at": "2026-11-20T14:57:27+00:00",
+      "title": "보험판매전문회사 도입 국회 토론 소비자보호·판매책임 강화 논의",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=73076",
+      "source": "보험신보",
       "source_group": "specialist",
-      "id": "9c746f4c0a87",
-      "category": "채널",
+      "published_at": "2026-11-23T09:23:00+09:00",
+      "id": "0aeaf8bed6c4",
+      "category": "영업전략",
       "summary_parts": {
-        "intro": "필자는 지난 칼럼( '회사 돈으로 보험 들고 대표는 현금…법인보험 리베이트, 누구도 빠져나갈 수 없다' 2026. 11. 13)에서 한 GA 지사의 경영인정기보험 리베이트 사건을 다루며, 몰랐더라도 그 손해와 책임은 GA…",
-        "body": "보도에 따르면 금융감독원은 지난 13일 해당 GA인 한국보험금융에 ‘보험대리점 등록취소’를 예고했다.",
-        "conclusion": "그런데 2026. 11. 13. 책임의 크기가 예상보다 훨씬 큰 형태로 다가오고 있다."
+        "intro": "보험판매전문회사 도입 국회 토론 소비자보호·판매책임 강화 논의",
+        "body": "RSS에 상세 사실·수치가 제공되지 않았습니다.",
+        "conclusion": "추가 내용과 영향은 기사 원문에서 확인하세요."
       },
-      "summary": "필자는 지난 칼럼( '회사 돈으로 보험 들고 대표는 현금…법인보험 리베이트, 누구도 빠져나갈 수 없다' 2026. 11. 13)에서 한 GA 지사의 경영인정기보험 리베이트 사건을 다루며, 몰랐더라도 그 손해와 책임은 GA…",
-      "source_digest": "fa457104d1296cfd",
+      "summary": "보험판매전문회사 도입 국회 토론 소비자보호·판매책임 강화 논의",
+      "source_digest": "bf30aa613ce92ed8",
       "summary_kind": "rss",
       "implication": ""
     },
     {
-      "title": "손보 '신계약' 1.6배 많은데 '수수료'는 생보가 앞섰다…GA 73곳, 엇갈린 판매 지형",
-      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33965",
-      "source": "보험저널",
-      "published_at": "2026-11-18T15:43:05+00:00",
+      "title": "▨보험GA 준법·내부통제 체크리스트 북▨-판매유형별 내부통제",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=73090",
+      "source": "보험신보",
       "source_group": "specialist",
-      "id": "c511173331fe",
-      "category": "제도·정책",
+      "published_at": "2026-11-23T00:00:00+09:00",
+      "id": "0e5e72658184",
+      "category": "채널",
       "summary_parts": {
-        "intro": "대형 GA 73개사의 상반기 실적에서 판매 건수와 수수료가 서로 다른 흐름을 보였습니다.",
-        "body": "설계사 1인당 월 신계약은 생보 1.7건·손보 2.7건이지만, 수수료는 생보가 더 높았습니다.",
-        "conclusion": "건수만으로 수익성을 판단하기 어려워, 채널·상품별 수수료 구조를 함께 살펴봐야 합니다."
+        "intro": "▨보험GA 준법·내부통제 체크리스트 북▨-판매유형별 내부통제",
+        "body": "RSS에 상세 사실·수치가 제공되지 않았습니다.",
+        "conclusion": "추가 내용과 영향은 기사 원문에서 확인하세요."
       },
-      "summary": "대형 GA 73개사의 상반기 실적에서 판매 건수와 수수료가 서로 다른 흐름을 보였습니다.",
-      "source_digest": "0791d252d7d4448f",
+      "summary": "▨보험GA 준법·내부통제 체크리스트 북▨-판매유형별 내부통제",
+      "source_digest": "21a381a0d7f04ac1",
       "summary_kind": "rss",
       "implication": ""
     },
@@ -57,56 +60,75 @@
       "title": "생명보험사 종신보험 전략 다변화… ‘살아서 쓰는 보험’으로",
       "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93928",
       "source": "한국보험신문",
-      "published_at": "2026-11-23T00:00:00+00:00",
       "source_group": "specialist",
+      "published_at": "2026-11-23T00:00:00+09:00",
       "id": "acc64ff203d2",
       "category": "상품",
       "summary_parts": {
-        "intro": "종신보험이 사망보장 중심에서 생애자금과 건강보장을 결합하는 방향으로 변화하고 있다.",
-        "body": "높은 해약환급률을 앞세운 단기납 종신보험의 과당경쟁과 소비자 피해, 보험사의 재무건전성 우려 등이 불거지면서 생명보험사들이 새로운 상품 전략을 모색하고 있다.",
-        "conclusion": "과거 종신보험이 사망 이후 유족에게 보험금을 지급하는 데 초점을 맞췄다면, 최근에는 생애자금과 치료비까지 보장하는 방향으로 바뀌고 있다."
+        "intro": "생명보험사 종신보험 전략 다변화… ‘살아서 쓰는 보험’으로",
+        "body": "RSS에 상세 사실·수치가 제공되지 않았습니다.",
+        "conclusion": "추가 내용과 영향은 기사 원문에서 확인하세요."
       },
-      "summary": "종신보험이 사망보장 중심에서 생애자금과 건강보장을 결합하는 방향으로 변화하고 있다.",
-      "source_digest": "db4a33c5727d9299",
+      "summary": "생명보험사 종신보험 전략 다변화… ‘살아서 쓰는 보험’으로",
+      "source_digest": "92adbb467286beca",
       "summary_kind": "rss",
       "implication": ""
     },
     {
-      "title": "GA업계 “보험판매전문社 도입해 소비자보호”…당국은 신중론",
-      "url": "https://www.mk.co.kr/news/economy/12214697",
-      "source": "매일경제",
-      "published_at": "2026-11-20T16:14:40+00:00",
-      "source_group": "general",
-      "id": "64bbb6e69856",
-      "category": "채널",
+      "title": "보험판매전문회사 법안 2건, 국회 자동 상정…'법안심사' 본격화",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34031",
+      "source": "보험저널",
+      "source_group": "specialist",
+      "published_at": "2026-11-23T16:06:00+09:00",
+      "id": "ec7221dab51f",
+      "category": "제도·정책",
       "summary_parts": {
-        "intro": "GA업계 대형화에 국회 입법토론회 역량 갖춘 곳부터 단계적 도입 제안 당국은 “책임성 확보 먼저” 장기검토 보험시장에서 영향력이 커지고 있는 법인보험대리점(GA)에 독립적인 법적 지위와 강화된 책임을 부여하는…",
-        "body": "지난해 기준 GA 소속 설계사는 약 32만명으로 전체 보험설계사의 45%에 달했다.",
-        "conclusion": "손해배상 책임과 비용 부담 기준, 우선변제권, 설계사 관리 의무 등을 명확히 해 보험판매전문회사의 권한에 상응하는 책임을 부여해야 한다고 제언했다."
+        "intro": "보험판매전문회사 도입을 위한 여야 발의 법안이 지난 19일 국회 정무위원회에 자동상정되면서 입법 논의가 새로운 국면에 접어들었다.",
+        "body": "23일 GA업계에 따르면 국민의힘 주호영 의원과 더불어민주당 민병덕 의원이 각각 대표발의한 보험판매전문회사 관련 법안은 국회법에 따른 자동상정 절차를 거쳐 정무위원회 심사 단계에 진입했다.",
+        "conclusion": "국회 의안정보시스템에도 지난 19일 상정 사실이 반영됐으며, 관련 검토보고서도 마련됐다."
       },
-      "summary": "GA업계 대형화에 국회 입법토론회 역량 갖춘 곳부터 단계적 도입 제안 당국은 “책임성 확보 먼저” 장기검토 보험시장에서 영향력이 커지고 있는 법인보험대리점(GA)에 독립적인 법적 지위와 강화된 책임을 부여하는…",
-      "source_digest": "aa4f006e12eb0743",
+      "summary": "보험판매전문회사 도입을 위한 여야 발의 법안이 지난 19일 국회 정무위원회에 자동상정되면서 입법 논의가 새로운 국면에 접어들었다.",
+      "source_digest": "c0c65d5c9970013e",
       "summary_kind": "rss",
-      "implication": "",
-      "summary_basis": "public_article_excerpt"
+      "implication": ""
     },
     {
-      "title": "중국 생명보험사 72곳, 3분기 583억 위안 순손실… 투자손익 악화",
-      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93893",
-      "source": "한국보험신문",
-      "published_at": "2026-11-23T00:00:00+00:00",
+      "title": "인카금융서비스 코스모스사업단, 보험영업 전문가 모집…'고액자산가 시장까지 성장 기회'",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34028",
+      "source": "보험저널",
       "source_group": "specialist",
-      "id": "f6ed2f2cef3f",
+      "published_at": "2026-11-23T12:55:00+09:00",
+      "id": "68edf573ecb1",
       "category": "영업전략",
       "summary_parts": {
-        "intro": "중국 생명보험사들이 올해 3분기 주식시장 급락의 영향으로 대규모 적자를 기록했다.",
-        "body": "중국 생명보험사 72곳의 올해 3분기 순손실은 총 583억900만 위안으로 집계됐다.",
-        "conclusion": "올해 1~3분기 누적 보험료 수입은 3조1840억1800만 위안으로 전년 동기 대비 2.38% 증가했다."
+        "intro": "인카금융서비스 코스모스사업단이 개인보험 영업을 넘어 법인영업과 상속·증여, 고액자산가 시장까지 활동 영역을 넓히려는 보험설계사를 모집한다.",
+        "body": "풍부한 현장 경험을 갖춘 전문가의 밀착 멘토링과 체계적인 교육을 통해 종합 금융컨설턴트로 성장할 수 있는 기회를 제공한다.",
+        "conclusion": "서울 강남구 역삼동에 위치한 코스모스사업단은 보험영업 경력 20년의 베테랑이 이끄는 조직이다."
       },
-      "summary": "중국 생명보험사들이 올해 3분기 주식시장 급락의 영향으로 대규모 적자를 기록했다.",
-      "source_digest": "018f3e2e18b4f45b",
+      "summary": "인카금융서비스 코스모스사업단이 개인보험 영업을 넘어 법인영업과 상속·증여, 고액자산가 시장까지 활동 영역을 넓히려는 보험설계사를 모집한다.",
+      "source_digest": "0345bb9667e102f2",
       "summary_kind": "rss",
       "implication": ""
     }
-  ]
+  ],
+  "collection": {
+    "configured": [
+      "보험신보",
+      "보험저널",
+      "서울파이낸스",
+      "한국보험신문"
+    ],
+    "succeeded": [
+      "보험신보",
+      "보험저널",
+      "서울파이낸스",
+      "한국보험신문"
+    ],
+    "selected": [
+      "보험신보",
+      "보험저널",
+      "한국보험신문"
+    ],
+    "items_received": 198
+  }
 }

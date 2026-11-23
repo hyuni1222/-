@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-23T08:30:36+09:00",
+  "checked_at": "2026-11-24T08:38:36+09:00",
   "warnings": [],
   "new_edition": true,
   "collection": {
@@ -23,9 +23,10 @@
     ],
     "selected": [
       "매일경제",
+      "보험신보",
       "보험저널",
       "한국보험신문"
     ],
-    "items_received": 460
+    "items_received": 490
   }
 }
