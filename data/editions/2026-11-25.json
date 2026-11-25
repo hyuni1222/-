@@ -1,112 +1,135 @@
 {
   "date": "2026-11-25",
+  "updated_at": "2026-11-26T08:39:33+09:00",
+  "collected_at": "2026-11-26T08:39:33+09:00",
   "summary_version": 2,
-  "updated_at": "2026-11-25T08:39:15+09:00",
-  "title": "[10월 생보사 GA M/S] 신한라이프…인카금융서비스 12.2% 선두 유지, 지에이코리아·글로벌금융판매 상위권 도약",
+  "title": "[10월 생보사 GA M/S] 푸본현대생명…서울법인금융센터 5계단 상승 1위, 인카금융서비스 7위로 급락",
   "demo": false,
   "mode": "rss",
+  "backfilled": true,
+  "collection_method": "publisher_archive_calendar_day",
+  "article_window": {
+    "start": "2026-11-25T00:00:00+09:00",
+    "end": "2026-11-26T00:00:00+09:00"
+  },
   "sources": [
-    "뉴시스",
-    "매일경제",
     "보험신보",
     "보험저널",
     "서울파이낸스",
-    "서울파이낸스",
-    "연합뉴스",
     "한국보험신문"
   ],
   "warnings": [],
   "articles": [
     {
-      "title": "[10월 생보사 GA M/S] 신한라이프…인카금융서비스 12.2% 선두 유지, 지에이코리아·글로벌금융판매 상위권 도약",
-      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34041",
+      "title": "[10월 생보사 GA M/S] 푸본현대생명…서울법인금융센터 5계단 상승 1위, 인카금융서비스 7위로 급락",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34047",
       "source": "보험저널",
-      "published_at": "2026-11-24T08:40:34+00:00",
       "source_group": "specialist",
-      "id": "5bada95341af",
+      "published_at": "2026-11-25T08:10:00+09:00",
+      "id": "c87f7abf0f7a",
       "category": "채널",
       "summary_parts": {
-        "intro": "신한라이프의 2026년 10월 GA 채널 신계약 실적은 약 42억 1,185만원으로 전월 약 67억 4,631만원 대비 감소했다.",
-        "body": "인카금융서비스가 점유율 12.2%로 1위를 유지한 가운데, 상위 3개 GA의 합산 점유율은 24.2%를 기록했다.",
-        "conclusion": "점유율은 전월 12.8%에서 0.6%포인트 하락했지만, 2위 지에이코리아와는 5.6%포인트의 격차를 보였다."
+        "intro": "푸본현대생명의 2026년 10월 GA 채널 신계약 실적은 약 18억 7,808만원으로 전월 약 32억 9,027만원 대비 크게 감소했다.",
+        "body": "서울법인금융센터가 점유율 14.1%로 1위에 올라선 가운데, 상위 3개 GA의 합산 점유율은 36.2%를 기록했다.",
+        "conclusion": "점유율은 8월 4.0%, 9월 6.0%에 이어 10월 14.1%까지 두 달 연속 확대됐다."
       },
-      "summary": "신한라이프의 2026년 10월 GA 채널 신계약 실적은 약 42억 1,185만원으로 전월 약 67억 4,631만원 대비 감소했다.",
-      "source_digest": "43ca2176f7a8a50e",
+      "summary": "푸본현대생명의 2026년 10월 GA 채널 신계약 실적은 약 18억 7,808만원으로 전월 약 32억 9,027만원 대비 크게 감소했다.",
+      "source_digest": "e0c8466719a1a908",
       "summary_kind": "rss",
       "implication": ""
     },
     {
-      "title": "손보 '신계약' 1.6배 많은데 '수수료'는 생보가 앞섰다…GA 73곳, 엇갈린 판매 지형 (영상+)",
-      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33965",
+      "title": "[4년 분급 D-1개월] GA 수수료 배분 주의보… 계약체결비용 총액만 보면 초기 과다 배분 우려",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34073",
       "source": "보험저널",
-      "published_at": "2026-11-24T06:00:00+00:00",
       "source_group": "specialist",
-      "id": "c511173331fe",
+      "published_at": "2026-11-25T09:24:00+09:00",
+      "id": "3b452561e637",
       "category": "제도·정책",
       "summary_parts": {
-        "intro": "2026년 상반기 대형 법인보험대리점(GA)의 보험 판매 실적에서 신계약 건수와 수수료가 서로 다른 양상을 나타냈다.",
-        "body": "설계사 1인당 월평균 신계약 건수는 손해보험이 생명보험보다 약 1.6배 많지만 수수료는 오히려 생명보험이 더 높았다.",
-        "conclusion": "회사별로도 생보 수수료가 전체의 90% 이상을 차지하는 GA가 있는 반면, 손보에 수수료 대부분이 집중된 회사도 있었다."
+        "intro": "보험 판매수수료 4년 분급 시행을 한 달 앞두고 수수료 배분을 준비하는 GA들은 상품별 수수료 환산율과 배분 기준을 점검해야 한다.",
+        "body": "제도 변화에 대비해 이미 관련 내용을 파악한 GA도 있겠지만, 손익 여력과 현금 유동성이 넉넉하지 않은 GA는 수수료 배분 과정에서 발생할 수 있는 위험을 더욱 면밀히 살펴야 한다.",
+        "conclusion": "수수료 유입 기간이 달라지는 만큼 계약체결비용 총액만 기준으로 설계사 수수료와 지사·사업단 운영비를 책정하면, 후속 연차 수수료까지 현재 확보된 재원처럼 반영해 배분율이 과도해질 수 있기 때문이다."
       },
-      "summary": "2026년 상반기 대형 법인보험대리점(GA)의 보험 판매 실적에서 신계약 건수와 수수료가 서로 다른 양상을 나타냈다.",
-      "source_digest": "520dfecebf66083b",
+      "summary": "보험 판매수수료 4년 분급 시행을 한 달 앞두고 수수료 배분을 준비하는 GA들은 상품별 수수료 환산율과 배분 기준을 점검해야 한다.",
+      "source_digest": "11fe71135609706c",
       "summary_kind": "rss",
       "implication": ""
     },
     {
-      "title": "보험판매전문회사제도 도입···GA 권한·책임 균형 필요",
-      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=73107",
+      "title": "교보생명, ‘대한민국 지속가능성대회’ 생명보험 부문 1위 수상",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=73125",
       "source": "보험신보",
-      "published_at": "2026-11-24T14:21:46+00:00",
       "source_group": "specialist",
-      "id": "d69f13ed0dc5",
-      "category": "제도·정책",
+      "published_at": "2026-11-25T10:00:00+09:00",
+      "id": "81d4f55bb198",
+      "category": "영업전략",
       "summary_parts": {
-        "intro": "보험판매전문회사제도 도입을 통한 GA의 업무범위와 권한 확대에 앞서 이에 상응하는 판매책임과 내부통제체계를 갖춰야 한다는 의견이 제기됐다.",
-        "body": "김형연 조국혁신당 국회의원은 24일 국회의원회관에서 전국사무금융서비스노동조합과 'GA 성장의 그늘, 무엇을 고칠 것인가' 토론회를 열었다토론회는 보험산업의 핵심 판매채널로 급성장한 GA의 구조적 문제점을 짚어보고 건전한…",
-        "conclusion": "RSS에서 확인되는 내용은 위와 같으며, 추가 영향은 원문 확인이 필요합니다."
+        "intro": "교보생명, ‘대한민국 지속가능성대회’ 생명보험 부문 1위 수상",
+        "body": "RSS에 상세 사실·수치가 제공되지 않았습니다.",
+        "conclusion": "추가 내용과 영향은 기사 원문에서 확인하세요."
       },
-      "summary": "보험판매전문회사제도 도입을 통한 GA의 업무범위와 권한 확대에 앞서 이에 상응하는 판매책임과 내부통제체계를 갖춰야 한다는 의견이 제기됐다.",
-      "source_digest": "9d14872b5ac3564a",
+      "summary": "교보생명, ‘대한민국 지속가능성대회’ 생명보험 부문 1위 수상",
+      "source_digest": "d7797470cebcbbf5",
       "summary_kind": "rss",
       "implication": ""
     },
     {
-      "title": "생명보험사 종신보험 전략 다변화… ‘살아서 쓰는 보험’으로",
-      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93928",
-      "source": "한국보험신문",
-      "published_at": "2026-11-23T00:00:00+00:00",
-      "source_group": "specialist",
-      "id": "acc64ff203d2",
-      "category": "상품",
-      "summary_parts": {
-        "intro": "종신보험이 사망보장 중심에서 생애자금과 건강보장을 결합하는 방향으로 변화하고 있다.",
-        "body": "높은 해약환급률을 앞세운 단기납 종신보험의 과당경쟁과 소비자 피해, 보험사의 재무건전성 우려 등이 불거지면서 생명보험사들이 새로운 상품 전략을 모색하고 있다.",
-        "conclusion": "과거 종신보험이 사망 이후 유족에게 보험금을 지급하는 데 초점을 맞췄다면, 최근에는 생애자금과 치료비까지 보장하는 방향으로 바뀌고 있다."
-      },
-      "summary": "종신보험이 사망보장 중심에서 생애자금과 건강보장을 결합하는 방향으로 변화하고 있다.",
-      "source_digest": "db4a33c5727d9299",
-      "summary_kind": "rss",
-      "implication": ""
-    },
-    {
-      "title": "보험사기 등 금융법 위반자, 보험설계사 진입 막는다",
-      "url": "https://www.mk.co.kr/news/economy/12217118",
-      "source": "매일경제",
-      "published_at": "2026-11-24T15:19:34+00:00",
+      "title": "삼성생명·화재 대표 유임 무게···호실적·해외사업 연속성 고려",
+      "url": "https://www.seoulfn.com/news/articleView.html?idxno=643943",
+      "source": "서울파이낸스",
       "source_group": "general",
-      "id": "e4950e37b9fe",
-      "category": "채널",
+      "published_at": "2026-11-25T17:59:00+09:00",
+      "id": "4ee6ef40d2eb",
+      "category": "영업전략",
       "summary_parts": {
-        "intro": "보험모집인 결격사유 확대 선량한 설계사 영업 피해 방지 앞으로 보험사기 등 금융관계법률을 위반한 사람의 보험모집시장 진입이 제한된다.",
-        "body": "구체적으로 위반행위에 가담한 설계사가 150명 이하이거나 전체 소속 설계사의 15% 이하인 경우, 설계사가 GA 등의 지시·감독에 따라 단순히 조력한 경우 등이 과징금 부과 대상이다.",
-        "conclusion": "금융위는 내년 1월 4일까지 입법예고 등을 거친 뒤 개정 보험업법 시행일인 내년 3월 9일에 맞춰 시행할 예정이다."
+        "intro": "삼성생명·화재 대표 유임 무게···호실적·해외사업 연속성 고려",
+        "body": "RSS에 상세 사실·수치가 제공되지 않았습니다.",
+        "conclusion": "추가 내용과 영향은 기사 원문에서 확인하세요."
       },
-      "summary": "보험모집인 결격사유 확대 선량한 설계사 영업 피해 방지 앞으로 보험사기 등 금융관계법률을 위반한 사람의 보험모집시장 진입이 제한된다.",
-      "source_digest": "839491e05f5791fa",
+      "summary": "삼성생명·화재 대표 유임 무게···호실적·해외사업 연속성 고려",
+      "source_digest": "710395ae5ba51d21",
       "summary_kind": "rss",
-      "implication": "",
-      "summary_basis": "public_article_excerpt"
+      "implication": ""
+    },
+    {
+      "title": "보험금청구권신탁 개선 논의… 치매·간병보험금까지 넓혀 초고령사회 대응",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=94068",
+      "source": "한국보험신문",
+      "source_group": "specialist",
+      "published_at": "2026-11-25T20:26:00+09:00",
+      "id": "eedb597ebe39",
+      "category": "영업전략",
+      "summary_parts": {
+        "intro": "보험금청구권신탁 개선 논의… 치매·간병보험금까지 넓혀 초고령사회 대응",
+        "body": "RSS에 상세 사실·수치가 제공되지 않았습니다.",
+        "conclusion": "추가 내용과 영향은 기사 원문에서 확인하세요."
+      },
+      "summary": "보험금청구권신탁 개선 논의… 치매·간병보험금까지 넓혀 초고령사회 대응",
+      "source_digest": "f4b62e1aa916a719",
+      "summary_kind": "rss",
+      "implication": ""
     }
-  ]
+  ],
+  "collection": {
+    "configured": [
+      "보험신보",
+      "보험저널",
+      "서울파이낸스",
+      "한국보험신문"
+    ],
+    "succeeded": [
+      "보험신보",
+      "보험저널",
+      "서울파이낸스",
+      "한국보험신문"
+    ],
+    "selected": [
+      "보험신보",
+      "보험저널",
+      "서울파이낸스",
+      "한국보험신문"
+    ],
+    "items_received": 138
+  }
 }

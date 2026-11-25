@@ -1,11 +1,19 @@
 [
   {
+    "date": "2026-11-26",
+    "title": "[10월 생보사 GA M/S] 푸본현대생명…서울법인금융센터 5계단 상승 1위, 인카금융서비스 7위로 급락",
+    "count": 5,
+    "file": "data/editions/2026-11-26.json",
+    "backfilled": false,
+    "collected_at": "2026-11-26T08:39:41+09:00"
+  },
+  {
     "date": "2026-11-25",
-    "title": "[10월 생보사 GA M/S] 신한라이프…인카금융서비스 12.2% 선두 유지, 지에이코리아·글로벌금융판매 상위권 도약",
+    "title": "[10월 생보사 GA M/S] 푸본현대생명…서울법인금융센터 5계단 상승 1위, 인카금융서비스 7위로 급락",
     "count": 5,
     "file": "data/editions/2026-11-25.json",
-    "backfilled": false,
-    "collected_at": "2026-11-25T08:39:15+09:00"
+    "backfilled": true,
+    "collected_at": "2026-11-26T08:39:33+09:00"
   },
   {
     "date": "2026-11-24",
