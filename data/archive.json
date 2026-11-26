@@ -1,11 +1,19 @@
 [
   {
-    "date": "2026-11-26",
+    "date": "2026-11-27",
     "title": "[10월 생보사 GA M/S] 푸본현대생명…서울법인금융센터 5계단 상승 1위, 인카금융서비스 7위로 급락",
     "count": 5,
-    "file": "data/editions/2026-11-26.json",
+    "file": "data/editions/2026-11-27.json",
     "backfilled": false,
-    "collected_at": "2026-11-26T08:39:41+09:00"
+    "collected_at": "2026-11-27T08:42:45+09:00"
+  },
+  {
+    "date": "2026-11-26",
+    "title": "[10월 생보사 GA M/S] IBK연금보험…에이플러스에셋 29.4% ‘우뚝’, 상위 3개사 점유율 절반 육박",
+    "count": 5,
+    "file": "data/editions/2026-11-26.json",
+    "backfilled": true,
+    "collected_at": "2026-11-27T08:42:36+09:00"
   },
   {
     "date": "2026-11-25",
