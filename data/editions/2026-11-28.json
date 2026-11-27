@@ -1,0 +1,112 @@
+{
+  "date": "2026-11-28",
+  "summary_version": 2,
+  "updated_at": "2026-11-28T08:40:56+09:00",
+  "title": "[10월 GA 생보사 실적 M/S] 에이플러스에셋어드바이저…AIA생명 1위, IBK연금보험·메트라이프생명 12%대 경쟁",
+  "demo": false,
+  "mode": "rss",
+  "sources": [
+    "뉴시스",
+    "매일경제",
+    "보험신보",
+    "보험저널",
+    "서울파이낸스",
+    "서울파이낸스",
+    "연합뉴스",
+    "한국보험신문"
+  ],
+  "warnings": [],
+  "articles": [
+    {
+      "title": "[10월 GA 생보사 실적 M/S] 에이플러스에셋어드바이저…AIA생명 1위, IBK연금보험·메트라이프생명 12%대 경쟁",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34097",
+      "source": "보험저널",
+      "published_at": "2026-11-27T07:15:00+00:00",
+      "source_group": "specialist",
+      "id": "ec1ae9f92cb8",
+      "category": "상품",
+      "summary_parts": {
+        "intro": "에이플러스에셋어드바이저의 2026년 10월 생보사 실적은 약 18억 6,644만원으로 전월 약 21억 4,249만원보다 감소했다.",
+        "body": "AIA생명은 점유율 13.1%, 약 2억 4,373만원으로 전월보다 4계단 상승해 선두를 차지했다.",
+        "conclusion": "IBK연금보험은 점유율 12.2%, 약 2억 2,819만원으로 4계단 오른 2위에 자리했다."
+      },
+      "summary": "에이플러스에셋어드바이저의 2026년 10월 생보사 실적은 약 18억 6,644만원으로 전월 약 21억 4,249만원보다 감소했다.",
+      "source_digest": "39cfd16dfe97fbc9",
+      "summary_kind": "rss",
+      "implication": ""
+    },
+    {
+      "title": "[10월 GA 생보사 실적 M/S] 스카이블루에셋…DB생명·한화생명 1·2위 맞바꿔",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34088",
+      "source": "보험저널",
+      "published_at": "2026-11-27T08:30:00+00:00",
+      "source_group": "specialist",
+      "id": "6f4412595759",
+      "category": "채널",
+      "summary_parts": {
+        "intro": "스카이블루에셋의 2026년 10월 생보사 실적은 약 16억 9,268만원으로 전월 약 24억 2,993만원보다 감소했다.",
+        "body": "DB생명은 약 6억 2,114만원의 실적을 거두며 점유율을 전월 30.4%에서 36.7%로 높였다.",
+        "conclusion": "순위도 한 계단 올라 전월 선두였던 한화생명을 제치고 1위를 차지했다."
+      },
+      "summary": "스카이블루에셋의 2026년 10월 생보사 실적은 약 16억 9,268만원으로 전월 약 24억 2,993만원보다 감소했다.",
+      "source_digest": "d7bb66c5724d5d19",
+      "summary_kind": "rss",
+      "implication": ""
+    },
+    {
+      "title": "“설계사 수수료 줄면 내 보험료도 싸지나요?”…내년 보험 가입 때 달라지는 것",
+      "url": "https://www.mk.co.kr/news/economy/12220275",
+      "source": "매일경제",
+      "published_at": "2026-11-27T16:21:34+00:00",
+      "source_group": "general",
+      "id": "ea4320a9bab1",
+      "category": "제도·정책",
+      "summary_parts": {
+        "intro": "작년 판매수수료 27조3천억…3년만 11조↑ 판매수수료 감소는 보험료 인하 요인 손해율·연령 등도 반영…인하 폭·시기 미정 금융당국이 내년부터 보험 판매수수료 지급한도를 강화해 소비자의 보험료 부담 완화에 나선다.",
+        "body": "금융당국에 따르면 보험업계의 연간 판매수수료는 2022년 16조원에서 지난해 27조3000억원으로 3년 새 70.6% 증가했다.",
+        "conclusion": "보험업계 관계자는 “업계는 과도한 수수료 경쟁에서 벗어나 상품 경쟁력 중심의 경쟁으로 변화되고, 소비자는 보험료 부담이 완화되고 합리적인 상품 선택이 확대되지 않을까 한다”고 내다봤다."
+      },
+      "summary": "작년 판매수수료 27조3천억…3년만 11조↑ 판매수수료 감소는 보험료 인하 요인 손해율·연령 등도 반영…인하 폭·시기 미정 금융당국이 내년부터 보험 판매수수료 지급한도를 강화해 소비자의 보험료 부담 완화에 나선다.",
+      "source_digest": "7d4a48ffa9c5761b",
+      "summary_kind": "rss",
+      "implication": "",
+      "summary_basis": "public_article_excerpt"
+    },
+    {
+      "title": "보험판매전문회사제도 도입···GA 권한·책임 균형 필요",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=73107",
+      "source": "보험신보",
+      "published_at": "2026-11-24T14:21:46+00:00",
+      "source_group": "specialist",
+      "id": "d69f13ed0dc5",
+      "category": "제도·정책",
+      "summary_parts": {
+        "intro": "보험판매전문회사제도 도입을 통한 GA의 업무범위와 권한 확대에 앞서 이에 상응하는 판매책임과 내부통제체계를 갖춰야 한다는 의견이 제기됐다.",
+        "body": "김형연 조국혁신당 국회의원은 24일 국회의원회관에서 전국사무금융서비스노동조합과 'GA 성장의 그늘, 무엇을 고칠 것인가' 토론회를 열었다토론회는 보험산업의 핵심 판매채널로 급성장한 GA의 구조적 문제점을 짚어보고 건전한…",
+        "conclusion": "RSS에서 확인되는 내용은 위와 같으며, 추가 영향은 원문 확인이 필요합니다."
+      },
+      "summary": "보험판매전문회사제도 도입을 통한 GA의 업무범위와 권한 확대에 앞서 이에 상응하는 판매책임과 내부통제체계를 갖춰야 한다는 의견이 제기됐다.",
+      "source_digest": "9d14872b5ac3564a",
+      "summary_kind": "rss",
+      "implication": ""
+    },
+    {
+      "title": "▨보험GA 준법·내부통제 체크리스트 북▨-판매유형별 내부통제",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=73090",
+      "source": "보험신보",
+      "published_at": "2026-11-23T00:00:00+00:00",
+      "source_group": "specialist",
+      "id": "0e5e72658184",
+      "category": "채널",
+      "summary_parts": {
+        "intro": "GA는 보험상품 판매를 위해 방문판매, 브리핑영업, 전화권유판매 등 다양한 영업채널을 활용한다.",
+        "body": "다양한 판매 방식에서 발생할 수 있는 불완전판매의 방지와 금융소비자보호를 위해 ‘금융소비자보호내부통제기준’은 GA가 판매유형별 판매준칙을 마련하고 이를 준수할 것을 요구하고 있다.",
+        "conclusion": "방문판매란 보험모집인이 회사의 사업장(영업소, 지점, 고객센터 등) 외의 장소에서 고객에 보험상품을 권유하거나, 청약을 받거나, 계약을 체결하는 영업 형태를 말한다."
+      },
+      "summary": "GA는 보험상품 판매를 위해 방문판매, 브리핑영업, 전화권유판매 등 다양한 영업채널을 활용한다.",
+      "source_digest": "e0c23610686b3d6d",
+      "summary_kind": "rss",
+      "implication": ""
+    }
+  ]
+}

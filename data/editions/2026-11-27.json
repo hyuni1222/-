@@ -1,112 +1,134 @@
 {
   "date": "2026-11-27",
+  "updated_at": "2026-11-28T08:40:47+09:00",
+  "collected_at": "2026-11-28T08:40:47+09:00",
   "summary_version": 2,
-  "updated_at": "2026-11-27T08:42:45+09:00",
-  "title": "[10월 생보사 GA M/S] 푸본현대생명…서울법인금융센터 5계단 상승 1위, 인카금융서비스 7위로 급락",
+  "title": "[10월 GA 생보사 실적 M/S] 에이플러스에셋어드바이저…AIA생명 1위, IBK연금보험·메트라이프생명 12%대 경쟁",
   "demo": false,
   "mode": "rss",
+  "backfilled": true,
+  "collection_method": "publisher_archive_calendar_day",
+  "article_window": {
+    "start": "2026-11-27T00:00:00+09:00",
+    "end": "2026-11-28T00:00:00+09:00"
+  },
   "sources": [
-    "뉴시스",
-    "매일경제",
     "보험신보",
     "보험저널",
     "서울파이낸스",
-    "서울파이낸스",
-    "연합뉴스",
     "한국보험신문"
   ],
   "warnings": [],
   "articles": [
     {
-      "title": "[10월 생보사 GA M/S] 푸본현대생명…서울법인금융센터 5계단 상승 1위, 인카금융서비스 7위로 급락",
-      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34047",
+      "title": "[10월 GA 생보사 실적 M/S] 에이플러스에셋어드바이저…AIA생명 1위, IBK연금보험·메트라이프생명 12%대 경쟁",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34097",
       "source": "보험저널",
-      "published_at": "2026-11-25T08:10:00+00:00",
       "source_group": "specialist",
-      "id": "c87f7abf0f7a",
-      "category": "채널",
-      "summary_parts": {
-        "intro": "푸본현대생명의 2026년 10월 GA 채널 신계약 실적은 약 18억 7,808만원으로 전월 약 32억 9,027만원 대비 크게 감소했다.",
-        "body": "서울법인금융센터가 점유율 14.1%로 1위에 올라선 가운데, 상위 3개 GA의 합산 점유율은 36.2%를 기록했다.",
-        "conclusion": "점유율은 8월 4.0%, 9월 6.0%에 이어 10월 14.1%까지 두 달 연속 확대됐다."
-      },
-      "summary": "푸본현대생명의 2026년 10월 GA 채널 신계약 실적은 약 18억 7,808만원으로 전월 약 32억 9,027만원 대비 크게 감소했다.",
-      "source_digest": "e0c8466719a1a908",
-      "summary_kind": "rss",
-      "implication": ""
-    },
-    {
-      "title": "[10월 생보사 GA M/S] IBK연금보험…에이플러스에셋 29.4% ‘우뚝’, 상위 3개사 점유율 절반 육박",
-      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34058",
-      "source": "보험저널",
-      "published_at": "2026-11-26T08:05:00+00:00",
-      "source_group": "specialist",
-      "id": "edade672e7f3",
+      "published_at": "2026-11-27T07:15:00+09:00",
+      "id": "ec1ae9f92cb8",
       "category": "상품",
       "summary_parts": {
-        "intro": "IBK연금보험의 2026년 10월 GA 채널 신계약 실적은 약 7억 7,735만원으로 전월 약 6억 9,949만원 대비 증가했다.",
-        "body": "점유율은 8월 19.0%, 9월 21.9%에 이어 10월 29.4%까지 두 달 연속 확대됐다.",
-        "conclusion": "전월 대비 7.5%포인트 상승하며 2위 인카금융서비스와의 격차를 18.9%포인트로 벌렸다."
+        "intro": "에이플러스에셋어드바이저의 2026년 10월 생보사 실적은 약 18억 6,644만원으로 전월 약 21억 4,249만원보다 감소했다.",
+        "body": "AIA생명은 점유율 13.1%, 약 2억 4,373만원으로 전월보다 4계단 상승해 선두를 차지했다.",
+        "conclusion": "IBK연금보험은 점유율 12.2%, 약 2억 2,819만원으로 4계단 오른 2위에 자리했다."
       },
-      "summary": "IBK연금보험의 2026년 10월 GA 채널 신계약 실적은 약 7억 7,735만원으로 전월 약 6억 9,949만원 대비 증가했다.",
-      "source_digest": "fd35cd7742399668",
+      "summary": "에이플러스에셋어드바이저의 2026년 10월 생보사 실적은 약 18억 6,644만원으로 전월 약 21억 4,249만원보다 감소했다.",
+      "source_digest": "39cfd16dfe97fbc9",
       "summary_kind": "rss",
       "implication": ""
     },
     {
-      "title": "보험판매전문회사제도 도입···GA 권한·책임 균형 필요",
-      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=73107",
-      "source": "보험신보",
-      "published_at": "2026-11-24T14:21:46+00:00",
+      "title": "[10월 GA 생보사 실적 M/S] 스카이블루에셋…DB생명·한화생명 1·2위 맞바꿔",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34088",
+      "source": "보험저널",
       "source_group": "specialist",
-      "id": "d69f13ed0dc5",
-      "category": "제도·정책",
-      "summary_parts": {
-        "intro": "보험판매전문회사제도 도입을 통한 GA의 업무범위와 권한 확대에 앞서 이에 상응하는 판매책임과 내부통제체계를 갖춰야 한다는 의견이 제기됐다.",
-        "body": "김형연 조국혁신당 국회의원은 24일 국회의원회관에서 전국사무금융서비스노동조합과 'GA 성장의 그늘, 무엇을 고칠 것인가' 토론회를 열었다토론회는 보험산업의 핵심 판매채널로 급성장한 GA의 구조적 문제점을 짚어보고 건전한…",
-        "conclusion": "RSS에서 확인되는 내용은 위와 같으며, 추가 영향은 원문 확인이 필요합니다."
-      },
-      "summary": "보험판매전문회사제도 도입을 통한 GA의 업무범위와 권한 확대에 앞서 이에 상응하는 판매책임과 내부통제체계를 갖춰야 한다는 의견이 제기됐다.",
-      "source_digest": "9d14872b5ac3564a",
-      "summary_kind": "rss",
-      "implication": ""
-    },
-    {
-      "title": "GA 권한 확대 앞서 책임 강화부터… 보험판매전문회사 도입 신중론 제기",
-      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=94008",
-      "source": "한국보험신문",
-      "published_at": "2026-11-24T13:55:42+00:00",
-      "source_group": "specialist",
-      "id": "a9bbb7daa1f8",
+      "published_at": "2026-11-27T08:30:00+09:00",
+      "id": "6f4412595759",
       "category": "채널",
       "summary_parts": {
-        "intro": "보험판매시장에서 법인보험대리점(GA)의 영향력이 커지면서 보험판매전문회사 도입 논의가 진행되는 가운데, GA의 권한 확대보다 책임 강화가 우선돼야 한다는 목소리가 나왔다.",
-        "body": "반복되는 불완전판매와 과도한 수수료 경쟁 등 기존 문제를 해결하지 않은 채 GA의 업무 범위를 확대하면 소비자의 보험료 부담이 커지고 보험산업 종사자의 고용안정과 업무 전문성도 저해될 수 있다는 지적이다.",
-        "conclusion": "RSS에서 확인되는 내용은 위와 같으며, 추가 영향은 원문 확인이 필요합니다."
+        "intro": "스카이블루에셋의 2026년 10월 생보사 실적은 약 16억 9,268만원으로 전월 약 24억 2,993만원보다 감소했다.",
+        "body": "DB생명은 약 6억 2,114만원의 실적을 거두며 점유율을 전월 30.4%에서 36.7%로 높였다.",
+        "conclusion": "순위도 한 계단 올라 전월 선두였던 한화생명을 제치고 1위를 차지했다."
       },
-      "summary": "보험판매시장에서 법인보험대리점(GA)의 영향력이 커지면서 보험판매전문회사 도입 논의가 진행되는 가운데, GA의 권한 확대보다 책임 강화가 우선돼야 한다는 목소리가 나왔다.",
-      "source_digest": "3af50d4bdc7e7994",
+      "summary": "스카이블루에셋의 2026년 10월 생보사 실적은 약 16억 9,268만원으로 전월 약 24억 2,993만원보다 감소했다.",
+      "source_digest": "d7bb66c5724d5d19",
       "summary_kind": "rss",
       "implication": ""
     },
     {
-      "title": "과도한 보험 판매수수료 제한…소비자 전가 막는다",
-      "url": "https://www.mk.co.kr/news/economy/12219380",
-      "source": "매일경제",
-      "published_at": "2026-11-26T15:03:43+00:00",
-      "source_group": "general",
-      "id": "f067ea4781ea",
-      "category": "제도·정책",
+      "title": "사회초년생 자산관리 첫걸음… “지출은 합리적으로, 연금은 효율적으로”",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=94115",
+      "source": "한국보험신문",
+      "source_group": "specialist",
+      "published_at": "2026-11-27T20:02:00+09:00",
+      "id": "f94e62fb0102",
+      "category": "상품",
       "summary_parts": {
-        "intro": "판매수수료 지급한도 설정 사업비 공시의무도 강화 금융당국이 과도한 보험 판매수수료를 사업비로 반영해 소비자에게 전가하는 관행에 제동을 건다.",
-        "body": "실제 보험업계 판매수수료는 2019년 15조6000억원에서 지난해 27조3000억원으로 급증했다.",
-        "conclusion": "판매수수료 지급한도 규제는 내년 1월 1일 이후 체결되는 보험계약부터, 공시규제는 2월 1일 이후 체결되는 계약부터 적용된다."
+        "intro": "사회초년생 자산관리 첫걸음… “지출은 합리적으로, 연금은 효율적으로”",
+        "body": "RSS에 상세 사실·수치가 제공되지 않았습니다.",
+        "conclusion": "추가 내용과 영향은 기사 원문에서 확인하세요."
       },
-      "summary": "판매수수료 지급한도 설정 사업비 공시의무도 강화 금융당국이 과도한 보험 판매수수료를 사업비로 반영해 소비자에게 전가하는 관행에 제동을 건다.",
-      "source_digest": "2072a226c20e3823",
+      "summary": "사회초년생 자산관리 첫걸음… “지출은 합리적으로, 연금은 효율적으로”",
+      "source_digest": "4502c73911732950",
       "summary_kind": "rss",
-      "implication": "",
-      "summary_basis": "public_article_excerpt"
+      "implication": ""
+    },
+    {
+      "title": "교보생명, 강동경희대병원과 협약… 설계사·가족 의료복지 확대",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=94104",
+      "source": "한국보험신문",
+      "source_group": "specialist",
+      "published_at": "2026-11-27T10:57:00+09:00",
+      "id": "2f58c759e3f2",
+      "category": "채널",
+      "summary_parts": {
+        "intro": "교보생명, 강동경희대병원과 협약… 설계사·가족 의료복지 확대",
+        "body": "RSS에 상세 사실·수치가 제공되지 않았습니다.",
+        "conclusion": "추가 내용과 영향은 기사 원문에서 확인하세요."
+      },
+      "summary": "교보생명, 강동경희대병원과 협약… 설계사·가족 의료복지 확대",
+      "source_digest": "9df02678a397200e",
+      "summary_kind": "rss",
+      "implication": ""
+    },
+    {
+      "title": "화재보험협회, 녹산국가산단 소규모 공장 전기화재 예방 지원",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=73169",
+      "source": "보험신보",
+      "source_group": "specialist",
+      "published_at": "2026-11-27T16:01:00+09:00",
+      "id": "f5c4ee3e265c",
+      "category": "영업전략",
+      "summary_parts": {
+        "intro": "화재보험협회, 녹산국가산단 소규모 공장 전기화재 예방 지원",
+        "body": "RSS에 상세 사실·수치가 제공되지 않았습니다.",
+        "conclusion": "추가 내용과 영향은 기사 원문에서 확인하세요."
+      },
+      "summary": "화재보험협회, 녹산국가산단 소규모 공장 전기화재 예방 지원",
+      "source_digest": "e18c46373178022c",
+      "summary_kind": "rss",
+      "implication": ""
     }
-  ]
+  ],
+  "collection": {
+    "configured": [
+      "보험신보",
+      "보험저널",
+      "서울파이낸스",
+      "한국보험신문"
+    ],
+    "succeeded": [
+      "보험신보",
+      "보험저널",
+      "서울파이낸스",
+      "한국보험신문"
+    ],
+    "selected": [
+      "보험신보",
+      "보험저널",
+      "한국보험신문"
+    ],
+    "items_received": 142
+  }
 }

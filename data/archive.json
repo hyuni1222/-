@@ -1,11 +1,19 @@
 [
   {
+    "date": "2026-11-28",
+    "title": "[10월 GA 생보사 실적 M/S] 에이플러스에셋어드바이저…AIA생명 1위, IBK연금보험·메트라이프생명 12%대 경쟁",
+    "count": 5,
+    "file": "data/editions/2026-11-28.json",
+    "backfilled": false,
+    "collected_at": "2026-11-28T08:40:56+09:00"
+  },
+  {
     "date": "2026-11-27",
-    "title": "[10월 생보사 GA M/S] 푸본현대생명…서울법인금융센터 5계단 상승 1위, 인카금융서비스 7위로 급락",
+    "title": "[10월 GA 생보사 실적 M/S] 에이플러스에셋어드바이저…AIA생명 1위, IBK연금보험·메트라이프생명 12%대 경쟁",
     "count": 5,
     "file": "data/editions/2026-11-27.json",
-    "backfilled": false,
-    "collected_at": "2026-11-27T08:42:45+09:00"
+    "backfilled": true,
+    "collected_at": "2026-11-28T08:40:47+09:00"
   },
   {
     "date": "2026-11-26",
